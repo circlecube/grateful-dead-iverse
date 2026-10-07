@@ -1,0 +1,15 @@
+---
+schema_version: 1
+id: 14504
+name: rhythm-devils
+title: 'Rhythm Devils'
+permalink: 'https://deadiverse.com/song/rhythm-devils/'
+modified_gmt: '1981-08-26T12:00:00+00:00'
+band:
+  - the-grateful-dead
+stats:
+  play_count: 0
+musicbrainz_recording_mbid: 948bdaf8-e539-4014-9f0f-e74223d8b653
+---
+
+# Rhythm Devils
