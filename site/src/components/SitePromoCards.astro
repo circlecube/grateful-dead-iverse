@@ -1,0 +1,70 @@
+---
+import { ArrowRight, GitPullRequestCreateArrow, GlobeCode } from '@lucide/astro';
+import Card from './Card.astro';
+import { CONTRIBUTING_URL, DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
+
+type PromoContext = 'home' | 'song' | 'show';
+
+interface Props {
+	context: PromoContext;
+	/** Canonical deadiverse.com URL for this song or show, when available. */
+	deadiverseHref?: string;
+}
+
+const { context, deadiverseHref = DEADIVERSE_URL } = Astro.props;
+
+const deadiverseLead =
+	context === 'song'
+		? 'This page is a snapshot from the open markdown catalog. On the full Deadiverse site you can dig into more stats, recordings, video embeds, and related links for this song.'
+		: context === 'show'
+			? 'This page is a snapshot from the open markdown catalog. On the full Deadiverse site you can explore more stats, recordings, video embeds, and related links for this show.'
+			: 'Deadiverse is the live catalog behind this site—richer stats, recordings, video embeds, and deep links for every show and song.';
+
+const deadiverseAccount =
+	'Create a free account to save favorite shows and songs, mark attendance at concerts, and unlock more features as the catalog grows.';
+
+const contributeLead =
+	'Spot a typo, a missing show, or something that does not look right? Corrections and additions are welcome.';
+
+const contributeDetail =
+	'This site is built from the open markdown corpus on GitHub. You can propose edits with a pull request or open an issue—see CONTRIBUTING for file layout, front matter, and review expectations.';
+---
+
+<section class="promo-cards" aria-label="Deadiverse and open data">
+	<Card
+		title="Explore on Deadiverse"
+		icon={GlobeCode}
+		iconTitle="Full catalog, media, and member features on deadiverse.com"
+	>
+		<div class="promo-card__body">
+			<p class="promo-card__text">{deadiverseLead}</p>
+			<p class="promo-card__text">{deadiverseAccount}</p>
+			<p class="promo-card__cta-line">
+				<a href={deadiverseHref} class="promo-card__cta">
+					{context === 'home' ? 'Visit deadiverse.com' : 'View this on deadiverse.com'}
+					<ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
+				</a>
+			</p>
+		</div>
+	</Card>
+
+	<Card
+		title="Contribute on GitHub"
+		icon={GitPullRequestCreateArrow}
+		iconTitle="Propose edits to the open markdown corpus"
+	>
+		<div class="promo-card__body">
+			<p class="promo-card__text">{contributeLead}</p>
+			<p class="promo-card__text">{contributeDetail}</p>
+			<p class="promo-card__cta-line">
+				<a href={REPO_URL} class="promo-card__cta">
+					Open the markdown repo
+					<ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
+				</a>
+				<span class="meta promo-card__cta-meta">
+					<a href={CONTRIBUTING_URL}>How to contribute</a>
+				</span>
+			</p>
+		</div>
+	</Card>
+</section>

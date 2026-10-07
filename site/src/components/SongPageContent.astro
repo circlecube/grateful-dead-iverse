@@ -1,0 +1,163 @@
+---
+import { ChevronDown, CircleUserRound, FileText, Guitar, Highlighter, Info, Music } from '@lucide/astro';
+import { LYRICS_DISCLAIMER } from '../lib/lyrics-disclaimer';
+import ChordSheet from './ChordSheet.astro';
+import Card from './Card.astro';
+import CorpusBody from './CorpusBody.astro';
+import DuplicateCandidateNotice from './DuplicateCandidateNotice.astro';
+import ExternalLinks from './ExternalLinks.astro';
+import SitePromoCards from './SitePromoCards.astro';
+import { DEADIVERSE_URL } from '../lib/site-links';
+import PerformancesTable from './PerformancesTable.astro';
+import type { EntityDuplicateNotice, SongPerformanceIndex, SongRecord } from '../lib/corpus';
+import { showUrl } from '../lib/corpus';
+import { formatBandList } from '../lib/format-band';
+import { formatCreditType, formatMusicianSlug } from '../lib/format-contributors';
+
+interface Props {
+	song: SongRecord;
+	stats: SongPerformanceIndex;
+	duplicateNotice?: EntityDuplicateNotice | null;
+	backHref?: string;
+	backLabel?: string;
+}
+
+const { song, stats, duplicateNotice = null, backHref, backLabel } = Astro.props;
+const displayPerformances = stats.performances.slice().reverse();
+const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
+---
+
+{
+	backHref && (
+		<p class="meta">
+			<a href={backHref}>{backLabel ?? '← Back'}</a>
+		</p>
+	)
+}
+<h1>{song.title}</h1>
+{duplicateNotice && <DuplicateCandidateNotice kind="song" notice={duplicateNotice} />}
+
+<Card
+	title="Details"
+	icon={Info}
+	iconTitle="Band, attribution, play count, credits, and first known performance"
+>
+	<dl class="stats-card__grid">
+		{bandLabel && (
+			<>
+				<dt>Band</dt>
+				<dd>{bandLabel}</dd>
+			</>
+		)}
+		{song.attribution && (
+			<>
+				<dt>Attribution</dt>
+				<dd class="stats-card__attribution">
+					<CircleUserRound
+						size={18}
+						strokeWidth={2}
+						class="stats-card__attribution-icon"
+						aria-hidden="true"
+						title="Cover"
+					/>
+					<span>{song.attribution}</span>
+				</dd>
+			</>
+		)}
+		{song.alsoKnownAs.length > 0 && (
+			<>
+				<dt>Also known as</dt>
+				<dd>{song.alsoKnownAs.join('; ')}</dd>
+			</>
+		)}
+		<dt>Play count</dt>
+		<dd>{stats.playCount.toLocaleString()}</dd>
+		{stats.firstPlayed && (
+			<>
+				<dt>First played</dt>
+				<dd>
+					<a href={showUrl(stats.firstPlayed)}>{stats.firstPlayed.date}</a>
+					{stats.firstPlayed.venueName ? ` — ${stats.firstPlayed.venueName}` : ''}
+				</dd>
+			</>
+		)}
+		{song.contributors.map((row) => (
+			<>
+				<dt>{formatCreditType(row.credit_type)}</dt>
+				<dd>
+					{row.musicians.length > 0
+						? row.musicians.map(formatMusicianSlug).join(', ')
+						: null}
+					{row.credit_note.trim() ? (
+						<span class="meta"> — {row.credit_note}</span>
+					) : null}
+				</dd>
+			</>
+		))}
+	</dl>
+</Card>
+
+{
+	song.lyrics && (
+		<details class="card bv-card card--collapsible">
+			<summary class="bv-card__header card--collapsible__summary">
+				<span class="card--collapsible__lead">
+					<ChevronDown size={20} strokeWidth={2} class="bv-card__lucide card--collapsible__chevron" aria-hidden="true" />
+					<span class="bv-card__heading card__title">Lyrics</span>
+				</span>
+				<span
+					class="bv-card__header-icon bv-card__header-icon--help"
+					tabindex="0"
+					title={LYRICS_DISCLAIMER}
+					aria-label={LYRICS_DISCLAIMER}
+					onmousedown="event.stopPropagation()"
+					onclick="event.preventDefault(); event.stopPropagation();"
+				>
+					<FileText size={20} strokeWidth={2} class="bv-card__lucide" aria-hidden="true" />
+				</span>
+			</summary>
+			<div class="bv-card__body">
+				<CorpusBody content={song.lyrics} />
+			</div>
+		</details>
+	)
+}
+
+<ExternalLinks links={song.links} chordsSourceUrl={song.chordsSourceUrl} permalink={song.permalink} />
+
+{
+	displayPerformances.length > 0 && (
+		<Card title="Performances" icon={Music} iconTitle="Shows where this song appears in the setlist">
+			<p class="meta card-table__meta">
+				{displayPerformances.length.toLocaleString()} shows (newest first; click column headers to sort)
+			</p>
+			<PerformancesTable performances={displayPerformances} />
+		</Card>
+	)
+}
+
+{
+	song.lyricAnnotations && (
+		<Card title="Lyric annotations" icon={Highlighter} iconTitle="Notes and context for specific lyrics">
+			<CorpusBody content={song.lyricAnnotations} />
+		</Card>
+	)
+}
+
+{
+	song.songNotes && (
+		<Card title="Notes" icon={FileText} iconTitle="General notes about this song">
+			<CorpusBody content={song.songNotes} />
+		</Card>
+	)
+}
+
+{
+	song.chordSheet && (
+		<Card title="Chord sheet" icon={Guitar} iconTitle="Guitar chords and tab for this song">
+			<ChordSheet content={song.chordSheet} />
+		</Card>
+	)
+}
+
+<SitePromoCards context="song" deadiverseHref={song.permalink || DEADIVERSE_URL} />

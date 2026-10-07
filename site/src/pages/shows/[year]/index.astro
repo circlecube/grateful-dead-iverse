@@ -1,0 +1,44 @@
+---
+import { Tickets } from '@lucide/astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Card from '../../../components/Card.astro';
+import ShowsCatalogTable from '../../../components/ShowsCatalogTable.astro';
+import { getCorpus } from '../../../lib/corpus';
+
+export function getStaticPaths() {
+	const { years, shows } = getCorpus();
+	return years.map((year) => ({
+		params: { year },
+		props: {
+			year,
+			shows: shows.filter((s) => s.year === year),
+		},
+	}));
+}
+
+interface Props {
+	year: string;
+	shows: import('../../../lib/corpus').ShowRecord[];
+}
+
+const { year, shows } = Astro.props;
+const sortedShows = [...shows].sort((a, b) => a.date.localeCompare(b.date) || a.name.localeCompare(b.name));
+---
+
+<BaseLayout title={`${year} shows — Grateful Dead-iverse`}>
+	<p class="meta">
+		<a href="/shows/">← All years</a>
+		{' · '}
+		<a href="/shows/all/">All shows table</a>
+	</p>
+	<h1>{year}</h1>
+	<p class="meta">{shows.length.toLocaleString()} shows</p>
+
+	<Card
+		title={`${year} shows`}
+		icon={Tickets}
+		iconTitle="Concerts in this year with venue, location, and setlist song count"
+	>
+		<ShowsCatalogTable shows={sortedShows} />
+	</Card>
+</BaseLayout>

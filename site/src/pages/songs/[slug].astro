@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SongPageContent from '../../components/SongPageContent.astro';
+import { getCorpus, resolveSongStats } from '../../lib/corpus';
+
+export function getStaticPaths() {
+	const { songs, performanceBySlug, showsByKey, duplicateSongBySlug } = getCorpus();
+	return songs.map((song) => ({
+		params: { slug: song.name },
+		props: {
+			song,
+			stats: resolveSongStats(song, performanceBySlug, showsByKey),
+			duplicateNotice: duplicateSongBySlug.get(song.name) ?? null,
+		},
+	}));
+}
+
+interface Props {
+	song: import('../../lib/corpus').SongRecord;
+	stats: import('../../lib/corpus').SongPerformanceIndex;
+	duplicateNotice: import('../../lib/corpus').EntityDuplicateNotice | null;
+}
+
+const { song, stats, duplicateNotice } = Astro.props;
+---
+
+<BaseLayout title={`${song.title} — Grateful Dead-iverse`}>
+	<SongPageContent song={song} stats={stats} duplicateNotice={duplicateNotice} />
+</BaseLayout>

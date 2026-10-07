@@ -1,2 +1,6 @@
 node_modules/
 dist/
+
+# Astro static site (`site/`)
+site/dist/
+site/.astro/

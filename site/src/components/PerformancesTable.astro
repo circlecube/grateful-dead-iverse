@@ -1,0 +1,80 @@
+---
+import { ArrowRight, CassetteTape } from '@lucide/astro';
+import type { PerformanceRef } from '../lib/corpus';
+import { showUrl } from '../lib/corpus';
+
+interface Props {
+	performances: PerformanceRef[];
+}
+
+const { performances } = Astro.props;
+---
+
+<div class="card-table">
+	<table class="bv-table bv-table--striped bv-table--shows sortable-table">
+		<thead>
+			<tr>
+				<th class="sortable" data-sort-type="date" scope="col">
+					Date <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Venue <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Location <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Set <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col">
+					# <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th
+					class="sortable bv-sat-icon-col"
+					data-sort-type="number"
+					scope="col"
+					title="Recording available (Internet Archive, Relisten, etc.)"
+				>
+					<span class="sr-only">Recording</span>
+					<CassetteTape size={16} strokeWidth={2} aria-hidden="true" />
+					<span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{performances.map((p) => (
+				<tr>
+					<td data-sort-value={p.date}>
+						<a href={showUrl(p)}>{p.date}</a>
+					</td>
+					<td data-sort-value={p.venueName || ''}>{p.venueName || '—'}</td>
+					<td data-sort-value={p.location || ''}>{p.location || '—'}</td>
+					<td data-sort-value={p.setLabel || ''}>{p.setLabel || '—'}</td>
+					<td data-sort-value={p.setPosition ? String(p.setPosition) : ''}>
+						{p.setPosition > 0 ? p.setPosition : '—'}
+						{p.segueIntoNext && (
+							<span class="setlist-segue-marker" title="Segue into next song" aria-hidden="true">
+								<ArrowRight size={14} strokeWidth={2} />
+							</span>
+						)}
+						{p.duration && <span class="setlist-duration">{p.duration}</span>}
+						{p.coverArtist && <span class="setlist-original-artist">({p.coverArtist})</span>}
+					</td>
+					<td
+						data-sort-value={p.hasRecording ? '1' : '0'}
+						data-sort-excluded={p.hasRecording ? undefined : '1'}
+					>
+						{p.hasRecording ? (
+							<span class="table-icon table-icon--recording" title="Recording linked on show page">
+								<CassetteTape size={16} strokeWidth={2} aria-hidden="true" />
+								<span class="sr-only">Recording available</span>
+							</span>
+						) : (
+							<span class="empty-cell">—</span>
+						)}
+					</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</div>

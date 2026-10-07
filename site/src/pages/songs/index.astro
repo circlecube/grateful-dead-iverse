@@ -1,0 +1,27 @@
+---
+import { Music } from '@lucide/astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Card from '../../components/Card.astro';
+import SongsCatalogTable from '../../components/SongsCatalogTable.astro';
+import { getCorpus } from '../../lib/corpus';
+import { playCountForSong } from '../../lib/song-play-count';
+
+const { songs, performanceBySlug } = getCorpus();
+const playCount = (slug: string, exported?: number) => playCountForSong(slug, performanceBySlug, exported);
+---
+
+<BaseLayout title="Songs — Grateful Dead-iverse">
+	<h1>
+		<Music size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
+		Songs
+	</h1>
+	<p class="meta">{songs.length.toLocaleString()} songs</p>
+
+	<Card
+		title="Song catalog"
+		icon={Music}
+		iconTitle="Alphabetical songs with band and total live play count"
+	>
+		<SongsCatalogTable songs={songs} playCountForSlug={playCount} />
+	</Card>
+</BaseLayout>

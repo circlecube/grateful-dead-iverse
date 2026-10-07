@@ -1,0 +1,29 @@
+---
+import { Tickets } from '@lucide/astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Card from '../../../components/Card.astro';
+import ShowsCatalogTable from '../../../components/ShowsCatalogTable.astro';
+import { getCorpus } from '../../../lib/corpus';
+
+const { shows } = getCorpus();
+const sortedShows = [...shows].sort((a, b) => b.date.localeCompare(a.date) || a.name.localeCompare(b.name));
+---
+
+<BaseLayout title="All shows — Grateful Dead-iverse">
+	<p class="meta"><a href="/shows/">← Shows by year</a></p>
+	<h1>
+		<Tickets size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
+		All shows
+	</h1>
+	<p class="meta">
+		{shows.length.toLocaleString()} shows (newest first; click column headers to sort)
+	</p>
+
+	<Card
+		title="Show catalog"
+		icon={Tickets}
+		iconTitle="Every show in the corpus with venue, location, and setlist song count"
+	>
+		<ShowsCatalogTable shows={sortedShows} showYearColumn={true} />
+	</Card>
+</BaseLayout>

@@ -1,0 +1,87 @@
+---
+import { Info, ListOrdered } from '@lucide/astro';
+import Card from './Card.astro';
+import CorpusBody from './CorpusBody.astro';
+import DuplicateCandidateNotice from './DuplicateCandidateNotice.astro';
+import ExternalLinks from './ExternalLinks.astro';
+import SitePromoCards from './SitePromoCards.astro';
+import { CONTRIBUTING_URL, DEADIVERSE_URL } from '../lib/site-links';
+import Setlist from './Setlist.astro';
+import { countPlayedSongs, hasSetlistDisplay } from '../lib/corpus';
+import type { EntityDuplicateNotice, ShowRecord } from '../lib/corpus';
+import { formatBandSlug } from '../lib/format-band';
+import { formatVenueLocation } from '../lib/venue-location';
+
+interface Props {
+	show: ShowRecord;
+	duplicateNotice?: EntityDuplicateNotice | null;
+	backHref?: string;
+	backLabel?: string;
+}
+
+const { show, duplicateNotice = null, backHref, backLabel } = Astro.props;
+const played = countPlayedSongs(show.setlist);
+const setlistHasData = hasSetlistDisplay(show.setlist);
+const location = formatVenueLocation(show.venue);
+const bandLabel = show.band ? formatBandSlug(show.band) : '';
+---
+
+{
+	backHref && (
+		<p class="meta">
+			<a href={backHref}>{backLabel ?? '← Back'}</a>
+		</p>
+	)
+}
+<h1>{show.date}</h1>
+{duplicateNotice && <DuplicateCandidateNotice kind="show" notice={duplicateNotice} />}
+
+<Card title="Show details" icon={Info} iconTitle="Venue, location, band, and setlist size for this concert">
+	<dl class="stats-card__grid">
+		{bandLabel && (
+			<>
+				<dt>Band</dt>
+				<dd>{bandLabel}</dd>
+			</>
+		)}
+		{show.venueName && (
+			<>
+				<dt>Venue</dt>
+				<dd>{show.venueName}</dd>
+			</>
+		)}
+		{location && (
+			<>
+				<dt>Location</dt>
+				<dd>{location}</dd>
+			</>
+		)}
+		<dt>Setlist</dt>
+		<dd>{setlistHasData ? `${played.toLocaleString()} songs` : 'No data'}</dd>
+	</dl>
+</Card>
+
+<ExternalLinks links={show.links} permalink={show.permalink} />
+
+<Card title="Setlist" icon={ListOrdered} iconTitle="Songs played at this show in set order (numbered list)">
+	{
+		setlistHasData ? (
+			<Setlist setlist={show.setlist} />
+		) : (
+			<p class="setlist-empty">
+				No setlist data available for this show. Do you know this show? Please consider contributing what
+				you know! See <a href={CONTRIBUTING_URL}>how to contribute</a>.
+			</p>
+		)
+	}
+</Card>
+
+{
+	show.notes && (
+		<Card title="Notes" icon={Info} iconTitle="Notes about this show">
+			<CorpusBody content={show.notes} />
+		</Card>
+	)
+}
+
+<SitePromoCards context="show" deadiverseHref={show.permalink || DEADIVERSE_URL} />

@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 id: 10660
-name: robert-hunter
+name: bertha
 title: Bertha
 permalink: 'https://deadiverse.com/song/bertha/'
 modified_gmt: '2026-09-14T15:11:43+00:00'

@@ -1,0 +1,32 @@
+---
+interface Props {
+	title?: string;
+	headingLevel?: 'h2' | 'h3';
+	/** Lucide icon component (Bandiverse `bv-card__header-icon`). */
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	icon?: any;
+	iconTitle?: string;
+}
+
+const { title, headingLevel = 'h2', icon: Icon, iconTitle = '' } = Astro.props;
+const Heading = headingLevel;
+const hasHeader = Boolean(title || Icon);
+---
+
+<section class="card bv-card">
+	{
+		hasHeader && (
+			<div class="bv-card__header">
+				{title && <Heading class="card__title bv-card__heading">{title}</Heading>}
+				{Icon && (
+					<span class="bv-card__header-icon" tabindex="0" title={iconTitle}>
+						<Icon size={20} strokeWidth={2} class="bv-card__lucide" aria-hidden="true" />
+					</span>
+				)}
+			</div>
+		)
+	}
+	<div class="bv-card__body">
+		<slot />
+	</div>
+</section>

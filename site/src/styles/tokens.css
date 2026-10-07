@@ -1,0 +1,25 @@
+/* Deadiverse palette (from dv-child theme.json) */
+:root {
+	--dv-base: #f2e8c8;
+	--dv-contrast: #0d1f2d;
+	--dv-accent-1: #e85e12;
+	--dv-accent-2: #f2c33a;
+	--dv-accent-3: #3b6868;
+	--dv-accent-4: #7b7860;
+	--dv-accent-5: #325527;
+	--dv-canvas: color-mix(in srgb, var(--dv-base) 94%, #eed79f);
+	--dv-link: var(--dv-accent-3);
+	--dv-link-hover: var(--dv-accent-1);
+	--dv-chrome-bg: #0a1c27;
+	--dv-chrome-text: var(--dv-base);
+	--dv-card-bg: #f8f8f8;
+	/* External link chips (accent-3 bg; base text for contrast on teal/green hovers) */
+	--dv-link-chip-bg: var(--dv-accent-3);
+	--dv-link-chip-bg-hover: color-mix(in srgb, var(--dv-accent-3) 82%, var(--dv-contrast));
+	--dv-link-chip-fg: var(--dv-base);
+	--dv-link-chip-border: color-mix(in srgb, var(--dv-contrast) 22%, var(--dv-accent-3));
+	--dv-content-max: 48rem;
+	--dv-wide-max: 70rem;
+	--font-serif: Georgia, 'Times New Roman', serif;
+	--font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

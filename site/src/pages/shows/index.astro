@@ -1,0 +1,52 @@
+---
+import { Tickets } from '@lucide/astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Card from '../../components/Card.astro';
+import { getCorpus } from '../../lib/corpus';
+
+const { years, shows } = getCorpus();
+const countByYear = new Map<string, number>();
+for (const s of shows) {
+	countByYear.set(s.year, (countByYear.get(s.year) ?? 0) + 1);
+}
+const yearsDesc = [...years].reverse();
+---
+
+<BaseLayout title="Shows by year — Grateful Dead-iverse">
+	<h1>
+		<Tickets size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
+		Shows
+	</h1>
+	<p class="meta">
+		{shows.length.toLocaleString()} shows — <a href="/shows/all/">browse all in one table</a>
+	</p>
+
+	<Card title="By year" icon={Tickets} iconTitle="Show count for each calendar year">
+		<div class="card-table">
+			<table class="bv-table bv-table--striped bv-table--catalog sortable-table">
+				<thead>
+					<tr>
+						<th class="sortable" data-sort-type="number" scope="col">
+							Year <span class="sort-indicator" aria-hidden="true"></span>
+						</th>
+						<th class="sortable" data-sort-type="number" scope="col">
+							Shows <span class="sort-indicator" aria-hidden="true"></span>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					{yearsDesc.map((year) => (
+						<tr>
+							<td data-sort-value={year}>
+								<a href={`/shows/${year}/`}>{year}</a>
+							</td>
+							<td data-sort-value={String(countByYear.get(year) ?? 0)}>
+								{(countByYear.get(year) ?? 0).toLocaleString()}
+							</td>
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</div>
+	</Card>
+</BaseLayout>

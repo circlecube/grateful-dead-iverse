@@ -1,0 +1,33 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import SortableTableScript from '../components/SortableTableScript.astro';
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = 'Browse the Grateful Dead markdown corpus.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content={description} />
+		<link rel="icon" type="image/svg+xml" href="/deadiverse-icon-face.svg" />
+		<link rel="apple-touch-icon" href="/deadiverse-icon-face.svg" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<SiteHeader />
+		<main>
+			<slot />
+		</main>
+		<SiteFooter />
+		<SortableTableScript />
+	</body>
+</html>

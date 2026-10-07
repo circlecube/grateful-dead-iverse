@@ -1,0 +1,66 @@
+---
+import { Music, Tickets } from '@lucide/astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
+import SitePromoCards from '../components/SitePromoCards.astro';
+import { getCorpus, songUrl } from '../lib/corpus';
+import { DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
+import { playCountForSong } from '../lib/song-play-count';
+
+const { shows, songs, years, performanceBySlug } = getCorpus();
+const allYears = [...years];
+
+const topPlayedSongs = [...songs]
+	.map((song) => ({
+		song,
+		plays: playCountForSong(song.name, performanceBySlug, song.stats?.play_count),
+	}))
+	.filter((row) => row.plays > 0)
+	.sort((a, b) => b.plays - a.plays || a.song.title.localeCompare(b.song.title))
+	.slice(0, 10);
+
+---
+
+<BaseLayout title="Grateful Dead-iverse">
+	<h1>Grateful Dead-iverse</h1>
+	<div class="home-intro">
+		<p>
+			A data-driven look at Grateful Dead <strong>shows</strong> and <strong>songs</strong>—setlists,
+			lyrics, venues, and play history—built from the catalog at{' '}
+			<a href={DEADIVERSE_URL}>deadiverse.com</a> and the open{' '}
+			<a href={REPO_URL}>markdown corpus</a> on GitHub.
+		</p>
+		<p>
+			Explore <strong>{shows.length.toLocaleString()} shows</strong> by year or{' '}
+			<strong>{songs.length.toLocaleString()} songs</strong> from A to Z.
+		</p>
+	</div>
+
+	<Card title="Shows by year" icon={Tickets} iconTitle="Browse concerts by calendar year">
+		<p><a href="/shows/">Browse all years →</a></p>
+		<div class="year-grid">
+			{allYears.map((y) => (
+				<a href={`/shows/${y}/`}>{y}</a>
+			))}
+		</div>
+	</Card>
+
+	<Card title="Songs" icon={Music} iconTitle="Song index and most-played live tracks">
+		<p><a href="/songs/">Full song index →</a></p>
+		{topPlayedSongs.length > 0 && (
+			<>
+				<p class="meta home-top-songs__lead">Most played (live)</p>
+				<ol class="home-top-songs">
+					{topPlayedSongs.map((row) => (
+						<li>
+							<a href={songUrl(row.song.name)}>{row.song.title}</a>
+							<span class="meta"> — {row.plays.toLocaleString()}</span>
+						</li>
+					))}
+				</ol>
+			</>
+		)}
+	</Card>
+
+	<SitePromoCards context="home" />
+</BaseLayout>

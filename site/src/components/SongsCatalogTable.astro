@@ -1,0 +1,48 @@
+---
+import { Music } from '@lucide/astro';
+import type { SongRecord } from '../lib/corpus';
+import { songUrl } from '../lib/corpus';
+import { formatBandList } from '../lib/format-band';
+
+interface Props {
+	songs: SongRecord[];
+	playCountForSlug: (slug: string, exported?: number) => number;
+}
+
+const { songs, playCountForSlug } = Astro.props;
+---
+
+<div class="card-table">
+	<table class="bv-table bv-table--striped bv-table--catalog sortable-table">
+		<thead>
+			<tr>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Title <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Band <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col" title="Total times played live">
+					<span class="sr-only">Plays</span>
+					<Music size={16} strokeWidth={2} aria-hidden="true" />
+					<span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{songs.map((song) => {
+				const plays = playCountForSlug(song.name, song.stats?.play_count);
+				const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
+				return (
+					<tr>
+						<td data-sort-value={song.title}>
+							<a href={songUrl(song.name)}>{song.title}</a>
+						</td>
+						<td data-sort-value={bandLabel}>{bandLabel || '—'}</td>
+						<td data-sort-value={String(plays)}>{plays > 0 ? plays.toLocaleString() : '—'}</td>
+					</tr>
+				);
+			})}
+		</tbody>
+	</table>
+</div>

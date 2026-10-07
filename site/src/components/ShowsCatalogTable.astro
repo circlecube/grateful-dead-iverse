@@ -1,0 +1,88 @@
+---
+import { CassetteTape } from '@lucide/astro';
+import type { ShowRecord } from '../lib/corpus';
+import { countPlayedSongs, showUrl } from '../lib/corpus';
+import { formatBandSlug } from '../lib/format-band';
+import { formatVenueLocation } from '../lib/venue-location';
+import { showHasRecording } from '../lib/show-recording';
+
+interface Props {
+	shows: ShowRecord[];
+	/** Include a Year column (for the all-shows table). */
+	showYearColumn?: boolean;
+}
+
+const { shows, showYearColumn = false } = Astro.props;
+---
+
+<div class="card-table">
+	<table class="bv-table bv-table--striped bv-table--shows sortable-table">
+		<thead>
+			<tr>
+				{showYearColumn && (
+					<th class="sortable" data-sort-type="number" scope="col">
+						Year <span class="sort-indicator" aria-hidden="true"></span>
+					</th>
+				)}
+				<th class="sortable" data-sort-type="date" scope="col">
+					Date <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Venue <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Location <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Band <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col">
+					Songs <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th
+					class="sortable bv-sat-icon-col"
+					data-sort-type="number"
+					scope="col"
+					title="Recording available (Internet Archive, Relisten, etc.)"
+				>
+					<span class="sr-only">Recording</span>
+					<CassetteTape size={16} strokeWidth={2} aria-hidden="true" />
+					<span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{shows.map((show) => {
+				const location = formatVenueLocation(show.venue);
+				const songCount = countPlayedSongs(show.setlist);
+				const hasRecording = showHasRecording(show.links);
+				const bandLabel = show.band ? formatBandSlug(show.band) : '';
+				return (
+					<tr>
+						{showYearColumn && <td data-sort-value={show.year}>{show.year}</td>}
+						<td data-sort-value={show.date}>
+							<a href={showUrl(show)}>{show.date}</a>
+						</td>
+						<td data-sort-value={show.venueName || ''}>{show.venueName || '—'}</td>
+						<td data-sort-value={location || ''}>{location || '—'}</td>
+						<td data-sort-value={bandLabel}>{bandLabel || '—'}</td>
+						<td data-sort-value={String(songCount)}>{songCount.toLocaleString()}</td>
+						<td
+							data-sort-value={hasRecording ? '1' : '0'}
+							data-sort-excluded={hasRecording ? undefined : '1'}
+						>
+							{hasRecording ? (
+								<span class="table-icon table-icon--recording" title="Recording linked on show page">
+									<CassetteTape size={16} strokeWidth={2} aria-hidden="true" />
+									<span class="sr-only">Recording available</span>
+								</span>
+							) : (
+								<span class="empty-cell">—</span>
+							)}
+						</td>
+					</tr>
+				);
+			})}
+		</tbody>
+	</table>
+</div>

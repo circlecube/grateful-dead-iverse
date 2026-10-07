@@ -1,0 +1,19 @@
+---
+import { renderChordSheetHtml } from '../lib/chord-sheet';
+
+interface Props {
+	content: string;
+}
+
+const { content } = Astro.props;
+const html = renderChordSheetHtml(content);
+const fallback = content.trim();
+---
+
+{
+	html ? (
+		<div class="bv-chord-sheet-wrapper chord-sheet-display" set:html={html} />
+	) : (
+		<pre class="bv-chord-sheet-fallback">{fallback}</pre>
+	)
+}

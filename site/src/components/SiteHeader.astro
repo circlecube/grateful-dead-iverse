@@ -1,0 +1,83 @@
+---
+import { FlaskConical, House, Music, Tickets } from '@lucide/astro';
+
+const nav = [
+	{ href: '/', label: 'Home', icon: House },
+	{ href: '/shows/', label: 'Shows', icon: Tickets },
+	{ href: '/songs/', label: 'Songs', icon: Music },
+];
+
+const showDevNav = import.meta.env.DEV;
+---
+
+<header class="site-header">
+	<div class="site-header__inner">
+		<a class="site-header__brand" href="/">
+			<img src="/deadiverse-icon-face.svg" alt="" width="40" height="40" class="site-header__icon" />
+			<img src="/deadiverse-logo-text.svg" alt="Grateful Dead-iverse" height="28" class="site-header__text" />
+		</a>
+		<nav class="site-header__nav" aria-label="Primary">
+			{nav.map((item) => {
+				const Icon = item.icon;
+				return (
+					<a href={item.href} class="site-header__nav-link">
+						<Icon size={16} strokeWidth={2} aria-hidden="true" />
+						<span>{item.label}</span>
+					</a>
+				);
+			})}
+			{showDevNav && (
+				<a href="/dev/" class="site-header__nav-link site-header__nav-link--dev">
+					<FlaskConical size={16} strokeWidth={2} aria-hidden="true" />
+					<span>Fixtures</span>
+				</a>
+			)}
+		</nav>
+	</div>
+</header>
+
+<style>
+	.site-header {
+		background: var(--dv-chrome-bg);
+		color: var(--dv-chrome-text);
+		border-bottom: 3px solid var(--dv-accent-2);
+	}
+	.site-header a {
+		color: var(--dv-chrome-text);
+	}
+	.site-header a:hover {
+		color: var(--dv-accent-2);
+	}
+	.site-header__inner {
+		max-width: var(--dv-wide-max);
+		margin: 0 auto;
+		padding: 0.65rem 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+	}
+	.site-header__brand {
+		display: flex;
+		align-items: center;
+		gap: 0.65rem;
+		text-decoration: none;
+	}
+	.site-header__brand:hover {
+		text-decoration: none;
+	}
+	.site-header__nav {
+		display: flex;
+		gap: 1rem;
+		font-size: 0.95rem;
+	}
+	.site-header__nav-link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+	}
+	.site-header__nav-link--dev {
+		color: var(--dv-accent-2);
+	}
+</style>

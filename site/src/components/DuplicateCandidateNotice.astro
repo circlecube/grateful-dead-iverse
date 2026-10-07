@@ -1,0 +1,46 @@
+---
+import type { EntityDuplicateNotice } from '../lib/corpus';
+
+interface Props {
+	kind: 'show' | 'song';
+	notice: EntityDuplicateNotice;
+}
+
+const { kind, notice } = Astro.props;
+
+const contributingUrl =
+	'https://github.com/circlecube/grateful-dead-iverse/blob/main/CONTRIBUTING.md#resolving-duplicate-shows-and-songs-merge_into--merge_from';
+const reasonText =
+	notice.reasons.length > 0
+		? notice.reasons.join('; ')
+		: 'listed in the corpus duplicate report';
+---
+
+<aside class="duplicate-notice" role="note" aria-label="Duplicate candidate notice">
+	<p class="duplicate-notice__lead">
+		<strong>Possible duplicate {kind}.</strong> This {kind} is grouped with other catalog entries in{' '}
+		<code>reports/duplicate-{kind}-candidates.json</code> ({reasonText}).
+	</p>
+	{notice.peers.length > 0 && (
+		<div class="duplicate-notice__peers">
+			<p>Related {kind === 'show' ? 'shows' : 'songs'}:</p>
+			<ul>
+				{notice.peers.map((peer) => (
+					<li>
+						{peer.href ? (
+							<a href={peer.href}>{peer.label}</a>
+						) : peer.externalHref ? (
+							<a href={peer.externalHref} rel="noopener noreferrer">{peer.label}</a>
+						) : (
+							peer.label
+						)}
+					</li>
+				))}
+			</ul>
+		</div>
+	)}
+	<p class="meta duplicate-notice__footer">
+		The report is a starting point for maintainers—not a judgment that these files are wrong. See{' '}
+		<a href={contributingUrl}>resolving duplicates</a> in CONTRIBUTING.
+	</p>
+</aside>

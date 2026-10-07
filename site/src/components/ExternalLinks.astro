@@ -1,0 +1,89 @@
+---
+import { ExternalLink } from '@lucide/astro';
+import Card from './Card.astro';
+import type { ShowLinks } from '../lib/corpus/types';
+
+interface Props {
+	links: ShowLinks;
+	chordsSourceUrl?: string;
+	permalink?: string;
+	permalinkLabel?: string;
+}
+
+const {
+	links,
+	chordsSourceUrl = '',
+	permalink = '',
+	permalinkLabel = 'View on deadiverse.com',
+} = Astro.props;
+
+type LinkItem = { label: string; url: string };
+
+const items: LinkItem[] = [];
+
+const labelForKey: Record<string, string> = {
+	setlist_fm: 'setlist.fm',
+	archive_org: 'Internet Archive',
+	relisten: 'Relisten',
+	dead_net: 'dead.net',
+	jerrybase: 'Jerrybase',
+	wikipedia: 'Wikipedia',
+	ultimate_guitar: 'Ultimate Guitar',
+	songsterr: 'Songsterr',
+	reddit: 'Reddit',
+};
+
+for (const [key, val] of Object.entries(links)) {
+	if (key === 'other' || val == null) {
+		continue;
+	}
+	if (Array.isArray(val)) {
+		for (const u of val) {
+			if (typeof u === 'string' && u) {
+				items.push({ label: labelForKey[key] ?? key, url: u });
+			}
+		}
+	} else if (typeof val === 'string' && val) {
+		items.push({ label: labelForKey[key] ?? key, url: val });
+	}
+}
+
+if (Array.isArray(links.other)) {
+	for (const row of links.other) {
+		if (row?.url) {
+			items.push({ label: row.label || 'Link', url: row.url });
+		}
+	}
+}
+
+if (chordsSourceUrl) {
+	const exists = items.some((i) => i.url === chordsSourceUrl);
+	if (!exists) {
+		items.push({ label: 'Chords source', url: chordsSourceUrl });
+	}
+}
+
+if (permalink) {
+	const exists = items.some((i) => i.url === permalink);
+	if (!exists) {
+		items.unshift({ label: permalinkLabel, url: permalink });
+	}
+}
+---
+
+{
+	items.length > 0 && (
+		<Card title="Links" icon={ExternalLink} iconTitle="Relevant external links">
+			<ul class="link-buttons">
+				{items.map((item) => (
+					<li>
+						<a href={item.url} target="_blank" rel="noopener noreferrer" class="link-buttons__item">
+							<ExternalLink size={14} strokeWidth={2} aria-hidden="true" />
+							<span>{item.label}</span>
+						</a>
+					</li>
+				))}
+			</ul>
+		</Card>
+	)
+}

@@ -183,6 +183,25 @@ With hooks enabled, each commit that stages files under `data/shows/` or `data/s
 
 Output ZIPs are written under `dist/` by default (gitignored). Upload via **Bandiverse → Settings → Markdown corpus → Import markdown ZIP (bulk)** on the site.
 
+## Static site (`site/`)
+
+A read-only **Astro** app in **`site/`** renders `data/` for the web (see [site/README.md](site/README.md) and [docs/plans/2026-10-07-static-site.md](docs/plans/2026-10-07-static-site.md)). **Cloudflare Pages** deploys from `main` when connected (build root: `site`, output: `dist`). CI: `.github/workflows/site.yml`.
+
+| Change type | Where to edit |
+| --- | --- |
+| Setlists, lyrics, links, metadata | `data/` (this contributing guide) |
+| Layout, styling, routes, build logic | `site/` |
+
+**Preview a PR locally** (once `site/` exists):
+
+```bash
+cd site
+npm install
+npm run dev
+```
+
+The dev server reads `../data`. Fix data in `data/`; fix how it displays in `site/`.
+
 ## Copyright
 
 **Setlists and factual metadata** (dates, venues, song order) are the main focus of community fixes.

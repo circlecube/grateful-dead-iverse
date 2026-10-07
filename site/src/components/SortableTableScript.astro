@@ -1,0 +1,65 @@
+<script>
+	function sortTable(table: HTMLTableElement, header: HTMLTableCellElement) {
+		const tbody = table.querySelector('tbody');
+		if (!tbody) return;
+		const rows = Array.from(tbody.querySelectorAll('tr'));
+		const columnIndex = Array.from(header.parentElement!.children).indexOf(header);
+		const sortType = header.getAttribute('data-sort-type');
+		const currentSort = header.getAttribute('data-sort-direction') || 'asc';
+		const newSort = currentSort === 'asc' ? 'desc' : 'asc';
+
+		table.querySelectorAll('thead th.sortable').forEach((h) => {
+			h.removeAttribute('data-sort-direction');
+			const indicator = h.querySelector('.sort-indicator');
+			if (indicator) indicator.textContent = '';
+		});
+
+		header.setAttribute('data-sort-direction', newSort);
+		const indicator = header.querySelector('.sort-indicator');
+		if (indicator) indicator.textContent = newSort === 'asc' ? ' ↑' : ' ↓';
+
+		rows.sort((a, b) => {
+			const aCell = a.children[columnIndex] as HTMLElement | undefined;
+			const bCell = b.children[columnIndex] as HTMLElement | undefined;
+			if (!aCell || !bCell) return 0;
+
+			const aExcluded = aCell.getAttribute('data-sort-excluded') === '1';
+			const bExcluded = bCell.getAttribute('data-sort-excluded') === '1';
+			if (aExcluded || bExcluded) {
+				if (aExcluded && bExcluded) return 0;
+				return aExcluded ? 1 : -1;
+			}
+
+			const aValue = aCell.getAttribute('data-sort-value') || aCell.textContent?.trim() || '';
+			const bValue = bCell.getAttribute('data-sort-value') || bCell.textContent?.trim() || '';
+
+			let comparison = 0;
+			if (sortType === 'number') {
+				comparison = (parseFloat(aValue) || 0) - (parseFloat(bValue) || 0);
+			} else if (sortType === 'date') {
+				const aTime = Number.isNaN(Date.parse(aValue)) ? Infinity : Date.parse(aValue);
+				const bTime = Number.isNaN(Date.parse(bValue)) ? Infinity : Date.parse(bValue);
+				comparison = aTime - bTime;
+			} else {
+				comparison = aValue.localeCompare(bValue, undefined, { numeric: true, sensitivity: 'base' });
+			}
+			return newSort === 'asc' ? comparison : -comparison;
+		});
+
+		rows.forEach((row) => tbody.appendChild(row));
+	}
+
+	function initSortableTables(root: ParentNode = document) {
+		root.querySelectorAll<HTMLTableElement>('.sortable-table').forEach((table) => {
+			if (table.dataset.sortInitialized) return;
+			table.dataset.sortInitialized = '1';
+			table.querySelectorAll<HTMLTableCellElement>('thead th.sortable').forEach((header) => {
+				header.style.cursor = 'pointer';
+				header.addEventListener('click', () => sortTable(table, header));
+			});
+		});
+	}
+
+	initSortableTables();
+	document.addEventListener('astro:page-load', () => initSortableTables());
+</script>

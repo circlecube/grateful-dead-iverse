@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import ShowPageContent from '../../../../components/ShowPageContent.astro';
+import { getCorpus } from '../../../../lib/corpus';
+
+export function getStaticPaths() {
+	const { shows, duplicateShowById } = getCorpus();
+	return shows.map((show) => ({
+		params: { year: show.year, month: show.month, day: show.day },
+		props: {
+			show,
+			duplicateNotice: duplicateShowById.get(show.id) ?? null,
+		},
+	}));
+}
+
+interface Props {
+	show: import('../../../../lib/corpus').ShowRecord;
+	duplicateNotice: import('../../../../lib/corpus').EntityDuplicateNotice | null;
+}
+
+const { show, duplicateNotice } = Astro.props;
+---
+
+<BaseLayout
+	title={`${show.date}${show.venueName ? ` — ${show.venueName}` : ''} — Grateful Dead-iverse`}
+>
+	<ShowPageContent
+		show={show}
+		duplicateNotice={duplicateNotice}
+		backHref={`/shows/${show.year}/`}
+		backLabel={`← ${show.year}`}
+	/>
+</BaseLayout>

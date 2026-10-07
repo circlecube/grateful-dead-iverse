@@ -1,0 +1,22 @@
+---
+import { corpusBodyIsHtml } from '../lib/corpus-body';
+
+interface Props {
+	content: string;
+	class?: string;
+}
+
+const { content, class: className = '' } = Astro.props;
+const isHtml = corpusBodyIsHtml(content);
+const classes = ['corpus-body', isHtml ? 'corpus-body--html' : 'corpus-body--text', 'prose', className]
+	.filter(Boolean)
+	.join(' ');
+---
+
+{
+	isHtml ? (
+		<div class={classes} set:html={content} />
+	) : (
+		<div class={classes}>{content}</div>
+	)
+}

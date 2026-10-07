@@ -1,0 +1,39 @@
+---
+import type { SetlistEntry } from '../lib/corpus';
+import { resolveSongHref } from '../lib/fixture-routes';
+
+interface Props {
+	setlist: SetlistEntry[];
+}
+
+const { setlist } = Astro.props;
+const segueMarker = ' > ';
+---
+
+<ol class="setlist-list">
+	{
+		setlist.map((row) => {
+			if (row.entry_type === 'note') {
+				const label = row.notes ?? row.title ?? '';
+				return label ? <li class="setlist-note"><em>{label}</em></li> : null;
+			}
+			const title = row.title ?? row.name ?? 'Untitled';
+			const segues = Boolean(row.segue_into_next);
+			const liClass = segues ? 'setlist-song setlist-song--segues' : 'setlist-song';
+			return (
+				<li class={liClass}>
+					{row.entry_type === 'song-post' && row.name ? (
+						<a href={resolveSongHref(String(row.name))}>{title}</a>
+					) : (
+						<span>{title}</span>
+					)}
+					{row.cover_artist ? (
+						<span class="setlist-original-artist">({row.cover_artist})</span>
+					) : null}
+					{segues ? <span class="setlist-segue-marker" aria-hidden="true">{segueMarker}</span> : null}
+					{row.duration ? <span class="setlist-duration">{row.duration}</span> : null}
+				</li>
+			);
+		})
+	}
+</ol>

@@ -1,0 +1,599 @@
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: var(--font-sans);
+	background: var(--dv-canvas);
+	color: var(--dv-contrast);
+	line-height: 1.55;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	min-height: 100vh;
+}
+
+a {
+	color: var(--dv-link);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--dv-link-hover);
+	text-decoration: underline;
+}
+
+main {
+	flex: 1 0 auto;
+	max-width: var(--dv-wide-max);
+	margin: 0 auto;
+	padding: 1.25rem 1rem 3rem;
+	width: 100%;
+}
+
+/* Promo pair is last on home / show / song pages — avoid extra air before footer */
+main:has(> .promo-cards:last-child) {
+	padding-bottom: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.prose {
+	max-width: var(--dv-content-max);
+	white-space: pre-wrap;
+}
+
+.corpus-body--html {
+	white-space: normal;
+}
+
+.corpus-body--html p {
+	margin: 0 0 0.75rem;
+}
+
+.corpus-body--html p:last-child {
+	margin-bottom: 0;
+}
+
+.card {
+	background: var(--dv-card-bg);
+	border: 1px solid color-mix(in srgb, var(--dv-contrast) 12%, transparent);
+	border-radius: 0.35rem;
+	padding: 0.75rem 1.15rem 1rem;
+	margin: 1rem 0;
+}
+
+.card > h2:first-child,
+.card > h3:first-child {
+	margin: 0 0 0.55rem;
+	font-size: 1.05rem;
+}
+
+.bv-card__header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 0.55rem;
+}
+
+.bv-card__body > :first-child {
+	margin-top: 0;
+}
+
+.bv-card__heading,
+.card__title {
+	margin: 0;
+	font-size: 1.05rem;
+	font-family: var(--font-serif);
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.bv-card__header-icon {
+	flex-shrink: 0;
+	line-height: 0;
+	color: var(--dv-accent-3);
+}
+
+.bv-card__header-icon--help {
+	cursor: help;
+}
+
+.bv-card__header-icon--help:focus-visible {
+	border-radius: 2px;
+	outline: 2px solid currentColor;
+	outline-offset: 3px;
+}
+
+.bv-card__lucide {
+	display: block;
+}
+
+.card--collapsible__summary {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.card--collapsible__lead {
+	align-items: center;
+	display: inline-flex;
+	flex-shrink: 0;
+	gap: 0.45rem;
+}
+
+.card--collapsible__chevron {
+	color: var(--dv-accent-3);
+	transition: transform 0.2s ease;
+}
+
+.card--collapsible[open] .card--collapsible__chevron {
+	transform: rotate(180deg);
+}
+
+.card--collapsible__summary::-webkit-details-marker {
+	display: none;
+}
+
+.card--collapsible[open] .bv-card__header,
+.card--collapsible .bv-card__header {
+	margin-bottom: 0;
+}
+
+.card--collapsible[open] .bv-card__body {
+	margin-top: 0.55rem;
+}
+
+.card-table {
+	overflow-x: auto;
+	margin: 0 -0.15rem;
+}
+
+.card-table__meta {
+	margin: 0 0 0.65rem;
+}
+
+.card > .card-table {
+	margin-top: 0.25rem;
+}
+
+.page-icon {
+	vertical-align: -0.2em;
+	margin-right: 0.35rem;
+	color: var(--dv-accent-3);
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.table-icon {
+	display: inline-flex;
+	vertical-align: middle;
+	color: var(--dv-accent-3);
+}
+
+.table-icon--segue {
+	margin-left: 0.25rem;
+	opacity: 0.85;
+}
+
+.table-duration {
+	margin-left: 0.15rem;
+}
+
+.empty-cell {
+	color: color-mix(in srgb, var(--dv-contrast) 55%, transparent);
+}
+
+.meta {
+	color: color-mix(in srgb, var(--dv-contrast) 72%, transparent);
+	font-size: 0.95rem;
+}
+
+.home-intro {
+	max-width: var(--dv-content-max);
+}
+
+.home-intro p {
+	margin: 0 0 0.85rem;
+	line-height: 1.6;
+}
+
+.home-intro p:last-child {
+	margin-bottom: 0;
+}
+
+.duplicate-notice {
+	margin: 1rem 0;
+	padding: 0.85rem 1rem;
+	border-radius: 0.35rem;
+	border: 1px solid color-mix(in srgb, var(--dv-accent-3) 55%, transparent);
+	background: color-mix(in srgb, var(--dv-accent-3) 12%, var(--dv-card-bg));
+	font-size: 0.92rem;
+}
+
+.duplicate-notice__lead {
+	margin: 0 0 0.5rem;
+}
+
+.duplicate-notice__peers {
+	margin: 0 0 0.5rem;
+}
+
+.duplicate-notice__peers ul {
+	margin: 0.35rem 0 0;
+	padding-left: 1.25rem;
+}
+
+.duplicate-notice__footer {
+	margin: 0;
+}
+
+.duplicate-notice code {
+	font-size: 0.85em;
+}
+
+.list-plain {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-plain li {
+	margin: 0.35rem 0;
+}
+
+/* Bandiverse-style setlist list (see bandiverse `_setlist.scss`) */
+.setlist-empty {
+	color: color-mix(in srgb, var(--dv-contrast) 88%, transparent);
+	margin: 0;
+}
+
+.setlist-list {
+	counter-reset: setlist-counter;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.setlist-list .setlist-song {
+	align-items: baseline;
+	border-bottom: 1px solid color-mix(in srgb, var(--dv-contrast) 12%, transparent);
+	counter-increment: setlist-counter;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.15rem 0.5rem;
+	padding: 0.35rem 0 0.35rem 2em;
+	position: relative;
+}
+
+.setlist-list .setlist-song--segues {
+	border-bottom-style: dashed;
+}
+
+.setlist-list .setlist-song::before {
+	content: counter(setlist-counter) '.';
+	left: 0;
+	position: absolute;
+	color: var(--dv-accent-4);
+}
+
+.setlist-list .setlist-duration {
+	font-size: 0.75em;
+	font-style: italic;
+	margin-left: auto;
+}
+
+.setlist-list .setlist-note {
+	background-color: color-mix(in srgb, var(--dv-contrast) 12%, transparent);
+	display: inline-block;
+	font-size: 0.75rem;
+	font-style: normal;
+	list-style: none;
+	margin: 1rem 0 0.5em;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+}
+
+.setlist-list .setlist-note:first-child {
+	margin-top: 0;
+}
+
+.setlist-list .setlist-original-artist {
+	color: color-mix(in srgb, var(--dv-contrast) 55%, transparent);
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+.setlist-segue-marker {
+	color: inherit;
+	flex-shrink: 0;
+	font-weight: 600;
+	opacity: 0.65;
+	white-space: nowrap;
+}
+
+.bv-sat-icon-col {
+	white-space: nowrap;
+	width: 2.5rem;
+}
+
+.link-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.link-buttons a,
+.link-buttons__item {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.35rem 0.75rem;
+	border-radius: 0.25rem;
+	border: 1px solid var(--dv-link-chip-border);
+	background: var(--dv-link-chip-bg);
+	color: var(--dv-link-chip-fg);
+	font-size: 0.9rem;
+	font-weight: 500;
+	transition:
+		background-color 0.18s ease,
+		border-color 0.18s ease,
+		color 0.18s ease;
+}
+
+.link-buttons a:hover,
+.link-buttons__item:hover {
+	background: var(--dv-link-chip-bg-hover);
+	color: var(--dv-link-chip-fg);
+	text-decoration: none;
+}
+
+.year-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+	gap: 0.5rem;
+}
+
+.year-grid a {
+	display: block;
+	padding: 0.5rem;
+	text-align: center;
+	background: var(--dv-card-bg);
+	border-radius: 0.25rem;
+	border: 1px solid color-mix(in srgb, var(--dv-contrast) 10%, transparent);
+}
+
+.home-top-songs__lead {
+	margin: 0.75rem 0 0.35rem;
+}
+
+.home-top-songs {
+	margin: 0;
+	padding-left: 1.35rem;
+}
+
+.home-top-songs li {
+	margin: 0.35rem 0;
+}
+
+.promo-cards {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr;
+	margin: 1rem 0;
+}
+
+@media (min-width: 40rem) {
+	.promo-cards {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+.promo-cards > .card {
+	font-size: 0.92rem;
+	margin: 0;
+}
+
+.promo-card__body > :first-child {
+	margin-top: 0;
+}
+
+.promo-card__text {
+	color: color-mix(in srgb, var(--dv-contrast) 88%, transparent);
+	line-height: 1.45;
+	margin: 0 0 0.55rem;
+}
+
+.promo-card__cta-line {
+	margin: 0.75rem 0 0;
+}
+
+.promo-card__cta {
+	align-items: center;
+	display: inline-flex;
+	font-weight: 600;
+	gap: 0.35rem;
+}
+
+.promo-card__cta-meta {
+	display: block;
+	margin-top: 0.4rem;
+}
+
+.song-band {
+	font-size: 1.15rem;
+	font-weight: 500;
+	margin: 0.35rem 0 0.75rem;
+	color: color-mix(in srgb, var(--dv-contrast) 82%, transparent);
+}
+
+.stats-card__attribution {
+	align-items: center;
+	display: flex;
+	gap: 0.4rem;
+}
+
+.stats-card__attribution-icon {
+	color: var(--dv-accent-3);
+	flex-shrink: 0;
+}
+
+.external-permalink {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.stats-card__title {
+	margin-top: 0;
+	font-size: 1.05rem;
+}
+
+.stats-card__grid {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 0.35rem 1.25rem;
+	margin: 0;
+}
+
+.stats-card__grid dt {
+	font-weight: 600;
+	margin: 0;
+}
+
+.stats-card__grid dd {
+	margin: 0;
+}
+
+.bv-table {
+	border-collapse: collapse;
+	font-size: 0.8125rem;
+	width: 100%;
+}
+
+.bv-table th {
+	border-bottom: 2px solid color-mix(in srgb, var(--dv-contrast) 18%, transparent);
+	font-weight: 600;
+	padding: 0.45rem 0.5rem;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.bv-table tbody tr {
+	border-bottom: 1px solid color-mix(in srgb, var(--dv-contrast) 10%, transparent);
+}
+
+.bv-table tbody tr:hover {
+	background-color: color-mix(in srgb, var(--dv-contrast) 4%, transparent);
+}
+
+.bv-table tbody td {
+	padding: 0.45rem 0.5rem;
+	vertical-align: middle;
+}
+
+.bv-table--striped tbody tr:nth-child(even) {
+	background-color: color-mix(in srgb, var(--dv-contrast) 2%, transparent);
+}
+
+.bv-table thead th.sortable .sort-indicator {
+	font-weight: 400;
+	opacity: 0.75;
+}
+
+/* ChordPro / chord sheet (ChordSheetJS HtmlDivFormatter; aligned with Bandiverse chord layout) */
+.bv-chord-sheet-wrapper {
+	margin: 0.25rem 0 0;
+}
+
+.bv-chord-sheet-fallback {
+	font-family: inherit;
+	font-size: 0.95rem;
+	line-height: 1.6;
+	margin: 0;
+	white-space: pre-wrap;
+}
+
+.chord-sheet-display .chord-sheet {
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.chord-sheet-display .paragraph {
+	margin-bottom: 1em;
+}
+
+.chord-sheet-display .paragraph:last-child {
+	margin-bottom: 0;
+}
+
+.chord-sheet-display .row {
+	align-content: flex-end;
+	align-items: flex-end;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 0.15em;
+	margin-bottom: 0.35em;
+}
+
+.chord-sheet-display .column {
+	align-items: flex-start;
+	display: inline-flex;
+	flex-direction: column;
+	vertical-align: bottom;
+}
+
+.chord-sheet-display .chord {
+	background: color-mix(in srgb, var(--dv-base) 55%, var(--dv-card-bg));
+	border-radius: 4px;
+	color: var(--dv-contrast);
+	display: inline-block;
+	font-size: 0.95em;
+	font-weight: 700;
+	line-height: 1.2;
+	min-height: 1em;
+	padding: 0.15em 0.4em;
+	white-space: nowrap;
+}
+
+.chord-sheet-display .chord:empty {
+	background: transparent;
+	min-height: 0;
+	padding: 0;
+}
+
+.chord-sheet-display .lyrics {
+	line-height: 1.5;
+	min-height: 1.5rem;
+	white-space: pre-wrap;
+}
