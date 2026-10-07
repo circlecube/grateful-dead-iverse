@@ -1,0 +1,24 @@
+#!/bin/sh
+# Bump modified_gmt on staged show/song markdown. Opt in: npm run hooks:install
+
+set -e
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+STAGED="$(git diff --cached --name-only --diff-filter=ACM -- 'data/shows/' 'data/songs/' | grep '\.md$' || true)"
+if [ -z "$STAGED" ]; then
+	exit 0
+fi
+
+if [ ! -d "$ROOT/node_modules" ]; then
+	echo "pre-commit: run npm install in the corpus repo to enable modified_gmt bumps." >&2
+	exit 1
+fi
+
+printf '%s\n' "$STAGED" | while IFS= read -r f; do
+	[ -z "$f" ] && continue
+	node "$ROOT/scripts/bump-modified-gmt.mjs" "$f"
+	git add "$f"
+done
+
+exit 0

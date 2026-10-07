@@ -157,7 +157,31 @@ Keep long performance histories out of song files; performances belong under `da
 
 - Prefer **small, verifiable** fixes (wrong song in a set, typo in a title, broken slug in YAML).
 - For setlists, change **`setlist:` in YAML** and keep song `name` slugs consistent with `data/songs/{slug}.md` filenames.
-- If a maintainer asks you to record edit time, set **`modified_gmt`** in front matter to your finish time in UTC.
+
+## Repository tooling (Node)
+
+This repo includes a small **Node** toolchain (`package.json`) for `modified_gmt` and packaging changes for import.
+
+**One-time setup:**
+
+```bash
+npm install
+npm run hooks:install   # optional: auto-bump modified_gmt on commit
+chmod +x .githooks/pre-commit
+```
+
+With hooks enabled, each commit that stages files under `data/shows/` or `data/songs/` updates **`modified_gmt`** in front matter to the current UTC time (used by deadiverse bulk import to detect changed files). Large mechanical re-exports may use `git commit --no-verify` if timestamps already came from the site.
+
+**Commands:**
+
+| Command | Purpose |
+| --- | --- |
+| `npm run bump-modified-gmt -- data/songs/example.md` | Set `modified_gmt` on specific files |
+| `npm run zip-changed` | ZIP show/song files that differ from `origin/main` (layout: `data/...` for bulk import) |
+| `npm run zip-changed -- --include-uncommitted` | Include uncommitted edits vs `HEAD` |
+| `npm run zip-changed -- --base main --output dist/my.zip` | Custom base ref and output path |
+
+Output ZIPs are written under `dist/` by default (gitignored). Upload via **Bandiverse → Settings → Markdown corpus → Import markdown ZIP (bulk)** on the site.
 
 ## Copyright
 
