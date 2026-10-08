@@ -8,7 +8,7 @@
   "scripts": {
     "og:image": "node scripts/generate-og-image.mjs",
     "dev": "astro dev",
-    "build": "npm run og:image && astro build",
+    "build": "npm run og:image && astro build && node scripts/assert-pagefind-index.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,6 +16,7 @@
     "@astrojs/sitemap": "^3.7.4",
     "@lucide/astro": "^1.52.0",
     "astro": "^7.3.6",
+    "astro-pagefind": "^2.0.1",
     "chordsheetjs": "^18.0.0",
     "fast-glob": "^3.3.3",
     "gray-matter": "^4.0.3"

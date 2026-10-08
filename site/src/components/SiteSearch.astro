@@ -1,0 +1,106 @@
+---
+import { X } from '@lucide/astro';
+import PagefindConfig from 'astro-pagefind/components/PagefindConfig.astro';
+import '../styles/search.css';
+---
+
+<div id="site-search" class="site-search" hidden>
+	<button type="button" class="site-search__backdrop" data-site-search-close aria-label="Close search"></button>
+	<div
+		class="site-search__panel"
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="site-search-title"
+	>
+		<div class="site-search__header">
+			<h2 id="site-search-title" class="site-search__title">Search corpus</h2>
+			<button type="button" class="site-search__close" data-site-search-close aria-label="Close search">
+				<X size={20} strokeWidth={2} aria-hidden="true" />
+			</button>
+		</div>
+		<div class="site-search__field">
+			<PagefindConfig />
+			<pagefind-searchbox
+				id="site-search-box"
+				placeholder="Songs, lyrics, venues, dates…"
+				debounce="150"
+				max-results="12"
+				hide-shortcut
+			></pagefind-searchbox>
+		</div>
+		<p class="site-search__hint"><kbd>⌘</kbd><kbd>K</kbd> anywhere on the site</p>
+	</div>
+</div>
+
+<script>
+	const SEARCH_ROOT_ID = 'site-search';
+	const SEARCH_OPEN_ID = 'site-search-open';
+	const SEARCH_BOX_ID = 'site-search-box';
+
+	let lastFocus: HTMLElement | null = null;
+
+	function getRoot(): HTMLElement | null {
+		return document.getElementById(SEARCH_ROOT_ID);
+	}
+
+	function focusSearchInput(): void {
+		const box = document.getElementById(SEARCH_BOX_ID);
+		if (!box) return;
+		const input =
+			box.shadowRoot?.querySelector('input') ??
+			box.querySelector('input');
+		if (input instanceof HTMLInputElement) {
+			input.focus();
+		}
+	}
+
+	function openSearch(): void {
+		const root = getRoot();
+		if (!root || !root.hidden) return;
+		lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+		root.hidden = false;
+		document.body.style.overflow = 'hidden';
+		requestAnimationFrame(() => focusSearchInput());
+	}
+
+	function closeSearch(): void {
+		const root = getRoot();
+		if (!root || root.hidden) return;
+		root.hidden = true;
+		document.body.style.overflow = '';
+		if (lastFocus) {
+			lastFocus.focus();
+			lastFocus = null;
+		}
+	}
+
+	function isOpen(): boolean {
+		const root = getRoot();
+		return Boolean(root && !root.hidden);
+	}
+
+	document.getElementById(SEARCH_OPEN_ID)?.addEventListener('click', () => {
+		openSearch();
+	});
+
+	document.querySelectorAll('[data-site-search-close]').forEach((el) => {
+		el.addEventListener('click', () => closeSearch());
+	});
+
+	document.addEventListener('keydown', (event) => {
+		const modKey = event.metaKey || event.ctrlKey;
+		if (modKey && event.key.toLowerCase() === 'k') {
+			event.preventDefault();
+			if (isOpen()) {
+				closeSearch();
+			} else {
+				openSearch();
+			}
+			return;
+		}
+		if (event.key === 'Escape' && isOpen()) {
+			event.preventDefault();
+			closeSearch();
+		}
+	});
+</script>

@@ -34,6 +34,7 @@ const played = countPlayedSongs(show.setlist);
 const setlistHasData = hasSetlistDisplay(show.setlist);
 const location = formatVenueLocation(show.venue);
 const bandLabel = show.band ? formatBandSlug(show.band) : '';
+const searchTitle = `${show.date}${show.venueName ? ` — ${show.venueName}` : ''}`;
 ---
 
 <MetaNav crumbs={navCrumbs} aria-label="Show navigation">
@@ -55,6 +56,12 @@ const bandLabel = show.band ? formatBandSlug(show.band) : '';
 		)
 	}
 </MetaNav>
+<div
+	data-pagefind-body
+	data-pagefind-meta="corpus_type:show"
+	data-pagefind-meta={`title:${searchTitle}`}
+	data-pagefind-meta={`year:${show.year}`}
+>
 <h1>{show.date}</h1>
 {duplicateNotice && <DuplicateCandidateNotice kind="show" notice={duplicateNotice} />}
 
@@ -105,5 +112,8 @@ const bandLabel = show.band ? formatBandSlug(show.band) : '';
 		</Card>
 	)
 }
+</div>
 
+<div data-pagefind-ignore>
 <SitePromoCards context="show" deadiverseHref={show.permalink || DEADIVERSE_URL} />
+</div>

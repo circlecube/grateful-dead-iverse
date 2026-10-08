@@ -18,11 +18,13 @@ const playCount = (slug: string, exported?: number) => playCountForSong(slug, pe
 	</h1>
 	<p class="meta">{songs.length.toLocaleString()} songs</p>
 
-	<Card
-		title="Song catalog"
-		icon={Music}
-		iconTitle="Alphabetical songs with band and total live play count"
-	>
-		<SongsCatalogTable songs={songs} playCountForSlug={playCount} />
-	</Card>
+	<div data-pagefind-ignore>
+		<Card
+			title="Song catalog"
+			icon={Music}
+			iconTitle="Alphabetical songs with band and total live play count"
+		>
+			<SongsCatalogTable songs={songs} playCountForSlug={playCount} />
+		</Card>
+	</div>
 </BaseLayout>

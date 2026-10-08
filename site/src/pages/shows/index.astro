@@ -25,6 +25,7 @@ const yearsDesc = [...years].reverse();
 		{shows.length.toLocaleString()} shows — <a href="/shows/all/">browse all in one table</a>
 	</p>
 
+	<div data-pagefind-ignore>
 	<Card title="By year" icon={Tickets} iconTitle="Show count for each calendar year">
 		<div class="card-table">
 			<table class="bv-table bv-table--striped bv-table--catalog sortable-table">
@@ -53,4 +54,5 @@ const yearsDesc = [...years].reverse();
 			</table>
 		</div>
 	</Card>
+	</div>
 </BaseLayout>

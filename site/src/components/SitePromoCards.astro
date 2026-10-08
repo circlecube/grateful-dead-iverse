@@ -1,5 +1,12 @@
 ---
-import { ArrowRight, GitPullRequestCreateArrow, GlobeCode } from '@lucide/astro';
+import {
+	ArrowRight,
+	CalendarDays,
+	CircleHelp,
+	GitPullRequestCreateArrow,
+	GlobeCode,
+	Music,
+} from '@lucide/astro';
 import Card from './Card.astro';
 import { CONTRIBUTING_URL, DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
 
@@ -23,6 +30,15 @@ const deadiverseLead =
 const deadiverseAccount =
 	'Create a free account to save favorite shows and songs, mark attendance at concerts, and unlock more features as the catalog grows.';
 
+const deadiverseCtaLabel =
+	context === 'song'
+		? 'View this song on deadiverse'
+		: context === 'show'
+			? 'View this show on deadiverse'
+			: 'Visit deadiverse.com';
+
+const DeadiverseCtaIcon = context === 'song' ? Music : context === 'show' ? CalendarDays : ArrowRight;
+
 const contributeLead =
 	'Spot a typo, a missing show, or something that does not look right? Corrections and additions are welcome.';
 
@@ -39,12 +55,14 @@ const contributeDetail =
 		<div class="promo-card__body">
 			<p class="promo-card__text">{deadiverseLead}</p>
 			<p class="promo-card__text">{deadiverseAccount}</p>
-			<p class="promo-card__cta-line">
-				<a href={deadiverseHref} class="promo-card__cta">
-					{context === 'home' ? 'Visit deadiverse.com' : 'View this on deadiverse.com'}
-					<ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
-				</a>
-			</p>
+			<ul class="link-buttons promo-card__actions">
+				<li>
+					<a href={deadiverseHref} class="link-buttons__item">
+						<DeadiverseCtaIcon size={14} strokeWidth={2} aria-hidden="true" />
+						<span>{deadiverseCtaLabel}</span>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</Card>
 
@@ -56,15 +74,20 @@ const contributeDetail =
 		<div class="promo-card__body">
 			<p class="promo-card__text">{contributeLead}</p>
 			<p class="promo-card__text">{contributeDetail}</p>
-			<p class="promo-card__cta-line">
-				<a href={REPO_URL} class="promo-card__cta">
-					Open the markdown repo
-					<ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
-				</a>
-				<span class="meta promo-card__cta-meta">
-					<a href={CONTRIBUTING_URL}>How to contribute</a>
-				</span>
-			</p>
+			<ul class="link-buttons promo-card__actions">
+				<li>
+					<a href={REPO_URL} class="link-buttons__item">
+						<ArrowRight size={14} strokeWidth={2} aria-hidden="true" />
+						<span>Open the markdown repo</span>
+					</a>
+				</li>
+				<li>
+					<a href={CONTRIBUTING_URL} class="link-buttons__item">
+						<CircleHelp size={14} strokeWidth={2} aria-hidden="true" />
+						<span>How to contribute</span>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</Card>
 </section>

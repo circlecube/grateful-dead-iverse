@@ -31,6 +31,7 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 ---
 
 <MetaNav crumbs={navCrumbs} aria-label="Song navigation" />
+<div data-pagefind-body data-pagefind-meta="corpus_type:song" data-pagefind-meta={`title:${song.title}`}>
 <h1>{song.title}</h1>
 {duplicateNotice && <DuplicateCandidateNotice kind="song" notice={duplicateNotice} />}
 
@@ -121,7 +122,9 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 }
 
 <ExternalLinks links={song.links} chordsSourceUrl={song.chordsSourceUrl} permalink={song.permalink} />
+</div>
 
+<div data-pagefind-ignore>
 {
 	displayPerformances.length > 0 && (
 		<Card title="Performances" icon={Music} iconTitle="Shows where this song appears in the setlist">
@@ -158,3 +161,4 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 }
 
 <SitePromoCards context="song" deadiverseHref={song.permalink || DEADIVERSE_URL} />
+</div>

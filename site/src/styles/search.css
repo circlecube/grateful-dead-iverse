@@ -1,0 +1,121 @@
+.site-search[hidden] {
+	display: none !important;
+}
+
+.site-search {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 4.5rem 1rem 2rem;
+}
+
+.site-search__backdrop {
+	position: absolute;
+	inset: 0;
+	background: rgb(20 24 28 / 0.55);
+	border: none;
+	cursor: default;
+}
+
+.site-search__panel {
+	position: relative;
+	width: min(36rem, 100%);
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 1.25rem 1.25rem 1rem;
+	background: var(--dv-canvas);
+	color: var(--dv-contrast);
+	border: 2px solid var(--dv-accent-2);
+	border-radius: 0.5rem;
+	box-shadow: 0 12px 40px rgb(0 0 0 / 0.2);
+	/* Let Pagefind’s results dropdown extend below the input (not clipped). */
+	overflow: visible;
+}
+
+.site-search__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+}
+
+.site-search__title {
+	margin: 0;
+	font-family: var(--font-serif);
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+
+.site-search__close {
+	flex-shrink: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.25rem;
+	height: 2.25rem;
+	padding: 0;
+	border: 1px solid color-mix(in srgb, var(--dv-contrast) 18%, transparent);
+	border-radius: 0.35rem;
+	background: transparent;
+	color: inherit;
+	cursor: pointer;
+}
+
+.site-search__close:hover {
+	border-color: var(--dv-accent-2);
+	color: var(--dv-accent-2);
+}
+
+.site-search__field {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow: visible;
+}
+
+.site-search__hint {
+	margin: 0;
+	font-size: 0.8rem;
+	color: var(--dv-accent-4);
+	text-align: right;
+}
+
+.site-header__search {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0;
+	border: none;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	font-size: 0.95rem;
+	cursor: pointer;
+}
+
+.site-header__search:hover {
+	color: var(--dv-accent-2);
+}
+
+.site-header__search-label {
+	display: none;
+}
+
+@media (min-width: 40rem) {
+	.site-header__search-label {
+		display: inline;
+	}
+}
+
+/* Pagefind component UI — align with dv tokens */
+pagefind-searchbox {
+	--pf-font-family: var(--font-sans);
+	--pf-color-text: var(--dv-contrast);
+	--pf-color-muted: var(--dv-accent-4);
+	--pf-color-accent: var(--dv-accent-2);
+	--pf-color-background: var(--dv-canvas);
+	--pf-color-border: color-mix(in srgb, var(--dv-contrast) 18%, transparent);
+}
