@@ -20,11 +20,13 @@ const sortedShows = [...shows].sort((a, b) => b.date.localeCompare(a.date) || a.
 		{shows.length.toLocaleString()} shows (newest first; click column headers to sort)
 	</p>
 
-	<Card
-		title="Show catalog"
-		icon={Tickets}
-		iconTitle="Every show in the corpus with venue, location, and setlist song count"
-	>
-		<ShowsCatalogTable shows={sortedShows} showYearColumn={true} />
-	</Card>
+	<div data-pagefind-ignore>
+		<Card
+			title="Show catalog"
+			icon={Tickets}
+			iconTitle="Every show in the corpus with venue, location, and setlist song count"
+		>
+			<ShowsCatalogTable shows={sortedShows} showYearColumn={true} />
+		</Card>
+	</div>
 </BaseLayout>

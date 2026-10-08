@@ -1,5 +1,5 @@
 ---
-import { FlaskConical, House, Music, Tickets } from '@lucide/astro';
+import { FlaskConical, House, Music, Search, Tickets } from '@lucide/astro';
 
 const nav = [
 	{ href: '/', label: 'Home', icon: House },
@@ -26,6 +26,16 @@ const showDevNav = import.meta.env.DEV;
 					</a>
 				);
 			})}
+			<button
+				type="button"
+				class="site-header__search"
+				id="site-search-open"
+				aria-label="Search site"
+				aria-haspopup="dialog"
+			>
+				<Search size={16} strokeWidth={2} aria-hidden="true" />
+				<span class="site-header__search-label">Search</span>
+			</button>
 			{showDevNav && (
 				<a href="/dev/" class="site-header__nav-link site-header__nav-link--dev">
 					<FlaskConical size={16} strokeWidth={2} aria-hidden="true" />
@@ -79,5 +89,12 @@ const showDevNav = import.meta.env.DEV;
 	}
 	.site-header__nav-link--dev {
 		color: var(--dv-accent-2);
+	}
+	.site-header__search {
+		color: var(--dv-chrome-text);
+	}
+	.site-header__search:hover {
+		color: var(--dv-accent-2);
+		text-decoration: none;
 	}
 </style>

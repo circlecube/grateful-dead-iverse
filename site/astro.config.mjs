@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sitemap from '@astrojs/sitemap';
+import pagefind from 'astro-pagefind';
 import { defineConfig } from 'astro/config';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -17,6 +18,7 @@ export default defineConfig({
 		sitemap({
 			filter: (page) => !page.includes('/dev/'),
 		}),
+		pagefind(),
 		{
 			name: 'omit-dev-pages-from-production',
 			hooks: {

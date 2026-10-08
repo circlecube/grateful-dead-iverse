@@ -38,11 +38,13 @@ const sortedShows = [...shows].sort((a, b) => a.date.localeCompare(b.date) || a.
 	<h1>{year}</h1>
 	<p class="meta">{shows.length.toLocaleString()} shows</p>
 
-	<Card
-		title={`${year} shows`}
-		icon={Tickets}
-		iconTitle="Concerts in this year with venue, location, and setlist song count"
-	>
-		<ShowsCatalogTable shows={sortedShows} />
-	</Card>
+	<div data-pagefind-ignore>
+		<Card
+			title={`${year} shows`}
+			icon={Tickets}
+			iconTitle="Concerts in this year with venue, location, and setlist song count"
+		>
+			<ShowsCatalogTable shows={sortedShows} />
+		</Card>
+	</div>
 </BaseLayout>

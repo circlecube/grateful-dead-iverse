@@ -1,6 +1,7 @@
 ---
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import SiteSearch from '../components/SiteSearch.astro';
 import SortableTableScript from '../components/SortableTableScript.astro';
 import {
 	DEFAULT_DESCRIPTION,
@@ -65,6 +66,7 @@ const ogImage = absoluteOgImage(site);
 	</head>
 	<body>
 		<SiteHeader />
+		<SiteSearch />
 		<main>
 			<slot />
 		</main>

@@ -26,6 +26,7 @@ The **`site/`** app builds a simplified, deadiverse-styled static viewer: show a
 
 - **Live site:** [grateful.deadiverse.com](https://grateful.deadiverse.com) — Cloudflare Pages, rebuilds on pushes to `main`
 - **Local preview:** `cd site && npm install && npm run dev` (or `npm run site:dev` from the repo root; Node ≥ 20). The dev server reads `../data`.
+- **Search:** [Pagefind](https://pagefind.app/) full-text search (header **Search** or **⌘K** / **Ctrl+K**). Run `npm run build` once so the index exists; `astro dev` serves the last built `dist/pagefind/` bundle.
 
 ## Contributing
 
