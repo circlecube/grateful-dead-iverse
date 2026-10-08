@@ -1,0 +1,70 @@
+name: Sync from site
+
+on:
+  schedule:
+    # ~09:00 UTC daily (tune vs site export window on deadiverse.com).
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Sync even when content_hash matches'
+        type: boolean
+        default: false
+  repository_dispatch:
+    types: [site-export]
+
+concurrency:
+  group: corpus-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install tooling
+        run: npm ci
+
+      - name: Sync from site export
+        id: sync
+        env:
+          EXPORT_LATEST_URL: ${{ vars.EXPORT_LATEST_URL }}
+          FORCE: ${{ github.event.inputs.force == true && 'true' || 'false' }}
+        run: |
+          if [ -z "$EXPORT_LATEST_URL" ]; then
+            echo "Set repository variable EXPORT_LATEST_URL (export-*-latest.json on the site)."
+            exit 1
+          fi
+          ARGS=(--latest-url "$EXPORT_LATEST_URL")
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          node scripts/sync-from-export.mjs "${ARGS[@]}"
+
+      - name: Create or update sync PR
+        if: steps.sync.outputs.data_changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.CORPUS_SYNC_TOKEN }}
+          branch: bot/site-sync
+          delete-branch: false
+          labels: site-sync
+          title: Sync from deadiverse.com
+          commit-message: 'chore(sync): import site corpus export'
+          body: |
+            Automated sync from the published WordPress corpus export.
+
+            - **content_hash:** `${{ steps.sync.outputs.content_hash }}`
+            - **Workflow:** [sync-from-site.yml](.github/workflows/sync-from-site.yml)
+
+            Review **pending import** paths in the job summary (repo copies kept when `modified_gmt` is newer than the site file or export time).
+
+            Merge when ready; `site.yml` does not run on PRs from default `GITHUB_TOKEN` — this workflow uses `CORPUS_SYNC_TOKEN` so downstream workflows can be wired separately if needed.

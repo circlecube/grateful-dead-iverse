@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "bump-modified-gmt": "node scripts/bump-modified-gmt.mjs",
+    "sync-from-site": "node scripts/sync-from-export.mjs",
+    "test": "node --test test/*.test.mjs",
     "zip-changed": "node scripts/zip-changed.mjs",
     "hooks:install": "git config core.hooksPath .githooks",
     "site:dev": "npm run dev --prefix site",
