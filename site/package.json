@@ -22,7 +22,7 @@
     "gray-matter": "^4.0.3"
   },
   "devDependencies": {
-    "sharp": "^0.34.4"
+    "sharp": "^0.35.5"
   },
   "allowScripts": {
     "esbuild": true
