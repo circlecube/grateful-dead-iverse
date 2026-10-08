@@ -78,8 +78,9 @@ When working on the viewer:
 - URL shape: `/shows/{year}/{month}/{name}/`, `/songs/{slug}/`.
 - Style using **dv-child** tokens (cream/teal/orange palette)—reference monorepo `dv-child/theme.json`, not full Bandiverse plugin CSS.
 - Do not commit `site/dist/`; production deploys from `main` via Cloudflare Pages (`SITE_URL=https://grateful.deadiverse.com`).
+- **Search:** Pagefind via `astro-pagefind`; index built on `npm run build`. Song/show pages use `data-pagefind-body`, `data-pagefind-meta` (`corpus_type`, `title`, `year`), and `data-pagefind-ignore` on catalog/performance tables. Plan: `docs/plans/2026-10-08-static-search.md`.
 
-Local dev: `cd site && npm install && npm run dev`, or from repo root `npm run site:dev` (see README § Static site and CONTRIBUTING § Static site).
+Local dev: `cd site && npm install && npm run dev`, or from repo root `npm run site:dev` (see README § Static site and CONTRIBUTING § Static site). Search in dev needs a prior `npm run build` so `dist/pagefind/` exists.
 
 ## Related systems (out of repo)
 

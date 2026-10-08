@@ -202,6 +202,8 @@ npm run dev
 
 The dev server reads `../data`. Fix data in `data/`; fix how it displays in `site/`.
 
+**Site search** indexes rendered HTML at build time ([Pagefind](https://pagefind.app/)). Song and show templates mark the main content with `data-pagefind-body` and skip huge tables with `data-pagefind-ignore` (catalog indexes, performance lists). If you add a very large repeated block to a page, prefer ignoring it for search so results stay useful.
+
 ## Copyright
 
 **Setlists and factual metadata** (dates, venues, song order) are the main focus of community fixes.
