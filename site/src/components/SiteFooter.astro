@@ -1,9 +1,17 @@
 ---
 import GitHubMark from './GitHubMark.astro';
+import SiteFreshness from './SiteFreshness.astro';
 import { DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
+
+interface Props {
+	corpusModifiedGmt?: string;
+}
+
+const { corpusModifiedGmt } = Astro.props;
 ---
 
 <footer class="site-footer">
+	<SiteFreshness corpusModifiedGmt={corpusModifiedGmt} />
 	<nav class="site-footer__icons" aria-label="Deadiverse and GitHub">
 		<a href={DEADIVERSE_URL} class="site-footer__icon-link" title="deadiverse.com">
 			<img src="/deadiverse-icon-face.svg" alt="Deadiverse" width="28" height="28" />

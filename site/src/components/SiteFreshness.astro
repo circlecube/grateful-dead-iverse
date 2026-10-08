@@ -1,0 +1,88 @@
+---
+import {
+	formatFreshnessTimestamp,
+	getCorpusExportMeta,
+	SITE_BUILD_TIME_ISO,
+} from '../lib/build-freshness';
+
+interface Props {
+	/** Front matter `modified_gmt` for the show or song markdown file (detail pages). */
+	corpusModifiedGmt?: string;
+}
+
+const { corpusModifiedGmt } = Astro.props;
+
+const siteBuilt = formatFreshnessTimestamp(SITE_BUILD_TIME_ISO);
+const exportMeta = getCorpusExportMeta();
+const exportGenerated = exportMeta
+	? formatFreshnessTimestamp(exportMeta.generatedAt)
+	: null;
+const pageUpdated = corpusModifiedGmt
+	? formatFreshnessTimestamp(corpusModifiedGmt)
+	: null;
+---
+
+<div class="site-freshness">
+	<p class="site-freshness__line">
+		{siteBuilt && (
+			<span>
+				<strong>Site built</strong> {siteBuilt}
+			</span>
+		)}
+		{exportGenerated && (
+			<span>
+				<strong>Corpus export</strong> {exportGenerated}
+				{exportMeta?.showCount != null && exportMeta?.songCount != null && (
+					<span class="site-freshness__counts">
+						({exportMeta.showCount.toLocaleString()} shows,{' '}
+						{exportMeta.songCount.toLocaleString()} songs)
+					</span>
+				)}
+			</span>
+		)}
+		{exportMeta?.contentHash && (
+			<span class="site-freshness__hash" title={exportMeta.contentHash}>
+				<strong>Export hash</strong>{' '}
+				<code>{exportMeta.contentHash.replace(/^sha256:/, '').slice(0, 12)}…</code>
+			</span>
+		)}
+	</p>
+	{pageUpdated && (
+		<p class="site-freshness__line site-freshness__line--page">
+			<strong>This page</strong> last updated {pageUpdated}
+		</p>
+	)}
+</div>
+
+<style>
+	.site-freshness {
+		max-width: var(--dv-wide-max);
+		margin: 1rem auto 0;
+		padding: 0 0.25rem;
+		font-size: 0.8125rem;
+		line-height: 1.45;
+		color: color-mix(in srgb, var(--dv-chrome-text) 82%, transparent);
+		text-align: center;
+	}
+	.site-freshness__line {
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.35rem 1.25rem;
+	}
+	.site-freshness__line--page {
+		margin-top: 0.35rem;
+	}
+	.site-freshness__line strong {
+		font-weight: 600;
+		color: var(--dv-chrome-text);
+	}
+	.site-freshness__counts {
+		opacity: 0.9;
+	}
+	.site-freshness__hash code {
+		font-size: 0.75rem;
+		font-family: ui-monospace, monospace;
+	}
+</style>

@@ -29,6 +29,7 @@ const { song, stats, duplicateNotice } = Astro.props;
 	title={`${song.title} — Grateful Dead-iverse`}
 	description={descriptionForSong(song, stats.playCount)}
 	permalink={song.permalink}
+	corpusModifiedGmt={song.modifiedGmt}
 >
 	<SongPageContent song={song} stats={stats} duplicateNotice={duplicateNotice} />
 </BaseLayout>

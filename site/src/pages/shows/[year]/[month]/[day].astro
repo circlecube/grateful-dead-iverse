@@ -32,6 +32,7 @@ const { show, prevShow, nextShow, duplicateNotice } = Astro.props;
 	description={descriptionForShow(show)}
 	ogType="article"
 	permalink={show.permalink}
+	corpusModifiedGmt={show.modifiedGmt}
 >
 	<ShowPageContent
 		show={show}
