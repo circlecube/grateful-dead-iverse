@@ -17,6 +17,7 @@ Each file is **Markdown** with **YAML front matter** (structured fields) and a *
 | `reports/` | Manifest and optional duplicate-candidate reports bundled with periodic updates |
 | `site/` | Static read-only browser for the corpus ([Astro](https://astro.build)); see below |
 | `docs/plans/` | Implementation plans (including the static site) |
+| `docs/sync-from-site.md` | Automated sync from deadiverse.com exports ([#809](https://github.com/circlecube/bandiverse/issues/809)) |
 
 Audio, images, and other media are not stored here—only text and metadata.
 
