@@ -12,6 +12,11 @@ import { CORPUS_DATA_DIR, showDaySlug, showKey } from './paths';
 
 let cache: CorpusData | null = null;
 
+function parseCancelledFlag(data: Record<string, unknown>): boolean {
+	const raw = data.cancelled;
+	return raw === true || raw === 'true' || raw === 1 || raw === '1';
+}
+
 function parseDateParts(date: string): { year: string; month: string } {
 	const parts = date.split('-');
 	return {
@@ -35,6 +40,7 @@ function loadShows(): ShowRecord[] {
 		const venueName = typeof venue.name === 'string' ? venue.name : '';
 
 		const name = String(data.name ?? path.basename(filePath, '.md'));
+		const cancelled = parseCancelledFlag(data);
 		shows.push({
 			filePath,
 			id: Number(data.id ?? 0),
@@ -51,6 +57,7 @@ function loadShows(): ShowRecord[] {
 			notes: extractMarkdownSection(parsed.content, 'Notes'),
 			permalink: String(data.permalink ?? ''),
 			modifiedGmt: String(data.modified_gmt ?? ''),
+			...(cancelled ? { cancelled: true } : {}),
 		});
 	}
 

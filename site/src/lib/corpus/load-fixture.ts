@@ -33,6 +33,11 @@ export function loadFixtureShow(): ShowRecord | null {
 	const { year, month } = parseDateParts(date);
 	const venue = (data.venue as Record<string, unknown>) ?? {};
 	const name = String(data.name ?? 'fixture-show');
+	const cancelled =
+		data.cancelled === true ||
+		data.cancelled === 'true' ||
+		data.cancelled === 1 ||
+		data.cancelled === '1';
 
 	return {
 		filePath,
@@ -50,6 +55,7 @@ export function loadFixtureShow(): ShowRecord | null {
 		notes: extractMarkdownSection(parsed.content, 'Notes'),
 		permalink: String(data.permalink ?? ''),
 		modifiedGmt: String(data.modified_gmt ?? ''),
+		...(cancelled ? { cancelled: true } : {}),
 	};
 }
 
