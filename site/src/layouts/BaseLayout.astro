@@ -22,6 +22,8 @@ interface Props {
 	permalink?: string;
 	/** When true, adds noindex (e.g. dev fixtures). */
 	noindex?: boolean;
+	/** Corpus file `modified_gmt` (show/song detail pages). */
+	corpusModifiedGmt?: string;
 }
 
 const {
@@ -30,6 +32,7 @@ const {
 	ogType = 'website',
 	permalink,
 	noindex = false,
+	corpusModifiedGmt,
 } = Astro.props;
 
 const site = Astro.site ?? new URL('http://localhost:4321');
@@ -70,7 +73,7 @@ const ogImage = absoluteOgImage(site);
 		<main>
 			<slot />
 		</main>
-		<SiteFooter />
+		<SiteFooter corpusModifiedGmt={corpusModifiedGmt} />
 		<SortableTableScript />
 	</body>
 </html>

@@ -1,6 +1,13 @@
 ---
 import GitHubMark from './GitHubMark.astro';
+import SiteFreshness from './SiteFreshness.astro';
 import { DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
+
+interface Props {
+	corpusModifiedGmt?: string;
+}
+
+const { corpusModifiedGmt } = Astro.props;
 ---
 
 <footer class="site-footer">
@@ -13,6 +20,7 @@ import { DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
 			<span class="visually-hidden">GitHub repository</span>
 		</a>
 	</nav>
+	<SiteFreshness corpusModifiedGmt={corpusModifiedGmt} />
 </footer>
 
 <style>

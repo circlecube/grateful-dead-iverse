@@ -1,0 +1,65 @@
+---
+import {
+	formatFreshnessTimestamp,
+	getCorpusExportMeta,
+	SITE_BUILD_TIME_ISO,
+} from '../lib/build-freshness';
+
+interface Props {
+	/** Front matter `modified_gmt` for the show or song markdown file (detail pages). */
+	corpusModifiedGmt?: string;
+}
+
+const { corpusModifiedGmt } = Astro.props;
+
+const siteBuilt = formatFreshnessTimestamp(SITE_BUILD_TIME_ISO);
+const exportMeta = getCorpusExportMeta();
+const exportGenerated = exportMeta
+	? formatFreshnessTimestamp(exportMeta.generatedAt)
+	: null;
+const pageUpdated = corpusModifiedGmt
+	? formatFreshnessTimestamp(corpusModifiedGmt)
+	: null;
+
+const parts: string[] = [];
+if (siteBuilt) {
+	parts.push(`Site built ${siteBuilt}`);
+}
+if (exportGenerated) {
+	let exportPart = `Corpus export ${exportGenerated}`;
+	if (exportMeta?.showCount != null && exportMeta?.songCount != null) {
+		exportPart += ` (${exportMeta.showCount.toLocaleString()} shows, ${exportMeta.songCount.toLocaleString()} songs)`;
+	}
+	if (exportMeta?.contentHash) {
+		const short = exportMeta.contentHash.replace(/^sha256:/, '').slice(0, 12);
+		exportPart += ` · hash ${short}…`;
+	}
+	parts.push(exportPart);
+}
+---
+
+<div class="site-freshness">
+	{parts.length > 0 && <p class="site-freshness__line">{parts.join(' · ')}</p>}
+	{pageUpdated && (
+		<p class="site-freshness__line">This page updated {pageUpdated}</p>
+	)}
+</div>
+
+<style>
+	.site-freshness {
+		max-width: var(--dv-wide-max);
+		margin: 1.25rem auto 0;
+		padding: 0 0.5rem;
+		font-size: 0.75rem;
+		line-height: 1.5;
+		color: color-mix(in srgb, var(--dv-chrome-text) 58%, transparent);
+		text-align: center;
+		font-weight: 400;
+	}
+	.site-freshness__line {
+		margin: 0;
+	}
+	.site-freshness__line + .site-freshness__line {
+		margin-top: 0.2rem;
+	}
+</style>
