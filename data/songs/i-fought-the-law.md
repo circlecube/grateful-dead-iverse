@@ -14,6 +14,7 @@ stats:
     id: 8308
     name: '1993-03-14'
     show_path: ../../shows/1993/03/1993-03-14.md
+attribution: 'The Crickets'
 ---
 
 # I Fought the Law

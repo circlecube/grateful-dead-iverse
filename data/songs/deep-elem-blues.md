@@ -14,6 +14,7 @@ stats:
     id: 1227
     name: '1966-12-01'
     show_path: ../../shows/1966/12/1966-12-01.md
+attribution: Traditional
 ---
 
 # Deep Elem Blues

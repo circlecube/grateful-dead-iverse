@@ -14,6 +14,7 @@ stats:
     id: 3355
     name: '1970-07-12'
     show_path: ../../shows/1970/07/1970-07-12.md
+attribution: 'Marty Robbins'
 ---
 
 # El Paso

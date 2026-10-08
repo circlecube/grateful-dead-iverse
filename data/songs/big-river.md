@@ -14,6 +14,7 @@ stats:
     id: 12920
     name: 1970-11-21a
     show_path: ../../shows/1970/11/1970-11-21a.md
+attribution: 'Johnny Cash'
 ---
 
 # Big River

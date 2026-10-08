@@ -14,6 +14,7 @@ stats:
     id: 7713
     name: '1990-03-28'
     show_path: ../../shows/1990/03/1990-03-28.md
+attribution: 'The Band'
 ---
 
 # The Weight

@@ -14,6 +14,7 @@ stats:
     id: 3353
     name: '1970-07-11'
     show_path: ../../shows/1970/07/1970-07-11.md
+attribution: 'Charlie Monroe'
 ---
 
 # Rosa Lee McFall

@@ -14,6 +14,7 @@ stats:
     id: 5884
     name: '1982-05-28'
     show_path: ../../shows/1982/05/1982-05-28.md
+attribution: 'Son House'
 ---
 
 # Walkin' Blues

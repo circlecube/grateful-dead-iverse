@@ -14,6 +14,7 @@ stats:
     id: 5675
     name: '1981-07-02'
     show_path: ../../shows/1981/07/1981-07-02.md
+attribution: 'King Radio'
 ---
 
 # Man Smart, Woman Smarter

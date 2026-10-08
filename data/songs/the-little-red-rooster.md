@@ -14,6 +14,7 @@ stats:
     id: 11517
     name: 1980-08-19a
     show_path: ../../shows/1980/08/1980-08-19a.md
+attribution: 'Willie Dixon'
 ---
 
 # The Little Red Rooster

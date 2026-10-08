@@ -14,6 +14,7 @@ stats:
     id: 4830
     name: '1978-04-19'
     show_path: ../../shows/1978/04/1978-04-19.md
+attribution: 'Warren Zevon'
 ---
 
 # Werewolves of London

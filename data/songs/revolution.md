@@ -14,6 +14,7 @@ stats:
     id: 6164
     name: '1983-10-12'
     show_path: ../../shows/1983/10/1983-10-12.md
+attribution: 'The Beatles'
 ---
 
 # Revolution

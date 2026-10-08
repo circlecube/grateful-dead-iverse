@@ -14,6 +14,7 @@ stats:
     id: 6662
     name: '1985-12-30'
     show_path: ../../shows/1985/12/1985-12-30.md
+attribution: 'Bob Dylan'
 ---
 
 # Quinn the Eskimo (The Mighty Quinn)

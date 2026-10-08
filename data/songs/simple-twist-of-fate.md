@@ -14,6 +14,7 @@ stats:
     id: 10706
     name: '1976-01-29'
     show_path: ../../shows/1976/01/1976-01-29.md
+attribution: 'Bob Dylan'
 ---
 
 # Simple Twist of Fate

@@ -14,6 +14,7 @@ stats:
     id: 2794
     name: '1969-06-11'
     show_path: ../../shows/1969/06/1969-06-11.md
+attribution: 'George Jones'
 ---
 
 # The Race Is On

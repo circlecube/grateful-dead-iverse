@@ -14,6 +14,7 @@ stats:
     id: 7670
     name: '1990-02-25'
     show_path: ../../shows/1990/02/1990-02-25.md
+attribution: 'The Rolling Stones'
 ---
 
 # The Last Time

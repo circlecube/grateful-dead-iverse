@@ -14,6 +14,7 @@ stats:
     id: 6409
     name: '1984-11-02'
     show_path: ../../shows/1984/11/1984-11-02.md
+attribution: 'The Spencer Davis Group'
 ---
 
 # Gimme Some Lovin

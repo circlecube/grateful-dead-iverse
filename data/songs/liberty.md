@@ -14,6 +14,7 @@ stats:
     id: 8284
     name: '1993-02-21'
     show_path: ../../shows/1993/02/1993-02-21.md
+attribution: 'Robert Hunter'
 ---
 
 # Liberty

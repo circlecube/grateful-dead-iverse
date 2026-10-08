@@ -14,6 +14,7 @@ stats:
     id: 687
     name: '1966-03-12'
     show_path: ../../shows/1966/03/1966-03-12.md
+attribution: 'Junior Parker'
 ---
 
 # Next Time You See Me

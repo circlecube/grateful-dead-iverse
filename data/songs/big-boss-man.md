@@ -14,6 +14,7 @@ stats:
     id: 969
     name: '1966-07-03'
     show_path: ../../shows/1966/07/1966-07-03.md
+attribution: 'Jimmy Reed'
 ---
 
 # Big Boss Man

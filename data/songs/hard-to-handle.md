@@ -14,6 +14,7 @@ stats:
     id: 2626
     name: '1969-03-15'
     show_path: ../../shows/1969/03/1969-03-15.md
+attribution: 'Otis Redding'
 ---
 
 # Hard To Handle

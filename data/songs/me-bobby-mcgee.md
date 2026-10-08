@@ -14,6 +14,7 @@ stats:
     id: 3501
     name: '1970-11-23'
     show_path: ../../shows/1970/11/1970-11-23.md
+attribution: 'Janis Joplin'
 also_known_as:
   - 'Me and Bobby McGee'
 ---

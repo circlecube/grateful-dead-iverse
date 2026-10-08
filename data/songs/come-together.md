@@ -9,6 +9,7 @@ band:
   - the-grateful-dead
 stats:
   play_count: 0
+attribution: 'The Beatles'
 ---
 
 # Come Together
