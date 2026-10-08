@@ -1,6 +1,6 @@
 # Grateful Dead-iverse
 
-A **markdown corpus** of Grateful Dead shows and songs, aligned with the catalog at [deadiverse.com](https://deadiverse.com).
+A **markdown corpus** of Grateful Dead shows and songs, aligned with the catalog at [deadiverse.com](https://deadiverse.com). Browse it on the web at **[grateful.deadiverse.com](https://grateful.deadiverse.com)**.
 
 ## Why this exists
 
@@ -24,9 +24,8 @@ Audio, images, and other media are not stored here—only text and metadata.
 
 The **`site/`** app builds a simplified, deadiverse-styled static viewer: show and song pages, indexes (shows by year, song A–Z), setlists that link to songs, and song pages that list performances with play counts and first-played callouts. It is **not** a copy of deadiverse.com—no jukebox, accounts, or crowd features.
 
-- **Plan:** [docs/plans/2026-10-07-static-site.md](docs/plans/2026-10-07-static-site.md)
-- **Local preview:** `cd site && npm install && npm run dev` — see [site/README.md](site/README.md)
-- **Production:** Cloudflare Pages, rebuilt when changes merge to `main`
+- **Live site:** [grateful.deadiverse.com](https://grateful.deadiverse.com) — Cloudflare Pages, rebuilds on pushes to `main`
+- **Local preview:** `cd site && npm install && npm run dev` (or `npm run site:dev` from the repo root; Node ≥ 20). The dev server reads `../data`.
 
 ## Contributing
 

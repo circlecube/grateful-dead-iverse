@@ -1,4 +1,4 @@
-/** Site origin for canonical URLs and Open Graph (set `SITE_URL` in Cloudflare Pages). */
+/** Site origin for canonical URLs and Open Graph (`SITE_URL` in Cloudflare Pages → https://grateful.deadiverse.com). */
 export const SITE_NAME = 'Grateful Dead-iverse';
 
 export const DEFAULT_DESCRIPTION =
@@ -12,6 +12,23 @@ export function absoluteUrl(path: string, site: URL | string): string {
 	const base = typeof site === 'string' ? site : site.origin;
 	const normalized = path.startsWith('/') ? path : `/${path}`;
 	return new URL(normalized, base).href;
+}
+
+/** Prefer corpus `permalink` (deadiverse.com) for canonical when valid; otherwise this page URL. */
+export function resolveCanonicalUrl(permalink: string | undefined, pageUrl: URL): string {
+	const trimmed = permalink?.trim();
+	if (!trimmed) {
+		return pageUrl.href;
+	}
+	try {
+		const url = new URL(trimmed);
+		if (url.protocol === 'https:' || url.protocol === 'http:') {
+			return url.href;
+		}
+	} catch {
+		// invalid permalink — keep static site URL
+	}
+	return pageUrl.href;
 }
 
 export function absoluteOgImage(site: URL | string): string {

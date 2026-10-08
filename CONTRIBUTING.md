@@ -185,14 +185,14 @@ Output ZIPs are written under `dist/` by default (gitignored). Upload via **Band
 
 ## Static site (`site/`)
 
-A read-only **Astro** app in **`site/`** renders `data/` for the web (see [site/README.md](site/README.md). **Cloudflare Pages** deploys from `main` when connected (build root: `site`, output: `dist`). Set build env **`SITE_URL`** to your production URL (e.g. `https://grateful.deadiverse.com`) so canonical links, Open Graph, and `sitemap-index.xml` use the correct origin. CI: `.github/workflows/site.yml`.
+A read-only **Astro** app in **`site/`** renders `data/` for the web. **Live:** [grateful.deadiverse.com](https://grateful.deadiverse.com). **Cloudflare Pages** deploys from `main` (build root: `site`, build command `npm ci && npm run build`, output `dist`). Set **`SITE_URL`** to `https://grateful.deadiverse.com` so canonical links, Open Graph, and `sitemap-index.xml` use the correct origin. CI: `.github/workflows/site.yml`.
 
 | Change type | Where to edit |
 | --- | --- |
 | Setlists, lyrics, links, metadata | `data/` (this contributing guide) |
 | Layout, styling, routes, build logic | `site/` |
 
-**Preview a PR locally** (once `site/` exists):
+**Preview a PR locally:**
 
 ```bash
 cd site

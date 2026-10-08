@@ -4,7 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Card from '../../../components/Card.astro';
 import ShowsCatalogTable from '../../../components/ShowsCatalogTable.astro';
 import { getCorpus } from '../../../lib/corpus';
-import { descriptionForAllShows } from '../../../lib/seo';
+import { descriptionForAllShows } from '../../../lib/meta';
 
 const { shows } = getCorpus();
 const sortedShows = [...shows].sort((a, b) => b.date.localeCompare(a.date) || a.name.localeCompare(b.name));

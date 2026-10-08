@@ -8,6 +8,7 @@ import {
 	OG_IMAGE_WIDTH,
 	SITE_NAME,
 	absoluteOgImage,
+	resolveCanonicalUrl,
 	truncateMetaDescription,
 } from '../lib/site-meta';
 import '../styles/global.css';
@@ -16,6 +17,8 @@ interface Props {
 	title: string;
 	description?: string;
 	ogType?: 'website' | 'article';
+	/** deadiverse.com permalink for show/song pages (canonical + og:url). */
+	permalink?: string;
 	/** When true, adds noindex (e.g. dev fixtures). */
 	noindex?: boolean;
 }
@@ -24,11 +27,13 @@ const {
 	title,
 	description = DEFAULT_DESCRIPTION,
 	ogType = 'website',
+	permalink,
 	noindex = false,
 } = Astro.props;
 
 const site = Astro.site ?? new URL('http://localhost:4321');
-const canonicalURL = new URL(Astro.url.pathname, site);
+const pageURL = new URL(Astro.url.pathname, site);
+const canonicalURL = resolveCanonicalUrl(permalink, pageURL);
 const pageDescription = truncateMetaDescription(description);
 const ogImage = absoluteOgImage(site);
 ---

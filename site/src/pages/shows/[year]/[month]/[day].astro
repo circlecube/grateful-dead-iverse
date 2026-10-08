@@ -2,7 +2,7 @@
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import ShowPageContent from '../../../../components/ShowPageContent.astro';
 import { getCorpus } from '../../../../lib/corpus';
-import { descriptionForShow } from '../../../../lib/seo';
+import { descriptionForShow } from '../../../../lib/meta';
 
 export function getStaticPaths() {
 	const { shows, duplicateShowById } = getCorpus();
@@ -27,6 +27,7 @@ const { show, duplicateNotice } = Astro.props;
 	title={`${show.date}${show.venueName ? ` — ${show.venueName}` : ''} — Grateful Dead-iverse`}
 	description={descriptionForShow(show)}
 	ogType="article"
+	permalink={show.permalink}
 >
 	<ShowPageContent
 		show={show}

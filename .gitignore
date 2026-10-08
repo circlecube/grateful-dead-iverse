@@ -4,3 +4,4 @@ dist/
 # Astro static site (`site/`)
 site/dist/
 site/.astro/
+docs/plans

@@ -2,7 +2,7 @@
 
 ## What this repository is
 
-**Grateful Dead-iverse** is a public **markdown corpus**: thousands of `.md` files describing Grateful Dead **shows** and **songs**, kept in git for review, diffs, and community corrections. The live catalog is [deadiverse.com](https://deadiverse.com). Each file’s front matter `id` and `permalink` tie it to a post on that site.
+**Grateful Dead-iverse** is a public **markdown corpus**: thousands of `.md` files describing Grateful Dead **shows** and **songs**, kept in git for review, diffs, and community corrections. The member-facing catalog is [deadiverse.com](https://deadiverse.com); the open corpus is browsable at [grateful.deadiverse.com](https://grateful.deadiverse.com). Each file’s front matter `id` and `permalink` tie it to a post on deadiverse.com.
 
 The canonical artifact is **`data/`** (text + YAML). A read-only static viewer lives in **`site/`** (Astro); it is not deadiverse.com and does not include jukebox, auth, or crowd features. Export/import automation lives in the **private Bandiverse** plugin (`docs/markdown-corpus.md` on the operator side); do not assume that doc path exists in this clone.
 
@@ -18,11 +18,11 @@ Human-oriented overview: **[README.md](README.md)**. Contribution rules and file
 | `reports/duplicate-show-candidates.json` | Same band + date groups—starting point for duplicate-show work |
 | `reports/duplicate-song-candidates.json` | Similar titles / duplicate slugs—starting point for duplicate-song work |
 | `scripts/` | Node helpers (`bump-modified-gmt.mjs`, `zip-changed.mjs`) |
-| `site/` | Astro static site: build-time loader, performance index, deploy to Cloudflare |
+| `site/` | Astro static site ([grateful.deadiverse.com](https://grateful.deadiverse.com)): build-time loader, performance index, Cloudflare Pages |
 | `docs/plans/` | Feature plans (e.g. static site) |
 | `.githooks/pre-commit` | Optional hook to bump `modified_gmt` on staged corpus files |
 
-Show bodies often link to songs with relative paths like `../../../../songs/{slug}.md`.
+Show bodies often link to songs with relative paths like `../../../songs/{slug}.md` (from `data/shows/YYYY/MM/`).
 
 ## File shape (summary)
 
@@ -77,13 +77,14 @@ When working on the viewer:
 - At build time, compute **song → shows** from all `song-post` entries; merge with song `stats.play_count` / `stats.first_played` when exported.
 - URL shape: `/shows/{year}/{month}/{name}/`, `/songs/{slug}/`.
 - Style using **dv-child** tokens (cream/teal/orange palette)—reference monorepo `dv-child/theme.json`, not full Bandiverse plugin CSS.
-- Do not commit `site/dist/`; Cloudflare builds from `main`.
+- Do not commit `site/dist/`; production deploys from `main` via Cloudflare Pages (`SITE_URL=https://grateful.deadiverse.com`).
 
-Local dev: `cd site && npm install && npm run dev`, or from repo root `npm run site:dev` (see `site/README.md`).
+Local dev: `cd site && npm install && npm run dev`, or from repo root `npm run site:dev` (see README § Static site and CONTRIBUTING § Static site).
 
 ## Related systems (out of repo)
 
-- **deadiverse.com** — published site (source of truth for what visitors see).
+- **deadiverse.com** — full catalog (accounts, media, crowd features).
+- **grateful.deadiverse.com** — static read-only view of this repo’s `data/` (see `site/`).
 - **Bandiverse plugin** (private) — markdown export/import, merge UI, bulk ZIP import; matches files by `id` and compares `modified_gmt` to post modified time.
 
 When unsure about importer behavior or merge semantics, describe the intended data fix in the PR and avoid adding merge keys unless the task is explicitly duplicate resolution.

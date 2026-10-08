@@ -3,7 +3,7 @@ import { Tickets } from '@lucide/astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Card from '../../components/Card.astro';
 import { getCorpus } from '../../lib/corpus';
-import { descriptionForShowsIndex } from '../../lib/seo';
+import { descriptionForShowsIndex } from '../../lib/meta';
 
 const { years, shows } = getCorpus();
 const countByYear = new Map<string, number>();
