@@ -2,13 +2,21 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+/** Production site URL for canonical links, OG, and sitemap (set in Cloudflare Pages). */
+const siteUrl = process.env.SITE_URL ?? 'https://grateful.deadiverse.com';
+
 // https://astro.build/config
 export default defineConfig({
+	site: siteUrl,
 	integrations: [
+		sitemap({
+			filter: (page) => !page.includes('/dev/'),
+		}),
 		{
 			name: 'omit-dev-pages-from-production',
 			hooks: {

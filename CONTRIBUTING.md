@@ -185,7 +185,7 @@ Output ZIPs are written under `dist/` by default (gitignored). Upload via **Band
 
 ## Static site (`site/`)
 
-A read-only **Astro** app in **`site/`** renders `data/` for the web (see [site/README.md](site/README.md) and [docs/plans/2026-10-07-static-site.md](docs/plans/2026-10-07-static-site.md)). **Cloudflare Pages** deploys from `main` when connected (build root: `site`, output: `dist`). CI: `.github/workflows/site.yml`.
+A read-only **Astro** app in **`site/`** renders `data/` for the web (see [site/README.md](site/README.md). **Cloudflare Pages** deploys from `main` when connected (build root: `site`, output: `dist`). Set build env **`SITE_URL`** to your production URL (e.g. `https://grateful.deadiverse.com`) so canonical links, Open Graph, and `sitemap-index.xml` use the correct origin. CI: `.github/workflows/site.yml`.
 
 | Change type | Where to edit |
 | --- | --- |

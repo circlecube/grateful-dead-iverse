@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Card from '../../../components/Card.astro';
 import ShowsCatalogTable from '../../../components/ShowsCatalogTable.astro';
 import { getCorpus } from '../../../lib/corpus';
+import { descriptionForShowsYear } from '../../../lib/seo';
 
 export function getStaticPaths() {
 	const { years, shows } = getCorpus();
@@ -25,7 +26,10 @@ const { year, shows } = Astro.props;
 const sortedShows = [...shows].sort((a, b) => a.date.localeCompare(b.date) || a.name.localeCompare(b.name));
 ---
 
-<BaseLayout title={`${year} shows — Grateful Dead-iverse`}>
+<BaseLayout
+	title={`${year} shows — Grateful Dead-iverse`}
+	description={descriptionForShowsYear(year, shows.length)}
+>
 	<p class="meta">
 		<a href="/shows/">← All years</a>
 		{' · '}

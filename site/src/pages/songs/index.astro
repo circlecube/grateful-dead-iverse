@@ -4,13 +4,14 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Card from '../../components/Card.astro';
 import SongsCatalogTable from '../../components/SongsCatalogTable.astro';
 import { getCorpus } from '../../lib/corpus';
+import { descriptionForSongIndex } from '../../lib/seo';
 import { playCountForSong } from '../../lib/song-play-count';
 
 const { songs, performanceBySlug } = getCorpus();
 const playCount = (slug: string, exported?: number) => playCountForSong(slug, performanceBySlug, exported);
 ---
 
-<BaseLayout title="Songs — Grateful Dead-iverse">
+<BaseLayout title="Songs — Grateful Dead-iverse" description={descriptionForSongIndex(songs.length)}>
 	<h1>
 		<Music size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
 		Songs

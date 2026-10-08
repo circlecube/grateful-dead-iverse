@@ -3,6 +3,7 @@ import { Tickets } from '@lucide/astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Card from '../../components/Card.astro';
 import { getCorpus } from '../../lib/corpus';
+import { descriptionForShowsIndex } from '../../lib/seo';
 
 const { years, shows } = getCorpus();
 const countByYear = new Map<string, number>();
@@ -12,7 +13,10 @@ for (const s of shows) {
 const yearsDesc = [...years].reverse();
 ---
 
-<BaseLayout title="Shows by year — Grateful Dead-iverse">
+<BaseLayout
+	title="Shows by year — Grateful Dead-iverse"
+	description={descriptionForShowsIndex(years.length, shows.length)}
+>
 	<h1>
 		<Tickets size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
 		Shows

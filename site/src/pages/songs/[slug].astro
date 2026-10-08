@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SongPageContent from '../../components/SongPageContent.astro';
 import { getCorpus, resolveSongStats } from '../../lib/corpus';
+import { descriptionForSong } from '../../lib/seo';
 
 export function getStaticPaths() {
 	const { songs, performanceBySlug, showsByKey, duplicateSongBySlug } = getCorpus();
@@ -24,6 +25,9 @@ interface Props {
 const { song, stats, duplicateNotice } = Astro.props;
 ---
 
-<BaseLayout title={`${song.title} — Grateful Dead-iverse`}>
+<BaseLayout
+	title={`${song.title} — Grateful Dead-iverse`}
+	description={descriptionForSong(song, stats.playCount)}
+>
 	<SongPageContent song={song} stats={stats} duplicateNotice={duplicateNotice} />
 </BaseLayout>

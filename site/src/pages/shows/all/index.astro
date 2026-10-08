@@ -4,12 +4,13 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Card from '../../../components/Card.astro';
 import ShowsCatalogTable from '../../../components/ShowsCatalogTable.astro';
 import { getCorpus } from '../../../lib/corpus';
+import { descriptionForAllShows } from '../../../lib/seo';
 
 const { shows } = getCorpus();
 const sortedShows = [...shows].sort((a, b) => b.date.localeCompare(a.date) || a.name.localeCompare(b.name));
 ---
 
-<BaseLayout title="All shows — Grateful Dead-iverse">
+<BaseLayout title="All shows — Grateful Dead-iverse" description={descriptionForAllShows(shows.length)}>
 	<p class="meta"><a href="/shows/">← Shows by year</a></p>
 	<h1>
 		<Tickets size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
