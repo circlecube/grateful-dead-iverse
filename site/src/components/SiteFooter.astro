@@ -11,7 +11,6 @@ const { corpusModifiedGmt } = Astro.props;
 ---
 
 <footer class="site-footer">
-	<SiteFreshness corpusModifiedGmt={corpusModifiedGmt} />
 	<nav class="site-footer__icons" aria-label="Deadiverse and GitHub">
 		<a href={DEADIVERSE_URL} class="site-footer__icon-link" title="deadiverse.com">
 			<img src="/deadiverse-icon-face.svg" alt="Deadiverse" width="28" height="28" />
@@ -21,6 +20,7 @@ const { corpusModifiedGmt } = Astro.props;
 			<span class="visually-hidden">GitHub repository</span>
 		</a>
 	</nav>
+	<SiteFreshness corpusModifiedGmt={corpusModifiedGmt} />
 </footer>
 
 <style>

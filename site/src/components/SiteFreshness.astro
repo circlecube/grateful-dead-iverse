@@ -20,69 +20,46 @@ const exportGenerated = exportMeta
 const pageUpdated = corpusModifiedGmt
 	? formatFreshnessTimestamp(corpusModifiedGmt)
 	: null;
+
+const parts: string[] = [];
+if (siteBuilt) {
+	parts.push(`Site built ${siteBuilt}`);
+}
+if (exportGenerated) {
+	let exportPart = `Corpus export ${exportGenerated}`;
+	if (exportMeta?.showCount != null && exportMeta?.songCount != null) {
+		exportPart += ` (${exportMeta.showCount.toLocaleString()} shows, ${exportMeta.songCount.toLocaleString()} songs)`;
+	}
+	if (exportMeta?.contentHash) {
+		const short = exportMeta.contentHash.replace(/^sha256:/, '').slice(0, 12);
+		exportPart += ` · hash ${short}…`;
+	}
+	parts.push(exportPart);
+}
 ---
 
 <div class="site-freshness">
-	<p class="site-freshness__line">
-		{siteBuilt && (
-			<span>
-				<strong>Site built</strong> {siteBuilt}
-			</span>
-		)}
-		{exportGenerated && (
-			<span>
-				<strong>Corpus export</strong> {exportGenerated}
-				{exportMeta?.showCount != null && exportMeta?.songCount != null && (
-					<span class="site-freshness__counts">
-						({exportMeta.showCount.toLocaleString()} shows,{' '}
-						{exportMeta.songCount.toLocaleString()} songs)
-					</span>
-				)}
-			</span>
-		)}
-		{exportMeta?.contentHash && (
-			<span class="site-freshness__hash" title={exportMeta.contentHash}>
-				<strong>Export hash</strong>{' '}
-				<code>{exportMeta.contentHash.replace(/^sha256:/, '').slice(0, 12)}…</code>
-			</span>
-		)}
-	</p>
+	{parts.length > 0 && <p class="site-freshness__line">{parts.join(' · ')}</p>}
 	{pageUpdated && (
-		<p class="site-freshness__line site-freshness__line--page">
-			<strong>This page</strong> last updated {pageUpdated}
-		</p>
+		<p class="site-freshness__line">This page updated {pageUpdated}</p>
 	)}
 </div>
 
 <style>
 	.site-freshness {
 		max-width: var(--dv-wide-max);
-		margin: 1rem auto 0;
-		padding: 0 0.25rem;
-		font-size: 0.8125rem;
-		line-height: 1.45;
-		color: color-mix(in srgb, var(--dv-chrome-text) 82%, transparent);
+		margin: 1.25rem auto 0;
+		padding: 0 0.5rem;
+		font-size: 0.75rem;
+		line-height: 1.5;
+		color: color-mix(in srgb, var(--dv-chrome-text) 58%, transparent);
 		text-align: center;
+		font-weight: 400;
 	}
 	.site-freshness__line {
 		margin: 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.35rem 1.25rem;
 	}
-	.site-freshness__line--page {
-		margin-top: 0.35rem;
-	}
-	.site-freshness__line strong {
-		font-weight: 600;
-		color: var(--dv-chrome-text);
-	}
-	.site-freshness__counts {
-		opacity: 0.9;
-	}
-	.site-freshness__hash code {
-		font-size: 0.75rem;
-		font-family: ui-monospace, monospace;
+	.site-freshness__line + .site-freshness__line {
+		margin-top: 0.2rem;
 	}
 </style>

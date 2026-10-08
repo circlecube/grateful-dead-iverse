@@ -468,20 +468,8 @@ h3 {
 	margin: 0 0 0.55rem;
 }
 
-.promo-card__cta-line {
+.promo-card__actions {
 	margin: 0.75rem 0 0;
-}
-
-.promo-card__cta {
-	align-items: center;
-	display: inline-flex;
-	font-weight: 600;
-	gap: 0.35rem;
-}
-
-.promo-card__cta-meta {
-	display: block;
-	margin-top: 0.4rem;
 }
 
 .song-band {
