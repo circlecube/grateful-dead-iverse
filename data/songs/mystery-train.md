@@ -14,6 +14,7 @@ stats:
     id: 10744
     name: '1975-09-18'
     show_path: ../../shows/1975/09/1975-09-18.md
+attribution: 'Little Junior’s Blue Flames'
 ---
 
 # Mystery Train

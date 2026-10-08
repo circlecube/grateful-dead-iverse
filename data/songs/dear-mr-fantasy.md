@@ -14,6 +14,7 @@ stats:
     id: 6295
     name: '1984-06-14'
     show_path: ../../shows/1984/06/1984-06-14.md
+attribution: 'Traffic -'
 ---
 
 # Dear Mr. Fantasy

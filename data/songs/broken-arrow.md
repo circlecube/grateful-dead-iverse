@@ -14,6 +14,7 @@ stats:
     id: 8296
     name: '1993-02-23'
     show_path: ../../shows/1993/02/1993-02-23.md
+attribution: 'Robbie Robertson'
 ---
 
 # Broken Arrow

@@ -14,6 +14,7 @@ stats:
     id: 3446
     name: '1970-10-24'
     show_path: ../../shows/1970/10/1970-10-24.md
+attribution: 'Martha Reeves and the Vandellas'
 ---
 
 # Dancing in the Street

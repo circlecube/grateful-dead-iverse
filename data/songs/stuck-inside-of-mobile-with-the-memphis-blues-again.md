@@ -14,6 +14,7 @@ stats:
     id: 7000
     name: '1987-05-01'
     show_path: ../../shows/1987/05/1987-05-01.md
+attribution: 'Bob Dylan'
 ---
 
 # Stuck Inside of Mobile With the Memphis Blues Again

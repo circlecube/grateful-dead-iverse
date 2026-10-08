@@ -14,6 +14,7 @@ stats:
     id: 6103
     name: '1983-08-26'
     show_path: ../../shows/1983/08/1983-08-26.md
+attribution: 'Willie Dixon'
 ---
 
 # Wang Dang Doodle

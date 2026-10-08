@@ -14,6 +14,7 @@ stats:
     id: 3407
     name: '1970-09-20'
     show_path: ../../shows/1970/09/1970-09-20.md
+attribution: 'Cannon’s Jug Stompers'
 ---
 
 # Big Railroad Blues

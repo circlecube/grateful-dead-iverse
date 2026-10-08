@@ -14,6 +14,7 @@ stats:
     id: 5157
     name: '1979-12-01'
     show_path: ../../shows/1979/12/1979-12-01.md
+attribution: '‘Ma’ Rainey & Her Georgia Jazz Band'
 ---
 
 # See See Rider Blues

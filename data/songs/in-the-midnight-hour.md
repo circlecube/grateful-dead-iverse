@@ -14,6 +14,7 @@ stats:
     id: 3540
     name: '1970-12-27'
     show_path: ../../shows/1970/12/1970-12-27.md
+attribution: 'Wilson Pickett'
 ---
 
 # In the Midnight Hour

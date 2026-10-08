@@ -14,6 +14,7 @@ stats:
     id: 11297
     name: 1988-04-30a
     show_path: ../../shows/1988/04/1988-04-30a.md
+attribution: 'Sam Cooke'
 ---
 
 # Good Times

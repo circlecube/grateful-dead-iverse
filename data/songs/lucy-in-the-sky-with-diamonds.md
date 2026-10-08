@@ -14,6 +14,7 @@ stats:
     id: 8311
     name: '1993-03-17'
     show_path: ../../shows/1993/03/1993-03-17.md
+attribution: 'The Beatles'
 ---
 
 # Lucy in the Sky With Diamonds

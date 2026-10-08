@@ -14,6 +14,7 @@ stats:
     id: 5776
     name: '1981-10-15'
     show_path: ../../shows/1981/10/1981-10-15.md
+attribution: 'Willie Dixon'
 ---
 
 # Spoonful

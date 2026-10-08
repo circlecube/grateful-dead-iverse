@@ -14,6 +14,7 @@ stats:
     id: 7299
     name: '1988-06-23'
     show_path: ../../shows/1988/06/1988-06-23.md
+attribution: 'The Beatles'
 ---
 
 # Blackbird

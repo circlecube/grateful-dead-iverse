@@ -14,6 +14,7 @@ stats:
     id: 10244
     name: '1986-10-04'
     show_path: ../../shows/1986/10/1986-10-04.md
+attribution: 'Bob Dylan'
 ---
 
 # Forever Young

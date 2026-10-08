@@ -14,6 +14,7 @@ stats:
     id: 1204
     name: '1966-11-18'
     show_path: ../../shows/1966/11/1966-11-18.md
+attribution: 'Willie Dixon'
 ---
 
 # The Same Thing

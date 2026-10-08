@@ -14,6 +14,7 @@ stats:
     id: 7118
     name: '1987-08-22'
     show_path: ../../shows/1987/08/1987-08-22.md
+attribution: 'Sonny Boy Williamson'
 ---
 
 # Good Morning, School Girl

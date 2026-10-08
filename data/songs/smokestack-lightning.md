@@ -14,6 +14,7 @@ stats:
     id: 1209
     name: '1966-11-19'
     show_path: ../../shows/1966/11/1966-11-19.md
+attribution: 'Howlin’ Wolf'
 ---
 
 # Smokestack Lightning

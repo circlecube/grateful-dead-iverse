@@ -14,6 +14,7 @@ stats:
     id: 11492
     name: 1980-11-26a
     show_path: ../../shows/1980/11/1980-11-26a.md
+attribution: 'The Rolling Stones'
 ---
 
 # (I Can't Get No) Satisfaction

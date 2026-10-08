@@ -14,6 +14,7 @@ stats:
     id: 593
     name: '1966-01-07'
     show_path: ../../shows/1966/01/1966-01-07.md
+attribution: 'Bob Dylan'
 ---
 
 # It's All Over Now Baby Blue

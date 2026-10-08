@@ -14,6 +14,7 @@ stats:
     id: 4651
     name: '1977-05-15'
     show_path: ../../shows/1977/05/1977-05-15.md
+attribution: 'Sugar Boy and His Cane Cutters'
 embeds:
   -
     embed_type: youtube

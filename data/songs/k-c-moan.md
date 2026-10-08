@@ -14,6 +14,7 @@ stats:
     id: 4949
     name: '1978-11-17'
     show_path: ../../shows/1978/11/1978-11-17.md
+attribution: 'Memphis Jug Band'
 ---
 
 # K.C. Moan

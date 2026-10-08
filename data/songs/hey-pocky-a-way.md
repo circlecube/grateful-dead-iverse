@@ -14,6 +14,7 @@ stats:
     id: 7144
     name: '1987-09-09'
     show_path: ../../shows/1987/09/1987-09-09.md
+attribution: 'The Meters'
 ---
 
 # Hey Pocky A-Way

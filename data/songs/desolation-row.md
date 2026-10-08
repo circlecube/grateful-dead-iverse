@@ -14,6 +14,7 @@ stats:
     id: 6719
     name: '1986-03-25'
     show_path: ../../shows/1986/03/1986-03-25.md
+attribution: 'Bob Dylan'
 ---
 
 # Desolation Row

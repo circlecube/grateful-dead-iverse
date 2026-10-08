@@ -14,6 +14,7 @@ stats:
     id: 10709
     name: '1976-01-26'
     show_path: ../../shows/1976/01/1976-01-26.md
+attribution: 'Smokey Robinson & The Miracles'
 ---
 
 # I Second That Emotion

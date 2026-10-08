@@ -14,6 +14,7 @@ stats:
     id: 2897
     name: '1969-09-06'
     show_path: ../../shows/1969/09/1969-09-06.md
+attribution: 'The Valentinos'
 ---
 
 # It's All Over Now

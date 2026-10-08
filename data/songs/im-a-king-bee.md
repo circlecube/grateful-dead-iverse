@@ -14,6 +14,7 @@ stats:
     id: 594
     name: '1966-01-08'
     show_path: ../../shows/1966/01/1966-01-08.md
+attribution: 'Slim Harpo'
 ---
 
 # I'm A King Bee

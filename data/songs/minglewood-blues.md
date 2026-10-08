@@ -14,6 +14,7 @@ stats:
     id: 813
     name: '1966-05-19'
     show_path: ../../shows/1966/05/1966-05-19.md
+attribution: 'Cannon’s Jug Stompers'
 ---
 
 # Minglewood Blues

@@ -14,6 +14,7 @@ stats:
     id: 6444
     name: '1985-03-27'
     show_path: ../../shows/1985/03/1985-03-27.md
+attribution: 'Bob Dylan'
 ---
 
 # Just Like Tom Thumb's Blues

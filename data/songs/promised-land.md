@@ -14,6 +14,7 @@ stats:
     id: 3684
     name: '1971-05-28'
     show_path: ../../shows/1971/05/1971-05-28.md
+attribution: 'Chuck Berry'
 ---
 
 # Promised Land

@@ -14,6 +14,7 @@ stats:
     id: 3125
     name: '1970-02-14'
     show_path: ../../shows/1970/02/1970-02-14.md
+attribution: 'Bill Browning and His Echo Valley Boys'
 ---
 
 # Dark Hollow

@@ -14,6 +14,7 @@ stats:
     id: 2563
     name: '1969-02-11'
     show_path: ../../shows/1969/02/1969-02-11.md
+attribution: 'The Beatles'
 ---
 
 # Hey Jude

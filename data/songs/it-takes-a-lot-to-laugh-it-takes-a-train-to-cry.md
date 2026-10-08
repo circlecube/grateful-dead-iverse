@@ -14,6 +14,7 @@ stats:
     id: 10627
     name: '1976-11-20'
     show_path: ../../shows/1976/11/1976-11-20.md
+attribution: 'Bob Dylan'
 ---
 
 # It Takes a Lot to Laugh, It Takes a Train to Cry

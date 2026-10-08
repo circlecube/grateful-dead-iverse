@@ -14,6 +14,7 @@ stats:
     id: 2014
     name: '1968-03-16'
     show_path: ../../shows/1968/03/1968-03-16.md
+attribution: Traditional
 ---
 
 # And We Bid You Goodnight

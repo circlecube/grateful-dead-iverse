@@ -14,6 +14,7 @@ stats:
     id: 3427
     name: '1970-10-10'
     show_path: ../../shows/1970/10/1970-10-10.md
+attribution: Traditional
 embeds:
   -
     embed_type: youtube

@@ -14,6 +14,7 @@ stats:
     id: 3616
     name: '1971-04-05'
     show_path: ../../shows/1971/04/1971-04-05.md
+attribution: 'Merle Haggard'
 ---
 
 # Sing Me Back Home

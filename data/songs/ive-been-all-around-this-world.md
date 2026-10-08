@@ -14,6 +14,7 @@ stats:
     id: 3016
     name: '1969-12-19'
     show_path: ../../shows/1969/12/1969-12-19.md
+attribution: '[traditional]'
 ---
 
 # I've Been All Around This World

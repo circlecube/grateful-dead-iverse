@@ -14,6 +14,7 @@ stats:
     id: 3551
     name: '1971-01-22'
     show_path: ../../shows/1971/01/1971-01-22.md
+attribution: 'Chuck Berry'
 ---
 
 # Johnny B. Goode
