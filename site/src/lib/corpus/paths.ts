@@ -46,3 +46,11 @@ export function songUrl(slug: string): string {
 export function showKey(year: string, month: string, day: string): string {
 	return `${year}/${month}/${day}`;
 }
+
+/** Short label for prev/next show links (disambiguates same-day shows). */
+export function showNavLabel(show: { date: string; name: string }): string {
+	if (show.name && show.name !== show.date) {
+		return show.name;
+	}
+	return show.date;
+}

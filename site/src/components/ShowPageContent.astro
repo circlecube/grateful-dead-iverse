@@ -6,33 +6,55 @@ import DuplicateCandidateNotice from './DuplicateCandidateNotice.astro';
 import ExternalLinks from './ExternalLinks.astro';
 import SitePromoCards from './SitePromoCards.astro';
 import { CONTRIBUTING_URL, DEADIVERSE_URL } from '../lib/site-links';
+import MetaNav from './MetaNav.astro';
 import Setlist from './Setlist.astro';
-import { countPlayedSongs, hasSetlistDisplay } from '../lib/corpus';
+import { countPlayedSongs, hasSetlistDisplay, showNavLabel, showUrl } from '../lib/corpus';
 import type { EntityDuplicateNotice, ShowRecord } from '../lib/corpus';
+import type { MetaNavCrumb } from './MetaNav.astro';
 import { formatBandSlug } from '../lib/format-band';
 import { formatVenueLocation } from '../lib/venue-location';
 
 interface Props {
 	show: ShowRecord;
 	duplicateNotice?: EntityDuplicateNotice | null;
-	backHref?: string;
-	backLabel?: string;
+	/** Override default All Shows → year crumbs (dev fixtures). */
+	crumbs?: MetaNavCrumb[];
+	prevShow?: ShowRecord | null;
+	nextShow?: ShowRecord | null;
 }
 
-const { show, duplicateNotice = null, backHref, backLabel } = Astro.props;
+const { show, duplicateNotice = null, crumbs, prevShow = null, nextShow = null } = Astro.props;
+const navCrumbs: MetaNavCrumb[] =
+	crumbs ??
+	[
+		{ href: '/shows/', label: 'All Shows' },
+		{ href: `/shows/${show.year}/`, label: show.year },
+	];
 const played = countPlayedSongs(show.setlist);
 const setlistHasData = hasSetlistDisplay(show.setlist);
 const location = formatVenueLocation(show.venue);
 const bandLabel = show.band ? formatBandSlug(show.band) : '';
 ---
 
-{
-	backHref && (
-		<p class="meta">
-			<a href={backHref}>{backLabel ?? '← Back'}</a>
-		</p>
-	)
-}
+<MetaNav crumbs={navCrumbs} aria-label="Show navigation">
+	{
+		(prevShow || nextShow) && (
+			<span slot="trailing" class="meta-nav__chronological">
+				{prevShow ? (
+					<a href={showUrl(prevShow)} title={prevShow.venueName || undefined}>
+						← {showNavLabel(prevShow)}
+					</a>
+				) : null}
+				{prevShow && nextShow && <span class="meta-nav__sep" aria-hidden="true">·</span>}
+				{nextShow ? (
+					<a href={showUrl(nextShow)} title={nextShow.venueName || undefined}>
+						{showNavLabel(nextShow)} →
+					</a>
+				) : null}
+			</span>
+		)
+	}
+</MetaNav>
 <h1>{show.date}</h1>
 {duplicateNotice && <DuplicateCandidateNotice kind="show" notice={duplicateNotice} />}
 

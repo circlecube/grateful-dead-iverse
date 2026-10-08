@@ -1,0 +1,32 @@
+---
+export interface MetaNavCrumb {
+	href: string;
+	label: string;
+}
+
+interface Props {
+	crumbs: MetaNavCrumb[];
+	'aria-label': string;
+}
+
+const { crumbs, 'aria-label': ariaLabel } = Astro.props;
+const hasTrailing = Astro.slots.has('trailing');
+---
+
+{
+	(crumbs.length > 0 || hasTrailing) && (
+		<nav class="meta meta-nav" aria-label={ariaLabel}>
+			{crumbs.length > 0 && (
+				<span class="meta-nav__crumbs">
+					{crumbs.map((crumb, index) => (
+						<span class="meta-nav__crumb">
+							{index > 0 && <span class="meta-nav__sep" aria-hidden="true">·</span>}
+							<a href={crumb.href}>{crumb.label}</a>
+						</span>
+					))}
+				</span>
+			)}
+			{hasTrailing && <span class="meta-nav__trailing"><slot name="trailing" /></span>}
+		</nav>
+	)
+}

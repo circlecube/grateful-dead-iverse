@@ -6,10 +6,12 @@ import { descriptionForShow } from '../../../../lib/meta';
 
 export function getStaticPaths() {
 	const { shows, duplicateShowById } = getCorpus();
-	return shows.map((show) => ({
+	return shows.map((show, index) => ({
 		params: { year: show.year, month: show.month, day: show.day },
 		props: {
 			show,
+			prevShow: index > 0 ? shows[index - 1] : null,
+			nextShow: index < shows.length - 1 ? shows[index + 1] : null,
 			duplicateNotice: duplicateShowById.get(show.id) ?? null,
 		},
 	}));
@@ -17,10 +19,12 @@ export function getStaticPaths() {
 
 interface Props {
 	show: import('../../../../lib/corpus').ShowRecord;
+	prevShow: import('../../../../lib/corpus').ShowRecord | null;
+	nextShow: import('../../../../lib/corpus').ShowRecord | null;
 	duplicateNotice: import('../../../../lib/corpus').EntityDuplicateNotice | null;
 }
 
-const { show, duplicateNotice } = Astro.props;
+const { show, prevShow, nextShow, duplicateNotice } = Astro.props;
 ---
 
 <BaseLayout
@@ -31,8 +35,8 @@ const { show, duplicateNotice } = Astro.props;
 >
 	<ShowPageContent
 		show={show}
+		prevShow={prevShow}
+		nextShow={nextShow}
 		duplicateNotice={duplicateNotice}
-		backHref={`/shows/${show.year}/`}
-		backLabel={`← ${show.year}`}
 	/>
 </BaseLayout>

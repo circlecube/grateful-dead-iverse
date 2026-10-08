@@ -8,8 +8,10 @@ import DuplicateCandidateNotice from './DuplicateCandidateNotice.astro';
 import ExternalLinks from './ExternalLinks.astro';
 import SitePromoCards from './SitePromoCards.astro';
 import { DEADIVERSE_URL } from '../lib/site-links';
+import MetaNav from './MetaNav.astro';
 import PerformancesTable from './PerformancesTable.astro';
 import type { EntityDuplicateNotice, SongPerformanceIndex, SongRecord } from '../lib/corpus';
+import type { MetaNavCrumb } from './MetaNav.astro';
 import { showUrl } from '../lib/corpus';
 import { formatBandList } from '../lib/format-band';
 import { formatCreditType, formatMusicianSlug } from '../lib/format-contributors';
@@ -18,22 +20,17 @@ interface Props {
 	song: SongRecord;
 	stats: SongPerformanceIndex;
 	duplicateNotice?: EntityDuplicateNotice | null;
-	backHref?: string;
-	backLabel?: string;
+	/** Override default All Songs crumb (dev fixtures). */
+	crumbs?: MetaNavCrumb[];
 }
 
-const { song, stats, duplicateNotice = null, backHref, backLabel } = Astro.props;
+const { song, stats, duplicateNotice = null, crumbs } = Astro.props;
+const navCrumbs: MetaNavCrumb[] = crumbs ?? [{ href: '/songs/', label: 'All Songs' }];
 const displayPerformances = stats.performances.slice().reverse();
 const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 ---
 
-{
-	backHref && (
-		<p class="meta">
-			<a href={backHref}>{backLabel ?? '← Back'}</a>
-		</p>
-	)
-}
+<MetaNav crumbs={navCrumbs} aria-label="Song navigation" />
 <h1>{song.title}</h1>
 {duplicateNotice && <DuplicateCandidateNotice kind="song" notice={duplicateNotice} />}
 

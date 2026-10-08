@@ -216,6 +216,40 @@ h3 {
 	font-size: 0.95rem;
 }
 
+.meta-nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.5rem 1rem;
+	margin-bottom: 0.35rem;
+}
+
+.meta-nav__crumbs {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.15rem 0.35rem;
+}
+
+.meta-nav__crumb {
+	display: inline-flex;
+	align-items: baseline;
+	gap: 0.35rem;
+}
+
+.meta-nav__trailing,
+.meta-nav__chronological {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.35rem 0.65rem;
+}
+
+.meta-nav__sep {
+	user-select: none;
+}
+
 .home-intro {
 	max-width: var(--dv-content-max);
 }
