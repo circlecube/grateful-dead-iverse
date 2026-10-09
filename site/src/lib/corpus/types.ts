@@ -33,6 +33,8 @@ export interface ShowRecord {
 	notes: string;
 	permalink: string;
 	modifiedGmt: string;
+	/** Present when front matter `cancelled: true` (exported from deadiverse cancelled shows). */
+	cancelled?: boolean;
 }
 
 export interface SongStatsExport {

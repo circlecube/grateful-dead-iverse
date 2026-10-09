@@ -2,6 +2,7 @@
 import { Info, ListOrdered } from '@lucide/astro';
 import Card from './Card.astro';
 import CorpusBody from './CorpusBody.astro';
+import CancelledShowNotice from './CancelledShowNotice.astro';
 import DuplicateCandidateNotice from './DuplicateCandidateNotice.astro';
 import ExternalLinks from './ExternalLinks.astro';
 import SitePromoCards from './SitePromoCards.astro';
@@ -63,6 +64,7 @@ const searchTitle = `${show.date}${show.venueName ? ` — ${show.venueName}` : '
 	data-pagefind-meta={`year:${show.year}`}
 >
 <h1>{show.date}</h1>
+{show.cancelled && <CancelledShowNotice />}
 {duplicateNotice && <DuplicateCandidateNotice kind="show" notice={duplicateNotice} />}
 
 <Card title="Show details" icon={Info} iconTitle="Venue, location, band, and setlist size for this concert">

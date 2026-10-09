@@ -111,6 +111,7 @@ Every `.md` file begins with YAML front matter between `---` lines, followed by 
 | `setlist` | **Setlist to correct in PRs**—list of structured entries (see below) |
 | `links` | External links—see [External links](#external-links-links) |
 | `merge_into` / `merge_from` | Optional; resolving duplicate show posts—see [Resolving duplicates](#resolving-duplicate-shows-and-songs-merge_into--merge_from) |
+| `cancelled` | Optional boolean; **only exported when `true`**—show was cancelled on deadiverse.com (do not add manually unless you are correcting export) |
 | `permalink` | Public URL on deadiverse.com (reference) |
 | `modified_gmt` | Timestamp from the last published snapshot (ISO-8601 UTC); optional to update when you edit |
 
