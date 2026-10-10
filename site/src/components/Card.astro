@@ -1,4 +1,6 @@
 ---
+import { ChevronDown } from '@lucide/astro';
+
 interface Props {
 	title?: string;
 	headingLevel?: 'h2' | 'h3';
@@ -6,27 +8,69 @@ interface Props {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	icon?: any;
 	iconTitle?: string;
+	/** Render the icon as a help tooltip (`cursor: help`, `aria-label` = `iconTitle`). */
+	iconHelp?: boolean;
+	/** Render as an accordion (`<details>`) with a chevron toggle in the header. */
+	collapsible?: boolean;
+	/** Initial expanded state when `collapsible`. */
+	open?: boolean;
 }
 
-const { title, headingLevel = 'h2', icon: Icon, iconTitle = '' } = Astro.props;
+const {
+	title,
+	headingLevel = 'h2',
+	icon: Icon,
+	iconTitle = '',
+	iconHelp = false,
+	collapsible = false,
+	open = false,
+} = Astro.props;
 const Heading = headingLevel;
 const hasHeader = Boolean(title || Icon);
+const iconClass = iconHelp ? 'bv-card__header-icon bv-card__header-icon--help' : 'bv-card__header-icon';
+const iconLabel = iconHelp ? iconTitle : undefined;
 ---
 
-<section class="card bv-card">
-	{
-		hasHeader && (
-			<div class="bv-card__header">
-				{title && <Heading class="card__title bv-card__heading">{title}</Heading>}
+{
+	collapsible ? (
+		<details class="card bv-card card--collapsible" open={open}>
+			<summary class="bv-card__header card--collapsible__summary">
+				<span class="card--collapsible__lead">
+					<ChevronDown size={20} strokeWidth={2} class="bv-card__lucide card--collapsible__chevron" aria-hidden="true" />
+					{title && <Heading class="card__title bv-card__heading">{title}</Heading>}
+				</span>
 				{Icon && (
-					<span class="bv-card__header-icon" tabindex="0" title={iconTitle}>
+					<span
+						class={iconClass}
+						tabindex="0"
+						title={iconTitle}
+						aria-label={iconLabel}
+						onmousedown="event.stopPropagation()"
+						onclick="event.preventDefault(); event.stopPropagation();"
+					>
 						<Icon size={20} strokeWidth={2} class="bv-card__lucide" aria-hidden="true" />
 					</span>
 				)}
+			</summary>
+			<div class="bv-card__body">
+				<slot />
 			</div>
-		)
-	}
-	<div class="bv-card__body">
-		<slot />
-	</div>
-</section>
+		</details>
+	) : (
+		<section class="card bv-card">
+			{hasHeader && (
+				<div class="bv-card__header">
+					{title && <Heading class="card__title bv-card__heading">{title}</Heading>}
+					{Icon && (
+						<span class={iconClass} tabindex="0" title={iconTitle} aria-label={iconLabel}>
+							<Icon size={20} strokeWidth={2} class="bv-card__lucide" aria-hidden="true" />
+						</span>
+					)}
+				</div>
+			)}
+			<div class="bv-card__body">
+				<slot />
+			</div>
+		</section>
+	)
+}
