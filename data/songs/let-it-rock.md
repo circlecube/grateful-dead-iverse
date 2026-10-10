@@ -4,16 +4,28 @@ id: 217
 name: let-it-rock
 title: 'Let It Rock'
 permalink: 'https://deadiverse.com/song/let-it-rock/'
-modified_gmt: '2026-05-08T23:40:50+00:00'
+modified_gmt: '2026-10-09T22:06:12+00:00'
 band:
   - jerry-garcia
 stats:
   play_count: 0
 musicbrainz_recording_mbid: 36105099-78c2-47e9-98cc-fd31b995e681
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/let-it-rock-chords-518605'
+links:
+  dead_net: 'https://www.dead.net/song/let-it-rock'
+  jerrybase: 'https://jerrybase.com/songs/564'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/let-it-rock-chords-518605'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Let_It_Rock.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/let-it-rock'
 embeds:
   -
     embed_type: youtube
-    youtube_video: 'https://youtube.com/watch?v=OIII0kt_wfY%3Ffeature%3Doembed%22+frameborder%3D%220%22+allow%3D%22accelerometer%3B+autoplay%3B+clipboard-write%3B+encrypted-media%3B+gyroscope%3B+picture-in-picture%3B+web-share%22+referrerpolicy%3D%22strict-origin-when-cross-origin%22+allowfullscreen%3E%3C'
+    youtube_video: '<iframe title="Let It Rock" width="520" height="390" src="https://www.youtube.com/embed/OIII0kt_wfY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   -
     embed_type: youtube
     youtube_video: '<iframe title="Let It Rock (Live)" width="520" height="390" src="https://www.youtube.com/embed/ypYCdfheWlQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
@@ -23,66 +35,59 @@ embeds:
 
 ## Lyrics
 
-The weekend comes to this town
+Well up in the evening down in Mobile, Alabama
+Working on the railroad with the steel driving hammer
+Gotta make some money to buy some brand new shoes
+Trying to find somebody to take away these blues
+She don't love me hear them singing in the sun
+Payday's coming and my work is all done
 
-Seven days too soon
+Later in the evening when the sun is sinking low
+All day I been waiting for the whistle to blow
+Sitting in a tepee built right on the tracks
+Rolling them bones until the foreman comes back
+Pick up you belongings boys and scatter about
+We've got an off-schedule train comin two miles about
 
-For the ones who have to make up
+Everybody's trembling and running around
+Picking up their money, tearing the tepee down
+Foreman wants a penny (?) about to go insane
+Trying to get the workers out the way of the train
+Engineer blowing the whistle loud and long
+Can't stop the train, gotta let it roll on
 
-What we break up of thier rules
+## Chord sheet
 
-Well i saw captain kidd on sunset
+Intro:
+E----5--5--5----------------|-------------------------------|
+B----5--5--5---8p7--5-------|-------------------------------|
+G----------------------5h6--|---5h6--6p5-----5--------------|
+D---------------------------|-------------7-----7--5h7------|
+A---------------------------|-------------------------------|
+E---------------------------|-------------------------------|
 
-Tell his boys they're in command
+[A]Well, up in the evening down in Mobile, Alabama
 
-While chino danced a tango
+[A]Working on the railroad with the steel driving hammer
 
-With a broomstick in his hand
+[D]Gotta make some money to buy some brand new shoes
 
-He said; it's alright (alright) if you have a good time
+[A]Tryin' to find somebody to take away these blues
 
-It's alright (alright) if you want to cross that line
+[E]"She don't love me" hear them singing in the sun
 
-To break on through the other side
+[A]Payday's coming and my work is all done
 
-Let it rock let it go
+Later in the evening when the sun is sinking low
+All day I been waiting for the whistle to blow
+Sitting in a teepee built right on the tracks
+Rolling them bones until the foreman comes back
+Pick up you belongings boys and scatter about
+We've got an off-schedule train comin&rsquo; two miles about
 
-You can't stop a fire burning out of control
-
-Let it rock let it go
-
-With the night you're on the loose
-
-You got to let it rock
-
-We go down to the broadway
-
-Where everybody goes
-
-To get on their rockin horse
-
-And blast that radio
-
-Well i saw roxie on the table
-
-Her girlfriend down below
-
-They'll give it to the king of swing
-
-Before it's time to go
-
-They said it's aliright (alright) if you have a good time
-
-It's alright (alright) if you want to cross that line
-
-To break on through the other side
-
-Let it rock let it go
-
-You can't stop a fire burning out of control
-
-Let it rock let it go
-
-With the night you're on the loose
-
-You got to let it rock
+Everybody's scrambling, running around
+Picking up their money, tearing the teepee down
+Foreman wants to panic, &lsquo;bout to go insane
+Trying to get the workers out the way of the train
+Engineer blows the whistle loud and long
+Can't stop the train, gotta let it roll on

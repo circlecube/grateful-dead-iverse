@@ -4,7 +4,7 @@ id: 11622
 name: mystery-train
 title: 'Mystery Train'
 permalink: 'https://deadiverse.com/song/mystery-train/'
-modified_gmt: '1970-11-08T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:27+00:00'
 band:
   - jerry-garcia-band
 stats:
@@ -15,6 +15,13 @@ stats:
     name: '1975-09-18'
     show_path: ../../shows/1975/09/1975-09-18.md
 attribution: 'Little Junior’s Blue Flames'
+links:
+  dead_net: 'https://www.dead.net/song/mystery-train'
+  jerrybase: 'https://jerrybase.com/songs/274'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Mystery_Train.htm'
 ---
 
 # Mystery Train

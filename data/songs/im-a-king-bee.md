@@ -4,7 +4,7 @@ id: 11688
 name: im-a-king-bee
 title: "I'm A King Bee"
 permalink: 'https://deadiverse.com/song/im-a-king-bee/'
-modified_gmt: '1966-01-08T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:01+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,42 +15,34 @@ stats:
     name: '1966-01-08'
     show_path: ../../shows/1966/01/1966-01-08.md
 attribution: 'Slim Harpo'
+links:
+  jerrybase: 'https://jerrybase.com/songs/984'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Im_A_King_Bee.htm'
 ---
 
 # I'm A King Bee
 
 ## Lyrics
 
-I'm a king bee buzzing around your hive
+Well, I'm a king bee, buzzin' around your hive
+Well, I'm a king bee, buzzin' around your hive
+Well, I can make honey, baby, let me come inside
 
-Now I'm a king bee darling buzzing around your hive
+I'm young and able to buzz all night long
+I'm young and able to buzz all night long
+Well, when you hear me buzzin', baby
+Some stingin' is going on
 
-Yeah, I can make some honey babe if you let me fly up inside
+Well, buzz a while
+Sting it, then
 
-Cause I'm young and able to buzz all night long
+Well, I'm a king bee, want you to be my queen
+Well, I'm a king bee, want you to be my queen?
+Together, we can make honey the world haven't never seen
 
-I'm young and able mama, Lord to buzz all night long
-
-And you know together we can make some honey
-
-Like the world ain't never known
-
-Cause I'm asking king bee, won't you be my Queen
-
-Now I'm a king bee rider, won't you be my Queen
-
-Because you know we can make some sweet little honey
-
-Like the world ain't never seen
-
-Drive your car up in my driveway
-
-Cut your bright lights way down low
-
-Drive your car up in my driveway, mama
-
-Cut your bright lights way down low
-
-I'm gonna wind up your transmission
-
-Till your motor won't run no more
+Well, I'm a king bee, can buzz all night long
+Well, I'm a king bee, can buzz all night long
+Well, I can buzz better, baby, when your man is gone

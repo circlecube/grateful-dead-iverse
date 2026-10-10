@@ -4,7 +4,7 @@ id: 11649
 name: stuck-inside-of-mobile-with-the-memphis-blues-again
 title: 'Stuck Inside of Mobile With the Memphis Blues Again'
 permalink: 'https://deadiverse.com/song/stuck-inside-of-mobile-with-the-memphis-blues-again/'
-modified_gmt: '1988-03-17T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:07:02+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1987-05-01'
     show_path: ../../shows/1987/05/1987-05-01.md
 attribution: 'Bob Dylan'
+links:
+  jerrybase: 'https://jerrybase.com/songs/1252'
 ---
 
 # Stuck Inside of Mobile With the Memphis Blues Again
@@ -22,199 +24,101 @@ attribution: 'Bob Dylan'
 ## Lyrics
 
 Oh, the ragman draws circles
-
 Up and down the block
-
 I'd ask him what the matter was
-
 But I know that he don't talk
-
 And the ladies treat me kindly
-
 And they furnish me with tape
-
 But deep inside my heart
-
 I know I can't escape
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile with the
-
 Memphis blues again
-
 Well, Shakespeare, he's in the alley
-
 With his pointed shoes and his bells
-
 Speaking to some French girl
-
 Who says she knows me well
-
 And I would send a message
-
 To find out if she's talked
-
 But the post office has been stolen
-
 And the mailbox is locked
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Mona tried to tell me
-
 To stay away from the train line
-
 She said that all the railroad men
-
 Just drink up your blood like wine
-
 An' I said, "Oh, I didn't know that
-
 But then again, there's only one I've met
-
 An' he just smoked my eyelids
-
 An' punched my cigarette"
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Grandpa died last week
-
 And now he's buried in the rocks
-
 But everybody still talks about how
-
 Badly they were shocked
-
 But me, I expected it to happen
-
 I knew he'd lost control
-
 When I speed built a fire on Main Street
-
 And shot it full of holes
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Now the senator came down here
-
 Showing ev'ryone his gun
-
 Handing out free tickets
-
 To the wedding of his son
-
 An' me, I nearly got busted
-
 An' wouldn't it be my luck
-
 To get caught without a ticket
-
 And be discovered beneath a truck
-
 Oh, Mama, is this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Now the tea preacher looked so baffled
-
 When I asked him why he dressed
-
 With twenty pounds of headlines
-
 Stapled to his chest
-
 But he cursed me when I proved it to him
-
 Then I whispered and said, "Not even you can hide
-
 You see, you're just like me
-
 I hope you're satisfied"
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Now the rainman gave me two cures
-
 Then he said, "Jump right in"
-
 The one was Texas medicine
-
 The other was just railroad gin
-
 An' like a fool I mixed them
-
 An' it strangled up my mind
-
 An' now people just get uglier
-
 An' I have no sense of time
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 And when Ruthie says come see her
-
 In her honky-tonk lagoon
-
 Where I can watch her waltz for free
-
 'neath her Panamanian moon
-
 An' I say, "Aw come on now
-
 You know you knew about my debutante"
-
 An' she says, "Your debutante just knows what you need
-
 But I know what you want"
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again
-
 Now the bricks lay on Grand Street
-
 Where the neon madmen climb
-
 They all fall there so perfectly
-
 It all seems so well timed
-
 An' here I sit so patiently
-
 Waiting to find out what price
-
 You have to pay to get out of
-
 Going through all these things twice
-
 Oh, Mama, can this really be the end
-
 To be stuck inside of Mobile
-
 With the Memphis blues again

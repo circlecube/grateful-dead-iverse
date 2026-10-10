@@ -4,7 +4,7 @@ id: 11612
 name: wang-dang-doodle
 title: 'Wang Dang Doodle'
 permalink: 'https://deadiverse.com/song/wang-dang-doodle/'
-modified_gmt: '1983-04-30T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:07:17+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,17 @@ stats:
     name: '1983-08-26'
     show_path: ../../shows/1983/08/1983-08-26.md
 attribution: 'Willie Dixon'
+chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/wang-dang-doodle'
+links:
+  dead_net: 'https://www.dead.net/song/wang-dang-doodle'
+  jerrybase: 'https://jerrybase.com/songs/867'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Wang_Dang_Doodle.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/wang-dang-doodle'
 ---
 
 # Wang Dang Doodle
@@ -22,41 +33,26 @@ attribution: 'Willie Dixon'
 ## Lyrics
 
 Tell Automatic Slim, tell Razor Totin' Jim
-
 Tell Butcher Knife Totin' Annie, tell Fast Talking Fanny
-
 We gonna pitch a ball, down to that union hall
-
 We gonna romp and tromp till midnight
-
 We gonna fuss and fight till daylight
-
 We gonna pitch a wang dang doodle all night long
-
 All night long, All night long, All night long
-
 Tell Kudu-Crawlin' Red, tell Abyssinian Ned
-
 Tell ol' Pistol Pete, everybody gonna meet
-
 Tonight we need no rest, we really gonna throw a mess
-
 We gonna to break out all of the windows
-
 We gonna kick down all the doors
-
 We gonna pitch a wang dang doodle all night long
-
 All night long, All night long, All night long
-
 Tell Fats and Washboard Sam, that everybody gonna to jam
-
 Tell Shaky and Boxcar Joe, we got sawdust on the floor
-
 Tell Peg and Caroline Dye, we gonna have a time
-
 When the fish scent fill the air, there'll be snuff juice everywhere
-
 We gonna pitch a wang dang doodle all night long
-
 All night long, All night long...
+
+## Chord sheet
+
+(Dixon)

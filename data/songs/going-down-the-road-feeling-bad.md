@@ -26,25 +26,16 @@ embeds:
 ## Lyrics
 
 Going down the road feeling bad
-
 Going down the road feeling bad
-
 Going down the road feeling bad, hey hey hey, yeah
-
 Don't wanna be treated this a way
 
 Going where the climate suits my clothes
-
 I'm going where the climate suits my clothes
-
 Going where the climate suits my clothes
-
 Don't wanna be treated this a way
 
 Going where the water tastes like wine
-
 Well I'm going where the water tastes like wine
-
 Going where the water tastes like wine
-
 I don't wanna be treated this a way

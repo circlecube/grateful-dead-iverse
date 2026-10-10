@@ -4,7 +4,7 @@ id: 11595
 name: all-along-the-watchtower
 title: 'All Along the Watchtower'
 permalink: 'https://deadiverse.com/song/all-along-the-watchtower/'
-modified_gmt: '1987-05-01T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:05:11+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,78 +15,108 @@ stats:
     name: '1987-05-01'
     show_path: ../../shows/1987/05/1987-05-01.md
 attribution: 'Bob Dylan'
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/all-along-the-watchtower-chords-4724663'
+links:
+  jerrybase: 'https://jerrybase.com/songs/835'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/all-along-the-watchtower-chords-4724663'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/All_Along_The_Watchtower.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/all-along-the-watchtower'
 ---
 
 # All Along the Watchtower
 
 ## Lyrics
 
-there must be some kind of way out of here
+There must be some way out of here
+Said the joker to the thief
+There's too much confusion
+I can't get no relief
 
-said the joker to the thief
+Businessmen, they drink my wine
+Plowmen dig my earth
+None of them along the line
+Know what any of it is worth
 
-there's too much confusion
+"No reason to get excited"
+The thief, he kindly spoke
+"There are many here among us
+Who feel that life is but a joke"
 
-i can't get no relief
+"But you and I, we've been through that
+And this is not our fate
+So let us not talk falsely now
+The hour is getting late"
 
-businessman they drink my wine
+All along the watchtower
+Princes kept the view
+While all the women came and went
+Barefoot servants, too
 
-plow men dig my earth
+Outside, in the distance
+A wildcat did growl
+Two riders were approaching
+The wind began to howl
 
-none will level on the line
+## Chord sheet
 
-nobody of it is worth
+Author: Bob Dylan
+Album: Dylan & The Dead
 
-hey hey
+[Intro]
+[Am][G][F][G]
+[Verse 1]
 
-no reason to get excited
+"[Am]There must be so[G]me kinda way out [F]of here"[G]
 
-the thief he kindly spoke
+[Am]Said the jo[G]ker to the thie[F]f[G]
 
-there are many here among us
+[Am]"There&rsquo;s [G]too much c[F]onfusion,[G]
 
-who feel that life is but a joke but uh
+[Am]I can&rsqu[G]o;t get no [F]relief[G]
 
-but you and i we've been through that
+[Am]Businessmen[G], they drink[F] my wine,[G]
 
-and this is not our fate
+[Am]Plow men di[G]g my earth[F][G]
 
-so let us not talk falsely now
+[Am]None of th[G]em along[F] the line[G]
 
-the hour's getting late
+[Am]Know what any of[G] it is wort[F]h"[G]
 
-hey
+[Verse 2]
+[Am]"No reason to[G] get excited"[F][G]
 
-hey
+[Am]The thief he [G]kindly spoke[F][G]
 
-all along the watchtower
+[Am]"There are ma[G]ny here among[F] us[G]
 
-princes kept the view
+[Am]Who feel that lif[G]e is but a [F]joke[G]
 
-while all the women came and went
+[Am]But, you and [G]I, we&rsquo;v[F]e been through t[G]hat
 
-bare-foot servants to, but huh
+[Am]And this is n[G]ot our fate[F][G]
 
-outside in the cold distance
+[Am]So let us not[G] talk falsely[F] now,[G]
 
-a wild cat did growl
+[Am]Because the h[G]our is gettin[F]g late"[G]
 
-two riders were approachin'
+[Verse 3]
+[Am]All along[G] the watchtow[F]er[G]
 
-and the wind began to howl
+[Am]Princes kept[G] their view[F][G]
 
-hey
+[Am]While other[G] women came a[F]nd went[G]
 
-oh
+[Am]Barefoot serv[G]ants, too[F][G]
 
-all along the watchtower
+[Am]Outside in [G]the cold dist[F]ance[G]
 
-hear you sing around the watch
+[Am]A wild cat[G] did growl[F][G]
 
-gotta beware gotta beware i will
+[Am]Two riders we[G]re approachin[F]g[G]
 
-yeah
-
-ooh baby
-
-all along the watchtower
+[Am]And the wind [G]began to howl[F].[G]

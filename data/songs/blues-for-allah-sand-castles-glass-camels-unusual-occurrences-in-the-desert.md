@@ -21,101 +21,62 @@ embeds:
 ## Lyrics
 
 Arabian wind
-
 The needle's eye is thin
-
 The ships of state sail on mirage
-
 And drown in sand
 
 Out in no man's land
-
 Where Allah does command
-
 What good is spilling blood?
-
 It will not grow a thing
 
 Taste eternity
-
 The swords sing
-
 "Blues for Allah, insha'Allah"
 
 They lie where they fall
-
 There's nothing more to say
-
 The desert stars are bright tonight
-
 Let's meet as friends
 
 The flower of Islam
-
 The fruit of Abraham
-
 The thousand stories
-
 Have come 'round to one again
 
 Arabian night
-
 Our gods pursue their fight
-
 What fatal flowers of darkness
-
 Bloom from seeds of light?
 
 Bird of paradise
-
 Fly in white sky
-
 "Blues for Allah, insha'Allah"
 
 Let's see with our heart
-
 These things our eyes have seen
-
 And know the truth must still lie
-
 Somewhere in between
 
 Under eternity
-
+Under eternity
+Under eternity
+Under eternity
+Under eternity
+Under eternity
+Under eternity
 Under eternity
 
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
 Under eternity
-
-Under eternity
-
-Under eternity
-
-Under eternity
-
-Under eternity
-
-Under eternity
-
-Under eternity
-
 Under eternity
 
 Bird of paradise fly in white sky
-
 Peace for all of inshallah

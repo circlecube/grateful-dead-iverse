@@ -4,7 +4,7 @@ id: 11696
 name: she-belongs-to-me
 title: 'She Belongs to Me'
 permalink: 'https://deadiverse.com/song/she-belongs-to-me/'
-modified_gmt: '1966-01-07T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:46+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,64 +15,98 @@ stats:
     name: '1966-01-07'
     show_path: ../../shows/1966/01/1966-01-07.md
 attribution: 'Bob Dylan'
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/she-belongs-to-me-chords-12366'
+links:
+  jerrybase: 'https://jerrybase.com/songs/800'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/she-belongs-to-me-chords-12366'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/She_Belongs_To_Me.htm'
 ---
 
 # She Belongs to Me
 
 ## Lyrics
 
-She's got everything she needs
-
-She's an artist, she don't look back
-
-She's got everything she needs
-
-She's an artist, she don't look back
-
-She takes the dark out of the nighttime
-
+She's got everything she needs, she's an artist
+She don't look back
+She's got everything she needs, she's an artist
+She don't look back
+She can take the dark out of the nighttime
 And paint the daytime black
-
-You'll start out standing
-
+You will start out standing
 Proud to steal her anything she sees
-
-You'll start out standing
-
+You will start out standing
 Proud to steal her anything she sees
-
-Wind up peeking through a key hole
-
-Down upon your bended knees
-
+But you will wind up peeking through her keyhole
+Down upon your knees
 She never stumbles, she's got no place to fall
-
 She never stumbles, she's got no place to fall
-
-Nobody's child, the law can't touch her at all
-
+She's nobody's child, the law can't touch her at all
+She wears an Egyptian ring, it sparkles before she speaks
+She wears an Egyptian ring, it sparkles before she speaks
+She's a hypnotist collector, you are a walking antique
 Bow down to her on Sunday
-
 Salute her when her birthday comes
-
 Bow down to her on Sunday
-
 Salute her when her birthday comes
+For Halloween, buy her a trumpet
+And for Christmas, get her a drum
 
-Halloween, buy her a trumpet
+## Chord sheet
 
-Christmas, get her new drums
+#----------------------------------PLEASE NOTE---------------------------------#
+#This file is the author's own work and represents their interpretation of the #
+#song. You may only use this file for private study, scholarship, or research. #
+#------------------------------------------------------------------------------##
+From: joshb@cc.gatech.edu (Joshua Bardwell)
+Subject: updated "she belongs to me"
+Date: Sat, 30 Dec 1995 15:04:21 -0500 (EST)
 
-She's an artist, she don't look back
+-------------------------------------------------------------------------------
+From: gt6234b@prism.gatech.edu (Joshua Bardwell)
+Subject: CRD: She Belongs to Me -- Bob Dylan/Grateful Dead
 
-She's got everything she needs
+Here's the chords to this song.  I figured it out from a the version
+played by Bob Weir, Phil Lesh, and Jerry Garcia on "Backstage Pass" so
+it might not be entirely true to the Dylan version (which i've never heard)
+but I bet it's not far off...
 
-She's an artist, she don't look back
+Note: When I write [D-G-D] I mean for you to play this --
 
-Takes the dark out of the nighttime
+      v v   ^ v ^   v v    v   ^
+      1 and-a 2 and 3 four and-a
+[D][D][D][D][G][G][D][D][D]
+Intro: One measure each -- D D E G D
 
-Paints the daytime black
+[D] she got everything she needs, she's an [G] artist, she don't look [D] back
+[D] she got [G] everything she needs, she's an artist, she don't look [D] back
+[D] she can take the [E] dark out of the night time    
+[G] paint the daytime black
 
-Oh, she takes the dark out of the nighttime
+you'll start out standing, vow to steal her anything she sees
+you'll start out standing, vow to steal her anything she sees
+you'll wind up peekin' through a keyhole, down upon your knees
 
-And paint the daytime black
+she never stumbles, got no place to fall
+she never stumbles, got no place to fall
+she's nobody's child, lord can't touch her at all
+
+she wears an egyptian ring, sparkles before she speaks
+she wears an egyptian ring, sparkles before she speaks
+she's a hypnotist collector, you are a walking antique
+
+bow down to her on sunday, salute her when her birthday comes
+bow down to her on sunday, salute her when her birthday comes
+for halloween give her a trumpet, for christmas, give her a drum
+
+<repeat first verse and close>
+
+Enjoy!
+
+-- 
+------------------------------------------------------------------------------
+Joshua Bardwell                    | "May be going to hell in a bucket, baby 
+Internet: gt6234b@prism.gatech.edu |  But at least I'm enjoying the ride!"
+------------------------------------------------------------------------------

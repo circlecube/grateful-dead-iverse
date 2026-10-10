@@ -4,7 +4,7 @@ id: 11614
 name: me-bobby-mcgee
 title: 'Me & Bobby McGee'
 permalink: 'https://deadiverse.com/song/me-bobby-mcgee/'
-modified_gmt: '1970-11-23T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:17+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -17,70 +17,128 @@ stats:
 attribution: 'Janis Joplin'
 also_known_as:
   - 'Me and Bobby McGee'
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/me-and-bobby-mcgee-chords-1774676'
+links:
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/me-and-bobby-mcgee-chords-1774676'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Me_And_Bobby_McGee.htm'
 ---
 
 # Me & Bobby McGee
 
 ## Lyrics
 
-Me and my uncle went ridin' down,
+Busted flat in Baton Rouge, waitin' for a train
+When I's feelin' near as faded as my jeans
+Bobby thumbed a diesel down, just before it rained
+And rode us all the way into New Orleans
 
-South colorado, west texas bound.
+I pulled my harpoon out of my dirty red bandana
+I's playin' soft while Bobby sang the blues
+Windshield wipers slappin' time, I's holdin' Bobby's hand in mine
+We sang every song that driver knew
 
-We stopped over in santa fe,
+Freedom is just another word for nothin' left to lose
+Nothin', don't mean nothin' hon' if it ain't free, no-no
+And feelin' good was easy, Lord, when he sang the blues
+You know feelin' good was good enough for me
+Good enough for me and my Bobby McGee
 
-That bein' the point just about half way,
+From the Kentucky coal mine to the California sun
+There Bobby shared the secrets of my soul
+Through all kinds of weather, through everything we done
+Yeah, Bobby baby, kept me from the cold
 
-And you know it was the hottest part of the day.
+One day up near Salinas, Lord, I let him slip away
+He's lookin' for that home, and I hope he finds it
+But, I'd trade all of my tomorrows, for one single yesterday
+To be holdin' Bobby's body next to mine
 
-I took the horses up to the stall,
+Freedom is just another word for nothin' left to lose
+Nothin', and that's all that Bobby left me, yeah
+But feelin' good was easy, Lord, when he sang the blues
+That feelin' good was good enough for me, mmm-hmm
+Good enough for me and my Bobby McGee
 
-Went to the barroom, ordered drinks for all.
+La-da-da, la-da-da-da, la-da-da-da-da-da-da
+La-da-da-da-da-da-da-da, Bobby McGee, yeah
+La-da-da-da-da, la-da-da-da-da
+La, la-la-la-da-da- Bobby McGee, oh yeah
 
-Three days in the saddle, you know my body hurt,
+La-da-da, la-da-da, la,da-da, la,da-da
+La-da-da, la-da-da, la-di-da
+Hey now, Bobby now, now Bobby McGee, yeah
+Lord, oh Lord, oh Lord, lo-da-da, na-na-na, na-na-na, na-na-na
+Hey now, Bobby now, now Bobby McGee, yeah
 
-It bein' summer, I took off my shirt,
+Well, I wanna call him my lover, call him my man
+I said, I call him my lover, did the best I can, come on
+Hey now, Bobby now, hey now Bobby McGee, yeah
+Lord, a Lord, a Lord, a Lord, a Lord, a Lord, a Lord, a Lord, oh
+Hey-hey-hey, Bobby McGee, Lord
 
-And I tried to wash off some of that dusty dirt.
+## Chord sheet
 
-When texas cowboys, they's all around,
+[D]Busted flat in Baton Rouge, waitin' for a train,
 
-With liquor and money, they loaded down.
+Feeling nearly faded as my [A]jeans,
 
-So soon after payday, know it seemed a shame;
+[A]Bobby flagged a diesel down, just before it rained,
 
-You know my uncle, he starts a friendly game,
+Took us all the way to New Or[D]leans.
 
-High-low jack and the winner take the hand.
+I [D]took my harp out of my dirty red bandanna,
 
-My uncle starts winnin'; cowboys got sore.
+I was blowin' sad while [D7]Bobby sang the bl[G]ues,
 
-One of them called him, and then two more,
+[G]Windshield wipers slappin' time, B[D]obby clappin' hands,
 
-Accused him of cheatin'; oh no, it couldn't be.
+We fin&rsq[A]uo;ly sang near every song that dri[D]ver knew.[D7]
 
-I know my uncle, he's as honest as me,
+[G]Freedom's just another word for no[D]thin' left to do.
 
-And I'm as honest as a gamblin' man can be.
+[A]Nothin' ain't worth nothin' but it's fr[D]ee.[D7]
 
-One of them cowboys, he starts to draw,
+[G]Feelin' good was easy Lord, when Bo[D]bby sang the blues.
 
-And I shot him down, lord he never saw.
+[A]Feelin' good was good enough for me,
 
-Well I grabbed a bottle, cracked him in the jaw,
+[A]Good enough for me and Bobby McGe[D]e.
 
-Shot me another, oh damn he won't grow old.
+[D]From the coal mines of Kentucky to the California sun,
 
-In the confusion, my uncle grabbed the gold,
+Bobby shared the [D7]secrets of my so[G]ul,
 
-And we high-tailed it down to mexico.
+[G]Standing right beside me, Lord, th[D]rough everything I done,
 
-I love those cowboys, I love their gold,
+[A]Bobby's body kept me from the cold[D].[D7]
 
-I loved my uncle, God rest his soul,
+[D]Then somewhere near Salinas, Lord, I let her slip away,
 
-Taught me good, lord, taught me all I know
+Lookin' for that [D7]home, I hope she fin[G]ds it,
 
-Taught me so well, I grabbed that gold
+And [G]I'd trade all my tomorrows fo[D]r a single yesterday
 
-And I left his dead ass there by the side of the road.
+[A]Holding Bobby's body close to mi[D]ne.[D7]
+
+[G]Freedom's just another word for no[D]thin' left to do.
+
+[A]Nothin' ain't worth nothin' but it's fr[D]ee.[D7]
+
+[G]Feelin' good was easy Lord, when Bo[D]bby sang the blues.
+
+[A]Feelin' good was good enough for me,
+
+[A]Good enough for me and Bobby McGe[D]e.
+
+[G]Freedom's just another word for no[D]thin' left to do.
+
+[A]Nothin' ain't worth nothin' but it's fr[D]ee.[D7]
+
+[G]Feelin' good was easy Lord, when Bo[D]bby sang the blues.
+
+[A]Feelin' good was good enough for me,
+
+[A]Good enough for me and Bobby McGe[D]e.

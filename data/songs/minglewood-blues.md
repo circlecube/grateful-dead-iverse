@@ -4,7 +4,7 @@ id: 11524
 name: minglewood-blues
 title: 'Minglewood Blues'
 permalink: 'https://deadiverse.com/song/minglewood-blues/'
-modified_gmt: '1966-05-19T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:19+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,13 @@ stats:
     name: '1966-05-19'
     show_path: ../../shows/1966/05/1966-05-19.md
 attribution: 'Cannon’s Jug Stompers'
+chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/minglewood-blues'
+links:
+  jerrybase: 'https://jerrybase.com/songs/1012'
+  other:
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/minglewood-blues'
 ---
 
 # Minglewood Blues
@@ -68,3 +75,7 @@ Raised in a lion's den
 Oh, my number one occupation
 
 Is stealing women from their men
+
+## Chord sheet
+
+All New Minglewood Blues

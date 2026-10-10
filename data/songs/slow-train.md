@@ -4,12 +4,66 @@ id: 14470
 name: slow-train
 title: 'Slow Train'
 permalink: 'https://deadiverse.com/song/slow-train/'
-modified_gmt: '1989-01-01T12:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:53+00:00'
 band:
   - the-grateful-dead
 stats:
   play_count: 0
 musicbrainz_recording_mbid: de5b90ec-ae49-4fbd-b851-84f1c8bf10f5
+links:
+  dead_net: 'https://www.dead.net/song/slow-train'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Slow_Train.htm'
 ---
 
 # Slow Train
+
+## Lyrics
+
+Sometimes I feel so low-down and disgusted
+Can't help but wonder what's happenin' to my companions
+Are they lost or are they found?
+Have they counted the cost it'll take to bring down?
+All their earthly principles they're gonna have to abandon
+And there's a slow, slow train comin' up around the bend
+
+I had a woman down in Alabama
+She was a backwoods girl, but she sure was realistic
+She said, "Boy, without a doubt
+Have to quit your mess and straighten out
+You could die down here, be just another accident statistic"
+And there's a slow, slow train comin' up around the bend
+
+All that foreign oil controlling American soil
+Look around you, it's just bound to make you embarrassed
+Sheiks walkin' around like kings, wearing fancy jewels and nose rings
+Deciding America's future from Amsterdam and to Paris
+And there's a slow, slow train comin' up around the bend
+
+Man's ego is inflated, his laws are outdated, they don't apply no more
+You can't rely no more to be standin' around waitin'
+In the home of the brave, Jefferson turnin' over in his grave
+Fools glorifying themselves, trying to manipulate Satan
+And there's a slow, slow train comin' up around the bend
+
+Big-time negotiators, false healers and woman haters
+Masters of the bluff and masters of the proposition
+But the enemy I see wears a cloak of decency
+All non-believers and men stealers talkin' in the name of religion
+And there's a slow, there's a slow train comin' up around the bend
+
+People starving and thirsting, grain elevators are bursting
+Oh, you know it costs more to store the food than it do to give it
+They say, "Lose your inhibitions, follow your own ambitions"
+They talk about a life of brotherly love
+Show me someone who knows how to live it
+There's a slow, slow train comin' up around the bend
+
+Well, my baby went to Illinois
+With some bad-talkin' boy she could destroy
+A real suicide case, but there was nothin' I could do to stop it
+I don't care about economy, I don't care about astronomy
+But it sure does bother me to see my loved ones turnin' into puppets
+And there's a slow, slow train comin' up around the bend

@@ -4,7 +4,7 @@ id: 161
 name: caution-do-not-stop-on-tracks
 title: 'Caution (Do Not Stop on Tracks)'
 permalink: 'https://deadiverse.com/song/caution-do-not-stop-on-tracks/'
-modified_gmt: '2026-05-08T23:40:52+00:00'
+modified_gmt: '2026-10-09T22:05:24+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -17,6 +17,14 @@ stats:
 musicbrainz_recording_mbid: b91eb7fb-7da4-4db9-ab4b-b00fd73099c1
 also_known_as:
   - 'Caution (Do Not Stop on the Tracks)'
+links:
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Caution_Do_Not_Stop_On_Tracks.htm'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/caut.html'
 embeds:
   -
     embed_type: youtube
@@ -28,29 +36,16 @@ embeds:
 ## Lyrics
 
 I went down one day, I went down one day to see a Gypsy woman
-
 Just one old day, yes I did
-
 I want to find out, I want to find out
-
 I want to find out, I want to find out now
-
 What's wring with me and my baby
-
 We ain't gettin' down like we used to do
-
 I mean it's pretty good now, but there was a time
-
 When it didn't work too well
-
 I went down to see this Gypsy woman, you understand
-
 I told her my story, I told her what was goin' on
-
 And she told me, man she said, all you need, all you need
-
 She said all you got to have, oh Lord
-
 Just a touch of Mojo's hand, oh bring it back on
-
 And it feels pretty good, yes indeed

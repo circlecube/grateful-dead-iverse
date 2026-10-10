@@ -4,7 +4,7 @@ id: 78
 name: china-cat-sunflower
 title: 'China Cat Sunflower'
 permalink: 'https://deadiverse.com/song/china-cat-sunflower/'
-modified_gmt: '2026-05-11T20:39:48+00:00'
+modified_gmt: '2026-10-09T22:05:24+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,24 @@ stats:
     name: '1968-01-17'
     show_path: ../../shows/1968/01/1968-01-17.md
 musicbrainz_recording_mbid: d633f4b8-e270-449b-af8d-c7d1ec5a8403
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/china-cat-sunflower-chords-3011531'
+links:
+  dead_net: 'https://www.dead.net/song/china-cat-sunflower'
+  jerrybase: 'https://jerrybase.com/songs/1053'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/china-cat-sunflower-chords-3011531'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/China_Cat_Sunflower.htm'
+    -
+      label: other
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-china-cat-sunflower'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/china.html'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/china-cat-sunflower'
 embeds:
   -
     embed_type: youtube
@@ -26,89 +44,95 @@ embeds:
 ## Lyrics
 
 Look for awhile at the China Cat Sunflower
-
 Proud-walking jingle in the midnight sun
-
 Copper-dome Bodhi drip a silver kimono
-
 Like a crazy-quilt stargown
-
 Through a dream night wind
 
 Krazy Kat peeking through a lace bandana
-
 Like a one-eyed Cheshire
-
 Like a diamond-eye Jack
-
 A leaf of all colors plays
-
 A golden string fiddle
-
 To a double-e waterfall over my back
 
 China Cat
-
 China Cat
-
 China Cat
-
 China Cat
-
 China Cat
-
 China Cat
-
 China Cat
-
 China Cat
 
 Comic book colors on a violin river
-
 Crying Leonardo words
-
 From out a silk trombone
-
 I rang a silent bell
-
 Beneath a shower of pearls
-
 In the eagle wing palace
-
 Of the Queen Chinee
 
 China Cat
-
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
+China Cat
 China Cat
 
-China Cat
+## Chord sheet
 
-China Cat
+CHINA CAT SUNFLOWER
+As recorded by Grateful Dead
+(From the 1972 Album EUROPE '72)
 
-China Cat
+[Intro]
+[G][F][G]
+[Verse 1]
+[G]Look for a while at the china cat s[F]unflower
 
-China Cat
+[G]Proud walking jingle in the midnight su[F]n
 
-China Cat
+[G]Copperdome bodhi drip a silver kimo-n[F]o
 
-China Cat
+Like a cra[G]-zy quilt stargown through a dr[F]eam night wind[G]
 
-China Cat
+[Guitar Solo]
+[G][D7][C][D/C]
+[Verse 2]
+[G]Krazy Kat peeking through a lace banda[F]na
 
-China Cat
+Like a [G]one-eyed cheshire, like a diamond-eye jack[F]
 
-China Cat
+A [G]leaf of all colors plays a golden-string fi[F]ddle
 
-China Cat
+To a dou[G]-ble E waterfall ov[F]er my back[G]
 
-China Cat
+[Guitar Solo]
+[G][D][C][D]
+[E][D][E][D][E]
+[B][A][D]
+[Verse 3]
+[G]Comic book colors on a violin ri[F]ver cryin' leon[G]ardo
 
-China Cat
+Words from out a silk trom[F]bone
 
-China Cat
+I [G]rang a silent bell, beneath a shower of pe[F]arls
 
-China Cat
+In the ea[G]-gle winged palace of the qu[F]een chinee[G]
 
-China Cat
-
-China Cat
+[Outro-Guitar Solo]
+[G]
+[D7]

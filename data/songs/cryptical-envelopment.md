@@ -4,7 +4,7 @@ id: 11520
 name: cryptical-envelopment
 title: 'Cryptical Envelopment'
 permalink: 'https://deadiverse.com/song/cryptical-envelopment/'
-modified_gmt: '1967-08-05T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:05:27+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -14,96 +14,97 @@ stats:
     id: 1788
     name: '1967-08-05'
     show_path: ../../shows/1967/08/1967-08-05.md
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/cryptical-envelopment-chords-4233223'
+links:
+  dead_net: 'https://www.dead.net/song/cryptical-envelopment'
+  jerrybase: 'https://jerrybase.com/songs/1050'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/cryptical-envelopment-chords-4233223'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Cryptical_Envelopment.htm'
 ---
 
 # Cryptical Envelopment
 
 ## Lyrics
 
-The other day they waited
+The other day they waited, the sky was dark and faded,
+Solemnly they stated, "He has to die, you know he has to die."
+All the children learnin', from books that they were burnin',
+Every leaf was turnin'; to watch him die, you know he had to die.
 
-The sky was dark and faded
+The summer sun looked down on him, his mother could but frown on him,
+And all the others sound on him, but it doesn't seem to matter.
 
-Solemnly they stated
+And when the day had ended, with rainbow colors blended,
+His mind remained unbended, he had to die, you know he had to die.
 
-"He has to die"
+Spanish lady comes to me, she lays on me this rose.
+It rainbow spirals round and round it trembles and explodes.
+It left a smoking crater of my mind I like to blow away.
+But the heat came 'round and busted me for smiling on a cloudy day.
 
-And all the children learnin'
+Comin', comin', comin' around, comin', around,
+comin', around, in a circle
+Comin', comin', comin' around, comin' around, in a circle,
+Comin', comin', comin' around, comin' in a circle.
 
-From books that they were burnin'
+Skippin' through the lily fields I came across an empty space,
+It trembled and exploded, left a bus stop in it's place.
+The bus came by and I got on, that's when it all began,
+There was cowboy Neal at the wheel of the bus to never ever land.
 
-Every leaf was turnin'
+Comin', comin', comin' around, comin', around,
+comin', around, in a circle
+Comin', comin', comin' around, comin' around, in a circle,
+Comin', comin', comin' around, comin' in a circle.
 
-To watch him die
+And when the day had ended, with rainbow colors blended,
+Their minds remained unbended,
+He had to die, Oh, you know he had to die.
 
-The summer sun looked down on him
+## Chord sheet
 
-His mother could but frown on him
+[Verse 1]
+[E]The other day they waite[Esus4]d
 
-And all the others sound on him
+[Asus4]The sky was dark and fa[E]ded,
 
-But it doesn't seem to matter
+[E]Sole[D]mnly[C#] they[B] sta[A]ted,[B][D]
 
-And when the day had ended
+[A]He has to die[G],
 
-With rainbow colors blended
+[A]You know he has to di[G]e.
 
-His mind remained unbended
+[Verse 2]
+[E]And all the children le[Esus4]arnin',
 
-He has to die
+[Asus4]From books that they were bu[E]rnin',
 
-Spanish lady comes to me, she lays on me this rose
+[E]Every[D] leaf[C#] was tu[B]rnin[A]'[B][D]
 
-It rainbow spirals 'round and 'round, it trembles and explodes
+To watch him [A]die[G]
 
-It left a smoking crater of my mind I like to blow away
+N.C.
+You know he had to die. (Walk-down chromatically from G to E)
 
-But the heat came 'round and busted me for smiling on a cloudy day
+[Bridge]
+[Em]The summer su[G]n looked down[D] on him,
 
-Comin', comin', comin' around
+[C]His mother cou[B]ld but frow[Am]n on him,[Am/G]
 
-Comin' around (comin' around)
+[Dm/F]And all the ot[D7/F#]hers sound o[Em/G]n him,[G#dim/G#]
 
-Comin' around
+[Am]But it [F#7/A#]doesn't seem to matt[B7]er.
 
-Comin' (comin'), comin' (comin'), comin' around
+[Verse 3]
+[E]And when the day had ende[Esus4]d,
 
-Comin' around (comin' around)
+[Asus4]With rainbow colors ble[E]nded,
 
-Comin' around
+[E]His mi[D]nd rema[C#]ined un[B]bended[A],[B][D]
 
-I was skippin' through the lily fields when I came across an empty space
+[A]He had to die[E],
 
-It trembled and exploded, left a bus stop in its place
-
-The bus came by and I got on, that's when it all began
-
-There was Cowboy Neal at the wheel of the bus to never ever land
-
-Comin', comin', comin' around
-
-Comin' around (comin' around)
-
-Comin' around
-
-Comin' (comin'), comin' (comin'), comin' around
-
-Comin' around (comin' around)
-
-Comin' around
-
-And when the day had ended
-
-With rainbow colors blended
-
-Their minds remained unbended
-
-He had to die
-
-He had to die
-
-He had to die
-
-He had to die
-
-Well, you know he had to die
+[A]You know he had to di[E]e.

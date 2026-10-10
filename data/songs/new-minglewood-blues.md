@@ -4,12 +4,23 @@ id: 110
 name: new-minglewood-blues
 title: 'New Minglewood Blues'
 permalink: 'https://deadiverse.com/song/new-minglewood-blues/'
-modified_gmt: '2026-05-11T21:01:05+00:00'
+modified_gmt: '2026-10-09T22:06:29+00:00'
 band:
   - the-grateful-dead
 stats:
   play_count: 0
 musicbrainz_recording_mbid: e13bbc45-5efe-4878-8521-55888b17471a
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/new-minglewood-blues-chords-4091782'
+links:
+  dead_net: 'https://www.dead.net/song/new-minglewood-blues'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/new-minglewood-blues-chords-4091782'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/New_Minglewood_Blues.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/new-minglewood-blues'
 embeds:
   -
     embed_type: youtube
@@ -20,50 +31,69 @@ embeds:
 
 ## Lyrics
 
-I was born in the desert
+I was born in the desert Raised in a lion's den
+I was born in the desert Raised in a lion's den
+Oh, my number one occupation is stealing women from their men
 
-Raised in a lion's den
+Well, I'm a wanted man in Texas, busted jail and I'm gone for good.
+Said, I'm a wanted man in Texas, busted jail and I'm gone for good.
+Well, the sheriff couldn't catch me,
+But his little girl sure wish she could.
 
-I was born in the desert
+Well now the doctor call me crazy, sometimes I am, sometimes I ain't,
+Said now the doctor call me crazy, sometimes I am, sometimes I ain't,
+Yes, and the preacher man call me sinner
+But his little girl call me saint.
 
-Raised in a lion's den
+Well a couple shots of whiskey women 'round here start looking good,
+I said a couple shots of whiskey women 'round here start looking good,
+A couple more shots of whiskey, I'm going down to Minglewood.
 
-Oh, my number one occupation
+Said, I was born in the desert Raised in a lion's den
+Said, I was born in the desert Raised in a lion's den
+Yes and my number one occupation is stealing women from their men
 
-Is stealing women from their men
+I was born in the desert Raised in a lion's den
+Oh, my number one occupation is stealing women from their men
 
-If you're ever in Memphis
+## Chord sheet
 
-You best stop down Minglewood
+[Intro]
 
-If you're ever in Memphis
+[C][Bb][G]
+[Chorus]
+I was [C]born in a desert, r[Bb]aised in a lion's den[G]
 
-You best stop down Minglewood
+I was [C]born in a desert, r[Bb]aised in a lion's den[G]
 
-When I take a walk downtown there
+[D]And my number one occupation is stealing women from their men[G]
 
-All the women sure look good
+[Verse 1]
+If you[C]'re ever in Memphis[Bb], better stop by Minglewood[G]
 
-Well, if you can't believe me
+If you[C]'re ever in Memphis[Bb], better stop by Minglewood[G]
 
-It'll make it hard to believe in you
+[D]Well take a walk down town, [C]the women sure look good[G]
 
-I said if you can't believe me
+[Solo]
 
-It'll make it hard to believe in you
+[C][Bb][G]
+[D][G]
+[Verse 2]
+If you[C] can't believe me, [Bb]don't make it hard to believe in you[G]
 
-'Cause we all need each other
+If you[C] can't believe me, [Bb]don't make it hard to believe in you[G]
 
-Well, oh, you know it's true
+[D]'Cause we all need each other, [C]well you know it's true[G]
 
-I was, I was born in the desert
+[Chorus]
+I was [C]born in a desert, r[Bb]aised in a lion's den[G]
 
-Raised in a lion's den
+I was [C]born in a desert, r[Bb]aised in a lion's den[G]
 
-I was, I was born in the desert
+[D]And my number one occupation is ste[C]aling women from their men[G]
 
-Raised in a lion's den
+[Solo]
 
-Oh, my number one occupation
-
-Is stealing women from their men
+[C][Bb][G]
+[D][G]

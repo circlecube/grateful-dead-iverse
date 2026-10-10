@@ -21,49 +21,29 @@ embeds:
 ## Lyrics
 
 I was born in the desert
-
 Raised in a lion's den
-
 I was born in the desert
-
 Raised in a lion's den
-
 Oh, my number one occupation
-
 Is stealing women from their men
 
 If you're ever in Memphis
-
 You best stop down Minglewood
-
 If you're ever in Memphis
-
 You best stop down Minglewood
-
 When I take a walk downtown there
-
 All the women sure look good
 
 Well, if you can't believe me
-
 It'll make it hard to believe in you
-
 I said if you can't believe me
-
 It'll make it hard to believe in you
-
 'Cause we all need each other
-
 Well, oh, you know it's true
 
 I was, I was born in the desert
-
 Raised in a lion's den
-
 I was, I was born in the desert
-
 Raised in a lion's den
-
 Oh, my number one occupation
-
 Is stealing women from their men

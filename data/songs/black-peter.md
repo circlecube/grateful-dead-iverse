@@ -4,7 +4,7 @@ id: 97
 name: black-peter
 title: 'Black Peter'
 permalink: 'https://deadiverse.com/song/black-peter/'
-modified_gmt: '2026-05-11T20:44:41+00:00'
+modified_gmt: '2026-10-09T22:05:15+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,24 @@ stats:
     name: '1969-12-04'
     show_path: ../../shows/1969/12/1969-12-04.md
 musicbrainz_recording_mbid: a6fb620b-5ba8-44c7-a536-7bf01967b933
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/black-peter-chords-12306'
+links:
+  dead_net: 'https://www.dead.net/song/black-peter'
+  jerrybase: 'https://jerrybase.com/songs/160'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/black-peter-chords-12306'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Black_Peter.htm'
+    -
+      label: other
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-black-peter'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/pete.html'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/black-peter'
 embeds:
   -
     embed_type: youtube
@@ -68,3 +86,55 @@ Take a look at poor Peter, he's lying in pain
 Now let's go run and see, run and see
 
 Run and see, run, run and see and see
+
+## Chord sheet
+
+[Verse 1]
+
+[A7]All of my friends come to s[D7]ee me last night,
+
+[A7]I was layin' in my bed and dy[D7]in'.
+
+[Em]Annie Bonneau [Bm]from St. [A]Angel [G]say [F#m]the weather d[Em]own here so fine.[D7]
+
+[Verse 2]
+
+[A7]Just then the wind came s[D7]quallin' through the door,
+
+[A7]But who can the weather comma[D7]nd?
+
+[Em]Just want to ha[Bm]ve a little peac[A]e to die[G],[F#m]
+
+And a[Em] friend or two I love at ha[D7]nd.
+
+[Verse 3]
+
+[A7]Fever roll up to a h[D7]undred and five,
+
+[A7]Roll on up, gonna roll back do[D7]wn.
+
+[Em]One more da[Bm]y I find myse[A]lf al[G]ive,[F#m]
+
+To[Em]morrow maybe go beneath the gr[D7]ound.
+
+[Chorus]
+
+[C]  See here how everything le[Em]ad up to this day,
+
+[Dm]  And it's just like an[Am]y other day that's[Em] ever been.
+
+[Dm/F]  Sun comin' up[G] and then the sun [C]goin' [Em]down.[Am]
+
+[Fmaj7]     Shine through my window and my fr[C]iends they come aroun[D7]d,
+
+Come [Dm]around, come aro[Fmaj7]und.[A7]
+
+[Verse 4]
+
+[A7]The people might know, but the p[D7]eople don't care,
+
+[A7]That a man can be as poor as me[D7].
+
+[Em]Take a look at poor Pe[Bm]ter, he's lyin[A]g in [G]pain,[F#m]
+
+[Em]Now let's go run and se[D7]e, run and see.

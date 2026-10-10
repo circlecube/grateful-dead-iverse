@@ -4,7 +4,7 @@ id: 11522
 name: promised-land
 title: 'Promised Land'
 permalink: 'https://deadiverse.com/song/promised-land/'
-modified_gmt: '1971-05-29T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:37+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,84 +15,117 @@ stats:
     name: '1971-05-28'
     show_path: ../../shows/1971/05/1971-05-28.md
 attribution: 'Chuck Berry'
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/promised-land-chords-3964534'
+links:
+  dead_net: 'https://www.dead.net/song/promised-land'
+  jerrybase: 'https://jerrybase.com/songs/707'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/promised-land-chords-3964534'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Promised_Land.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/promised-land'
 ---
 
 # Promised Land
 
 ## Lyrics
 
-Left my home in Norfolk, Virginia
+I left my home in Norfolk Virginia, California on my mind
+I straddled that Greyhound and rolled in into Raleigh and all across Carolina
+We stopped in Charlotte and bypassed Rock Hill, and we never was a minute late
+We was 90 miles out of Atlanta by sundown rollin' out of Georgia state
+We had motor trouble it turned into a struggle half way across Alabam'
+And that 'hound broke down and left us all stranded in downtown Birmingham
 
-California on my mind
+Right away, I bought me a through train ticket, ridin' cross Mississippi clean
+And I was on that midnight flier out of Birmingham, smoking into New Orleans
+Somebody help me get out of Louisiana just help me get to Houston town
+There are people there who care a little 'bout me, and they won't let the poor boy down
+Sure as you're born, they bought me a silk suit, put luggage in my hands
+And I woke up high over Albuquerque on a jet to the promised land
 
-Straddled that Greyhound, it rode me past Raleigh
+Workin' on a T-bone steak à la carte, flying over to the Golden State
+Oh, when the pilot told me in thirteen minutes, we'd be headin' in the terminal gate
+Swing low chariot, come down easy, taxi to the terminal zone
+Cut your engines, cool your wings, and let me make it to the telephone
+Los Angeles give me Norfolk Virginia, tidewater four-ten-O-nine
+Tell the folks back home this is the promised land callin' and the poor boy's on the line
 
-And all across Caroline
+## Chord sheet
 
-Stopped in Charlotte and bypassed Rock Hill
+[Verse 1]
+I [C]left my home in Norfolk
 
-And we never was a minute late
+Virginia, California on my [F]mind
 
-And we was ninety miles out of Atlanta by sundown
+[G]Straddled that Greyhound
 
-Rolling across the Georgia state
+It rode me past Raleigh, and on across Caro[C]line
 
-We had motor trouble, it turned into a struggle
+[C]Stopped in Charlotte and bypassed Rock Hill
 
-Halfway across Alabam'
+And we never was a minute [F]late
 
-And the Hound broke down
+We was [G]ninety miles out of Atlanta by sundown
 
-And left us all stranded in downtown Birmingham
+Rolling across the Georgia [C]state
 
-Straight off I bought me a through train ticket
+[C]Had motor trouble, it turned into a struggle
 
-Right across Mississippi clean
+Half way across Ala[F]bama
 
-And I was on that midnight flyer out of Birmingham
+The [G]Hound broke down
 
-Smoking into New Orleans
+Left us all stranded in downtown Birming[C]ham
 
-Somebody help me get out of Louisiana
+[Verse 2]
+[C]Straight off bought me a through train ticket
 
-Just help me get to Houston town
+Right across Mississippi [F]clean
 
-There's people there who care a little about me
+And [G]I was on that midnight flyer out of Birmingham
 
-And they won't let the poor boy down
+Smoking into New Or[C]leans
 
-Georgia on my mind
+[C]Somebody help me get out of Louisiana
 
-Got me a silk suit and put luggage in my hands
+Just help me get to Houston [F]town
+
+[G]People are there who care a little about me
+
+And they won't let the poor boy [C]down
+
+[C]Sure as she bore me, she bought me a silk suit
+
+Put luggage in my [F]hands
 
 And I woke up high over Albuquerque
+On a jet to the promised [C]land
 
-On a jet to the promised land
+[Verse 3]
+[C]Working on a T-bone steak a la carte
 
-Working on a T-bone steak a la carte
+Flying over to the Golden [F]State
 
-Flying over to the Golden State
+When the [G]pilot told us in thirteen minutes
 
-When the pilot told us in thirteen minutes
+We'd be heading in the terminal [C]gate
 
-We'd be heading in the terminal gate
+[C]Swing low sweet chariot, come down easy
 
-Swing low sweet chariot, come down easy
+Taxi to the terminal [F]zone
 
-Taxi to the terminal zone
+[G]Cut your engines, cool your wings
 
-Cut your engines and cool your wings
+And let me make it to the tele[C]phone
 
-And let me make it to the telephone
+[C]Los Angeles give me Norfolk Virginia
 
-Los Angeles, give me Norfolk, Virginia
+Tidewater four ten oh [F]nine
 
-Tidewater four ten oh nine
+Tell the [G]folks back home this is the promised land calling
 
-Tell the folks back home this is the promised land calling
-
-And the poor boy's on the line
-
-Thank you
-
-Thank you
+And the poor boy's on the [C]line

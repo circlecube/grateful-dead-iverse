@@ -4,7 +4,7 @@ id: 266
 name: rubin-and-cherise
 title: 'Rubin and Cherise'
 permalink: 'https://deadiverse.com/song/rubin-and-cherise/'
-modified_gmt: '2026-05-08T23:40:49+00:00'
+modified_gmt: '2026-10-09T22:06:43+00:00'
 band:
   - jerry-garcia-band
 stats:
@@ -15,6 +15,13 @@ stats:
     name: '1977-11-21'
     show_path: ../../shows/1977/11/1977-11-21.md
 musicbrainz_recording_mbid: f38a27e1-15c1-4958-a405-e3907e183061
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/rubin-and-cherise-chords-12359'
+links:
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/rubin-and-cherise-chords-12359'
+  other:
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/rubin-and-cherise'
 ---
 
 # Rubin and Cherise
@@ -104,3 +111,86 @@ Rubin walked the streets of New Orleans 'til dawn
 Cherise so lightly in his arms
 
 And her hair hung gently down
+
+## Chord sheet
+
+[Intro]
+[B][F#][E]
+[B][F#][E][F#]
+[Verse 1]
+Cher[B]ise was brus[F#]hing her long [E]hair gently dow[B]n[F#]
+
+It was the [F#]afternoo[B]n of carni[F#]val; As[E] she brushes [E]it gently down[B],[F#]
+
+R[B]ubin was stru[F#]mming his paint[E]ed mandolin.[B][F#]
+
+It was inl[F#]aid with a pret[B]ty face [F#]in jade; P[E]layed the carnival [B]parade[F#].[E]
+
+[Verse 2]
+Cher[B]ise was dres[F#]sing as Pirou[E]ette in whi[B]te[F#]
+
+When a f[F#]atal vis[B]ion grippe[F#]d her tight; [E]Cherise bewa[E]re tonigh[B]t.[F#]
+
+R[B]ubin, Rub[F#]in tell me tr[E]uly tr[B]ue.[F#]
+
+I feel afr[F#]aid and I don[B]'t know why I [F#]do. Is [E]there another gi[B]rl for yo[F#]u?[E]
+
+[Chorus 1]
+If [C#m]you could see in my hea[F#]rt, you would know [B]it's true.
+
+There's n[B]one Che[F#m]rise except [B]for you, ex[A]cept for[F#m] you.[G#]
+
+I'd s[C#m]wear to it on[B] my very [F#]soul, i[B]f I lie may I[B] fall down c[F#]old.[E]
+
+[Bridge]
+[E][E][E][E]
+[E][E][E][E][F#]
+[Verse 3]
+When R[B]ubin play[F#]ed on his paint[E]ed mandolin[B][F#]
+
+The br[F#]eeze would pau[B]se to liste[F#]n in; be[E]fore going its[E] way again.[B][F#]
+
+Masquer[B]ade began[F#] when night[E]fall finally wok[B]e,[F#]
+
+Like wa[F#]ves against the ban[B]dstand dance[F#]rs broke; [E]to the painted m[B]andolin.[F#][E]
+
+[Chorus 2]
+[C#m]    Looking out at the crow[F#]d, who is standi[B]ng there?
+
+Sweet R[B]uby Clai[F#m]re at Rubin[B] stared, [A]at Rubin st[F#m]ared.[G#]
+
+[C#m]   She was dres[B]sed as Pirouet[F#]te in red and[B] her hair hung[B] gently down[F#].[E]
+
+[Verse 4]
+The cr[B]owd pressed rou[F#]nd, Ruby stood [E]as though alone.[B][F#]
+
+Rubin's s[F#]ong took on[B] a diffe[F#]rent tone, a[E]nd he played it [E]just for he[B]r.[F#]
+
+The s[B]ong he play[F#]ed was the carni[E]val parade,[B][F#]
+
+Each n[F#]ote cut a threa[B]d of Cherise'[F#]s fate, i[E]t cut throu[B]gh like a blad[F#]e.[E]
+
+[Verse 5]
+Rub[B]in was play[F#]ing his paint[E]ed mandolin,[B][F#]
+
+When R[F#]uby froz[B]e and turne[F#]d to stone, f[E]or the strings pla[E]yed all alone.[B][F#]
+
+The vo[B]ice of Cheris[F#]e from the face [E]of the mandolin,[B][F#]
+
+Singing R[F#]ubin Rub[B]in tell [F#]me true, fo[E]r I have no o[B]ne but yo[F#]u.[E]
+
+[Chorus 3]
+[C#m]    If you could see in my hea[F#]rt, you would know i[B]t's true.
+
+There's n[B]one Cheris[F#m]e except [B]for you, ex[A]cept for [F#m]you.[G#]
+
+I'd s[C#m]wear to it on[B] my very [F#]soul, i[B]f I lie may I[B] fall down [F#]cold.[E]
+
+[Verse 6]
+The tr[B]uth of lov[F#]e an unsung [E]song must te[B]ll.[F#]
+
+The co[F#]urse of lov[B]e must follo[F#]w blind; w[E]ithout a loo[E]k behind[B].[F#]
+
+R[B]ubin wal[F#]ked the streets[E] of New Orleans till da[B]wn,[F#]
+
+Cher[F#]ise so lig[B]htly in h[F#]is arms, [E]and her hair hung[B] gently dow[F#]n.[E]
