@@ -92,9 +92,15 @@ const searchTitle = `${show.date}${show.venueName ? ` — ${show.venueName}` : '
 	</dl>
 </Card>
 
-<ExternalLinks links={show.links} permalink={show.permalink} />
+<ExternalLinks links={show.links} permalink={show.permalink} collapsible />
 
-<Card title="Setlist" icon={ListOrdered} iconTitle="Songs played at this show in set order (numbered list)">
+<Card
+	title="Setlist"
+	icon={ListOrdered}
+	iconTitle="Songs played at this show in set order (numbered list)"
+	collapsible
+	open
+>
 	{
 		setlistHasData ? (
 			<Setlist setlist={show.setlist} />

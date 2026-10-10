@@ -1,5 +1,5 @@
 ---
-import { ChevronDown, CircleUserRound, FileText, Guitar, Highlighter, Info, Music } from '@lucide/astro';
+import { CircleUserRound, FileText, Guitar, Highlighter, Info, Music } from '@lucide/astro';
 import { LYRICS_DISCLAIMER } from '../lib/lyrics-disclaimer';
 import ChordSheet from './ChordSheet.astro';
 import Card from './Card.astro';
@@ -97,37 +97,19 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 
 {
 	song.lyrics && (
-		<details class="card bv-card card--collapsible">
-			<summary class="bv-card__header card--collapsible__summary">
-				<span class="card--collapsible__lead">
-					<ChevronDown size={20} strokeWidth={2} class="bv-card__lucide card--collapsible__chevron" aria-hidden="true" />
-					<span class="bv-card__heading card__title">Lyrics</span>
-				</span>
-				<span
-					class="bv-card__header-icon bv-card__header-icon--help"
-					tabindex="0"
-					title={LYRICS_DISCLAIMER}
-					aria-label={LYRICS_DISCLAIMER}
-					onmousedown="event.stopPropagation()"
-					onclick="event.preventDefault(); event.stopPropagation();"
-				>
-					<FileText size={20} strokeWidth={2} class="bv-card__lucide" aria-hidden="true" />
-				</span>
-			</summary>
-			<div class="bv-card__body">
-				<CorpusBody content={song.lyrics} />
-			</div>
-		</details>
+		<Card title="Lyrics" icon={FileText} iconTitle={LYRICS_DISCLAIMER} iconHelp collapsible>
+			<CorpusBody content={song.lyrics} />
+		</Card>
 	)
 }
 
-<ExternalLinks links={song.links} chordsSourceUrl={song.chordsSourceUrl} permalink={song.permalink} />
+<ExternalLinks links={song.links} chordsSourceUrl={song.chordsSourceUrl} permalink={song.permalink} collapsible />
 </div>
 
 <div data-pagefind-ignore>
 {
 	displayPerformances.length > 0 && (
-		<Card title="Performances" icon={Music} iconTitle="Shows where this song appears in the setlist">
+		<Card title="Performances" icon={Music} iconTitle="Shows where this song appears in the setlist" collapsible>
 			<p class="meta card-table__meta">
 				{displayPerformances.length.toLocaleString()} shows (newest first; click column headers to sort)
 			</p>
@@ -154,7 +136,7 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 
 {
 	song.chordSheet && (
-		<Card title="Chord sheet" icon={Guitar} iconTitle="Guitar chords and tab for this song">
+		<Card title="Chord sheet" icon={Guitar} iconTitle="Guitar chords and tab for this song" collapsible>
 			<ChordSheet content={song.chordSheet} />
 		</Card>
 	)

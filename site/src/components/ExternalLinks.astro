@@ -8,6 +8,9 @@ interface Props {
 	chordsSourceUrl?: string;
 	permalink?: string;
 	permalinkLabel?: string;
+	/** Render the card as an accordion (see `Card`). */
+	collapsible?: boolean;
+	open?: boolean;
 }
 
 const {
@@ -15,6 +18,8 @@ const {
 	chordsSourceUrl = '',
 	permalink = '',
 	permalinkLabel = 'View on deadiverse.com',
+	collapsible = false,
+	open = false,
 } = Astro.props;
 
 type LinkItem = { label: string; url: string };
@@ -73,7 +78,7 @@ if (permalink) {
 
 {
 	items.length > 0 && (
-		<Card title="Links" icon={ExternalLink} iconTitle="Relevant external links">
+		<Card title="Links" icon={ExternalLink} iconTitle="Relevant external links" collapsible={collapsible} open={open}>
 			<ul class="link-buttons">
 				{items.map((item) => (
 					<li>
