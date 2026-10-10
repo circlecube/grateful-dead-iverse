@@ -23,41 +23,25 @@ also_known_as:
 ## Lyrics
 
 Once upon a time there was an engineer.
-
 Drove a locomotive both far and near.
-
 Accompanied by a monkey that would sit on a stool
-
 Watching everything the engineer would do
-
 One day the engineer wanted a bite to eat,
-
 He left the monkey sitting on the driver's seat,
-
 The monkey pulled the throttle, the locomotive jumped the gun
-
 And did 80 miles an hour down the mainline run.
 
 Big locomotive right on time, big locomotive coming down the line.
-
 Big locomotive No. 99, left the engineer with a worried mind.
 
 The engineer called up the dispatcher on the phone,
-
 To tell him all about his locomotive was gone.
-
 Dispatcher got on the wire, switch operator to the right,
-
 Cause the monkey's got the main line sewed up tight.
-
 The switch operator got the message on time,
-
 Said there's a Northbound livin' on the same main line,
-
 Open up the switch I'm gonna let him through the hole,
-
 Cause the monkey's got the locomotive under control.
 
 Big locomotive right on time, big locomotive coming down the line.
-
 Big locomotive No. 99, left the engineer with a worried mind.

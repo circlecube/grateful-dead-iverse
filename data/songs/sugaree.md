@@ -4,12 +4,30 @@ id: 231
 name: sugaree
 title: Sugaree
 permalink: 'https://deadiverse.com/song/sugaree/'
-modified_gmt: '2026-05-11T16:49:42+00:00'
+modified_gmt: '2026-10-09T22:07:05+00:00'
 band:
   - jerry-garcia
 stats:
   play_count: 0
 musicbrainz_recording_mbid: 547988db-b022-4e1a-9bc6-ee8d423f5d0e
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/sugaree-chords-419950'
+links:
+  dead_net: 'https://www.dead.net/song/sugaree'
+  jerrybase: 'https://jerrybase.com/songs/268'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/sugaree-chords-419950'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Sugaree.htm'
+    -
+      label: other
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-sugaree'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/sugaree.html'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/sugaree'
 embeds:
   -
     embed_type: youtube
@@ -20,100 +38,150 @@ embeds:
 
 ## Lyrics
 
-When they come to take you down, when they bring that wagon 'round,
-
-When they come to call on you,
-
-And drag your poor body down,
-
-Just one thing I ask of you,
-
-It's just one thing for me.
-
-Please forget you knew my name,
-
-My darling Sugaree.
-
-Shake it, shake it sugaree,
-
-Just don't tell them that you know me.
-
-Shake it, shake it sugaree,
-
-Just don't tell them that you know me.
-
-You thought you was the cool fool, never could do no wrong.
-
-You had everything sewed up tight. How come you lay awake all night long?
-
-Just one thing I ask of you,
-
-It's just one thing for me.
-
-Please forget you knew my name,
-
-My darling Sugaree.
-
-Shake it, shake it sugaree,
-
-Just don't tell them that you know me.
-
-Shake it, shake it sugaree,
-
-Just don't tell them that you know me.
-
-Well in spite of all you've gained,
-
-You still have to stand out in the pouring rain.
-
+When they come to take you down
+When they bring that wagon around
+When they come to call on you
+And drag your poor body down
+Just one thing I ask of you
+There's just one thing for me
+Please forget you knew my name
+My darlin' Sugaree
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+You thought you was the cool fool
+And never could do no wrong
+Had everything sewn up tight
+How come you lay awake all night long?
+Just one thing I ask of you
+There's just one thing for me
+Please forget you knew my name
+My darlin' Sugaree
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+You know, in spite of all you gained
+You still had to stand out in the pouring rain
 One last voice is calling you
+And I guess it's time you go
+Just one thing I ask of you
+There's just one thing for me
+Please forget you knew my name
+My darlin' Sugaree
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it up now Sugaree
+I'll meet you at the jubilee
+And if that jubilee don't come
+Baby, I'll meet you on the run
+Just one thing I ask of you
+Just one thing for me
+Please forget you knew my name
+My darlin' Sugaree
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
+Shake it, shake it Sugaree
+Just don't tell them that you know me
 
-And I guess it's time you go.
+## Chord sheet
 
-Just one thing I ask of you,
+Sugaree
+(Robert Hunter & Jerry Garcia)
 
-It's just one thing for me
+For best results, use these barre chords
+[B]       799877
+[A]       577655
+[F#m]     244222
+[C#m]     446654
 
-Please forget you knew my name,
+[Verse]
 
-My darling Sugaree.
+[B]When they come to tak[E]e you d[A]own[E]
 
-Shake it, shake it sugaree,
+[B]when they bring that wa[E]gon 'r[A]ound[E]
 
-Just don't tell them that you know me.
+[B]When they come to call[E] on y[A]ou  [E]
 
-Shake it, shake it sugaree,
+[B]and drag your poor b[E]ody down
 
-Just don't tell them that you know me.
+[Chorus]
 
-Well shake it up now Sugaree.
+[F#m]Just one thing I ask[C#m] of you, just [A]one thing for me[E]
 
-I'll meet you at the jubilee,
+[B]Please forget you k[C#m]now my name, my d[A]arling sugaree[E]
 
-And if that jubilee don't come,
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
 
-Maybe I'll meet you on the run.
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
 
-Just one thing I ask of you,
+[Verse]
 
-It's just one thing for me.
+[B]You thought you was t[E]he cool[A] fool[E]
 
-Please forget you knew my name,
+[B]and never could do no w[E]rong[A][E]
 
-My darling Sugaree.
+[B]Had everything sewed u[E]p tig[A]ht. [E]
 
-Shake it, shake it sugaree,
+[B]how come you lay awa[E]ke all night long
 
-Just don't tell them that you know me.
+[Chorus]
 
-Shake it, shake it sugaree,
+[F#m]Just one thing I ask[C#m] of you, just [A]one thing for me[E]
 
-Just don't tell them that you know me.
+[B]Please forget you k[C#m]now my name, my d[A]arling sugaree[E]
 
-Shake it, shake it sugaree,
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
 
-Just don't tell them that you know me.
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
 
-Shake it, shake it sugaree,
+[Verse]
 
-Just don't tell them that you know me.
+[B]Well in spite of all [E]you had[A] gaine[E]d
+
+[B]you still had to stand [E]out in[A] the p[E]ouring rain
+
+[B]One last voice is call[E]ing y[A]ou [E]
+
+[B]and I guess it's tim[E]e you go
+
+[Chorus]
+
+[F#m]Just one thing I ask[C#m] of you, just [A]one thing for me[E]
+
+[B]Please forget you k[C#m]now my name, my d[A]arling sugaree[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
+
+[Verse]
+
+[B]Well shake it up now [E]sugaree[A], [E]
+
+[B]I'll meet you at the ju[E]bilee[A][E]
+
+[B]and if that jubilee do[E]nt co[A]me[E]
+
+[B]well i'll meet you o[E]n the run
+
+[Chorus]
+
+[F#m]Just one thing I ask[C#m] of you, just [A]one thing for me[E]
+
+[B]Please forget you k[C#m]now my name, my d[A]arling sugaree[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know m[A]e[E]
+
+[B]Shake it, shake it su[E]garee, just[C#m] don't tell them that you know  [A]     me[E][B]

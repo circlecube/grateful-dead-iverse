@@ -4,7 +4,7 @@ id: 11526
 name: ramble-on-rose
 title: 'Ramble On Rose'
 permalink: 'https://deadiverse.com/song/ramble-on-rose/'
-modified_gmt: '1971-10-19T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:39+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -14,84 +14,183 @@ stats:
     id: 3733
     name: '1971-10-19'
     show_path: ../../shows/1971/10/1971-10-19.md
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/ramble-on-rose-chords-915535'
+links:
+  jerrybase: 'https://jerrybase.com/songs/1122'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/ramble-on-rose-chords-915535'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Ramble_On_Rose.htm'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/ramble2.html'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/ramble-on-rose'
 ---
 
 # Ramble On Rose
 
 ## Lyrics
 
-Just like Jack the Ripper, just like Mojo Hand
+Just like Jack the Ripper, just like Mojo Hand,
+Just like Billy Sunday, in a shotgun ragtime band,
+Just like New York City, just like Jerico,
+Pace the halls and climb the walls and get out when they blow.
 
-Just like Billy Sunday, in a shotgun ragtime band
+Did you say your name was Ramblin Rose?
+Ramble on baby, settle down easy
+Ramble on Rose.
 
-Just like New York City, just like Jericho
+Just like Jack and Jill, Mama told the sailor
+One heat up, and one cool down, leave nothin' for the tailor.
+Just like Jack and Jill, Papa told the jailer
+One go up, and one go down, do yourself a favor.
 
-Pace the halls and climb the walls and get out when they blow
+Did you say your name was Ramblin Rose?
+Ramble on baby, settle down easy
+Ramble on Rose.
 
-Did you say your name was Ramblin' Rose?
+I'm gonna to sing you a hundred verses in ragtime,
+I know this song it ain't never gonna end.
+I'm gonna march you up and down along the county line,
+Take you to the leader of a band.
 
-Ramble on, baby, settle down easy
+Just like Crazy Otto, just like Wolfman Jack,
+Sittin plush with a royal flush, aces back to back.
+Just like Mary Shelly, just like Frankenstein,
+Clank your chains and count your change and try to walk the line.
 
-Ramble on Rose
+Did you say your name was Ramblin Rose?
+Ramble on baby, settle down easy
+Ramble on Rose.
 
-Just like Jack and Jill, mama told the sailor
+I'm gonna to sing you a hundred verses in ragtime,
+I know this song it ain't never gonna end.
+I'm gonna march you up and down along the county line,
+Take you to the leader of a band.
 
-One heat up and one cool down, leave nothin' for the tailor
+Good-bye Mama and Papa
+Good-bye Jack and Jill
+The grass ain't greener
+The wine ain't sweeter
+Either side of the hill.
 
-Just like Jack and Jill, papa told the jailer
+Did you say your name was Ramblin Rose?
+Ramble on baby, settle down easy
+Ramble on Rose.
 
-One go up and one go down, do yourself a favor
+## Chord sheet
 
-Did you say your name was Ramblin' Rose?
+Tab difficulty:  Novice
+Tab creator: Intermediate
 
-Ramble on, baby, settle down easy
+The previous version was good.....but slightly inaccurate in terms of chord switching.  
+The D# and G# were removed because you can make it sound almost as good, with less 
+changes and creative strumming or note fillers. Play around with it a bit and you 
+will see what I mean. I also tabbed out the entire song, for ease of learning.
 
-Ramble on Rose
+[Verse]
 
-I'm gonna sing you a hundred verses in ragtime
+J[D]ust like Jack the Ripper, ju[E7]st like Mojo Hand,
 
-I know this song, it ain't never gonna end
+[F#m]Just like Billy [G]Sunday,[D]
 
-I'm gonna march you up and down along the county line
+In a [G]shotgun ragtime [A]band,
 
-Take you to the leader of a band
+[D]Just like New York City, ju[E7]st like Jerico,
 
-Just like Crazy Otto, just like Wolfman Jack
+[F#m]Pace the halls an[G]d climb [D]the walls
 
-Sittin' plush with a royal flush, aces back to back
+And [G]get out when they bl[A]ow.
 
-Just like Mary Shelly, just like Frankenstein
+[Chorus]
 
-Clank your chains and count your change and try to walk the line
+[D]Did you say your name was R[G]amblin Rose?
 
-Did you say your name was Ramblin' Rose?
+[E]Ramble on baby, s[G]ettle down easy[D]
 
-Ramble on, baby, settle down easy
+[A]Ramble on Ro[D]se.
 
-Ramble on Rose
+[Verse]
 
-I'm gonna to sing you a hundred verses in ragtime
+[D]Just like Jack and Jill, Mam[E7]a told the sailor
 
-I know this song, it ain't never gonna end
+[F#m]One heat up, and[G] one cool[D] down,
 
-I'm gonna march you up and down along the county line
+Leave [G]nothin' for the ta[A]ilor.
 
-Take you to the leader of a band
+[D]Just like Jack and Jill, Pap[E7]a told the jailer
 
-Ooh, ooh
+[F#m]One go up, and o[G]ne go down[D],
 
-Goodbye mama and papa
+Do y[G]ourself a f[A]avor.
 
-Goodbye, Jack and Jill
+[Chorus]
 
-The grass ain't greener, the wine ain't sweeter
+[D]Did you say your name was R[G]amblin Rose?
 
-Either side of the hill
+[E]Ramble on baby, s[G]ettle down easy[D]
 
-Did you say your name was Ramblin' Rose?
+[A]Ramble on Ro[D]se.
 
-Ramble on, baby, settle down easy
+[Bridge]
 
-Ramble on Rose
+[Bm]I'm gonna sing you a h[C]undred verses in ragtime,
 
-Ramble on Rose
+[Bm]I know this song it ai[C]n't never gonna end.[G]
+
+[Bm]I'm gonna march you up and do[C]wn along the county line,
+
+[D]Take you to the le[A]ader of a band[Bm].[E7][A]
+
+[Verse]
+
+[D]Just like Crazy Otto, just l[E7]ike Wolfman Jack,
+
+[F#m]Sittin plush wit[G]h a roya[D]l flush,
+
+Ac[G]es back to ba[A]ck.
+
+[D]Just like Mary Shelley, just [E7]like Frankenstein,
+
+[F#m]Clank your chains an[G]d count[D] your change
+
+And [G]try to walk the li[A]ne.
+
+[Chorus]
+
+[D]Did you say your name was R[G]amblin Rose?
+
+[E7]Ramble on baby, s[G]ettle down easy[D]
+
+[A]Ramble on Ro[D]se.
+
+[Bridge]
+
+[Bm]I'm gonna sing you a hu[C]ndred verses in ragtime,
+
+[Bm]I know this song it ai[C]n't never gonna end.[G]
+
+[Bm]I'm gonna march you up and do[C]wn along the county line,
+
+[D]Take you to the le[A]ader of a band[Bm].[E7][A]
+
+[Verse]
+
+[D]Goodbye Mama and Papa
+
+[E7]Goodbye Jack and Jill
+
+The [F#m]grass ain't greener, the win[G]e ain't sweet[D]er
+
+[D]Either si[G]de of the hill[A].
+
+[D]Did you say your name was R[G]amblin Rose?
+
+[E7]Ramble on baby, s[G]ettle down easy[D]
+
+[A]Ramble on Ro[D]se.
+
+[A]Ramble on Ro[D]se.

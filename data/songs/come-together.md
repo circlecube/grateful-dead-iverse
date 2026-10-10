@@ -4,12 +4,14 @@ id: 12735
 name: come-together
 title: 'Come Together'
 permalink: 'https://deadiverse.com/song/come-together/'
-modified_gmt: '2003-07-07T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:05:26+00:00'
 band:
   - the-grateful-dead
 stats:
   play_count: 0
 attribution: 'The Beatles'
+links:
+  jerrybase: 'https://jerrybase.com/songs/659'
 ---
 
 # Come Together
@@ -17,55 +19,35 @@ attribution: 'The Beatles'
 ## Lyrics
 
 Here come old flat top
-
 He come grooving up slowly
-
 He got joo joo eyeball
-
 He one holy roller
-
 He got hair down to his knee
-
 Got to be a joker he just do what he please
 
 He wear no shoe shine
-
 He got toe jam football
-
 He got monkey finger
-
 He shoot Coca-Cola
-
 He say I know you, you know me
-
 One thing I can tell you is you got to be free
 
 Come together, right now, over me
 
 He bag production
-
 He got walrus gumboot
-
 He got Ono sideboard
-
 He one spinal cracker
-
 He got feet down below his knee
-
 Hold you in his armchair you can feel his disease
 
 Come together, right now, over me
 
 He roller coaster
-
 He got early warning
-
 He got muddy water
-
 He one mojo filter
-
 He say, "one and one and one is three"
-
 Got to be good looking 'cause he's so hard to see
 
 Come together, right now, over me
@@ -73,21 +55,14 @@ Come together, right now, over me
 Oh
 
 Come together, yeah
-
+Come together, yeah
+Come together, yeah
 Come together, yeah
 
 Come together, yeah
-
 Come together, yeah
-
 Come together, yeah
-
-Come together, yeah
-
-Come together, yeah
-
 Oh
 
 Come together, yeah
-
 Come together, yeah

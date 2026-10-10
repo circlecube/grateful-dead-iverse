@@ -4,7 +4,7 @@ id: 11648
 name: the-race-is-on
 title: 'The Race Is On'
 permalink: 'https://deadiverse.com/song/the-race-is-on/'
-modified_gmt: '1969-06-11T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:07:09+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,38 +15,111 @@ stats:
     name: '1969-06-11'
     show_path: ../../shows/1969/06/1969-06-11.md
 attribution: 'George Jones'
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/the-race-is-on-chords-1797640'
+links:
+  jerrybase: 'https://jerrybase.com/songs/95'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/the-race-is-on-chords-1797640'
+  other:
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/the-race-is-on'
 ---
 
 # The Race Is On
 
 ## Lyrics
 
-I feel tears welling up from down deep inside,
+I feel tears wellin' up
+Cold and deep inside
+Like my heart's sprung a big break
+And a stab of loneliness sharp and painful
+That I may never shake
+You might say that I was takin' it hard
+Oh, she wrote me off with a call
+But don't you wager that I'll hide the sorrow
+When I may break right down and bawl
 
-Like my heart's got a big break
+Well, the race is on
+And here comes pride up the backstretch
+Heartaches are goin' to the inside
+My tears are holdin' back
+They're tryin' not to fall
+My heart's out of the runnin'
+True love's scratched for another's sake
+The race is on and it looks like heartache
+And the winner loses all
 
-And a stab of loneliness sharp and painful that I may never shake.
+One day I ventured in love
+Never once suspectin'
+What the final result would be
+How I lived in fear of wakin' up each mornin'
+Findin' that you're gone from me
+There's ache and pain in my heart
+For today was the one I hated to face
+Somebody new came up to win her
+I wound up in second place
 
-You might think that I'm taking it hard since you broke me off with a call,
+Well, the race is on
+And here comes pride up the backstretch
+Heartaches are goin' to the inside
+My tears are holdin' back
+They're tryin' not to fall
+My heart's out of the runnin'
+True love's scratched for another's sake
+The race is on and it looks like heartache
+And the winner loses all
 
-You might wager that I'll hide in sorrow and I might lay right down and bawl.
+## Chord sheet
 
-Now the race is on and here comes pride up the back stretch,
+Grateful Dead
+ALBUM: Reckoning (Live) 
+Country Shuffle
 
-Heartaches a goin' to the inside, my tears are holding back, tryin' not to fall.
+VERSE:
+I feel [G]tears welling up from down dee[G]p inside,like my h[C]earts got a big break[G]
 
-My heart's out of the running, true love scratched for another's sake,
+And a [G]stab of loneliness sharp and painful that I[A] may never shak[D]e.
 
-The race is on and it looks like heartaches, and the winner loses all.
+[G]You might think that Im taking it hard since you br[C]oke me off with a call[G],
 
-One day I ventured in love never once suspecting
+You might [G]wager that Ill hide in sorrow and I might la[D]y right down and bawl[G].
 
-What the final result would be.
+CHORUS:
+Now the race is [G]on and here comes pride up the back stretch,
 
-Now I live in fear of waking up each morning,
+[C]Heartaches a goin to the inside, M[G]y tears are holding back, tryi[A]n not to fall.[D]
 
-And finding that you're gone from me.
+[G]My hearts out of the running, true love sc[C]ratched for another's sake[G],
 
-There's an aching pain in my heart for the name of the one that I hated to face,
+The race is [G]on and it looks like heartaches, and the wi[D]nner loses all.[G]
 
-Someone else came out to win her, and I came out in second place.
+(SOLO: CHORUS and VERSE progressions)
+
+VERSE:
+One day I v[G]entured in love never once suspecting what the fi[C]nal result would be.[G]
+
+Now I [G]live in fear of waking up each morning,and fi[A]nding that youre gone from me.[D]
+
+There's an [G]aching pain in my heart for the name of the one[C] that I hated to face[G],
+
+Someone [G]else came out to win her, and I came ou[D]t in second plac[G]e.
+
+CHORUS:
+Now the race is [G]on and here comes pride up the back stretch,
+
+[C]Heartaches a goin to the inside, m[G]y tears are holding back, tryi[A]n not to fall.[D]
+
+[G]My hearts out of the running, true love sc[C]ratched for another's sake[G],
+
+The race is [G]on and it looks like heartaches, and the wi[D]nner loses all.[G]
+
+(SOLO: CHORUS and VERSE progressions)
+
+CHORUS:
+Now the race is [G]on and here comes pride up the back stretch,
+
+[C]Heartaches a goin to the inside, m[G]y tears are holding back, tryi[A]n not to fall.[D]
+
+[G]My hearts out of the running, true love sc[C]ratched for another's sake[G],
+
+The race is [G]on and it looks like heartaches, and the wi[D]nner loses all.[G]

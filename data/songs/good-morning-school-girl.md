@@ -22,49 +22,27 @@ attribution: 'Sonny Boy Williamson'
 ## Lyrics
 
 Good morning little schoolgirl
-
 Can i go home, home with you?
-
 Good morning little schoolgirl
-
 Can i go home, home with you?
-
 Tell your mama and your papa
-
 Big be schoolboy, too
-
 I won't bore you, yeah
-
 Baby, i won't bore you all night long
-
 Yes, i do
-
 Baby, i wanna ball you
-
 I wanna ball you all night long
-
 Tell your mama and your papa
-
 Baby, baby, doing nothing wrong, child
-
 I'm doing nothing wrong, yeah
 
 I won't bore you, yea, yea, huh
-
 Baby, i wanna ball you all night long
-
 Yes, i do, child
-
 I won't bore you, darling, yea
-
 I won't bore you all night long
-
 Tell your mama and your papa
-
 Baby, baby, we're gonna do nothing wrong
-
 Wrong, wrong, wrong
-
 Baby, i wanna ball you every night
-
 Oh, yeah, come on now

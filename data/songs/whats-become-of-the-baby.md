@@ -4,7 +4,7 @@ id: 79
 name: whats-become-of-the-baby
 title: 'What’s Become of the Baby'
 permalink: 'https://deadiverse.com/song/whats-become-of-the-baby/'
-modified_gmt: '2026-05-08T23:40:51+00:00'
+modified_gmt: '2026-10-09T22:07:20+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,15 @@ stats:
     name: '1969-04-26'
     show_path: ../../shows/1969/04/1969-04-26.md
 musicbrainz_recording_mbid: c779a08d-2b8d-4255-bd76-35e2b646a7f7
+links:
+  jerrybase: 'https://jerrybase.com/songs/1060'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Whats_Become_Of_The_Baby.htm'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/baby.html'
 embeds:
   -
     embed_type: youtube
@@ -26,51 +35,31 @@ embeds:
 ## Lyrics
 
 Waves of violet go crashing and laughing
-
 The rainbow winged singing birds fly 'round the sun
-
 Sun bells rain down in a liquid profusion
-
 Mermaids on porpoises draw up the dawn
-
 What's become of the baby this cold December morning?
 
 Songbirds frozen in their flight
-
 Drifting to the earth, remnants of forgotten dreaming
-
 Dawning answer comes there none.
 
 Go to sleep you child, dream of never-ending always
-
 Panes of crystal ice sparkle like waterfalls
-
 Lighting the polished ice caverns of the dawn,
-
 But where in the looking-glass fields of illusion
-
 Wandered the child who was perfect as the dawn?
-
 What's become of the baby this cold December morning?
-
 What's become of the baby this cold December morning?
 
 Racing in rhythm of the sun
-
 All the world revolves captured in the eye of woman
-
 Allah, where are you now?
 
 All eyes are blinded by the sparkling waters
-
 Scheherazade gathering stories to tell
-
 But where is the child who played with the sunshines?
-
 And chased the cloud shape to the regions of mind?
-
 Standing stream cries the south wind
-
 Lost in the regions of
-
 Shadow-like chains of illusion, delusions of living and dead.

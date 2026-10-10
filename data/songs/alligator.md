@@ -4,7 +4,7 @@ id: 160
 name: alligator
 title: Alligator
 permalink: 'https://deadiverse.com/song/alligator/'
-modified_gmt: '2026-05-08T23:40:52+00:00'
+modified_gmt: '2026-10-09T22:05:11+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,21 @@ stats:
     name: 1967-06-01a
     show_path: ../../shows/1967/06/1967-06-01a.md
 musicbrainz_recording_mbid: 90742f73-f326-4d9d-a711-fa162b2fb973
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/alligator-chords-1893518'
+links:
+  dead_net: 'https://www.dead.net/song/alligator'
+  jerrybase: 'https://jerrybase.com/songs/976'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/alligator-chords-1893518'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Alligator.htm'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/alligato.html'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/alligator'
 embeds:
   -
     embed_type: youtube
@@ -74,3 +89,75 @@ He never runs he just stumbles and hops.
 Just out of prison on ten dollars bail,
 
 Mumblin' bitches and waggin' his tail.
+
+## Chord sheet
+
+[Intro]
+
+[C][F][Am][C]
+
+[Verse]
+
+[C]Sleepy Alligator in the n[F]oon day sun,[Am]
+
+[C]Lyin' by the river just like he us[F]ually done[Am].
+
+[C]Call for his whiskey, he can c[F]all for his tea,[Am]
+
+[C]Call all he want to, but he ca[F]n't call me.[Am]
+
+[Chorus]
+
+[G]Oh no! I've been there before,
+
+[A]And I ain't gonna come around here no more.
+
+[Link]
+[C][Dm][F][C][C7]
+[Bridge]
+[F](Hung up, waitin' for wi[C]ndy day)
+
+[F](Hung up, waitin' for wi[C]ndy day)
+
+[F]Creepy alligator coming al[C]l around the bend,
+
+[F]Shoutin' about the times when we was mu[C]tual friends,
+
+[F]I checked my memory and I c[C]hecked it quick, yes I will.
+
+[F]I checked it runnin' some old ki[C]nd of trick.
+
+[Chorus 2]
+
+[Dm]Oh no! Well I've b[A]een there before,
+
+[G7]And I ain't gonna come around h[A]ere any more.
+
+[Link]
+[A][E]
+
+[Verse 2]
+
+[A]Sailin' down the river in an ol[E]d canoe,
+
+[A]A bunch of bugs and an ol[E]d tennis shoe.
+
+[A]Out of the river all ug[E]ly and green,
+
+[A]Came the biggest old alligator th[E]at I've ever seen!
+
+[A]Teeth big and pointy and his ey[E]es were buggin' out,
+
+[A]Contracted the union, put the be[E]ggars to rout.
+
+[A]Screamin' and yellin', he was pi[E]ckin' his chops,
+
+[A]He never runs he just st[E]umbles and hops.
+
+[A]Just out of prison on te[E]n dollars bail,
+
+[A]Mumblin' bitches and wa[E]ggin' his tail.
+
+[Outro]
+
+[E][D][Em][E]

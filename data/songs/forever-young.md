@@ -4,7 +4,7 @@ id: 11651
 name: forever-young
 title: 'Forever Young'
 permalink: 'https://deadiverse.com/song/forever-young/'
-modified_gmt: '1986-10-04T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:05:52+00:00'
 band:
   - jerry-garcia-band
 stats:
@@ -15,6 +15,13 @@ stats:
     name: '1986-10-04'
     show_path: ../../shows/1986/10/1986-10-04.md
 attribution: 'Bob Dylan'
+links:
+  dead_net: 'https://www.dead.net/song/forever-young'
+  jerrybase: 'https://jerrybase.com/songs/802'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Forever_Young.htm'
 ---
 
 # Forever Young
@@ -22,53 +29,48 @@ attribution: 'Bob Dylan'
 ## Lyrics
 
 May God bless and keep you always
-
 May your wishes all come true
-
 May you always do for others
-
 And let others do for you
 
 May you build a ladder to the stars
+And climb on every rung
 
-And climb on every one
-
-May you stay
-
+And may you stay
 Forever young
 
-Forever young, forever young
-
-May you stay forever young
+Forever young
+Forever young
+May you stay
+Forever young
 
 May you grow up to be righteous
-
 May you grow up to be true
-
 May you always know the truth
-
 And see the lights surrounding you
 
 May you always be courageous
+Stand upright and be strong
 
-Stand upright and be true
+And may you stay
+Forever young
 
+Forever young
+Forever young
 May you stay
-
 Forever young
 
 May your hands always be busy
-
 May your feet always be swift
-
 May you have a strong foundation
-
 When the winds of changes shift
 
 May your heart always be joyful
-
 May your song always be sung
+And may you stay
+Forever young
 
+Forever young
+Forever young
 May you stay
-
 Forever young

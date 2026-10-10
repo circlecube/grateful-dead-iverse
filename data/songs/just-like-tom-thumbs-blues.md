@@ -4,7 +4,7 @@ id: 11616
 name: just-like-tom-thumbs-blues
 title: "Just Like Tom Thumb's Blues"
 permalink: 'https://deadiverse.com/song/just-like-tom-thumbs-blues/'
-modified_gmt: '1985-03-27T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:06:10+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,62 +15,63 @@ stats:
     name: '1985-03-27'
     show_path: ../../shows/1985/03/1985-03-27.md
 attribution: 'Bob Dylan'
+links:
+  jerrybase: 'https://jerrybase.com/songs/1236'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Just_Like_Tom_Thumbs_Blues.htm'
 ---
 
 # Just Like Tom Thumb's Blues
 
 ## Lyrics
 
-When you're lost in the rain in Juarez, when it's Easter time, too
+When your lost in the rain
+In Juarez and it's Easter time too
+When your gravity is down
+And negativity won't pull you through
 
-And your gravity fails and negativity don't pull you through
+Don't you put on any airs
+When you down on Rue Morgue Avenue
+They got some hungry creatures there
+Surely make a mess out of you
 
-Don't put on any airs when you're down on Rue Morgue Avenue
+Well, if you see St. Annie
+Please tell her, thanks a lot
+are all in a knot
 
-They got some hungry women there
+I don't even have the strength
+To get up and crawl across the floor for another shot
+And my best friend, my drummer
+Won't even tell me, what it was that I dropped?
 
-And they really make a mess outta you
+Yeah, sweet Melinda
+The peasants call her the goddess of gloom
+She has, speaks good English
+As she invites you up into her room
 
-Now, if you see Saint Annie, please, tell her, "Thanks a lot"
+And you, you were so kinda conscientious
+Not to go to her too soon
+But she steals your voice
+And leaves you howling at the moon
 
-I cannot move, my fingers are all in a knot
+Up on Housing Project Hill
+It's either fortune or fame
+You must choose one or the other
+But neither are to be what they claim
 
-I don't have the strength to get up and take another shot
+If you're looking to get silly
+You better get back to from where you came
+Because the cops don't need you ever
+And they expect the same
 
-And my best friend, my doctor won't even say what it is I've got
+Now I started out on Heinakin
+But I soon hit the harder stuff
+Everybody swore they stand beside me
+When the game got rough
 
-Sweet Melinda, the peasants call her the Goddess of Gloom
-
-She speaks good English and she invites you up into her room
-
-And you're so kind and careful not to go to her too soon
-
-And she takes your voice and leaves you howling at the moon
-
-Up on Housing Project Hill, it's either fortune or fame
-
-You must pick up one or the other
-
-Though neither of them are to be what they claim
-
-If you're lookin' to get silly
-
-You better go back to from where you came
-
-Because the cops don't need you and man, they expect the same
-
-Now, all the authorities, they just stand around and boast
-
-How they blackmailed the sergeant at arms into leaving his post
-
-And picking up Angel who just arrived here from the coast
-
-Who looked so fine at first but left looking just like a ghost
-
-I started out on burgundy, but soon hit the harder stuff
-
-Everybody said they'd stand behind me when the game got rough
-
-But the joke was on me, there was nobody even there to bluff
-
-I'm goin' back to New York City, I do believe I've had enough
+But the joke was on me
+There wasn't even anybody there to bluff
+I'm goin' back to New York City
+I do believe I've had enough

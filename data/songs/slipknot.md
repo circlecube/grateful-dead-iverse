@@ -4,7 +4,7 @@ id: 10664
 name: slipknot
 title: Slipknot!
 permalink: 'https://deadiverse.com/song/slipknot/'
-modified_gmt: '2026-08-25T20:21:03+00:00'
+modified_gmt: '2026-10-09T22:06:52+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -14,6 +14,23 @@ stats:
     id: 4378
     name: '1974-06-20'
     show_path: ../../shows/1974/06/1974-06-20.md
+chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/slipknot'
+links:
+  dead_net: 'https://www.dead.net/song/slipknot'
+  jerrybase: 'https://jerrybase.com/songs/1160'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Slipknot.htm'
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/slip.html'
+    -
+      label: other
+      url: 'https://www.youtube.com/watch?v=ZpMnsEIITuc'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/slipknot'
 embeds:
   -
     embed_type: youtube
@@ -108,3 +125,7 @@ Making it too
 Without love in the dream
 
 It will never come true
+
+## Chord sheet
+
+(Grateful Dead)

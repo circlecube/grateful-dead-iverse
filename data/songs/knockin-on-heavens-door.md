@@ -4,16 +4,27 @@ id: 247
 name: knockin-on-heavens-door
 title: 'Knockin’ on Heaven’s Door'
 permalink: 'https://deadiverse.com/song/knockin-on-heavens-door/'
-modified_gmt: '2026-05-08T23:40:48+00:00'
+modified_gmt: '2026-10-09T22:06:11+00:00'
 band:
   - jerry-garcia
 stats:
   play_count: 0
 musicbrainz_recording_mbid: c5f0bb8d-60d1-475d-b5bc-07e8fb7ad40d
+chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/knockin-on-heavens-door-chords-5445453'
+links:
+  jerrybase: 'https://jerrybase.com/songs/687'
+  ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/knockin-on-heavens-door-chords-5445453'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Knockin_On_Heavens_Door.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/knockin-on-heavens-door'
 embeds:
   -
     embed_type: youtube
-    youtube_video: 'https://youtube.com/watch?v=ecyT_d-7So4%3Ffeature%3Doembed%22+frameborder%3D%220%22+allow%3D%22accelerometer%3B+autoplay%3B+clipboard-write%3B+encrypted-media%3B+gyroscope%3B+picture-in-picture%3B+web-share%22+referrerpolicy%3D%22strict-origin-when-cross-origin%22+allowfullscreen%3E%3C'
+    youtube_video: '<iframe title="Knockin&amp;apos; On Heaven&amp;apos;s Door" width="520" height="390" src="https://www.youtube.com/embed/ecyT_d-7So4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   -
     embed_type: youtube
     youtube_video: '<iframe title="Knockin&amp;apos; On Heaven&amp;apos;s Door" width="520" height="390" src="https://www.youtube.com/embed/sE67znSsto0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
@@ -23,122 +34,123 @@ embeds:
 
 ## Lyrics
 
-Mama take this badge off of me
+Mama take this badge from me
+I can't use it anymore
+It's gettin' dark, too dark to see
+Feels like I'm knockin' on Heaven's door
 
-I can't wear it anymore
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
 
-It's getting too dark, too dark to see
+Mama put my guns in the ground
+I can't shoot them anymore
+That cold black cloud is comin' down
+Feels like I'm knockin' on Heaven's door
 
-And i feel like i'm
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
 
-Feel i'm knockin' on heaven's door
+You just better start sniffin' your own rank subjugation Jack
+'Cause it's just you against your tattered libido, the bank and the mortician
+Forever man
+And it wouldn't be luck if you could get out of life alive
 
-Knock, knock, knockin' on heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
 
-I feel like, i feel like i'm
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
 
-Knock, knock, knockin' on heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
+Knock knock knockin' on Heaven's door
 
-I said i, i feel i'm
+## Chord sheet
 
-Knock, knock, knockin' on heaven's door
+|| Tabbed from https://youtu.be/OHCnQ5DiPrA
 
-Mama mama mama
+[Intro]
+[G][D][Am][G][D][Am]
+[G][D][Am][G][D][Am]
 
-Knock, knock, knockin' on heaven's door
+[Verse 1]
+[G]  Come take this ba[D]dge off of me[Am]
 
-Oh
+[G]  I won't we[D]ar it any more[Am]
 
-Take these guns and put em to the ground
+[G]  Now the sun is [D]setting over me[Am]
 
-I can't, i can't, i can't
+[G]  I feel like I'm kn[D]ockin on heaven's door[Am]
 
-I just can't shoot them anymore
+[Chorus]
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-There's a long black cloud
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-There's a long black cloud
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-You know it's a, it's a comin' down
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-I feel i, i feel i, i feel i'm
+[Intrumental Verse]
 
-I feel i'm knockin' on heaven's door
+[G][D][Am][G][D][Am][G][D][Am][G][D][Am]
+[G][D][Am][G][D][Am][G][D][Am][G][D][Am]
+[G][D][Am][G][D][Am]
 
-Knock, knock, knockin' on heaven's door
+[Verse 2]
+[G]  Come put these[D] guns in the ground[Am]
 
-Now i said mama mama
+[G]  I can't sh[D]oot them anymore[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]             The sun[D] is going down[Am]
 
-Oh now
+[G]  I believe I'm[D] knockin' on heaven's d[Am]oor
 
-Knock, knock, knockin' on heaven's door
+[Chorus]
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Oh
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Wipe this blood from my face
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-I can't see through the walls
+[Verse 3]
 
-Six white horses coming to carry me away
+[G]Come wipe these te[D]ars from my eyes[Am]
 
-I feel i'm knockin' on heaven's door
+[G]I can't she[D]d them any more[Am]
 
-I'm
+[G]The sun is sett[D]ing in the western sky[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]People, I believe I must be kn[D]ocking on heaven's door[Am]
 
-Gonna take me, gonna take me, gonna take me now
+[Chorus]
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Wipe this, wipe this, wipe this, wipe this
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]  Just like so man[D]y times before[Am]
 
-Oh mama i'm
+[Chorus]
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Knock, knock, knockin' on heaven's door
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Mama take these chains off of me
+[G]  Knock, knock, kn[D]ockin' on heaven's door[Am]
 
-Cause i don't, i don't want them anymore
+[G]  Just like so man[D]y times before[Am]
 
-They're getting too damn heavy
-
-And i'm crawling across the floor
-
-I feel like, i feel like i'm knockin' on heaven's door
-
-Oh mama
-
-Knock, knock, knockin' on heaven's door
-
-Ah mama mama mama
-
-Knock, knock, knockin' on heaven's door
-
-Gonna take me, gonna take me, gonna take me
-
-Knock, knock, knockin' on heaven's door
-
-Oh
-
-Knock, knock, knockin' on heaven's door
-
-Oh i'm
-
-Knock, knock, knockin' on heaven's door
-
-I'm knockin'
-
-Knock, knock, knockin' on heaven's door
-
-Oh i'm knockin'
-
-Knock, knock, knockin' on heaven's door
-
-Oh i'm i i i'm knockin'
+[Outro]
+[G][D][Am][G]

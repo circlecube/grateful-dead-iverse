@@ -4,12 +4,17 @@ id: 48
 name: sage-spirit
 title: 'Sage & Spirit'
 permalink: 'https://deadiverse.com/song/sage-spirit/'
-modified_gmt: '2026-05-08T23:40:50+00:00'
+modified_gmt: '2026-10-09T22:06:43+00:00'
 band:
   - the-grateful-dead
 stats:
   play_count: 0
 musicbrainz_recording_mbid: dfb6f4db-ad4a-44c4-8f2d-d642925ce9ea
+links:
+  other:
+    -
+      label: other
+      url: 'https://annotated.thedeadly.app/sage.html'
 embeds:
   -
     embed_type: youtube

@@ -4,12 +4,15 @@ id: 271
 name: rain
 title: Rain
 permalink: 'https://deadiverse.com/song/rain/'
-modified_gmt: '2026-05-08T23:40:49+00:00'
+modified_gmt: '2026-10-09T22:06:39+00:00'
 band:
   - jerry-garcia-band
 stats:
   play_count: 0
 musicbrainz_recording_mbid: 78a67dbe-18f8-41b1-8d73-155c52dc5ba0
+links:
+  dead_net: 'https://www.dead.net/song/rain'
+  jerrybase: 'https://jerrybase.com/songs/714'
 ---
 
 # Rain

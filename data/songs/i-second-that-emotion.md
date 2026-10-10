@@ -4,7 +4,7 @@ id: 11619
 name: i-second-that-emotion
 title: 'I Second That Emotion'
 permalink: 'https://deadiverse.com/song/i-second-that-emotion/'
-modified_gmt: '1976-01-26T20:00:00+00:00'
+modified_gmt: '2026-10-09T22:05:59+00:00'
 band:
   - jerry-garcia-band
 stats:
@@ -15,70 +15,112 @@ stats:
     name: '1976-01-26'
     show_path: ../../shows/1976/01/1976-01-26.md
 attribution: 'Smokey Robinson & The Miracles'
+chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/i-second-that-emotion'
+links:
+  jerrybase: 'https://jerrybase.com/songs/383'
+  other:
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/I_Second_That_Emotion.htm'
+    -
+      label: other
+      url: 'https://www.rukind.com/gdpedia/titles/tab/i-second-that-emotion'
 ---
 
 # I Second That Emotion
 
 ## Lyrics
 
-Maybe you'll wanna give me kisses sweet
+Maybe, you want to give me kisses sweet
+But only for one night with no repeat
+Maybe, you'd go away and never call
+And a taste of honey is worse than none at all
+(Oh, little girl)
 
-But only for one night with no repeat.
+Oh, little girl
+In that case I don't want no part
+That would only break my heart
+Oh, but if you feel like loving me
 
-And maybe you'll go away and never call,
+If you got the notion
+I second that emotion
+Said, if you feel like giving me
+A lifetime of devotion
+I second that emotion
 
-And a taste of honey is worse that none at all.
+Maybe, you think that love would tie you down
+You ain't got the time to hang around
+Maybe, you think that love was made for fools
+So, it makes you wise to break the rules
 
-Oh little girl!
+Oh, little girl
+In that case I don't want no part
+That would only break my heart
+Oh, but if you feel like loving me
 
-In that case I don't want nobody
+If you got the notion
+I second that emotion
+Said, if you feel like giving me
+A lifetime of devotion
+I second that emotion
 
-I do believe that that would only break my heart
+Maybe, you want to give me kisses sweet
+But only for one night with no repeat
+Maybe, you'd go away and never call
+And a taste of honey is worse than none at all
+(Oh, little girl)
 
-Oh, but if you feel like lovin' me
+Oh, little girl
+In that case I don't want no part
+That would only break my heart
+Oh, but if you feel like loving me
 
-If you got the notion,
+If you got the notion
+I second that emotion
+Said, if you feel like giving me
+A lifetime of devotion
+I second that emotion
 
-I second that emotion.
+Maybe, you think that love would tie you down
+You ain't got the time to hang around
+Maybe, you think that love was made for fools
+So, it makes you wise to break the rules
 
-So, if you feel like giving me a lifetime of devotion
+Oh, little girl
+In that case I don't want no part
+That would only break my heart
+Oh, but if you feel like loving me
 
-I second that emotion.
+If you got the notion
+I second that emotion
+Said, if you feel like giving me
+A lifetime of devotion
+I second that emotion
 
-Maybe you'll think that love will tie you down
+Well, if you feel like giving me
+A lifetime of devotion
 
-And you don't have the time to hang around.
+## Chord sheet
 
-Or maybe you'll think that love will make us fools,
+(Robinson)
 
-And so it makes you wise to break the rules.
+[E][D][A]
+[E][D][A]
+[A]Maybe you want to [D]give me kisses [A]sweet
+[A]But only for one [D]night with no re[A]peat
+[A]Maybe you’d go a[D]way and never [A]call
+And a [D]taste of honey is [E]worse than none at [A]all
 
-Oh little girl!
+Oh little girl, in [D]that case I don't want no [A]part
+[D]That would only break my [A]heart
+Oh, but [A]if you feel like loving me
+[E]If you got the [D]notion
+I second that e[A]motion
+[A]If you feel like giving me
+A [E]lifetime of de[D]votion
+I second that e[A]motion
 
-In that case I don't want nobody
-
-I do believe that that would only break my heart
-
-Oh, but if you feel like lovin' me
-
-If you got the notion,
-
-I second that emotion.
-
-So, if you feel like giving me a lifetime of devotion
-
-I second that emotion.
-
-In that case I don't want nobody
-
-I do believe that that would only break my heart
-
-Oh, but if you feel like lovin' me
-
-If you got the notion,
-
-I second that emotion.
-
-So, if you feel like giving me a lifetime of devotion
-
-I second that emotion.
+Maybe you think that love would tie you down
+You ain't got the time to hang around
+Maybe you think that love was made for fools
+So it makes you wise to break the rules
