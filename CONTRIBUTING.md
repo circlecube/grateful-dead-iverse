@@ -186,7 +186,7 @@ Output ZIPs are written under `dist/` by default (gitignored). Upload via **Band
 
 ## Static site (`site/`)
 
-A read-only **Astro** app in **`site/`** renders `data/` for the web. **Live:** [grateful.deadiverse.com](https://grateful.deadiverse.com). **Cloudflare Pages** deploys from `main` (build root: `site`, build command `npm ci && npm run build`, output `dist`). Set **`SITE_URL`** to `https://grateful.deadiverse.com` so canonical links, Open Graph, and `sitemap-index.xml` use the correct origin. CI: `.github/workflows/site.yml`.
+A read-only **Astro** app in **`site/`** renders `data/` for the web. **Live:** [grateful.deadiverse.com](https://grateful.deadiverse.com). **Cloudflare Pages** deploys from `main` (build root: `site`, build command `npm ci && npm run build`, output `dist`). Set **`SITE_URL`** to `https://grateful.deadiverse.com` so canonical links, Open Graph, `sitemap-index.xml`, and `robots.txt` use the correct origin. Sitemap `<lastmod>` comes from each file’s `modified_gmt` (index pages use their newest entry); submit `https://grateful.deadiverse.com/sitemap-index.xml` in Google Search Console. CI: `.github/workflows/site.yml`.
 
 | Change type | Where to edit |
 | --- | --- |
