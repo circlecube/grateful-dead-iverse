@@ -8,12 +8,7 @@ modified_gmt: '2026-10-09T22:07:07+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 1
-  first_played:
-    date: '2015-07-04'
-    id: 11122
-    name: '2015-07-04'
-    show_path: ../../shows/2015/07/2015-07-04.md
+  play_count: 0
 musicbrainz_recording_mbid: 39a99b7a-56ea-4d51-9a71-b52cc9e73e9e
 links:
   other:
