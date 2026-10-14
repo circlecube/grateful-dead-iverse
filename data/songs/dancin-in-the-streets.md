@@ -17,6 +17,7 @@ stats:
 musicbrainz_recording_mbid: 96c58f69-0a8e-496f-ad19-22e05b3a9510
 also_known_as:
   - 'Dancing in the Street'
+  - 'Dancin’ In The Street'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/dancin-in-the-streets'
 links:
   jerrybase: 'https://jerrybase.com/songs/1013'
