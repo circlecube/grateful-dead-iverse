@@ -8,7 +8,7 @@ modified_gmt: '2026-10-09T22:07:08+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 812
+  play_count: 811
   first_played:
     date: '1967-08-05'
     id: 1788
@@ -17,6 +17,7 @@ stats:
 also_known_as:
   - "That's It for the Other One"
   - 'The Faster We Go, the Rounder We Get'
+  - 'The Other One I'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/the-other-one'
 links:
   jerrybase: 'https://jerrybase.com/songs/1049'

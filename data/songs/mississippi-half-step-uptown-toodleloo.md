@@ -8,7 +8,7 @@ modified_gmt: '2026-10-09T22:06:21+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 187
+  play_count: 285
   first_played:
     date: '1972-07-22'
     id: 3907
@@ -17,6 +17,7 @@ stats:
 musicbrainz_recording_mbid: d0f60f75-84af-417c-ac3e-31fb17de299b
 also_known_as:
   - 'Mississippi Half‐Step Uptown Toodeloo'
+  - 'Mississippi Half-Step Uptown Toodleloo'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/mississippi-half-step-uptown-toodeloo-chords-987299'
 links:
   dead_net: 'https://www.dead.net/song/mississippi-half-step-uptown-toodleloo'

@@ -1,10 +1,10 @@
 ---
 schema_version: 1
 id: 14378
-name: dark-star-2
+name: dark-star
 title: 'Dark Star'
-permalink: 'https://deadiverse.com/song/dark-star-2/'
-modified_gmt: '2026-10-09T22:05:30+00:00'
+permalink: 'https://deadiverse.com/song/dark-star/'
+modified_gmt: '2026-10-13T04:06:24+00:00'
 band:
   - the-grateful-dead
 stats:
