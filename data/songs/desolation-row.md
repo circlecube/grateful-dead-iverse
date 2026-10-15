@@ -11,9 +11,9 @@ stats:
   play_count: 74
   first_played:
     date: '1986-03-25'
-    id: 6719
-    name: '1986-03-25'
-    show_path: ../../shows/1986/03/1986-03-25.md
+    id: 11344
+    name: 1986-03-25a
+    show_path: ../../shows/1986/03/1986-03-25a.md
 attribution: 'Bob Dylan'
 links:
   dead_net: 'https://www.dead.net/song/desolation-row'

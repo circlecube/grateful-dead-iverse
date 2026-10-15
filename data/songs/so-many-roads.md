@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:06:57+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 70
+  play_count: 64
   first_played:
     date: '1992-02-22'
-    id: 8122
-    name: '1992-02-22'
-    show_path: ../../shows/1992/02/1992-02-22.md
+    id: 11208
+    name: 1992-02-22a
+    show_path: ../../shows/1992/02/1992-02-22a.md
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/so-many-roads-chords-1849420'
 links:
   dead_net: 'https://www.dead.net/song/so-many-roads'
