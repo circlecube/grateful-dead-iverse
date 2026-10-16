@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:05:12+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 81
+  play_count: 179
   first_played:
-    date: '1980-10-18'
-    id: 5496
-    name: '1980-10-18'
-    show_path: ../../shows/1980/10/1980-10-18.md
+    date: '1970-11-08'
+    id: 3463
+    name: '1970-11-08'
+    show_path: ../../shows/1970/11/1970-11-08.md
 also_known_as:
   - 'Around and Around'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/around-around-chords-848570'

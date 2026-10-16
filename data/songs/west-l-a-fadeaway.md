@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:07:19+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 191
+  play_count: 152
   first_played:
     date: '1982-08-28'
-    id: 5945
-    name: '1982-08-28'
-    show_path: ../../shows/1982/08/1982-08-28.md
+    id: 11433
+    name: 1982-08-28a
+    show_path: ../../shows/1982/08/1982-08-28a.md
 musicbrainz_recording_mbid: 3e7317fc-2c8c-46a2-9d98-5b1b724f5590
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/west-la-fadeaway-chords-2405139'
 links:

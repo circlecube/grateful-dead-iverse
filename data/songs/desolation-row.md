@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:05:38+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 74
+  play_count: 58
   first_played:
     date: '1986-03-25'
-    id: 11344
-    name: 1986-03-25a
-    show_path: ../../shows/1986/03/1986-03-25a.md
+    id: 6719
+    name: '1986-03-25'
+    show_path: ../../shows/1986/03/1986-03-25.md
 attribution: 'Bob Dylan'
 links:
   dead_net: 'https://www.dead.net/song/desolation-row'
