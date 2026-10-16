@@ -8,12 +8,12 @@ modified_gmt: '1992-02-22T20:00:00+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 29
+  play_count: 21
   first_played:
     date: '1992-02-22'
-    id: 11208
-    name: 1992-02-22a
-    show_path: ../../shows/1992/02/1992-02-22a.md
+    id: 8122
+    name: '1992-02-22'
+    show_path: ../../shows/1992/02/1992-02-22.md
 ---
 
 # Wave to the Wind

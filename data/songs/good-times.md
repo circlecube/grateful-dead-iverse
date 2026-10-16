@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:05:54+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 47
+  play_count: 34
   first_played:
-    date: '1988-04-30'
-    id: 11297
-    name: 1988-04-30a
-    show_path: ../../shows/1988/04/1988-04-30a.md
+    date: '1988-06-22'
+    id: 7294
+    name: '1988-06-22'
+    show_path: ../../shows/1988/06/1988-06-22.md
 attribution: 'Sam Cooke'
 links:
   other:
