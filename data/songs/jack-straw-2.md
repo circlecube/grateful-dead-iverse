@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:06:07+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 2
+  play_count: 163
   first_played:
-    date: '1980-03-31'
-    id: 5190
-    name: '1980-03-31'
-    show_path: ../../shows/1980/03/1980-03-31.md
+    date: '1971-10-21'
+    id: 3737
+    name: '1971-10-21'
+    show_path: ../../shows/1971/10/1971-10-21.md
 musicbrainz_recording_mbid: 281f4757-35e8-440c-b821-756f7e133c5d
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/jack-straw-chords-12338'
 links:

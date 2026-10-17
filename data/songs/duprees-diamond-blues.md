@@ -8,7 +8,7 @@ modified_gmt: '2026-10-09T22:05:48+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 91
+  play_count: 80
   first_played:
     date: '1969-01-24'
     id: 2518

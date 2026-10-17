@@ -8,12 +8,12 @@ modified_gmt: '1980-08-19T20:00:00+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 231
+  play_count: 180
   first_played:
-    date: '1980-08-19'
-    id: 11517
-    name: 1980-08-19a
-    show_path: ../../shows/1980/08/1980-08-19a.md
+    date: '1980-08-31'
+    id: 5291
+    name: '1980-08-31'
+    show_path: ../../shows/1980/08/1980-08-31.md
 attribution: 'Willie Dixon'
 ---
 
