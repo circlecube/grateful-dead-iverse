@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:06:10+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 12
+  first_played:
+    date: '1970-01-31'
+    id: 3076
+    name: '1970-01-31'
+    show_path: ../../shows/1970/01/1970-01-31.md
 musicbrainz_recording_mbid: e71e1b56-445d-42ba-8c1b-dbd87b644de4
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/katie-mae-chords-3237584'
 links:

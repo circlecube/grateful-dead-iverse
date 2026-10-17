@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:05:58+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 45
+  play_count: 31
   first_played:
     date: '1980-11-26'
-    id: 11492
-    name: 1980-11-26a
-    show_path: ../../shows/1980/11/1980-11-26a.md
+    id: 5544
+    name: '1980-11-26'
+    show_path: ../../shows/1980/11/1980-11-26.md
 attribution: 'The Rolling Stones'
 links:
   dead_net: 'https://www.dead.net/song/i-cant-get-no-satisfaction'

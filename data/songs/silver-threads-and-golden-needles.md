@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:06:47+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 17
+  first_played:
+    date: '1966-05-19'
+    id: 813
+    name: '1966-05-19'
+    show_path: ../../shows/1966/05/1966-05-19.md
 musicbrainz_recording_mbid: 6d7cc26c-6b68-4109-9bb9-1d9a4c6df261
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/silver-threads-and-golden-needles-chords-3304652'
 links:

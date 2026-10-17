@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:08:50+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 113
+  first_played:
+    date: '1971-08-24'
+    id: 3724
+    name: '1971-08-24'
+    show_path: ../../shows/1971/08/1971-08-24.md
 musicbrainz_recording_mbid: 3c85eef8-852d-4008-9939-3b1cd5db05e5
 also_known_as:
   - 'Brown Eyed Woman'
