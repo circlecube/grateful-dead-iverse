@@ -18,3 +18,25 @@ attribution: 'Elizabeth Cotten'
 ---
 
 # Oh Babe It Ain't No Lie
+
+## Lyrics
+
+One old women Lord in this town
+Keeps a-telling her lies on me
+Wish to my soul that old women would die
+Keep a-telling her lies on me
+
+Oh babe it ain't no lie
+Oh babe it ain't no lie
+Oh babe it ain't no lie
+Know this life I'm living is very high
+
+Been all around this whole round world
+Lord I just got back today
+Work all the week hon and I give it all to you
+Honey baby what more can I do
+
+Oh babe it ain't no lie
+Oh babe it ain't no lie
+Oh babe it ain't no lie
+Know this life I'm living is very high

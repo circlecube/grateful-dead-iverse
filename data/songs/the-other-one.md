@@ -4,11 +4,11 @@ id: 10665
 name: the-other-one
 title: 'The Other One'
 permalink: 'https://deadiverse.com/song/the-other-one/'
-modified_gmt: '2026-10-09T22:07:08+00:00'
+modified_gmt: '2026-10-16T21:43:35+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 673
+  play_count: 642
   first_played:
     date: '1967-08-05'
     id: 1788
@@ -17,7 +17,6 @@ stats:
 also_known_as:
   - "That's It for the Other One"
   - 'The Faster We Go, the Rounder We Get'
-  - 'The Other One I'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/the-other-one'
 links:
   jerrybase: 'https://jerrybase.com/songs/1049'
@@ -37,17 +36,6 @@ embeds:
 # The Other One
 
 ## Lyrics
-
-The other day they waited, the sky was dark and faded,
-Solemnly they stated, "He has to die, you know he has to die."
-All the children learnin', from books that they were burnin',
-Every leaf was turnin'; to watch him die, you know he had to die.
-
-The summer sun looked down on him, his mother could but frown on him,
-And all the others sound on him, but it doesn't seem to matter.
-
-And when the day had ended, with rainbow colors blended,
-His mind remained unbended, he had to die, you know he had to die.
 
 Spanish lady comes to me, she lays on me this rose.
 It rainbow spirals round and round it trembles and explodes.
