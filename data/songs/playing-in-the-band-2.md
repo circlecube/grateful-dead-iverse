@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:06:35+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 1
+  play_count: 131
   first_played:
-    date: '1980-03-31'
-    id: 5190
-    name: '1980-03-31'
-    show_path: ../../shows/1980/03/1980-03-31.md
+    date: '1971-02-18'
+    id: 3559
+    name: '1971-02-18'
+    show_path: ../../shows/1971/02/1971-02-18.md
 musicbrainz_recording_mbid: 0f9dcd5b-bfac-4181-836b-b8170f8bea86
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/playing-in-the-band-chords-2575101'
 links:

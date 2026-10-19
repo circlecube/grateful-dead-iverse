@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "@lucide/astro": "^1.52.0",
-    "astro": "^7.3.6",
+    "@lucide/astro": "^1.54.0",
+    "astro": "^7.3.8",
     "astro-pagefind": "^2.0.1",
     "chordsheetjs": "^18.0.0",
     "fast-glob": "^3.3.3",

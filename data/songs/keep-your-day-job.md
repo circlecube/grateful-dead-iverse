@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:06:10+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 57
+  play_count: 40
   first_played:
-    date: '1982-08-28'
-    id: 11433
-    name: 1982-08-28a
-    show_path: ../../shows/1982/08/1982-08-28a.md
+    date: '1982-08-29'
+    id: 5950
+    name: '1982-08-29'
+    show_path: ../../shows/1982/08/1982-08-29.md
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/keep-your-day-job-chords-344066'
 links:
   dead_net: 'https://www.dead.net/song/keep-your-day-job'

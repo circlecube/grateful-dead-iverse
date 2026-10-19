@@ -11,9 +11,9 @@ stats:
   play_count: 31
   first_played:
     date: '1980-11-26'
-    id: 11492
-    name: 1980-11-26a
-    show_path: ../../shows/1980/11/1980-11-26a.md
+    id: 5544
+    name: '1980-11-26'
+    show_path: ../../shows/1980/11/1980-11-26.md
 attribution: 'The Rolling Stones'
 links:
   dead_net: 'https://www.dead.net/song/i-cant-get-no-satisfaction'

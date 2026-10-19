@@ -8,13 +8,15 @@ modified_gmt: '2026-10-09T22:06:59+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 208
+  play_count: 187
   first_played:
     date: '1968-06-07'
     id: 2166
     name: '1968-06-07'
     show_path: ../../shows/1968/06/1968-06-07.md
 musicbrainz_recording_mbid: bf1e06cd-9db2-47f9-ba8f-1c7f912a9b96
+also_known_as:
+  - 'St Stephen'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/st-stephen-chords-2780371'
 links:
   ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/st-stephen-chords-2780371'

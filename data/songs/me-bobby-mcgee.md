@@ -8,12 +8,12 @@ modified_gmt: '2026-10-09T22:06:17+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 66
+  play_count: 126
   first_played:
-    date: '1970-11-23'
-    id: 3501
-    name: '1970-11-23'
-    show_path: ../../shows/1970/11/1970-11-23.md
+    date: '1970-11-27'
+    id: 3511
+    name: '1970-11-27'
+    show_path: ../../shows/1970/11/1970-11-27.md
 attribution: 'Janis Joplin'
 also_known_as:
   - 'Me and Bobby McGee'

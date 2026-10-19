@@ -8,7 +8,7 @@ modified_gmt: '2026-10-09T22:08:55+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 81
+  play_count: 96
   first_played:
     date: '1966-07-03'
     id: 969
@@ -17,6 +17,7 @@ stats:
 musicbrainz_recording_mbid: 96c58f69-0a8e-496f-ad19-22e05b3a9510
 also_known_as:
   - 'Dancing in the Street'
+  - 'Dancin’ In The Street'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/dancin-in-the-streets'
 links:
   jerrybase: 'https://jerrybase.com/songs/1013'
