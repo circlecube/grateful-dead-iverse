@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-const CORPUS_MD = /^data\/(shows|songs)\/.+\.md$/;
+const CORPUS_MD = /^data\/(shows|songs|releases)\/.+\.md$/;
 
 export function isCorpusMarkdown(relPath) {
   return CORPUS_MD.test(relPath.replace(/\\/g, '/'));

@@ -5,7 +5,7 @@ set -e
 ROOT="$(git rev-parse --show-toplevel)"
 cd "$ROOT"
 
-STAGED="$(git diff --cached --name-only --diff-filter=ACM -- 'data/shows/' 'data/songs/' | grep '\.md$' || true)"
+STAGED="$(git diff --cached --name-only --diff-filter=ACM -- 'data/shows/' 'data/songs/' 'data/releases/' | grep '\.md$' || true)"
 if [ -z "$STAGED" ]; then
 	exit 0
 fi

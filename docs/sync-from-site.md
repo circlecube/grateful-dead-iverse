@@ -35,7 +35,7 @@ node scripts/sync-from-export.mjs \
 
 ## Guards
 
-- **Zip paths:** only `data/shows/**.md`, `data/songs/*.md`, `reports/*.json`, `README-export.md` (no zip-slip).
+- **Zip paths:** only `data/shows/**.md`, `data/songs/*.md`, `data/releases/*.md`, `reports/*.json`, `README-export.md` (no zip-slip).
 - **Repo newer than incoming file:** keep repo copy; listed as *pending import* in the job summary.
 - **File missing from export:** delete from repo unless repo `modified_gmt` is after export `generated_at` (unmerged repo edit).
 - **Skip PR:** if only `reports/` (and export readme) change, no data PR is opened.
