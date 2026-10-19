@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
  * Set front matter modified_gmt to current UTC for corpus show/song markdown files.
+ * Patches only the modified_gmt line (does not round-trip through gray-matter stringify).
  *
  * Usage:
  *   npm run bump-modified-gmt -- path/to/file.md ...
@@ -12,6 +13,11 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { isCorpusMarkdown, repoRootFromScriptsDir, utcModifiedGmtNow } from './lib/corpus-paths.mjs';
+import {
+  joinFrontMatter,
+  replaceTopLevelKey,
+  splitFrontMatter,
+} from './lib/corpus-front-matter-patch.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = repoRootFromScriptsDir(__dirname);
@@ -40,19 +46,17 @@ for (const arg of args) {
   }
 
   const raw = fs.readFileSync(abs, 'utf8');
-  const parsed = matter(raw);
+  const prev = matter(raw).data?.modified_gmt;
   const next = utcModifiedGmtNow();
-  const prev = parsed.data?.modified_gmt;
 
   if (prev === next) {
     skipped += 1;
     continue;
   }
 
-  parsed.data.modified_gmt = next;
-  const out = matter.stringify(parsed.content, parsed.data, {
-    lineWidth: -1,
-  });
+  const { fm, body } = splitFrontMatter(raw);
+  const nextFm = replaceTopLevelKey(fm, 'modified_gmt', next);
+  const out = joinFrontMatter(nextFm, body);
   fs.writeFileSync(abs, out.endsWith('\n') ? out : `${out}\n`, 'utf8');
   console.log(`${rel}: modified_gmt → ${next}`);
   updated += 1;

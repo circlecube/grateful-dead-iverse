@@ -109,8 +109,71 @@ export interface EntityDuplicateNotice {
 	peers: DuplicatePeerLink[];
 }
 
+export interface TracklistPart {
+	title?: string;
+	name?: string;
+	id?: number;
+	credits?: string;
+	notes?: string;
+	live_context?: string;
+}
+
+export interface TracklistEntry {
+	entry_type: 'song-post' | 'song-text' | string;
+	track?: number;
+	disc?: number;
+	title?: string;
+	name?: string;
+	id?: number;
+	duration?: string;
+	segue_into_next?: boolean;
+	credits?: string;
+	notes?: string;
+	suite?: boolean;
+	parts?: TracklistPart[];
+}
+
+export interface ReleaseSourceShow {
+	id?: number;
+	name?: string;
+	date?: string;
+	/** Relative path from the release file, e.g. `../shows/1973/12/1973-12-19.md`. */
+	show_path?: string;
+	coverage?: 'full' | 'partial' | string;
+	notes?: string;
+}
+
+export interface ReleaseRecord {
+	filePath: string;
+	id: number;
+	name: string;
+	title: string;
+	band: string[];
+	/** `release` taxonomy slugs (album, live, compilation…). */
+	releaseTypes: string[];
+	/** `YYYY-MM-DD` or empty. */
+	releaseDate: string;
+	releaseDateAlt: string;
+	links: ShowLinks;
+	sourceShows: ReleaseSourceShow[];
+	tracklist: TracklistEntry[];
+	notes: string;
+	permalink: string;
+	modifiedGmt: string;
+}
+
+/** A release that lists a show as a source (for the cross-link on show pages). */
+export interface ShowReleaseRef {
+	release: ReleaseRecord;
+	coverage: string;
+}
+
 export interface CorpusData {
 	shows: ShowRecord[];
+	releases: ReleaseRecord[];
+	releasesBySlug: Map<string, ReleaseRecord>;
+	/** Show `id` → releases that list it under `source_shows`. */
+	releasesByShowId: Map<number, ShowReleaseRef[]>;
 	songs: SongRecord[];
 	songsBySlug: Map<string, SongRecord>;
 	showsById: Map<number, ShowRecord>;

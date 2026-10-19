@@ -9,7 +9,7 @@ import SitePromoCards from './SitePromoCards.astro';
 import { CONTRIBUTING_URL, DEADIVERSE_URL } from '../lib/site-links';
 import MetaNav from './MetaNav.astro';
 import Setlist from './Setlist.astro';
-import { countPlayedSongs, hasSetlistDisplay, showNavLabel, showUrl } from '../lib/corpus';
+import { countPlayedSongs, getCorpus, hasSetlistDisplay, releaseUrl, showNavLabel, showUrl } from '../lib/corpus';
 import type { EntityDuplicateNotice, ShowRecord } from '../lib/corpus';
 import type { MetaNavCrumb } from './MetaNav.astro';
 import { formatBandSlug } from '../lib/format-band';
@@ -31,6 +31,7 @@ const navCrumbs: MetaNavCrumb[] =
 		{ href: '/shows/', label: 'All Shows' },
 		{ href: `/shows/${show.year}/`, label: show.year },
 	];
+const releaseRefs = getCorpus().releasesByShowId.get(show.id) ?? [];
 const played = countPlayedSongs(show.setlist);
 const setlistHasData = hasSetlistDisplay(show.setlist);
 const location = formatVenueLocation(show.venue);
@@ -89,6 +90,20 @@ const searchTitle = `${show.date}${show.venueName ? ` — ${show.venueName}` : '
 		)}
 		<dt>Setlist</dt>
 		<dd>{setlistHasData ? `${played.toLocaleString()} songs` : 'No data'}</dd>
+		{releaseRefs.length > 0 && (
+			<>
+				<dt>{releaseRefs.length === 1 ? 'Release' : 'Releases'}</dt>
+				<dd>
+					{releaseRefs.map((ref, i) => (
+						<>
+							{i > 0 && ', '}
+							<a href={releaseUrl(ref.release.name)}>{ref.release.title}</a>
+							{ref.coverage === 'partial' && <span class="meta"> (partial)</span>}
+						</>
+					))}
+				</dd>
+			</>
+		)}
 	</dl>
 </Card>
 

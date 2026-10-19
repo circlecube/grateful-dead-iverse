@@ -1,0 +1,81 @@
+---
+import type { TracklistEntry } from '../lib/corpus';
+import { groupByDisc } from '../lib/corpus/parse-tracklist';
+import { resolveSongHref } from '../lib/fixture-routes';
+
+interface Props {
+	tracklist: TracklistEntry[];
+}
+
+const { tracklist } = Astro.props;
+const discs = groupByDisc(tracklist);
+const multiDisc = discs.length > 1;
+const segueMarker = ' > ';
+---
+
+{
+	discs.map((group) => (
+		<>
+			{multiDisc && <h3 class="tracklist-disc">Disc {group.disc}</h3>}
+			<ol class="setlist-list">
+				{group.tracks.map((row) => {
+					const title = row.title ?? row.name ?? 'Untitled';
+					const segues = Boolean(row.segue_into_next);
+					const parts = Array.isArray(row.parts) ? row.parts : [];
+					const liClass = segues ? 'setlist-song setlist-song--segues' : 'setlist-song';
+					return (
+						<li class={liClass}>
+							{row.entry_type === 'song-post' && row.name ? (
+								<a href={resolveSongHref(String(row.name))}>{title}</a>
+							) : (
+								<span>{title}</span>
+							)}
+							{row.credits ? <span class="setlist-original-artist">({row.credits})</span> : null}
+							{segues ? <span class="setlist-segue-marker" aria-hidden="true">{segueMarker}</span> : null}
+							{row.duration ? <span class="setlist-duration">{row.duration}</span> : null}
+							{row.notes ? <span class="tracklist-notes meta">{row.notes}</span> : null}
+							{parts.length > 0 && (
+								<ul class="tracklist-parts">
+									{parts.map((part) => (
+										<li>
+											{part.name ? (
+												<a href={resolveSongHref(String(part.name))}>{part.title ?? part.name}</a>
+											) : (
+												<span>{part.title ?? 'Untitled'}</span>
+											)}
+											{part.credits ? (
+												<span class="setlist-original-artist"> ({part.credits})</span>
+											) : null}
+										</li>
+									))}
+								</ul>
+							)}
+						</li>
+					);
+				})}
+			</ol>
+		</>
+	))
+}
+
+<style>
+	.tracklist-disc {
+		font-size: 0.8rem;
+		margin: 1rem 0 0.5rem;
+		text-transform: uppercase;
+	}
+	.tracklist-disc:first-child {
+		margin-top: 0;
+	}
+	.tracklist-notes {
+		flex-basis: 100%;
+		font-size: 0.8rem;
+	}
+	.tracklist-parts {
+		flex-basis: 100%;
+		list-style: disc;
+		margin: 0.15rem 0 0;
+		padding-left: 1.25rem;
+		font-size: 0.9em;
+	}
+</style>

@@ -1,5 +1,5 @@
 import { getCorpus } from './corpus/load-corpus';
-import { showUrl, songUrl } from './corpus/paths';
+import { releaseUrl, showUrl, songUrl } from './corpus/paths';
 
 /** Latest of two ISO timestamps (empty / invalid values ignored). */
 function later(a: string | undefined, b: string): string {
@@ -17,7 +17,7 @@ function later(a: string | undefined, b: string): string {
  * Index pages (`/`, `/shows/`, `/shows/all/`, `/shows/{year}/`, `/songs/`) use the newest entry they list.
  */
 export function buildSitemapLastmod(): Map<string, string> {
-	const { shows, songs } = getCorpus();
+	const { shows, songs, releases } = getCorpus();
 	const lastmod = new Map<string, string>();
 	const bump = (key: string, value: string) => {
 		const next = later(lastmod.get(key), value);
@@ -37,6 +37,12 @@ export function buildSitemapLastmod(): Map<string, string> {
 		bump(songUrl(song.name), song.modifiedGmt);
 		bump('/songs/', song.modifiedGmt);
 		bump('/', song.modifiedGmt);
+	}
+
+	for (const release of releases) {
+		bump(releaseUrl(release.name), release.modifiedGmt);
+		bump('/releases/', release.modifiedGmt);
+		bump('/', release.modifiedGmt);
 	}
 
 	return lastmod;

@@ -1,0 +1,67 @@
+---
+import { CassetteTape } from '@lucide/astro';
+import type { ReleaseRecord } from '../lib/corpus';
+import { countReleaseTracks, releaseUrl } from '../lib/corpus';
+import { formatBandList } from '../lib/format-band';
+import { formatReleaseTypes } from '../lib/format-release-type';
+
+interface Props {
+	releases: ReleaseRecord[];
+}
+
+const { releases } = Astro.props;
+---
+
+<div class="card-table">
+	<table class="bv-table bv-table--striped bv-table--catalog sortable-table">
+		<thead>
+			<tr>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Title <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="date" scope="col">
+					Date <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col">
+					Songs <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Type <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="text" scope="col">
+					Band <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th
+					class="sortable bv-sat-icon-col"
+					data-sort-type="number"
+					scope="col"
+					title="Number of source shows (live releases)"
+				>
+					<span class="sr-only">Source shows</span>
+					<CassetteTape size={16} strokeWidth={2} aria-hidden="true" />
+					<span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{releases.map((release) => {
+				const tracks = countReleaseTracks(release.tracklist);
+				const typeLabel = formatReleaseTypes(release.releaseTypes);
+				const bandLabel = formatBandList(release.band);
+				const sources = release.sourceShows.length;
+				return (
+					<tr>
+						<td data-sort-value={release.title}>
+							<a href={releaseUrl(release.name)}>{release.title}</a>
+						</td>
+						<td data-sort-value={release.releaseDate}>{release.releaseDate || '—'}</td>
+						<td data-sort-value={String(tracks)}>{tracks > 0 ? tracks.toLocaleString() : '—'}</td>
+						<td data-sort-value={typeLabel}>{typeLabel || '—'}</td>
+						<td data-sort-value={bandLabel}>{bandLabel || '—'}</td>
+						<td data-sort-value={String(sources)}>{sources > 0 ? sources.toLocaleString() : '—'}</td>
+					</tr>
+				);
+			})}
+		</tbody>
+	</table>
+</div>

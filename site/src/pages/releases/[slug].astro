@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ReleasePageContent from '../../components/ReleasePageContent.astro';
+import { countReleaseTracks, getCorpus } from '../../lib/corpus';
+import { descriptionForRelease } from '../../lib/meta';
+
+export function getStaticPaths() {
+	const { releases } = getCorpus();
+	return releases.map((release) => ({
+		params: { slug: release.name },
+		props: { release },
+	}));
+}
+
+interface Props {
+	release: import('../../lib/corpus').ReleaseRecord;
+}
+
+const { release } = Astro.props;
+---
+
+<BaseLayout
+	title={`${release.title} — Grateful Dead-iverse`}
+	description={descriptionForRelease(release, countReleaseTracks(release.tracklist))}
+	permalink={release.permalink}
+	corpusModifiedGmt={release.modifiedGmt}
+>
+	<ReleasePageContent release={release} />
+</BaseLayout>

@@ -43,6 +43,10 @@ export function songUrl(slug: string): string {
 	return `/songs/${slug}/`;
 }
 
+export function releaseUrl(slug: string): string {
+	return `/releases/${slug}/`;
+}
+
 export function showKey(year: string, month: string, day: string): string {
 	return `${year}/${month}/${day}`;
 }

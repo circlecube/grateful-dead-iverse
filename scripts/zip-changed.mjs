@@ -4,15 +4,17 @@
  *
  * Usage:
  *   npm run zip-changed
+ *   npm run zip-changed -- develop
  *   npm run zip-changed -- --base origin/main --output dist/my-changes.zip
  *   npm run zip-changed -- --include-uncommitted
+ *   ZIP_CHANGED_BASE=main npm run zip-changed
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execSync } from 'node:child_process';
-import archiver from 'archiver';
+import { ZipArchive } from 'archiver';
 import { isCorpusMarkdown, repoRootFromScriptsDir } from './lib/corpus-paths.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -20,11 +22,18 @@ const repoRoot = repoRootFromScriptsDir(__dirname);
 
 function parseArgs(argv) {
   const opts = {
-    base: 'origin/main',
+    base: process.env.ZIP_CHANGED_BASE || 'origin/main',
     output: '',
     includeUncommitted: false,
   };
-  for (let i = 0; i < argv.length; i++) {
+
+  let i = 0;
+  if (argv[0] && !argv[0].startsWith('-')) {
+    opts.base = argv[0];
+    i = 1;
+  }
+
+  for (; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--base' && argv[i + 1]) {
       opts.base = argv[++i];
@@ -48,11 +57,17 @@ function printHelp() {
   console.log(`zip-changed.mjs — bundle changed show/song markdown for import
 
 Options:
-  --base <ref>           Git ref to compare against (default: origin/main)
+  <ref>                  Base ref (positional); same as --base
+  --base <ref>           Git ref to compare against (default: origin/main, or ZIP_CHANGED_BASE)
   --output <path>        Output ZIP path (default: dist/corpus-changes-YYYY-MM-DD.zip)
   --include-uncommitted  Also include unstaged/staged changes vs HEAD
 
 ZIP layout matches export: data/shows/... and data/songs/... at archive root.
+
+Examples:
+  npm run zip-changed -- main
+  npm run zip-changed -- --base origin/develop
+  ZIP_CHANGED_BASE=feature/foo npm run zip-changed
 `);
 }
 
@@ -125,7 +140,7 @@ async function writeZip(files, outputRel) {
 
   await new Promise((resolve, reject) => {
     const out = fs.createWriteStream(outputAbs);
-    const archive = archiver('zip', { zlib: { level: 9 } });
+    const archive = new ZipArchive({ zlib: { level: 9 } });
 
     out.on('close', resolve);
     archive.on('error', reject);
