@@ -14,6 +14,7 @@ Human-oriented overview: **[README.md](README.md)**. Contribution rules and file
 | --- | --- |
 | `data/shows/YYYY/MM/{name}.md` | One show; `name` is usually `YYYY-MM-DD` or `YYYY-MM-DDa` when multiple shows share a date |
 | `data/songs/{slug}.md` | One song; filename slug matches `name` in front matter and `song-post` entries in setlists |
+| `data/releases/{slug}.md` | One release (album); front matter `release_types`, `release_date`, `links`, `source_shows`, and `tracklist` (like a show's `setlist`); body `## Notes` |
 | `reports/export-manifest.json` | Snapshot metadata and full file list from last bulk export |
 | `reports/duplicate-show-candidates.json` | Same band + date groups—starting point for duplicate-show work |
 | `reports/duplicate-song-candidates.json` | Similar titles / duplicate slugs—starting point for duplicate-song work |

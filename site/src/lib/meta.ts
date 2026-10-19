@@ -1,11 +1,27 @@
 import { countPlayedSongs, hasSetlistDisplay } from './corpus';
-import type { ShowRecord, SongRecord } from './corpus/types';
+import type { ReleaseRecord, ShowRecord, SongRecord } from './corpus/types';
 import { truncateMetaDescription } from './site-meta';
 import { formatVenueLocation } from './venue-location';
 
-export function descriptionForHome(showCount: number, songCount: number): string {
+export function descriptionForHome(showCount: number, songCount: number, releaseCount = 0): string {
+	const releasePart = releaseCount > 0 ? ` and ${releaseCount.toLocaleString()} releases` : '';
 	return truncateMetaDescription(
-		`Explore ${showCount.toLocaleString()} Grateful Dead shows and ${songCount.toLocaleString()} songs—setlists, lyrics, venues, and live play history from the open markdown corpus.`,
+		`Explore ${showCount.toLocaleString()} Grateful Dead shows, ${songCount.toLocaleString()} songs${releasePart}—setlists, lyrics, tracklists, venues, and live play history from the open markdown corpus.`,
+	);
+}
+
+export function descriptionForReleasesIndex(releaseCount: number): string {
+	return truncateMetaDescription(
+		`Sortable list of ${releaseCount.toLocaleString()} Grateful Dead releases—albums, live recordings, and compilations with tracklists and source shows.`,
+	);
+}
+
+export function descriptionForRelease(release: ReleaseRecord, trackCount: number): string {
+	const year = release.releaseDate.slice(0, 4);
+	const yearPart = year ? ` (${year})` : '';
+	const tracks = trackCount > 0 ? ` ${trackCount.toLocaleString()} tracks.` : '';
+	return truncateMetaDescription(
+		`${release.title}${yearPart}: tracklist, links, and source shows from the Grateful Dead markdown corpus.${tracks}`,
 	);
 }
 

@@ -3,6 +3,7 @@ import {
 	ArrowRight,
 	CalendarDays,
 	CircleHelp,
+	Disc3,
 	GitPullRequestCreateArrow,
 	GlobeCode,
 	Music,
@@ -10,7 +11,7 @@ import {
 import Card from './Card.astro';
 import { CONTRIBUTING_URL, DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
 
-type PromoContext = 'home' | 'song' | 'show';
+type PromoContext = 'home' | 'song' | 'show' | 'release';
 
 interface Props {
 	context: PromoContext;
@@ -25,7 +26,9 @@ const deadiverseLead =
 		? 'This page is a snapshot from the open markdown catalog. On the full Deadiverse site you can dig into more stats, recordings, video embeds, and related links for this song.'
 		: context === 'show'
 			? 'This page is a snapshot from the open markdown catalog. On the full Deadiverse site you can explore more stats, recordings, video embeds, and related links for this show.'
-			: 'Deadiverse is the live catalog behind this site—richer stats, recordings, video embeds, and deep links for every show and song.';
+			: context === 'release'
+				? 'This page is a snapshot from the open markdown catalog. On the full Deadiverse site you can explore more stats, listening links, and related content for this release.'
+				: 'Deadiverse is the live catalog behind this site—richer stats, recordings, video embeds, and deep links for every show and song.';
 
 const deadiverseAccount =
 	'Create a free account to save favorite shows and songs, mark attendance at concerts, and unlock more features as the catalog grows.';
@@ -35,9 +38,11 @@ const deadiverseCtaLabel =
 		? 'View this song on deadiverse'
 		: context === 'show'
 			? 'View this show on deadiverse'
-			: 'Visit deadiverse.com';
+			: context === 'release'
+				? 'View this release on deadiverse'
+				: 'Visit deadiverse.com';
 
-const DeadiverseCtaIcon = context === 'song' ? Music : context === 'show' ? CalendarDays : ArrowRight;
+const DeadiverseCtaIcon = context === 'song' ? Music : context === 'show' ? CalendarDays : context === 'release' ? Disc3 : ArrowRight;
 
 const contributeLead =
 	'Spot a typo, a missing show, or something that does not look right? Corrections and additions are welcome.';

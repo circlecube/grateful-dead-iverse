@@ -1,0 +1,125 @@
+---
+import { Disc3, Info, ListOrdered } from '@lucide/astro';
+import Card from './Card.astro';
+import CorpusBody from './CorpusBody.astro';
+import ExternalLinks from './ExternalLinks.astro';
+import MetaNav from './MetaNav.astro';
+import SitePromoCards from './SitePromoCards.astro';
+import Tracklist from './Tracklist.astro';
+import { DEADIVERSE_URL } from '../lib/site-links';
+import { countReleaseTracks, getCorpus, showUrl } from '../lib/corpus';
+import type { ReleaseRecord } from '../lib/corpus';
+import { formatBandList } from '../lib/format-band';
+import { formatReleaseTypes } from '../lib/format-release-type';
+
+interface Props {
+	release: ReleaseRecord;
+}
+
+const { release } = Astro.props;
+const { showsById } = getCorpus();
+const trackCount = countReleaseTracks(release.tracklist);
+const typeLabel = formatReleaseTypes(release.releaseTypes);
+const bandLabel = formatBandList(release.band);
+const showsByName = new Map([...showsById.values()].map((s) => [s.name, s]));
+
+const sources = release.sourceShows.map((source) => {
+	const show =
+		(source.id != null ? showsById.get(Number(source.id)) : undefined) ??
+		(source.name ? showsByName.get(String(source.name)) : undefined);
+	return {
+		href: show ? showUrl(show) : '',
+		label: show ? show.date + (show.venueName ? ` — ${show.venueName}` : '') : (source.date ?? source.name ?? 'Unknown show'),
+		coverage: source.coverage === 'partial' ? 'Partial' : source.coverage === 'full' ? 'Full show' : '',
+		notes: source.notes ?? '',
+	};
+});
+const searchTitle = release.title;
+---
+
+<MetaNav crumbs={[{ href: '/releases/', label: 'All Releases' }]} aria-label="Release navigation" />
+<div
+	data-pagefind-body
+	data-pagefind-meta="corpus_type:release"
+	data-pagefind-meta={`title:${searchTitle}`}
+	data-pagefind-meta={`year:${release.releaseDate.slice(0, 4)}`}
+>
+<h1>{release.title}</h1>
+
+<Card title="Release details" icon={Info} iconTitle="Type, date, band, and track count for this release">
+	<dl class="stats-card__grid">
+		{typeLabel && (
+			<>
+				<dt>Type</dt>
+				<dd>{typeLabel}</dd>
+			</>
+		)}
+		{release.releaseDate && (
+			<>
+				<dt>Released</dt>
+				<dd>{release.releaseDate}</dd>
+			</>
+		)}
+		{release.releaseDateAlt && (
+			<>
+				<dt>Release date note</dt>
+				<dd>{release.releaseDateAlt}</dd>
+			</>
+		)}
+		{bandLabel && (
+			<>
+				<dt>Band</dt>
+				<dd>{bandLabel}</dd>
+			</>
+		)}
+		<dt>Tracks</dt>
+		<dd>{trackCount > 0 ? `${trackCount.toLocaleString()} songs` : 'No data'}</dd>
+		{sources.length > 0 && (
+			<>
+				<dt>{sources.length === 1 ? 'Source show' : 'Source shows'}</dt>
+				<dd>
+					<ul class="list-plain">
+						{sources.map((s) => (
+							<li>
+								{s.href ? <a href={s.href}>{s.label}</a> : <span>{s.label}</span>}
+								{s.coverage && <span class="meta"> ({s.coverage})</span>}
+								{s.notes && <span class="meta"> — {s.notes}</span>}
+							</li>
+						))}
+					</ul>
+				</dd>
+			</>
+		)}
+	</dl>
+</Card>
+
+<ExternalLinks links={release.links} permalink={release.permalink} collapsible />
+
+<Card
+	title="Tracklist"
+	icon={ListOrdered}
+	iconTitle="Tracks on this release in order (numbered list)"
+	collapsible
+	open
+>
+	{
+		trackCount > 0 ? (
+			<Tracklist tracklist={release.tracklist} />
+		) : (
+			<p class="setlist-empty">No tracklist data available for this release.</p>
+		)
+	}
+</Card>
+
+{
+	release.notes && (
+		<Card title="Notes" icon={Disc3} iconTitle="Notes about this release">
+			<CorpusBody content={release.notes} />
+		</Card>
+	)
+}
+</div>
+
+<div data-pagefind-ignore>
+<SitePromoCards context="release" deadiverseHref={release.permalink || DEADIVERSE_URL} />
+</div>

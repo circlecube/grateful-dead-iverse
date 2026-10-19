@@ -1,0 +1,31 @@
+---
+import { Disc3 } from '@lucide/astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Card from '../../components/Card.astro';
+import ReleasesCatalogTable from '../../components/ReleasesCatalogTable.astro';
+import { getCorpus } from '../../lib/corpus';
+import { descriptionForReleasesIndex } from '../../lib/meta';
+
+const { releases } = getCorpus();
+---
+
+<BaseLayout
+	title="Releases — Grateful Dead-iverse"
+	description={descriptionForReleasesIndex(releases.length)}
+>
+	<h1>
+		<Disc3 size={28} strokeWidth={2} class="page-icon" aria-hidden="true" />
+		Releases
+	</h1>
+	<p class="meta">{releases.length.toLocaleString()} releases</p>
+
+	<div data-pagefind-ignore>
+		<Card
+			title="Release catalog"
+			icon={Disc3}
+			iconTitle="Albums, live releases, and compilations with date, track count, type, and band"
+		>
+			<ReleasesCatalogTable releases={releases} />
+		</Card>
+	</div>
+</BaseLayout>

@@ -1,5 +1,5 @@
 ---
-import { CircleUserRound, FileText, Guitar, Highlighter, Info, Music } from '@lucide/astro';
+import { CircleUserRound, FileText, Guitar, Disc3, Highlighter, Info, Music } from '@lucide/astro';
 import { LYRICS_DISCLAIMER } from '../lib/lyrics-disclaimer';
 import ChordSheet from './ChordSheet.astro';
 import Card from './Card.astro';
@@ -9,10 +9,11 @@ import ExternalLinks from './ExternalLinks.astro';
 import SitePromoCards from './SitePromoCards.astro';
 import { DEADIVERSE_URL } from '../lib/site-links';
 import MetaNav from './MetaNav.astro';
+import ReleasesCatalogTable from './ReleasesCatalogTable.astro';
 import PerformancesTable from './PerformancesTable.astro';
 import type { EntityDuplicateNotice, SongPerformanceIndex, SongRecord } from '../lib/corpus';
 import type { MetaNavCrumb } from './MetaNav.astro';
-import { showUrl } from '../lib/corpus';
+import { getCorpus, releaseUrl, showUrl } from '../lib/corpus';
 import { formatBandList } from '../lib/format-band';
 import { formatCreditType, formatMusicianSlug } from '../lib/format-contributors';
 
@@ -27,6 +28,8 @@ interface Props {
 const { song, stats, duplicateNotice = null, crumbs } = Astro.props;
 const navCrumbs: MetaNavCrumb[] = crumbs ?? [{ href: '/songs/', label: 'All Songs' }];
 const displayPerformances = stats.performances.slice().reverse();
+const songReleases = getCorpus().releasesBySongSlug.get(song.name) ?? [];
+const firstRelease = songReleases.find((r) => r.releaseDate) ?? null;
 const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 ---
 
@@ -79,6 +82,21 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 				</dd>
 			</>
 		)}
+		{songReleases.length > 0 && (
+			<>
+				<dt>Release count</dt>
+				<dd>{songReleases.length.toLocaleString()}</dd>
+			</>
+		)}
+		{firstRelease && (
+			<>
+				<dt>First released</dt>
+				<dd>
+					<a href={releaseUrl(firstRelease.name)}>{firstRelease.title}</a>
+					{` — ${firstRelease.releaseDate}`}
+				</dd>
+			</>
+		)}
 		{song.contributors.map((row) => (
 			<>
 				<dt>{formatCreditType(row.credit_type)}</dt>
@@ -114,6 +132,17 @@ const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
 				{displayPerformances.length.toLocaleString()} shows (newest first; click column headers to sort)
 			</p>
 			<PerformancesTable performances={displayPerformances} />
+		</Card>
+	)
+}
+
+{
+	songReleases.length > 0 && (
+		<Card title="Releases" icon={Disc3} iconTitle="Releases whose tracklist includes this song" collapsible>
+			<p class="meta card-table__meta">
+				{songReleases.length.toLocaleString()} {songReleases.length === 1 ? 'release' : 'releases'} (click column headers to sort)
+			</p>
+			<ReleasesCatalogTable releases={songReleases} />
 		</Card>
 	)
 }

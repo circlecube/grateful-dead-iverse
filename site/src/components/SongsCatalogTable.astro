@@ -1,7 +1,7 @@
 ---
-import { Music } from '@lucide/astro';
+import { Disc3, Tickets } from '@lucide/astro';
 import type { SongRecord } from '../lib/corpus';
-import { songUrl } from '../lib/corpus';
+import { getCorpus, songUrl } from '../lib/corpus';
 import { formatBandList } from '../lib/format-band';
 
 interface Props {
@@ -10,6 +10,7 @@ interface Props {
 }
 
 const { songs, playCountForSlug } = Astro.props;
+const { releasesBySongSlug } = getCorpus();
 ---
 
 <div class="card-table">
@@ -24,7 +25,12 @@ const { songs, playCountForSlug } = Astro.props;
 				</th>
 				<th class="sortable" data-sort-type="number" scope="col" title="Total times played live">
 					<span class="sr-only">Plays</span>
-					<Music size={16} strokeWidth={2} aria-hidden="true" />
+					<Tickets size={16} strokeWidth={2} aria-hidden="true" />
+					<span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col" title="Releases that include this song">
+					<span class="sr-only">Releases</span>
+					<Disc3 size={16} strokeWidth={2} aria-hidden="true" />
 					<span class="sort-indicator" aria-hidden="true"></span>
 				</th>
 			</tr>
@@ -32,7 +38,9 @@ const { songs, playCountForSlug } = Astro.props;
 		<tbody>
 			{songs.map((song) => {
 				const plays = playCountForSlug(song.name, song.stats?.play_count);
-				const bandLabel = song.band.length > 0 ? formatBandList(song.band) : '';
+				const releaseCount = releasesBySongSlug.get(song.name)?.length ?? 0;
+				// Covers: show the original artist rather than the default band.
+				const bandLabel = song.attribution || (song.band.length > 0 ? formatBandList(song.band) : '');
 				return (
 					<tr>
 						<td data-sort-value={song.title}>
@@ -40,6 +48,9 @@ const { songs, playCountForSlug } = Astro.props;
 						</td>
 						<td data-sort-value={bandLabel}>{bandLabel || '—'}</td>
 						<td data-sort-value={String(plays)}>{plays > 0 ? plays.toLocaleString() : '—'}</td>
+						<td data-sort-value={String(releaseCount)}>
+							{releaseCount > 0 ? releaseCount.toLocaleString() : '—'}
+						</td>
 					</tr>
 				);
 			})}

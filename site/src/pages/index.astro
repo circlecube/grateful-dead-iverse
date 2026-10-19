@@ -1,5 +1,5 @@
 ---
-import { Music, Tickets } from '@lucide/astro';
+import { Disc3, Music, Tickets } from '@lucide/astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Card from '../components/Card.astro';
 import SitePromoCards from '../components/SitePromoCards.astro';
@@ -8,7 +8,7 @@ import { DEADIVERSE_URL, REPO_URL } from '../lib/site-links';
 import { descriptionForHome } from '../lib/meta';
 import { playCountForSong } from '../lib/song-play-count';
 
-const { shows, songs, years, performanceBySlug } = getCorpus();
+const { shows, songs, releases, years, performanceBySlug } = getCorpus();
 const allYears = [...years];
 
 const topPlayedSongs = [...songs]
@@ -24,7 +24,7 @@ const topPlayedSongs = [...songs]
 
 <BaseLayout
 	title="Grateful Dead-iverse"
-	description={descriptionForHome(shows.length, songs.length)}
+	description={descriptionForHome(shows.length, songs.length, releases.length)}
 >
 	<h1>Grateful Dead-iverse</h1>
 	<div class="home-intro">
@@ -36,7 +36,8 @@ const topPlayedSongs = [...songs]
 		</p>
 		<p>
 			Explore <strong>{shows.length.toLocaleString()} shows</strong> by year or{' '}
-			<strong>{songs.length.toLocaleString()} songs</strong> from A to Z.
+			<strong>{songs.length.toLocaleString()} songs</strong> from A to Z, or browse{' '}
+			<strong>{releases.length.toLocaleString()} releases</strong> with full tracklists.
 		</p>
 	</div>
 
@@ -64,6 +65,10 @@ const topPlayedSongs = [...songs]
 				</ol>
 			</>
 		)}
+	</Card>
+
+	<Card title="Releases" icon={Disc3} iconTitle="Albums, live releases, and compilations">
+		<p><a href="/releases/">All releases →</a></p>
 	</Card>
 
 	<SitePromoCards context="home" />
