@@ -194,6 +194,29 @@ function buildReleasesByShowId(
 	return map;
 }
 
+function buildReleasesBySongSlug(releases: ReleaseRecord[]): Map<string, ReleaseRecord[]> {
+	const map = new Map<string, ReleaseRecord[]>();
+	for (const release of releases) {
+		const slugs = new Set<string>();
+		for (const track of release.tracklist) {
+			if (track.entry_type === 'song-post' && track.name) {
+				slugs.add(String(track.name));
+			}
+			for (const part of track.parts ?? []) {
+				if (part.name) {
+					slugs.add(String(part.name));
+				}
+			}
+		}
+		for (const slug of slugs) {
+			const list = map.get(slug) ?? [];
+			list.push(release);
+			map.set(slug, list);
+		}
+	}
+	return map;
+}
+
 export function getCorpus(): CorpusData {
 	if (cache) {
 		return cache;
@@ -221,6 +244,7 @@ export function getCorpus(): CorpusData {
 		releases,
 		releasesBySlug,
 		releasesByShowId,
+		releasesBySongSlug: buildReleasesBySongSlug(releases),
 		songs,
 		songsBySlug,
 		showsById,

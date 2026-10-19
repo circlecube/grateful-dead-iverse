@@ -174,6 +174,8 @@ export interface CorpusData {
 	releasesBySlug: Map<string, ReleaseRecord>;
 	/** Show `id` → releases that list it under `source_shows`. */
 	releasesByShowId: Map<number, ShowReleaseRef[]>;
+	/** Song slug → releases whose tracklist (including suite parts) includes it, oldest first. */
+	releasesBySongSlug: Map<string, ReleaseRecord[]>;
 	songs: SongRecord[];
 	songsBySlug: Map<string, SongRecord>;
 	showsById: Map<number, ShowRecord>;
