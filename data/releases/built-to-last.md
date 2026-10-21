@@ -4,9 +4,11 @@ id: 112
 name: built-to-last
 title: 'Built to Last'
 permalink: 'https://deadiverse.com/album/built-to-last/'
-modified_gmt: '2026-05-11T20:51:25+00:00'
+modified_gmt: '2026-10-10T01:29:08+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1989-10-31'
 musicbrainz_release_group_mbid: 8c81e42e-9022-3f66-b224-cfe564a79160
 musicbrainz_release_mbid: d6c92867-ef82-4932-956c-7844bf97582f

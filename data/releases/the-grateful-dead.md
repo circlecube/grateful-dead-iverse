@@ -4,9 +4,11 @@ id: 50
 name: the-grateful-dead
 title: 'The Grateful Dead'
 permalink: 'https://deadiverse.com/album/the-grateful-dead/'
-modified_gmt: '2026-08-25T20:23:22+00:00'
+modified_gmt: '2026-10-10T01:39:45+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 musicbrainz_release_group_mbid: 1d272cb1-f8ba-3e65-93ec-cefbbdad5514
 musicbrainz_release_mbid: 69b5fb9b-9b59-464c-9105-542ee72b5a9f
 tracklist:

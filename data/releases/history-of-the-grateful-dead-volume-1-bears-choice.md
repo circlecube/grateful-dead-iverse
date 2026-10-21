@@ -4,9 +4,12 @@ id: 14459
 name: history-of-the-grateful-dead-volume-1-bears-choice
 title: 'History of the Grateful Dead, Volume 1: Bear’s Choice'
 permalink: 'https://deadiverse.com/album/history-of-the-grateful-dead-volume-1-bears-choice/'
-modified_gmt: '2026-09-23T18:27:58+00:00'
+modified_gmt: '2026-10-10T01:36:22+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
+  - live
 release_date: '1973-01-01'
 musicbrainz_release_group_mbid: 8794fd09-c860-39f1-9f3f-d54841d5cbf0
 musicbrainz_release_mbid: 36524f99-366a-4dc5-88df-bfff5564bfb2

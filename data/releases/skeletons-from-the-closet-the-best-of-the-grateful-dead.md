@@ -4,9 +4,11 @@ id: 14385
 name: skeletons-from-the-closet-the-best-of-the-grateful-dead
 title: 'Skeletons From the Closet: The Best of the Grateful Dead'
 permalink: 'https://deadiverse.com/album/skeletons-from-the-closet-the-best-of-the-grateful-dead/'
-modified_gmt: '1974-01-01T12:00:00+00:00'
+modified_gmt: '2026-10-10T01:35:36+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
 release_date: '1974-01-01'
 musicbrainz_release_group_mbid: 745f596d-f75a-3c8e-9ff1-7367019a1611
 musicbrainz_release_mbid: a6de22f7-a5db-4749-81a8-d8dfac0e65cd

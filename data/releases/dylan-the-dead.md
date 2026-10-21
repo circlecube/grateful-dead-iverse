@@ -4,9 +4,12 @@ id: 14468
 name: dylan-the-dead
 title: 'Dylan & the Dead'
 permalink: 'https://deadiverse.com/album/dylan-the-dead/'
-modified_gmt: '2026-09-23T17:27:12+00:00'
+modified_gmt: '2026-10-10T01:29:50+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
+  - live
 release_date: '1989-01-01'
 musicbrainz_release_group_mbid: af55aa7c-2923-39d4-b8f4-3e8e48e2cf38
 musicbrainz_release_mbid: 0771252d-9e97-36f5-8c48-dffeaaa11851

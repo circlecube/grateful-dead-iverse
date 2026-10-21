@@ -4,9 +4,11 @@ id: 14443
 name: without-a-net
 title: 'Without a Net'
 permalink: 'https://deadiverse.com/album/without-a-net/'
-modified_gmt: '2026-09-23T18:55:57+00:00'
+modified_gmt: '2026-10-16T21:44:57+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '1990-09-01'
 musicbrainz_release_group_mbid: 3dbc9bfb-653c-3333-8e8a-3a12c0e7238a
 musicbrainz_release_mbid: a9ef2528-9b35-4014-9ba1-7a44a6f81173
@@ -54,11 +56,19 @@ tracklist:
     id: 11527
     name: let-it-grow
   -
-    entry_type: song-post
+    entry_type: song-text
     track: 8
-    title: 'China Cat Sunflower / I Know You Rider'
-    id: 14452
-    name: china-cat-sunflower-i-know-you-rider
+    title: 'China Cat Sunflower · I Know You Rider'
+    suite: true
+    parts:
+      -
+        title: 'China Cat Sunflower'
+        id: 78
+        name: china-cat-sunflower
+      -
+        title: 'I Know You Rider'
+        id: 10661
+        name: i-know-you-rider
   -
     entry_type: song-post
     track: 9
@@ -78,11 +88,23 @@ tracklist:
     id: 118
     name: victim-or-the-crime
   -
-    entry_type: song-post
+    entry_type: song-text
     track: 12
-    title: 'Help on the Way / Slipknot! / Franklin’s Tower'
-    id: 14456
-    name: help-on-the-way-slipknot-franklins-tower
+    title: 'Help on the Way · Slipknot! · Franklin’s Tower'
+    suite: true
+    parts:
+      -
+        title: 'Help on the Way'
+        id: 43
+        name: help-on-the-way-slipknot
+      -
+        title: Slipknot!
+        id: 10664
+        name: slipknot
+      -
+        title: 'Franklin’s Tower'
+        id: 44
+        name: franklins-tower
   -
     entry_type: song-post
     track: 13
@@ -108,10 +130,10 @@ tracklist:
 5. [Cassidy](../songs/cassidy.md)
 6. [Bird Song](../songs/bird-song.md)
 7. [Let It Grow](../songs/let-it-grow.md)
-8. [China Cat Sunflower / I Know You Rider](../songs/china-cat-sunflower-i-know-you-rider.md)
+8. China Cat Sunflower · I Know You Rider
 9. [Looks Like Rain](../songs/looks-like-rain.md)
 10. [Eyes of the World](../songs/eyes-of-the-world.md)
 11. [Victim or the Crime](../songs/victim-or-the-crime.md)
-12. [Help on the Way / Slipknot! / Franklin’s Tower](../songs/help-on-the-way-slipknot-franklins-tower.md)
+12. Help on the Way · Slipknot! · Franklin’s Tower
 13. [One More Saturday Night](../songs/one-more-saturday-night.md)
 14. [Dear Mr. Fantasy](../songs/dear-mr-fantasy.md)

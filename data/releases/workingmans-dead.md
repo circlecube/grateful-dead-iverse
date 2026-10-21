@@ -4,9 +4,11 @@ id: 90
 name: workingmans-dead
 title: 'Workingman’s Dead'
 permalink: 'https://deadiverse.com/album/workingmans-dead/'
-modified_gmt: '2026-05-11T20:51:01+00:00'
+modified_gmt: '2026-10-10T01:38:49+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1970-06-14'
 musicbrainz_release_group_mbid: 6fdb82d8-9aee-35ed-8092-8434866bab7f
 musicbrainz_release_mbid: 2bdc410a-b726-4e1d-ba48-61aa55bfd7ed

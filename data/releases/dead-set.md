@@ -4,9 +4,11 @@ id: 14492
 name: dead-set
 title: 'Dead Set'
 permalink: 'https://deadiverse.com/album/dead-set/'
-modified_gmt: '2026-09-23T17:23:30+00:00'
+modified_gmt: '2026-10-10T01:31:23+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '1981-08-26'
 musicbrainz_release_group_mbid: ca8b9338-5923-4969-aeda-b3b75314fc53
 musicbrainz_release_mbid: 62c4eefc-20ae-477e-93bb-7ed429931774

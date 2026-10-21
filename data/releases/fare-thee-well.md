@@ -4,9 +4,11 @@ id: 14546
 name: fare-thee-well
 title: 'Fare Thee Well'
 permalink: 'https://deadiverse.com/album/fare-thee-well/'
-modified_gmt: '2026-09-23T19:00:48+00:00'
+modified_gmt: '2026-10-10T01:26:06+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '2015-01-01'
 musicbrainz_release_group_mbid: dbb8861f-f917-49c1-b6d5-3684474e438b
 musicbrainz_release_mbid: 02b7c7f6-9049-4a34-a0f7-c499aab36d25

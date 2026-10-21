@@ -4,7 +4,7 @@ id: 15159
 name: grateful-dead
 title: 'Skull & Roses'
 permalink: 'https://deadiverse.com/album/grateful-dead/'
-modified_gmt: '2026-09-30T21:14:21+00:00'
+modified_gmt: '2026-10-16T21:24:51+00:00'
 band:
   - the-grateful-dead
 release_types:
@@ -75,11 +75,19 @@ tracklist:
     id: 10672
     name: wharf-rat
   -
-    entry_type: song-post
+    entry_type: song-text
     track: 11
-    title: 'Not Fade Away / Goin’ Down the Road Feeling Bad'
-    id: 15171
-    name: not-fade-away-goin-down-the-road-feeling-bad
+    title: 'Not Fade Away · Going Down the Road Feeling Bad'
+    suite: true
+    parts:
+      -
+        title: 'Not Fade Away'
+        id: 10659
+        name: not-fade-away
+      -
+        title: 'Going Down the Road Feeling Bad'
+        id: 11601
+        name: going-down-the-road-feeling-bad
 ---
 
 # Skull & Roses
@@ -96,4 +104,4 @@ tracklist:
 8. [Me & Bobby McGee](../songs/me-bobby-mcgee.md)
 9. [Johnny B. Goode](../songs/johnny-b-goode.md)
 10. [Wharf Rat](../songs/wharf-rat.md)
-11. [Not Fade Away / Goin’ Down the Road Feeling Bad](../songs/not-fade-away-goin-down-the-road-feeling-bad.md)
+11. Not Fade Away · Going Down the Road Feeling Bad

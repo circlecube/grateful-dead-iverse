@@ -4,9 +4,11 @@ id: 15193
 name: steal-your-face
 title: 'Steal Your Face'
 permalink: 'https://deadiverse.com/album/steal-your-face/'
-modified_gmt: '1976-06-26T12:00:00+00:00'
+modified_gmt: '2026-10-10T01:33:43+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1976-06-26'
 musicbrainz_release_group_mbid: fac3654e-d2a4-39e5-9e34-6a5f52a6234c
 musicbrainz_release_mbid: d81954a8-bcfb-40fa-b633-874c808b1aea

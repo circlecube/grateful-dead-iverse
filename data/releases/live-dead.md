@@ -4,9 +4,11 @@ id: 14376
 name: live-dead
 title: Live/Dead
 permalink: 'https://deadiverse.com/album/live-dead/'
-modified_gmt: '2026-09-23T18:27:30+00:00'
+modified_gmt: '2026-10-10T01:39:13+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 musicbrainz_release_group_mbid: 4c442102-c2d2-33ca-8c11-80db9e569420
 musicbrainz_release_mbid: 6a69fa69-2825-4005-8623-c7d86c9c47e8
 tracklist:
@@ -15,7 +17,7 @@ tracklist:
     track: 1
     title: 'Dark Star'
     id: 14378
-    name: dark-star-2
+    name: dark-star
   -
     entry_type: song-post
     track: 2
@@ -58,7 +60,7 @@ tracklist:
 
 ## Tracklist
 
-1. [Dark Star](../songs/dark-star-2.md)
+1. [Dark Star](../songs/dark-star.md)
 2. [St. Stephen](../songs/st-stephen.md)
 3. [The Eleven](../songs/the-eleven.md)
 4. [Turn On Your Lovelight](../songs/turn-on-your-lovelight.md)
