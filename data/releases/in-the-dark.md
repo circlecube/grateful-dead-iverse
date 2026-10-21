@@ -4,9 +4,11 @@ id: 123
 name: in-the-dark
 title: 'In the Dark'
 permalink: 'https://deadiverse.com/album/in-the-dark/'
-modified_gmt: '2026-05-11T20:51:18+00:00'
+modified_gmt: '2026-10-10T01:30:28+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1987-07-10'
 musicbrainz_release_group_mbid: 94e4d9a1-d6c0-3c16-8f35-820ca6780e4e
 musicbrainz_release_mbid: 4312b6ca-cf74-46cb-9bfb-d4472de3677c

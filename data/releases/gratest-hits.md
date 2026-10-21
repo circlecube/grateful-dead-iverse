@@ -4,9 +4,11 @@ id: 14374
 name: gratest-hits
 title: 'Gratest Hits'
 permalink: 'https://deadiverse.com/album/gratest-hits/'
-modified_gmt: '2025-06-13T12:00:00+00:00'
+modified_gmt: '2026-10-10T01:24:41+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
 release_date: '2025-06-13'
 musicbrainz_release_group_mbid: 434e45c7-7841-4666-a232-20b1559ca4c7
 musicbrainz_release_mbid: 3b9b4df9-26b7-4586-bc09-83a97a82cb18

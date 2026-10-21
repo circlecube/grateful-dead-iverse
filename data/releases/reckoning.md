@@ -4,9 +4,11 @@ id: 14425
 name: reckoning
 title: Reckoning
 permalink: 'https://deadiverse.com/album/reckoning/'
-modified_gmt: '2026-09-23T18:27:05+00:00'
+modified_gmt: '2026-10-10T01:31:34+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '1981-04-01'
 musicbrainz_release_group_mbid: 388c8651-9c3e-359b-8ca4-ec7e4912817c
 musicbrainz_release_mbid: d636ce20-ce86-4995-92c8-b06e3a8e3b1a
@@ -27,8 +29,8 @@ tracklist:
     entry_type: song-post
     track: 3
     title: 'Oh Babe It Ain’t No Lie'
-    id: 14429
-    name: oh-babe-it-aint-no-lie
+    id: 16139
+    name: oh-babe-it-aint-no-lie-2
   -
     entry_type: song-post
     track: 4
@@ -115,7 +117,7 @@ tracklist:
 
 1. [Dire Wolf](../songs/dire-wolf.md)
 2. [The Race Is On](../songs/the-race-is-on.md)
-3. [Oh Babe It Ain’t No Lie](../songs/oh-babe-it-aint-no-lie.md)
+3. [Oh Babe It Ain’t No Lie](../songs/oh-babe-it-aint-no-lie-2.md)
 4. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md)
 5. [Dark Hollow](../songs/dark-hollow.md)
 6. [China Doll](../songs/china-doll.md)

@@ -4,9 +4,12 @@ id: 14391
 name: europe-72
 title: 'Europe ’72'
 permalink: 'https://deadiverse.com/album/europe-72/'
-modified_gmt: '2026-09-23T17:28:37+00:00'
+modified_gmt: '2026-10-10T01:36:30+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
+  - live
 release_date: '1972-11-01'
 musicbrainz_release_group_mbid: d716a4c9-f22c-40d5-9008-749863f61da3
 musicbrainz_release_mbid: d9d6ffbb-0346-47ae-911e-18e029f2f30e
@@ -56,9 +59,9 @@ tracklist:
   -
     entry_type: song-post
     track: 8
-    title: 'Brown-Eyed Women'
+    title: 'Brown Eyed Woman'
     id: 14534
-    name: brown-eyed-women
+    name: brown-eyed-woman
   -
     entry_type: song-post
     track: 9
@@ -126,7 +129,7 @@ tracklist:
 5. [You Win Again](../songs/you-win-again.md)
 6. [China Cat Sunflower](../songs/china-cat-sunflower.md)
 7. [I Know You Rider](../songs/i-know-you-rider.md)
-8. [Brown-Eyed Women](../songs/brown-eyed-women.md)
+8. [Brown Eyed Woman](../songs/brown-eyed-woman.md)
 9. [Hurts Me Too](../songs/hurts-me-too.md)
 10. [Ramble On Rose](../songs/ramble-on-rose.md)
 11. [Sugar Magnolia](../songs/sugar-magnolia.md)

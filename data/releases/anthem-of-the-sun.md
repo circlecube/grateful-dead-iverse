@@ -4,20 +4,25 @@ id: 155
 name: anthem-of-the-sun
 title: 'Anthem of the Sun'
 permalink: 'https://deadiverse.com/album/anthem-of-the-sun/'
-modified_gmt: '2026-09-11T21:27:55+00:00'
+modified_gmt: '2026-10-20T17:28:39+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 musicbrainz_release_group_mbid: f15fe3a0-7771-3119-83ce-d79ca19b9be6
 musicbrainz_release_mbid: 2890ba91-49f7-4ad9-a6ff-be53362085b0
 tracklist:
   -
-    entry_type: song-text
+    entry_type: song-post
     track: 1
-    title: "That's It for the Other One: Cryptical Envelopment · Quadlibet for Tender Feet · The Faster We Go, the Rounder We Get · We Leave the Castle"
+    title: "That's It for the Other One:"
+    id: 10665
+    name: the-other-one
+    duration: '07:40'
     suite: true
     parts:
       -
-        title: "That's It for the Other One: Cryptical Envelopment"
+        title: 'Cryptical Envelopment'
         id: 11520
         name: cryptical-envelopment
         live_context: commonly_live
@@ -42,32 +47,36 @@ tracklist:
     title: 'New Potato Caboose'
     id: 158
     name: new-potato-caboose
+    duration: '08:26'
   -
     entry_type: song-post
     track: 3
     title: 'Born Cross‐Eyed'
     id: 159
     name: born-cross-eyed
+    duration: '02:04'
   -
     entry_type: song-post
     track: 4
     title: Alligator
     id: 160
     name: alligator
+    duration: '11:20'
   -
     entry_type: song-post
     track: 5
     title: 'Caution (Do Not Stop on Tracks)'
     id: 161
     name: caution-do-not-stop-on-tracks
+    duration: '09:37'
 ---
 
 # Anthem of the Sun
 
 ## Tracklist
 
-1. That's It for the Other One: Cryptical Envelopment · Quadlibet for Tender Feet · The Faster We Go, the Rounder We Get · We Leave the Castle
-2. [New Potato Caboose](../songs/new-potato-caboose.md)
-3. [Born Cross‐Eyed](../songs/born-cross-eyed.md)
-4. [Alligator](../songs/alligator.md)
-5. [Caution (Do Not Stop on Tracks)](../songs/caution-do-not-stop-on-tracks.md)
+1. [That's It for the Other One:](../songs/the-other-one.md) *(07:40)*
+2. [New Potato Caboose](../songs/new-potato-caboose.md) *(08:26)*
+3. [Born Cross‐Eyed](../songs/born-cross-eyed.md) *(02:04)*
+4. [Alligator](../songs/alligator.md) *(11:20)*
+5. [Caution (Do Not Stop on Tracks)](../songs/caution-do-not-stop-on-tracks.md) *(09:37)*

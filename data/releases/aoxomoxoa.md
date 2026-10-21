@@ -4,7 +4,7 @@ id: 71
 name: aoxomoxoa
 title: Aoxomoxoa
 permalink: 'https://deadiverse.com/album/aoxomoxoa/'
-modified_gmt: '2026-10-09T21:06:46+00:00'
+modified_gmt: '2026-10-10T01:39:27+00:00'
 band:
   - the-grateful-dead
 release_types:

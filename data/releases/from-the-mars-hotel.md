@@ -4,9 +4,11 @@ id: 61
 name: from-the-mars-hotel
 title: 'From the Mars Hotel'
 permalink: 'https://deadiverse.com/album/from-the-mars-hotel/'
-modified_gmt: '2026-05-11T20:50:18+00:00'
+modified_gmt: '2026-10-10T01:35:14+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1974-06-27'
 musicbrainz_release_group_mbid: 4994cbe4-228f-3f20-b519-8957d4c19ee4
 musicbrainz_release_mbid: 1e0cda00-ae37-473e-b533-8992266e3176

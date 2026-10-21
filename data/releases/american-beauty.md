@@ -4,7 +4,7 @@ id: 132
 name: american-beauty
 title: 'American Beauty'
 permalink: 'https://deadiverse.com/album/american-beauty/'
-modified_gmt: '2026-10-09T21:13:28+00:00'
+modified_gmt: '2026-10-10T01:38:18+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 10667
 name: lady-with-a-fan
 title: 'Lady With a Fan'
 permalink: 'https://deadiverse.com/song/lady-with-a-fan/'
-modified_gmt: '2026-10-09T22:06:11+00:00'
+modified_gmt: '2026-10-20T14:19:12+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -20,9 +20,70 @@ links:
     -
       label: other
       url: 'https://www.rukind.com/gdpedia/titles/tab/lady-with-a-fan'
+embeds:
+  -
+    embed_type: youtube
+    youtube_video: '<iframe title="Terrapin Station (2015 Remaster)" width="520" height="390" src="https://www.youtube.com/embed/e01zTf2tLV0?feature=oembed&end=280" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 ---
 
 # Lady With a Fan
+
+## Lyrics
+
+Let my inspiration flow
+In token rhyme, suggesting rhythm
+That will not forsake you
+Till my tale is told and done
+
+While the firelight's aglow
+Strange shadows from the flames will grow
+Till things we've never seen
+Will seem familiar
+
+Shadows of a sailor, forming winds
+Both foul and fair all swarm
+Down in Carlisle, he loved
+A lady many years ago
+
+Here beside him stands a man
+A soldier from the looks of him
+Who came through many fights
+But lost at love
+
+While the story teller speaks
+A door within the fire creaks
+Suddenly flies open
+And a girl is standing there
+
+Eyes alight with glowing hair
+All that fancy paints as fair
+She takes her fan and throws it
+In the lion's den
+
+Which of you to gain me tell
+Will risk uncertain pains of hell?
+I will not forgive you
+If you will not take the chance
+
+The sailor gave at least a try
+The soldier being much too wise
+Strategy was his strength
+Not disaster
+
+The sailor, coming out again
+The lady fairly leapt at him
+That's how it stands today
+You decide if he was wise
+
+The story teller makes no choice
+Soon you will not hear his voice
+His job is to shed light
+Not to master
+
+Since the end is never told
+We pay the teller off in gold
+In hopes he will come back
+But he cannot be bought or sold
 
 ## Chord sheet
 

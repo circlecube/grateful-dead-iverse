@@ -4,9 +4,11 @@ id: 144
 name: go-to-heaven
 title: 'Go to Heaven'
 permalink: 'https://deadiverse.com/album/go-to-heaven/'
-modified_gmt: '2026-05-11T20:51:13+00:00'
+modified_gmt: '2026-10-10T01:31:45+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1980-04-28'
 musicbrainz_release_group_mbid: dfa266ba-e606-3abd-ab29-4086634a7566
 musicbrainz_release_mbid: ae746c02-42f8-4af6-843c-854bf4c0af19

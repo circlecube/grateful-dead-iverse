@@ -4,9 +4,11 @@ id: 14409
 name: hundred-year-hall
 title: 'Hundred Year Hall'
 permalink: 'https://deadiverse.com/album/hundred-year-hall/'
-modified_gmt: '2026-09-23T18:57:52+00:00'
+modified_gmt: '2026-10-10T01:27:33+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '1995-09-26'
 musicbrainz_release_group_mbid: 21a0a3db-7f1e-312c-8c87-d19c5d0c9e13
 musicbrainz_release_mbid: 98b5c41e-2288-46b1-9152-d711fca024fe

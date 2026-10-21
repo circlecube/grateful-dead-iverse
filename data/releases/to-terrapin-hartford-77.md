@@ -4,12 +4,21 @@ id: 14524
 name: to-terrapin-hartford-77
 title: 'To Terrapin: Hartford ’77'
 permalink: 'https://deadiverse.com/album/to-terrapin-hartford-77/'
-modified_gmt: '2026-09-23T17:24:44+00:00'
+modified_gmt: '2026-10-10T01:43:33+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - live
 release_date: '2009-04-06'
 musicbrainz_release_group_mbid: 48b31fa9-6e3b-3554-87bb-46e5a9cc6358
 musicbrainz_release_mbid: 8704880f-26ac-495c-a7b1-1ef4cfe839d4
+source_shows:
+  -
+    id: 4673
+    name: '1977-05-28'
+    date: '1977-05-28'
+    show_path: ../shows/1977/05/1977-05-28.md
+    coverage: full
 tracklist:
   -
     entry_type: song-post
@@ -62,9 +71,9 @@ tracklist:
   -
     entry_type: song-post
     track: 9
-    title: 'Brown-Eyed Women'
+    title: 'Brown Eyed Woman'
     id: 14534
-    name: brown-eyed-women
+    name: brown-eyed-woman
   -
     entry_type: song-post
     track: 10
@@ -151,7 +160,7 @@ tracklist:
 6. [New, New Minglewood Blues](../songs/new-new-minglewood-blues.md)
 7. [Candyman](../songs/candyman.md)
 8. [Passenger](../songs/passenger.md)
-9. [Brown-Eyed Women](../songs/brown-eyed-women.md)
+9. [Brown Eyed Woman](../songs/brown-eyed-woman.md)
 10. [Promised Land](../songs/promised-land.md)
 11. [Samson and Delilah](../songs/samson-and-delilah.md)
 12. [Tennessee Jed](../songs/tennessee-jed.md)
@@ -164,3 +173,7 @@ tracklist:
 19. [Playing in the Band](../songs/playing-in-the-band-2.md)
 20. [One More Saturday Night](../songs/one-more-saturday-night.md)
 21. [U.S. Blues](../songs/u-s-blues.md)
+
+## Source shows
+
+- [May 28, 1977](../shows/1977/05/1977-05-28.md) — full show

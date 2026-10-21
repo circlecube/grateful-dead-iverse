@@ -4,7 +4,7 @@ id: 10671
 name: terrapin-station
 title: 'Terrapin Station'
 permalink: 'https://deadiverse.com/song/terrapin-station/'
-modified_gmt: '2026-10-09T22:07:06+00:00'
+modified_gmt: '2026-10-20T15:09:15+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -18,20 +18,27 @@ chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/terrapin-
 links:
   dead_net: 'https://www.dead.net/song/terrapin-station'
   jerrybase: 'https://jerrybase.com/songs/1169'
+  deaddisc: 'https://www.deaddisc.com/songs/Terrapin_Station.htm'
+  annotated_lyrics: 'https://annotated.thedeadly.app/terr.html'
   ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/terrapin-station-chords-917517'
+  rukind: 'https://www.rukind.com/gdpedia/titles/tab/terrapin-station'
   other:
     -
-      label: other
-      url: 'https://www.deaddisc.com/songs/Terrapin_Station.htm'
+      label: 'GSET: Lady With a Fan'
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-lady-fan'
     -
-      label: other
+      label: 'GSET: Terrapin Station'
       url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-terrapin-station'
     -
-      label: other
-      url: 'https://annotated.thedeadly.app/terr.html'
+      label: 'GSET: Terrapin Suite'
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-terrapin-station-suite'
     -
-      label: other
-      url: 'https://www.rukind.com/gdpedia/titles/tab/terrapin-station'
+      label: 'Grateful Dead Lyric And Song Finder'
+      url: 'https://whitegum.com/introjs.htm?/songfile/TERRSUIT.HTM'
+embeds:
+  -
+    embed_type: youtube
+    youtube_video: '<iframe title="Terrapin Station (2015 Remaster)" width="520" height="390" src="https://www.youtube.com/embed/e01zTf2tLV0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 ---
 
 # Terrapin Station
@@ -128,6 +135,17 @@ But the train's put it's brakes on
 Terrapin
 And the whistle is screaming
 Terrapin
+
+While you were gone, these faces filled with darkness.
+The obvious was hidden. With nothing to believe in,
+The compass always points to Terrapin.
+
+Sullen wings of fortune beat like rain.
+You're back in Terrapin for good or ill again, for good or ill again.
+
+## Notes
+
+“I wrote Terrapin Part One at a single sitting in an unfurnished house with a picture window overlooking San Francisco Bay during a flamboyant lightning storm. I typed the first thing that came into my mind at the top of the page, the title: Terrapin Station. Not knowing what it was to be about, I began my writing with an invocation to the muse and kept typing as the story began to unfold. On the same day, driving into the city, Garcia was struck by a singular inspiration. He turned his car around and hurried home to set down some music that popped into his head, demanding immediate attention. When we met the next day, I showed him the words and he said ‘I’ve got the music.’ They dovetailed perfectly and Terrapin edged into this dimension.” – Robert Hunter, introduction in his Box of Rain.
 
 ## Chord sheet
 

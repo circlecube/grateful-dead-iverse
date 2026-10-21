@@ -4,9 +4,11 @@ id: 81
 name: wake-of-the-flood
 title: 'Wake of the Flood'
 permalink: 'https://deadiverse.com/album/wake-of-the-flood/'
-modified_gmt: '2026-05-11T20:50:47+00:00'
+modified_gmt: '2026-10-10T01:35:55+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - album
 release_date: '1973-11-15'
 musicbrainz_release_group_mbid: 6cd576c6-ab98-35fc-8bc0-4dd2b845c1be
 musicbrainz_release_mbid: 6a816d70-d625-4c2f-abef-e10909521490

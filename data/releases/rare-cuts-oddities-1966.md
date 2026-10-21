@@ -4,9 +4,11 @@ id: 15173
 name: rare-cuts-oddities-1966
 title: 'Rare Cuts & Oddities 1966'
 permalink: 'https://deadiverse.com/album/rare-cuts-oddities-1966/'
-modified_gmt: '2005-03-25T12:00:00+00:00'
+modified_gmt: '2026-10-10T01:26:48+00:00'
 band:
   - the-grateful-dead
+release_types:
+  - compilation
 release_date: '2005-03-25'
 musicbrainz_release_group_mbid: a95b471d-1d22-4eb0-9f3f-f38eaba63bc7
 musicbrainz_release_mbid: 773d9026-460c-4c01-bbcf-8e9ef3cf2d09
