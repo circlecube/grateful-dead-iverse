@@ -8,6 +8,7 @@ import {
 
 test('allows corpus paths', () => {
 	assert.equal(isAllowedExportEntry('data/songs/bertha.md'), true);
+	assert.equal(isAllowedExportEntry('data/releases/american-beauty.md'), true);
 	assert.equal(
 		isAllowedExportEntry('data/shows/1977/05/1977-05-08.md'),
 		true
@@ -19,6 +20,7 @@ test('allows corpus paths', () => {
 test('rejects zip-slip and unexpected paths', () => {
 	assert.equal(normalizeZipEntry('../etc/passwd'), null);
 	assert.equal(isAllowedExportEntry('data/evil.php'), false);
+	assert.equal(isAllowedExportEntry('data/releases/nested/x.md'), false);
 	assert.equal(isAllowedExportEntry('package.json'), false);
 	const check = validateExportZipEntries([
 		'data/songs/a.md',
