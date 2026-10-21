@@ -39,6 +39,9 @@ export function isAllowedExportEntry(entry) {
 	if (/^data\/(songs|releases)\/[^/]+\.md$/.test(p)) {
 		return true;
 	}
+	if (/^data\/releases\/[^/]+\.md$/.test(p)) {
+		return true;
+	}
 	if (/^data\/shows\/\d{4}\/\d{2}\/[^/]+\.md$/.test(p)) {
 		return true;
 	}

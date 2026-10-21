@@ -62,7 +62,7 @@ Options:
   --output <path>        Output ZIP path (default: dist/corpus-changes-YYYY-MM-DD.zip)
   --include-uncommitted  Also include unstaged/staged changes vs HEAD
 
-ZIP layout matches export: data/shows/... and data/songs/... at archive root.
+ZIP layout matches export: data/shows/..., data/songs/... and data/releases/... at archive root.
 
 Examples:
   npm run zip-changed -- main
@@ -97,7 +97,7 @@ function listChangedFiles(base, includeUncommitted) {
 
   try {
     const committed = git(
-      `diff --name-only --diff-filter=ACM ${base}...HEAD -- data/shows data/songs`
+      `diff --name-only --diff-filter=ACM ${base}...HEAD -- data/shows data/songs data/releases`
     );
     for (const line of committed.split('\n')) {
       if (line) sets.add(line.replace(/\\/g, '/'));
@@ -106,7 +106,7 @@ function listChangedFiles(base, includeUncommitted) {
     // No commits yet or invalid range; try two-dot diff.
     try {
       const committed = git(
-        `diff --name-only --diff-filter=ACM ${base} -- data/shows data/songs`
+        `diff --name-only --diff-filter=ACM ${base} -- data/shows data/songs data/releases`
       );
       for (const line of committed.split('\n')) {
         if (line) sets.add(line.replace(/\\/g, '/'));
@@ -118,11 +118,11 @@ function listChangedFiles(base, includeUncommitted) {
 
   if (includeUncommitted) {
     try {
-      const dirty = git('diff --name-only --diff-filter=ACM HEAD -- data/shows data/songs');
+      const dirty = git('diff --name-only --diff-filter=ACM HEAD -- data/shows data/songs data/releases');
       for (const line of dirty.split('\n')) {
         if (line) sets.add(line.replace(/\\/g, '/'));
       }
-      const staged = git('diff --cached --name-only --diff-filter=ACM -- data/shows data/songs');
+      const staged = git('diff --cached --name-only --diff-filter=ACM -- data/shows data/songs data/releases');
       for (const line of staged.split('\n')) {
         if (line) sets.add(line.replace(/\\/g, '/'));
       }

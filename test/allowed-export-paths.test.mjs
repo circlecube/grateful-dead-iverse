@@ -13,6 +13,8 @@ test('allows corpus paths', () => {
 		isAllowedExportEntry('data/shows/1977/05/1977-05-08.md'),
 		true
 	);
+	assert.equal(isAllowedExportEntry('data/releases/american-beauty.md'), true);
+	assert.equal(isAllowedExportEntry('data/releases/nested/x.md'), false);
 	assert.equal(isAllowedExportEntry('reports/export-manifest.json'), true);
 	assert.equal(isAllowedExportEntry('README-export.md'), true);
 });
