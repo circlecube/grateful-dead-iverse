@@ -36,7 +36,7 @@ export function isAllowedExportEntry(entry) {
 	if (/^reports\/[^/]+\.json$/.test(p)) {
 		return true;
 	}
-	if (/^data\/songs\/[^/]+\.md$/.test(p)) {
+	if (/^data\/(songs|releases)\/[^/]+\.md$/.test(p)) {
 		return true;
 	}
 	if (/^data\/shows\/\d{4}\/\d{2}\/[^/]+\.md$/.test(p)) {
