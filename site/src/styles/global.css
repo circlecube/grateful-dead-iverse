@@ -318,7 +318,6 @@ h3 {
 
 .setlist-list .setlist-song {
 	align-items: baseline;
-	border-bottom: 1px solid color-mix(in srgb, var(--dv-contrast) 12%, transparent);
 	counter-increment: setlist-counter;
 	display: flex;
 	flex-wrap: wrap;
@@ -327,8 +326,25 @@ h3 {
 	position: relative;
 }
 
-.setlist-list .setlist-song--segues {
-	border-bottom-style: dashed;
+/* Faint leader line (hover/focus only) connecting a title to its duration. */
+.setlist-list .setlist-song:has(.setlist-duration)::after {
+	border-bottom: 1px dotted currentcolor;
+	content: '';
+	flex: 1 1 1rem;
+	min-width: 1rem;
+	opacity: 0;
+	order: 1;
+	transition: opacity 0.15s ease;
+}
+
+.setlist-list .setlist-song:has(.setlist-duration):hover::after,
+.setlist-list .setlist-song:has(.setlist-duration):focus-within::after {
+	opacity: 0.3;
+}
+
+.setlist-list .setlist-song .tracklist-notes,
+.setlist-list .setlist-song .tracklist-parts {
+	order: 3;
 }
 
 .setlist-list .setlist-song::before {
@@ -342,6 +358,7 @@ h3 {
 	font-size: 0.75em;
 	font-style: italic;
 	margin-left: auto;
+	order: 2;
 }
 
 .setlist-list .setlist-note {
