@@ -23,7 +23,7 @@ tracklist:
       -
         title: 'Help on the Way'
         id: 43
-        name: help-on-the-way-slipknot
+        name: help-on-the-way
         duration: '3:15'
       -
         title: Slipknot!
