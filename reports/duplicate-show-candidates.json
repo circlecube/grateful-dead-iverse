@@ -321,20 +321,20 @@
             ],
             "shows": [
                 {
-                    "id": 1829,
-                    "date": "1967-09-03",
-                    "venue": "Rio Nido Ballroom",
-                    "venue_norm": "rio nido ballroom",
-                    "fingerprint": "#|s:36|s:11645|s:11609|s:53|s:60|s:11623|s:160",
-                    "permalink": "https://deadiverse.com/show/rio-nido-ballroom-september-3-1967/"
-                },
-                {
                     "id": 1827,
                     "date": "1967-09-03",
                     "venue": "Stadium / Cabrillo College",
                     "venue_norm": "stadium / cabrillo college",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/stadium-cabrillo-college-september-3-1967/"
+                },
+                {
+                    "id": 1829,
+                    "date": "1967-09-03",
+                    "venue": "Rio Nido Ballroom",
+                    "venue_norm": "rio nido ballroom",
+                    "fingerprint": "#|s:36|s:11645|s:11609|s:53|s:60|s:11623|s:160",
+                    "permalink": "https://deadiverse.com/show/rio-nido-ballroom-september-3-1967/"
                 }
             ]
         },
@@ -797,20 +797,20 @@
             ],
             "shows": [
                 {
-                    "id": 4408,
-                    "date": "1974-07-04",
-                    "venue": "Musicpark / Beulah Park",
-                    "venue_norm": "musicpark / beulah park",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/grove-city-july-4-1974/"
-                },
-                {
                     "id": 4403,
                     "date": "1974-07-04",
                     "venue": "Titan Stadium",
                     "venue_norm": "titan stadium",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/oshkosh-july-4-1974/"
+                },
+                {
+                    "id": 4408,
+                    "date": "1974-07-04",
+                    "venue": "Musicpark / Beulah Park",
+                    "venue_norm": "musicpark / beulah park",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/grove-city-july-4-1974/"
                 }
             ]
         },

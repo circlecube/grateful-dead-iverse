@@ -4,12 +4,15 @@ id: 16294
 name: dicks-picks-volume-3
 title: 'Dick’s Picks, Volume 3: Pembroke Pines, Florida 5/22/77'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-3/'
-modified_gmt: '2026-10-20T17:46:30+00:00'
+modified_gmt: '2026-10-22T18:18:53+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - dicks-picks
   - live
 release_date: '1995-11-07'
+musicbrainz_release_group_mbid: ca92b11f-5294-3fc5-91ba-8df9570728dd
+musicbrainz_release_mbid: 40ff133b-8052-4ca4-9d61-2743ca9ea185
 links:
   wikipedia: 'https://en.wikipedia.org/wiki/Dick%27s_Picks_Volume_3'
   other:
@@ -73,7 +76,7 @@ tracklist:
     track: 7
     title: 'Help on the Way'
     id: 43
-    name: help-on-the-way-slipknot
+    name: help-on-the-way
     duration: '05:23'
     segue_into_next: true
   -
@@ -165,7 +168,7 @@ tracklist:
 4. [Lazy Lightning](../songs/lazy-lightning.md) *(03:22)* →
 5. [Supplication](../songs/supplication.md) *(05:34)*
 6. [Dancin’ in the Streets](../songs/dancin-in-the-streets.md) *(14:28)*
-7. [Help on the Way](../songs/help-on-the-way-slipknot.md) *(05:23)* →
+7. [Help on the Way](../songs/help-on-the-way.md) *(05:23)* →
 8. [Slipknot!](../songs/slipknot.md) *(06:29)* →
 9. [Franklin’s Tower](../songs/franklins-tower.md) *(15:32)*
 

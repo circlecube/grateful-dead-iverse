@@ -4,7 +4,7 @@ id: 15159
 name: grateful-dead
 title: 'Skull & Roses'
 permalink: 'https://deadiverse.com/album/grateful-dead/'
-modified_gmt: '2026-10-16T21:24:51+00:00'
+modified_gmt: '2026-10-21T21:06:03+00:00'
 band:
   - the-grateful-dead
 release_types:
@@ -20,64 +20,75 @@ tracklist:
     title: Bertha
     id: 10660
     name: bertha
+    duration: '05:42'
   -
     entry_type: song-post
     track: 2
     title: 'Mama Tried'
     id: 10673
     name: mama-tried
+    duration: '02:44'
   -
     entry_type: song-post
     track: 3
     title: 'Big Railroad Blues'
     id: 11602
     name: big-railroad-blues
+    duration: '03:36'
   -
     entry_type: song-post
     track: 4
     title: 'Playing in the Band'
     id: 15164
-    name: playing-in-the-band-2
+    name: playing-in-the-band
+    duration: '04:40'
   -
     entry_type: song-post
     track: 5
     title: 'The Other One'
     id: 10665
     name: the-other-one
+    duration: '18:05'
   -
     entry_type: song-post
     track: 6
     title: 'Me & My Uncle'
     id: 10666
     name: me-my-uncle
+    duration: '03:04'
   -
     entry_type: song-post
     track: 7
     title: 'Big Boss Man'
     id: 11623
     name: big-boss-man
+    duration: '05:14'
   -
     entry_type: song-post
     track: 8
     title: 'Me & Bobby McGee'
     id: 11614
     name: me-bobby-mcgee
+    duration: '05:41'
   -
     entry_type: song-post
     track: 9
     title: 'Johnny B. Goode'
     id: 11528
     name: johnny-b-goode
+    duration: '03:44'
   -
     entry_type: song-post
     track: 10
     title: 'Wharf Rat'
     id: 10672
     name: wharf-rat
+    duration: '08:31'
   -
     entry_type: song-text
     track: 11
     title: 'Not Fade Away · Going Down the Road Feeling Bad'
+    duration: '09:12'
     suite: true
     parts:
       -
@@ -94,14 +105,14 @@ tracklist:
 
 ## Tracklist
 
-1. [Bertha](../songs/bertha.md)
-2. [Mama Tried](../songs/mama-tried.md)
-3. [Big Railroad Blues](../songs/big-railroad-blues.md)
-4. [Playing in the Band](../songs/playing-in-the-band-2.md)
-5. [The Other One](../songs/the-other-one.md)
-6. [Me & My Uncle](../songs/me-my-uncle.md)
-7. [Big Boss Man](../songs/big-boss-man.md)
-8. [Me & Bobby McGee](../songs/me-bobby-mcgee.md)
-9. [Johnny B. Goode](../songs/johnny-b-goode.md)
-10. [Wharf Rat](../songs/wharf-rat.md)
-11. Not Fade Away · Going Down the Road Feeling Bad
+1. [Bertha](../songs/bertha.md) *(05:42)*
+2. [Mama Tried](../songs/mama-tried.md) *(02:44)*
+3. [Big Railroad Blues](../songs/big-railroad-blues.md) *(03:36)*
+4. [Playing in the Band](../songs/playing-in-the-band.md) *(04:40)*
+5. [The Other One](../songs/the-other-one.md) *(18:05)*
+6. [Me & My Uncle](../songs/me-my-uncle.md) *(03:04)*
+7. [Big Boss Man](../songs/big-boss-man.md) *(05:14)*
+8. [Me & Bobby McGee](../songs/me-bobby-mcgee.md) *(05:41)*
+9. [Johnny B. Goode](../songs/johnny-b-goode.md) *(03:44)*
+10. [Wharf Rat](../songs/wharf-rat.md) *(08:31)*
+11. Not Fade Away · Going Down the Road Feeling Bad *(09:12)*

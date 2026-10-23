@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 id: 11603
-name: john-perry-barlow
+name: my-brother-esau
 title: 'My Brother Esau'
 permalink: 'https://deadiverse.com/song/my-brother-esau/'
 modified_gmt: '2026-09-14T20:21:31+00:00'
