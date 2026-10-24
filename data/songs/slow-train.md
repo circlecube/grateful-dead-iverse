@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:06:53+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 1
+  first_played:
+    date: '1987-07-24'
+    id: 7089
+    name: '1987-07-24'
+    show_path: ../../shows/1987/07/1987-07-24.md
 musicbrainz_recording_mbid: de5b90ec-ae49-4fbd-b851-84f1c8bf10f5
 links:
   dead_net: 'https://www.dead.net/song/slow-train'

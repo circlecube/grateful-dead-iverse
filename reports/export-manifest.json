@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-10-22T20:02:54+00:00",
+    "generated_at": "2026-10-23T21:20:30+00:00",
     "export_scope": "full",
     "export_types": [
         "shows",
@@ -22,9 +22,9 @@
         "include_duplicate_report": true
     },
     "show_count": 2529,
-    "song_count": 288,
+    "song_count": 290,
     "release_count": 123,
-    "file_count": 2940,
+    "file_count": 2942,
     "files": [
         "data/shows/1965/11/1965-11-27.md",
         "data/shows/1965/12/1965-12-04.md",
@@ -207,8 +207,8 @@
         "data/shows/1967/06/1967-06-05.md",
         "data/shows/1967/06/1967-06-06.md",
         "data/shows/1967/06/1967-06-07.md",
-        "data/shows/1967/06/1967-06-08.md",
         "data/shows/1967/06/1967-06-08a.md",
+        "data/shows/1967/06/1967-06-08.md",
         "data/shows/1967/06/1967-06-09.md",
         "data/shows/1967/06/1967-06-10.md",
         "data/shows/1967/06/1967-06-11.md",
@@ -319,8 +319,8 @@
         "data/shows/1968/04/1968-04-03.md",
         "data/shows/1968/04/1968-04-12.md",
         "data/shows/1968/04/1968-04-13.md",
-        "data/shows/1968/04/1968-04-14.md",
         "data/shows/1968/04/1968-04-14a.md",
+        "data/shows/1968/04/1968-04-14.md",
         "data/shows/1968/04/1968-04-19.md",
         "data/shows/1968/04/1968-04-20.md",
         "data/shows/1968/04/1968-04-21.md",
@@ -335,8 +335,8 @@
         "data/shows/1968/05/1968-05-09.md",
         "data/shows/1968/05/1968-05-12.md",
         "data/shows/1968/05/1968-05-17.md",
-        "data/shows/1968/05/1968-05-18.md",
         "data/shows/1968/05/1968-05-18a.md",
+        "data/shows/1968/05/1968-05-18.md",
         "data/shows/1968/05/1968-05-24.md",
         "data/shows/1968/05/1968-05-25.md",
         "data/shows/1968/05/1968-05-30.md",
@@ -2815,6 +2815,8 @@
         "data/songs/rhythm-devils.md",
         "data/songs/brown-eyed-woman.md",
         "data/songs/drums.md",
+        "data/songs/walkin-the-dog.md",
+        "data/songs/in-the-pines.md",
         "data/songs/playing-in-the-band.md",
         "data/songs/walking-the-dog.md",
         "data/songs/you-see-a-broken-heart.md",
@@ -2967,8 +2969,8 @@
         "data/releases/without-a-net.md",
         "data/releases/workingmans-dead.md"
     ],
-    "content_hash": "sha256:9d5e6ce52b7394d445aae8de78cb472eed0cb910ead08959bb3cad5352df788b",
+    "content_hash": "sha256:7b2704b67b5bf746d31d622fcad4d4b8ac8b9a7d2c0e39f3ff3863e3129951b0",
     "export_format_version": 1,
-    "plugin_version": "10.8.1",
+    "plugin_version": "10.8.2",
     "bandiverse_export_source": "scheduled"
 }

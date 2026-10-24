@@ -141,8 +141,8 @@
                 {
                     "id": 1307,
                     "date": "1967-01-14",
-                    "venue": "Polo Field / Golden Gate Park",
-                    "venue_norm": "polo field / golden gate park",
+                    "venue": "Golden Gate Park",
+                    "venue_norm": "golden gate park",
                     "fingerprint": "#|s:60|s:53",
                     "permalink": "https://deadiverse.com/show/san-francisco-january-14-1967/"
                 },
@@ -217,20 +217,20 @@
             ],
             "shows": [
                 {
-                    "id": 1648,
-                    "date": "1967-06-08",
-                    "venue": "Naumburg Bandshell / Central Park",
-                    "venue_norm": "naumburg bandshell / central park",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967/"
-                },
-                {
                     "id": 1651,
                     "date": "1967-06-08",
                     "venue": "Cafe au Go Go",
                     "venue_norm": "cafe au go go",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/new-york-june-8-1967-1/"
+                },
+                {
+                    "id": 1648,
+                    "date": "1967-06-08",
+                    "venue": "Naumburg Bandshell / Central Park",
+                    "venue_norm": "naumburg bandshell / central park",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967/"
                 }
             ]
         },
@@ -326,7 +326,7 @@
                     "venue": "Stadium / Cabrillo College",
                     "venue_norm": "stadium / cabrillo college",
                     "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/stadium-cabrillo-college-september-3-1967/"
+                    "permalink": "https://deadiverse.com/show/aptos-september-3-1967/"
                 },
                 {
                     "id": 1829,
@@ -334,7 +334,7 @@
                     "venue": "Rio Nido Ballroom",
                     "venue_norm": "rio nido ballroom",
                     "fingerprint": "#|s:36|s:11645|s:11609|s:53|s:60|s:11623|s:160",
-                    "permalink": "https://deadiverse.com/show/rio-nido-ballroom-september-3-1967/"
+                    "permalink": "https://deadiverse.com/show/rio-nido-september-3-1967/"
                 }
             ]
         },
@@ -399,20 +399,20 @@
             ],
             "shows": [
                 {
-                    "id": 2057,
-                    "date": "1968-04-14",
-                    "venue": "Thee Image Club",
-                    "venue_norm": "thee image club",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/miami-april-14-1968/"
-                },
-                {
                     "id": 2061,
                     "date": "1968-04-14",
                     "venue": "Greynolds Park",
                     "venue_norm": "greynolds park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/miami-april-14-1968-1/"
+                },
+                {
+                    "id": 2057,
+                    "date": "1968-04-14",
+                    "venue": "Thee Image Club",
+                    "venue_norm": "thee image club",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/miami-april-14-1968/"
                 }
             ]
         },
@@ -425,20 +425,20 @@
             ],
             "shows": [
                 {
-                    "id": 2108,
-                    "date": "1968-05-18",
-                    "venue": "Santa Clara County Fairgrounds",
-                    "venue_norm": "santa clara county fairgrounds",
-                    "fingerprint": "#|s:160|s:161|t:feedback",
-                    "permalink": "https://deadiverse.com/show/santa-clara-county-fairgrounds-may-18-1968/"
-                },
-                {
                     "id": 2115,
                     "date": "1968-05-18",
                     "venue": "Shrine Exposition Hall",
                     "venue_norm": "shrine exposition hall",
                     "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/shrine-exposition-hall-may-18-1968/"
+                    "permalink": "https://deadiverse.com/show/los-angeles-may-18-1968/"
+                },
+                {
+                    "id": 2108,
+                    "date": "1968-05-18",
+                    "venue": "Santa Clara County Fairgrounds",
+                    "venue_norm": "santa clara county fairgrounds",
+                    "fingerprint": "#|s:160|s:161|s:14383",
+                    "permalink": "https://deadiverse.com/show/san-jose-may-18-1968/"
                 }
             ]
         },
@@ -534,7 +534,7 @@
                     "venue": "Sierra College",
                     "venue_norm": "sierra college",
                     "fingerprint": "#|s:56|s:10675|s:11655|s:55",
-                    "permalink": "https://deadiverse.com/show/sierra-college-may-3-1969/"
+                    "permalink": "https://deadiverse.com/show/rocklin-may-3-1969/"
                 },
                 {
                     "id": 2705,
@@ -542,7 +542,7 @@
                     "venue": "Winterland Arena",
                     "venue_norm": "winterland arena",
                     "fingerprint": "#|s:16135|s:11520|s:10665|s:11520|s:76|s:10666|#|s:74|s:59|s:73|s:11521|s:10675|#|s:11655",
-                    "permalink": "https://deadiverse.com/show/winterland-arena-may-3-1969/"
+                    "permalink": "https://deadiverse.com/show/san-francisco-may-3-1969/"
                 }
             ]
         },
@@ -560,7 +560,7 @@
                     "venue": "Atlantic City Race Track",
                     "venue_norm": "atlantic city race track",
                     "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/atlantic-city-race-track-august-2-1969/"
+                    "permalink": "https://deadiverse.com/show/atlantic-city-august-2-1969/"
                 },
                 {
                     "id": 2844,
@@ -568,7 +568,7 @@
                     "venue": "Family Dog on the Great Highway",
                     "venue_norm": "family dog on the great highway",
                     "fingerprint": "#|s:99|s:11610|s:10673|s:93|t:seasons of my heart|t:slewfoot|s:11623|s:11520|s:10665|s:11520|s:10675",
-                    "permalink": "https://deadiverse.com/show/family-dog-on-the-great-highway-august-2-1969/"
+                    "permalink": "https://deadiverse.com/show/san-francisco-august-2-1969/"
                 }
             ]
         },
@@ -713,8 +713,8 @@
                 {
                     "id": 3496,
                     "date": "1970-11-21",
-                    "venue": "Sargent Gym / Boston University",
-                    "venue_norm": "sargent gym / boston university",
+                    "venue": "Boston University",
+                    "venue_norm": "boston university",
                     "fingerprint": "#|s:99|s:138|s:10673|s:98|s:102|s:36|s:73|s:10659|s:80|s:92",
                     "permalink": "https://deadiverse.com/show/boston-november-21-1970/"
                 },
@@ -723,7 +723,7 @@
                     "date": "1970-11-21",
                     "venue": "WBCN-FM Studios",
                     "venue_norm": "wbcn-fm studios",
-                    "fingerprint": "t:jam|s:11525|s:11523|s:10661|s:14541|s:11660|t:angi|t:let me in",
+                    "fingerprint": "s:14488|s:11525|s:11523|s:10661|s:14541|s:11660|t:angi|t:let me in",
                     "permalink": "https://deadiverse.com/show/boston-november-21-1970-1/"
                 },
                 {
@@ -835,7 +835,7 @@
                     "date": "1978-11-17",
                     "venue": "Uptown Theatre",
                     "venue_norm": "uptown theatre",
-                    "fingerprint": "#|s:104|s:10673|s:193|s:10674|s:195|s:10657|s:37|s:135|s:107|#|s:10660|s:102|s:70|s:35|s:88|s:10656|s:10671|t:around & around|#|s:99",
+                    "fingerprint": "#|s:104|s:10673|s:193|s:10674|s:195|s:10657|s:37|s:135|s:107|#|s:10660|s:102|s:70|s:35|s:88|s:10656|s:10671|s:11592|#|s:99",
                     "permalink": "https://deadiverse.com/show/chicago-november-17-1978-1/"
                 }
             ]

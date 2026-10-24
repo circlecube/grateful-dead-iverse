@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:07:17+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 2
+  first_played:
+    date: '1984-03-29'
+    id: 6229
+    name: '1984-03-29'
+    show_path: ../../shows/1984/03/1984-03-29.md
 musicbrainz_recording_mbid: 2ff71b5e-1576-4e2a-98c7-a8fcf3e9c9cd
 links:
   jerrybase: 'https://jerrybase.com/songs/836'

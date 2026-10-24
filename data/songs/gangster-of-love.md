@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:05:54+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 1
+  first_played:
+    date: '1966-07-03'
+    id: 969
+    name: '1966-07-03'
+    show_path: ../../shows/1966/07/1966-07-03.md
 musicbrainz_recording_mbid: 87dfb2e7-5e05-4b14-a53d-a3826f05f642
 links:
   jerrybase: 'https://jerrybase.com/songs/1018'
