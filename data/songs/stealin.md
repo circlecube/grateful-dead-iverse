@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:07:00+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 6
+  first_played:
+    date: '1966-03-25'
+    id: 700
+    name: '1966-03-25'
+    show_path: ../../shows/1966/03/1966-03-25.md
 musicbrainz_recording_mbid: a7f46fec-afd3-4c6d-9857-ee20cb5a9497
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/stealin-chords-5975480'
 links:

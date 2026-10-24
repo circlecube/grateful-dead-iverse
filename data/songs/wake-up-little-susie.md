@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:07:16+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 10
+  first_played:
+    date: '1970-02-13'
+    id: 3121
+    name: '1970-02-13'
+    show_path: ../../shows/1970/02/1970-02-13.md
 musicbrainz_recording_mbid: 6894bb08-d577-4dc6-865d-96b0204ee042
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/wake-up-little-susie'
 links:
