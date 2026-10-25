@@ -4,7 +4,7 @@ id: 11594
 name: man-smart-woman-smarter
 title: 'Man Smart, Woman Smarter'
 permalink: 'https://deadiverse.com/song/man-smart-woman-smarter/'
-modified_gmt: '2026-10-09T22:06:16+00:00'
+modified_gmt: '2026-10-23T22:43:23+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,9 @@ stats:
     name: '1981-07-02'
     show_path: ../../shows/1981/07/1981-07-02.md
 attribution: 'King Radio'
+also_known_as:
+  - 'Women Are Smarter'
+  - 'Man Smart (Women Smarter)'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/man-smart-woman-smarter'
 links:
   dead_net: 'https://www.dead.net/song/man-smart-woman-smarter'

@@ -4,7 +4,7 @@ id: 16372
 name: daves-picks-volume-59
 title: 'Dave’s Picks, Volume 59 (Boston Garden, Boston, MA • 9/26/91)'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-59/'
-modified_gmt: '2026-10-21T21:00:23+00:00'
+modified_gmt: '2026-10-23T22:43:41+00:00'
 band:
   - the-grateful-dead
 release_types:

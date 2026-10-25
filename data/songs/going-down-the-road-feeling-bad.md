@@ -4,7 +4,7 @@ id: 11601
 name: going-down-the-road-feeling-bad
 title: 'Going Down the Road Feeling Bad'
 permalink: 'https://deadiverse.com/song/going-down-the-road-feeling-bad/'
-modified_gmt: '2026-09-14T14:34:35+00:00'
+modified_gmt: '2026-10-23T22:43:09+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,10 @@ stats:
     name: '1970-10-10'
     show_path: ../../shows/1970/10/1970-10-10.md
 attribution: Traditional
+also_known_as:
+  - "Goin' Down The Road Feelin' Bad"
+  - "Goin' Down the Road"
+  - GDTRFB
 embeds:
   -
     embed_type: youtube

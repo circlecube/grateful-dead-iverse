@@ -4,7 +4,7 @@ id: 130
 name: throwing-stones
 title: 'Throwing Stones'
 permalink: 'https://deadiverse.com/song/throwing-stones/'
-modified_gmt: '2026-10-09T22:07:10+00:00'
+modified_gmt: '2026-10-23T22:43:26+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1982-09-17'
     show_path: ../../shows/1982/09/1982-09-17.md
 musicbrainz_recording_mbid: 417e04d4-5bf8-4428-ae0e-fc8db03d4bc1
+also_known_as:
+  - "Throwin' Stones"
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/throwing-stones-chords-2065249'
 links:
   dead_net: 'https://www.dead.net/song/throwing-stones'

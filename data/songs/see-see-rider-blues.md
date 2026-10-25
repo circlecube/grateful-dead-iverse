@@ -4,7 +4,7 @@ id: 11618
 name: see-see-rider-blues
 title: 'See See Rider Blues'
 permalink: 'https://deadiverse.com/song/see-see-rider-blues/'
-modified_gmt: '1975-01-24T20:00:00+00:00'
+modified_gmt: '2026-10-23T22:43:25+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1979-12-01'
     show_path: ../../shows/1979/12/1979-12-01.md
 attribution: '‘Ma’ Rainey & Her Georgia Jazz Band'
+also_known_as:
+  - 'C.C. Rider'
 ---
 
 # See See Rider Blues

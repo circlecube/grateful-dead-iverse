@@ -4,7 +4,7 @@ id: 209
 name: they-love-each-other
 title: 'They Love Each Other'
 permalink: 'https://deadiverse.com/song/they-love-each-other/'
-modified_gmt: '2026-10-09T22:07:10+00:00'
+modified_gmt: '2026-10-23T22:43:25+00:00'
 band:
   - jerry-garcia
 stats:
