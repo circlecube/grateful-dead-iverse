@@ -4,7 +4,7 @@ id: 11668
 name: in-the-midnight-hour
 title: 'In the Midnight Hour'
 permalink: 'https://deadiverse.com/song/in-the-midnight-hour/'
-modified_gmt: '2026-10-09T22:06:01+00:00'
+modified_gmt: '2026-10-23T22:43:16+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1970-12-27'
     show_path: ../../shows/1970/12/1970-12-27.md
 attribution: 'Wilson Pickett'
+also_known_as:
+  - 'Midnight Hour'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/in-the-midnight-hour-chords-848575'
 links:
   ultimate_guitar: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/in-the-midnight-hour-chords-848575'

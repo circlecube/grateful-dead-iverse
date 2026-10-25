@@ -4,7 +4,7 @@ id: 14425
 name: reckoning
 title: Reckoning
 permalink: 'https://deadiverse.com/album/reckoning/'
-modified_gmt: '2026-10-21T21:06:13+00:00'
+modified_gmt: '2026-10-23T22:43:45+00:00'
 band:
   - the-grateful-dead
 release_types:
@@ -72,7 +72,7 @@ tracklist:
   -
     entry_type: song-post
     track: 9
-    title: Jack-A-Roe
+    title: Jack‐A‐Roe
     id: 11606
     name: jack-a-roe
     duration: '04:06'
@@ -139,7 +139,7 @@ tracklist:
 6. [China Doll](../songs/china-doll.md) *(05:12)*
 7. [I’ve Been All Around This World](../songs/ive-been-all-around-this-world.md) *(04:08)*
 8. [Monkey & The Engineer](../songs/monkey-the-engineer.md) *(02:28)*
-9. [Jack-A-Roe](../songs/jack-a-roe.md) *(04:06)*
+9. [Jack‐A‐Roe](../songs/jack-a-roe.md) *(04:06)*
 10. [Deep Elem Blues](../songs/deep-elem-blues.md) *(04:54)*
 11. [Cassidy](../songs/cassidy.md) *(04:30)*
 12. [To Lay Me Down](../songs/to-lay-me-down.md) *(09:02)*

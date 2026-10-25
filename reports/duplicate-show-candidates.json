@@ -217,20 +217,20 @@
             ],
             "shows": [
                 {
-                    "id": 1651,
-                    "date": "1967-06-08",
-                    "venue": "Cafe au Go Go",
-                    "venue_norm": "cafe au go go",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967-1/"
-                },
-                {
                     "id": 1648,
                     "date": "1967-06-08",
                     "venue": "Naumburg Bandshell / Central Park",
                     "venue_norm": "naumburg bandshell / central park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/new-york-june-8-1967/"
+                },
+                {
+                    "id": 1651,
+                    "date": "1967-06-08",
+                    "venue": "Cafe au Go Go",
+                    "venue_norm": "cafe au go go",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967-1/"
                 }
             ]
         },
@@ -321,20 +321,20 @@
             ],
             "shows": [
                 {
-                    "id": 1827,
-                    "date": "1967-09-03",
-                    "venue": "Stadium / Cabrillo College",
-                    "venue_norm": "stadium / cabrillo college",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/aptos-september-3-1967/"
-                },
-                {
                     "id": 1829,
                     "date": "1967-09-03",
                     "venue": "Rio Nido Ballroom",
                     "venue_norm": "rio nido ballroom",
                     "fingerprint": "#|s:36|s:11645|s:11609|s:53|s:60|s:11623|s:160",
                     "permalink": "https://deadiverse.com/show/rio-nido-september-3-1967/"
+                },
+                {
+                    "id": 1827,
+                    "date": "1967-09-03",
+                    "venue": "Stadium / Cabrillo College",
+                    "venue_norm": "stadium / cabrillo college",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/aptos-september-3-1967/"
                 }
             ]
         },
@@ -399,20 +399,20 @@
             ],
             "shows": [
                 {
-                    "id": 2061,
-                    "date": "1968-04-14",
-                    "venue": "Greynolds Park",
-                    "venue_norm": "greynolds park",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/miami-april-14-1968-1/"
-                },
-                {
                     "id": 2057,
                     "date": "1968-04-14",
                     "venue": "Thee Image Club",
                     "venue_norm": "thee image club",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/miami-april-14-1968/"
+                },
+                {
+                    "id": 2061,
+                    "date": "1968-04-14",
+                    "venue": "Greynolds Park",
+                    "venue_norm": "greynolds park",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/miami-april-14-1968-1/"
                 }
             ]
         },
@@ -425,20 +425,20 @@
             ],
             "shows": [
                 {
-                    "id": 2115,
-                    "date": "1968-05-18",
-                    "venue": "Shrine Exposition Hall",
-                    "venue_norm": "shrine exposition hall",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/los-angeles-may-18-1968/"
-                },
-                {
                     "id": 2108,
                     "date": "1968-05-18",
                     "venue": "Santa Clara County Fairgrounds",
                     "venue_norm": "santa clara county fairgrounds",
                     "fingerprint": "#|s:160|s:161|s:14383",
                     "permalink": "https://deadiverse.com/show/san-jose-may-18-1968/"
+                },
+                {
+                    "id": 2115,
+                    "date": "1968-05-18",
+                    "venue": "Shrine Exposition Hall",
+                    "venue_norm": "shrine exposition hall",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/los-angeles-may-18-1968/"
                 }
             ]
         },
@@ -797,20 +797,20 @@
             ],
             "shows": [
                 {
-                    "id": 4403,
-                    "date": "1974-07-04",
-                    "venue": "Titan Stadium",
-                    "venue_norm": "titan stadium",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/oshkosh-july-4-1974/"
-                },
-                {
                     "id": 4408,
                     "date": "1974-07-04",
                     "venue": "Musicpark / Beulah Park",
                     "venue_norm": "musicpark / beulah park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/grove-city-july-4-1974/"
+                },
+                {
+                    "id": 4403,
+                    "date": "1974-07-04",
+                    "venue": "Titan Stadium",
+                    "venue_norm": "titan stadium",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/oshkosh-july-4-1974/"
                 }
             ]
         },

@@ -4,12 +4,14 @@ id: 211
 name: it-must-have-been-the-roses
 title: 'It Must Have Been the Roses'
 permalink: 'https://deadiverse.com/song/it-must-have-been-the-roses/'
-modified_gmt: '2026-10-09T22:06:02+00:00'
+modified_gmt: '2026-10-23T22:43:19+00:00'
 band:
   - jerry-garcia
 stats:
   play_count: 0
 musicbrainz_recording_mbid: bcb2bc11-e9ac-4ae6-baa2-21c386188bda
+also_known_as:
+  - 'Must Have Been The Roses'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/it-must-have-been-the-roses-chords-2302453'
 links:
   jerrybase: 'https://jerrybase.com/songs/1152'

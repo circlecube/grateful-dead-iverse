@@ -74,7 +74,7 @@ tracklist:
   -
     entry_type: song-post
     track: 7
-    title: Jack-A-Roe
+    title: Jack‐A‐Roe
     id: 11606
     name: jack-a-roe
     duration: '05:39'
@@ -249,7 +249,7 @@ tracklist:
 4. [El Paso](../songs/el-paso.md) *(04:26)*
 5. [Ramble On Rose](../songs/ramble-on-rose.md) *(07:45)*
 6. [It’s All Over Now](../songs/its-all-over-now.md) *(08:59)*
-7. [Jack-A-Roe](../songs/jack-a-roe.md) *(05:39)*
+7. [Jack‐A‐Roe](../songs/jack-a-roe.md) *(05:39)*
 8. [Lazy Lightning](../songs/lazy-lightning.md) *(03:17)* →
 9. [Supplication](../songs/supplication.md) *(05:26)*
 10. [Althea](../songs/althea.md) *(11:34)*

@@ -4,7 +4,7 @@ id: 11693
 name: hey-pocky-a-way
 title: 'Hey Pocky A-Way'
 permalink: 'https://deadiverse.com/song/hey-pocky-a-way/'
-modified_gmt: '1987-09-09T20:00:00+00:00'
+modified_gmt: '2026-10-23T22:43:15+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1987-09-09'
     show_path: ../../shows/1987/09/1987-09-09.md
 attribution: 'The Meters'
+also_known_as:
+  - 'Hey Pocky Way'
 ---
 
 # Hey Pocky A-Way

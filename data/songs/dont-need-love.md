@@ -4,7 +4,7 @@ id: 16138
 name: dont-need-love
 title: "Don't Need Love"
 permalink: 'https://deadiverse.com/song/dont-need-love/'
-modified_gmt: '1984-03-28T20:00:00+00:00'
+modified_gmt: '2026-10-23T22:43:09+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -14,6 +14,8 @@ stats:
     id: 6228
     name: '1984-03-28'
     show_path: ../../shows/1984/03/1984-03-28.md
+also_known_as:
+  - "I Don't Need Love"
 ---
 
 # Don't Need Love

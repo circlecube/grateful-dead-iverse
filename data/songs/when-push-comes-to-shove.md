@@ -4,7 +4,7 @@ id: 127
 name: when-push-comes-to-shove
 title: 'When Push Comes to Shove'
 permalink: 'https://deadiverse.com/song/when-push-comes-to-shove/'
-modified_gmt: '2026-10-09T22:07:21+00:00'
+modified_gmt: '2026-10-23T22:43:26+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1986-12-15'
     show_path: ../../shows/1986/12/1986-12-15.md
 musicbrainz_recording_mbid: ae318c6a-a599-48a4-9df5-25f345919937
+also_known_as:
+  - 'Push Comes To Shove'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/when-push-comes-to-shove-chords-782307'
 links:
   jerrybase: 'https://jerrybase.com/songs/1244'

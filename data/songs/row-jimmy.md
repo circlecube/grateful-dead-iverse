@@ -4,7 +4,7 @@ id: 85
 name: row-jimmy
 title: 'Row Jimmy'
 permalink: 'https://deadiverse.com/song/row-jimmy/'
-modified_gmt: '2026-10-09T22:06:42+00:00'
+modified_gmt: '2026-10-23T22:43:24+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1973-02-09'
     show_path: ../../shows/1973/02/1973-02-09.md
 musicbrainz_recording_mbid: 2308ac79-8387-4681-a963-8932f00efe09
+also_known_as:
+  - 'Row Jimmy Row'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/row-jimmy-chords-281520'
 links:
   dead_net: 'https://www.dead.net/song/row-jimmy'

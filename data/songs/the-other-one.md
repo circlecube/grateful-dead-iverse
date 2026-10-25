@@ -4,7 +4,7 @@ id: 10665
 name: the-other-one
 title: 'The Other One'
 permalink: 'https://deadiverse.com/song/the-other-one/'
-modified_gmt: '2026-10-22T18:55:52+00:00'
+modified_gmt: '2026-10-23T22:43:25+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -14,6 +14,7 @@ stats:
     id: 1788
     name: '1967-08-05'
     show_path: ../../shows/1967/08/1967-08-05.md
+musicbrainz_recording_mbid: a52da63e-745b-4a42-a3fa-f0d8ddb6add7
 also_known_as:
   - "That's It for the Other One"
   - 'The Faster We Go, the Rounder We Get'
@@ -28,6 +29,12 @@ links:
     -
       label: other
       url: 'https://www.rukind.com/gdpedia/titles/tab/the-other-one'
+    -
+      label: other
+      url: 'https://www.deaddisc.com/songs/Other_One.htm'
+    -
+      label: other
+      url: 'https://www.dead.net/features/greatest-stories-ever-told/greatest-stories-ever-told-other-one'
 embeds:
   -
     embed_type: youtube

@@ -4,7 +4,7 @@ id: 11653
 name: quinn-the-eskimo-the-mighty-quinn
 title: 'Quinn the Eskimo (The Mighty Quinn)'
 permalink: 'https://deadiverse.com/song/quinn-the-eskimo-the-mighty-quinn/'
-modified_gmt: '1985-12-30T20:00:00+00:00'
+modified_gmt: '2026-10-23T22:43:24+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1985-12-30'
     show_path: ../../shows/1985/12/1985-12-30.md
 attribution: 'Bob Dylan'
+also_known_as:
+  - 'The Mighty Quinn'
 ---
 
 # Quinn the Eskimo (The Mighty Quinn)

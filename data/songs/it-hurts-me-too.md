@@ -4,7 +4,7 @@ id: 11645
 name: it-hurts-me-too
 title: 'It Hurts Me Too'
 permalink: 'https://deadiverse.com/song/it-hurts-me-too/'
-modified_gmt: '2026-10-09T22:06:01+00:00'
+modified_gmt: '2026-10-23T22:43:18+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1966-05-19'
     show_path: ../../shows/1966/05/1966-05-19.md
 attribution: 'Tampa Red'
+also_known_as:
+  - 'Hurts Me Too'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/it-hurts-me-too-chords-2621751'
 links:
   dead_net: 'https://www.dead.net/song/it-hurts-me-too'

@@ -4,7 +4,7 @@ id: 11646
 name: good-times
 title: 'Good Times'
 permalink: 'https://deadiverse.com/song/good-times/'
-modified_gmt: '2026-10-09T22:05:54+00:00'
+modified_gmt: '2026-10-23T22:43:13+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1988-06-22'
     show_path: ../../shows/1988/06/1988-06-22.md
 attribution: 'Sam Cooke'
+also_known_as:
+  - 'Let The Good Times Roll'
 links:
   other:
     -

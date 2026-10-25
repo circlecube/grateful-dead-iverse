@@ -4,7 +4,7 @@ id: 11687
 name: ive-been-all-around-this-world
 title: "I've Been All Around This World"
 permalink: 'https://deadiverse.com/song/ive-been-all-around-this-world/'
-modified_gmt: '2026-10-09T22:08:42+00:00'
+modified_gmt: '2026-10-23T22:43:21+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -17,6 +17,7 @@ stats:
 attribution: '[traditional]'
 also_known_as:
   - 'Been All Around This World'
+  - 'All Around This World'
 chords_source_url: 'https://www.rukind.com/gdpedia/titles/tab/ive-been-all-around-this-world'
 links:
   jerrybase: 'https://jerrybase.com/songs/144'

@@ -60,7 +60,7 @@ tracklist:
   -
     entry_type: song-post
     track: 5
-    title: Jack-A-Roe
+    title: Jack‐A‐Roe
     id: 11606
     name: jack-a-roe
     duration: '04:56'
@@ -253,7 +253,7 @@ tracklist:
 2. [Greatest Story Ever Told](../songs/greatest-story-ever-told.md) *(04:25)*
 3. [They Love Each Other](../songs/they-love-each-other.md) *(07:08)*
 4. [Cassidy](../songs/cassidy.md) *(05:17)*
-5. [Jack-A-Roe](../songs/jack-a-roe.md) *(04:56)*
+5. [Jack‐A‐Roe](../songs/jack-a-roe.md) *(04:56)*
 6. [Little Red Rooster](../songs/the-little-red-rooster.md) *(09:32)*
 7. [Dire Wolf](../songs/dire-wolf.md) *(03:26)*
 8. [Looks Like Rain](../songs/looks-like-rain.md) *(09:05)*

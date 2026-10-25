@@ -4,7 +4,7 @@ id: 11690
 name: good-morning-school-girl
 title: 'Good Morning, School Girl'
 permalink: 'https://deadiverse.com/song/good-morning-school-girl/'
-modified_gmt: '1987-08-22T20:00:00+00:00'
+modified_gmt: '2026-10-23T22:43:11+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1987-08-22'
     show_path: ../../shows/1987/08/1987-08-22.md
 attribution: 'Sonny Boy Williamson'
+also_known_as:
+  - 'Good Morning Little School Girl'
 ---
 
 # Good Morning, School Girl
