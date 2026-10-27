@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:05:59+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 1
+  first_played:
+    date: '1987-07-24'
+    id: 7089
+    name: '1987-07-24'
+    show_path: ../../shows/1987/07/1987-07-24.md
 musicbrainz_recording_mbid: df30f7d6-2ead-4c35-af5a-4f8fab9411a1
 links:
   dead_net: 'https://www.dead.net/song/i-want-you'

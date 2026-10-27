@@ -4,7 +4,7 @@ id: 11617
 name: and-we-bid-you-goodnight
 title: 'And We Bid You Goodnight'
 permalink: 'https://deadiverse.com/song/and-we-bid-you-goodnight/'
-modified_gmt: '2026-10-09T22:05:12+00:00'
+modified_gmt: '2026-10-23T22:43:07+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,10 @@ stats:
     name: '1968-03-16'
     show_path: ../../shows/1968/03/1968-03-16.md
 attribution: Traditional
+also_known_as:
+  - 'And We Bid You Good Night'
+  - 'We Bid You Goodnight'
+  - 'We Bid You Good Night'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/and-we-bid-you-goodnight-chords-2003703'
 links:
   dead_net: 'https://www.dead.net/song/and-we-bid-you-goodnight'

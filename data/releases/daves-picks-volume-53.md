@@ -4,7 +4,7 @@ id: 16366
 name: daves-picks-volume-53
 title: 'Dave’s Picks, Volume 53: Riverfront Coliseum, Cincinnati, OH • 10/2/76'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-53/'
-modified_gmt: '2026-10-21T20:59:24+00:00'
+modified_gmt: '2026-10-23T22:43:36+00:00'
 band:
   - the-grateful-dead
 release_types:

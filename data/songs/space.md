@@ -8,12 +8,12 @@ modified_gmt: '2026-10-22T19:00:50+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 397
+  play_count: 418
   first_played:
-    date: '1977-05-11'
-    id: 4645
-    name: '1977-05-11'
-    show_path: ../../shows/1977/05/1977-05-11.md
+    date: '1974-09-11'
+    id: 4441
+    name: '1974-09-11'
+    show_path: ../../shows/1974/09/1974-09-11.md
 links:
   jerrybase: 'https://jerrybase.com/songs/389'
   other:

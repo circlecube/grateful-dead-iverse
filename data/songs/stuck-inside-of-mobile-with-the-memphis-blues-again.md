@@ -4,7 +4,7 @@ id: 11649
 name: stuck-inside-of-mobile-with-the-memphis-blues-again
 title: 'Stuck Inside of Mobile With the Memphis Blues Again'
 permalink: 'https://deadiverse.com/song/stuck-inside-of-mobile-with-the-memphis-blues-again/'
-modified_gmt: '2026-10-09T22:07:02+00:00'
+modified_gmt: '2026-10-23T22:43:25+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,9 @@ stats:
     name: '1987-05-01'
     show_path: ../../shows/1987/05/1987-05-01.md
 attribution: 'Bob Dylan'
+also_known_as:
+  - 'Stuck Inside A Mobile With The Memphis Blues Again'
+  - 'Stuck Inside of Mobile'
 links:
   jerrybase: 'https://jerrybase.com/songs/1252'
 ---

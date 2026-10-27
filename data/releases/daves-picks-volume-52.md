@@ -4,7 +4,7 @@ id: 16365
 name: daves-picks-volume-52
 title: 'Dave’s Picks, Volume 52: The Downs At Santa Fe, Santa Fe, NM · 9/11/83'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-52/'
-modified_gmt: '2026-10-21T20:59:18+00:00'
+modified_gmt: '2026-10-23T22:43:28+00:00'
 band:
   - the-grateful-dead
 release_types:

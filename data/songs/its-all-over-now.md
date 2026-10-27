@@ -4,7 +4,7 @@ id: 11596
 name: its-all-over-now
 title: "It's All Over Now"
 permalink: 'https://deadiverse.com/song/its-all-over-now/'
-modified_gmt: '2026-10-09T22:06:05+00:00'
+modified_gmt: '2026-10-23T22:43:20+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1969-09-06'
     show_path: ../../shows/1969/09/1969-09-06.md
 attribution: 'The Valentinos'
+also_known_as:
+  - 'All Over Now'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/its-all-over-now-chords-5223636'
 links:
   dead_net: 'https://www.dead.net/song/its-all-over-now'

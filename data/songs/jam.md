@@ -8,7 +8,12 @@ modified_gmt: '2026-10-09T22:06:07+00:00'
 band:
   - the-grateful-dead
 stats:
-  play_count: 0
+  play_count: 131
+  first_played:
+    date: '1966-03-12'
+    id: 687
+    name: '1966-03-12'
+    show_path: ../../shows/1966/03/1966-03-12.md
 musicbrainz_recording_mbid: a9ae1f32-1315-4e31-a280-0399784ef733
 links:
   dead_net: 'https://www.dead.net/song/jam'

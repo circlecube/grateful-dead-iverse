@@ -4,7 +4,7 @@ id: 11615
 name: smokestack-lightning
 title: 'Smokestack Lightning'
 permalink: 'https://deadiverse.com/song/smokestack-lightning/'
-modified_gmt: '2026-10-09T22:06:55+00:00'
+modified_gmt: '2026-10-23T22:43:25+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1966-11-19'
     show_path: ../../shows/1966/11/1966-11-19.md
 attribution: 'Howlin’ Wolf'
+also_known_as:
+  - "Smokestack Lightnin'"
 links:
   dead_net: 'https://www.dead.net/song/smokestack-lightning'
   jerrybase: 'https://jerrybase.com/songs/1039'

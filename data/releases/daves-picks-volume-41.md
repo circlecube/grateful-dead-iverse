@@ -87,7 +87,7 @@ tracklist:
   -
     entry_type: song-post
     track: 9
-    title: Jack-A-Roe
+    title: Jack‐A‐Roe
     id: 11606
     name: jack-a-roe
     duration: '06:23'
@@ -214,7 +214,7 @@ tracklist:
 6. [Passenger](../songs/passenger.md) *(03:45)*
 7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(06:02)*
 8. [Looks Like Rain](../songs/looks-like-rain.md) *(08:51)*
-9. [Jack-A-Roe](../songs/jack-a-roe.md) *(06:23)*
+9. [Jack‐A‐Roe](../songs/jack-a-roe.md) *(06:23)*
 10. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(06:04)*
 11. [Bertha](../songs/bertha.md) *(07:21)*
 
