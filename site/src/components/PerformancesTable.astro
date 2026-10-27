@@ -8,6 +8,14 @@ interface Props {
 }
 
 const { performances } = Astro.props;
+
+/** "mm:ss" or "h:mm:ss" -> seconds, '' if missing/unparseable. */
+function durationSeconds(d?: string | null): string {
+	if (!d) return '';
+	const parts = d.split(':').map(Number);
+	if (parts.some((n) => Number.isNaN(n))) return '';
+	return String(parts.reduce((acc, n) => acc * 60 + n, 0));
+}
 ---
 
 <div class="card-table">
@@ -28,6 +36,9 @@ const { performances } = Astro.props;
 				</th>
 				<th class="sortable" data-sort-type="number" scope="col">
 					# <span class="sort-indicator" aria-hidden="true"></span>
+				</th>
+				<th class="sortable" data-sort-type="number" scope="col">
+					Duration <span class="sort-indicator" aria-hidden="true"></span>
 				</th>
 				<th
 					class="sortable bv-sat-icon-col"
@@ -57,8 +68,10 @@ const { performances } = Astro.props;
 								<ArrowRight size={14} strokeWidth={2} />
 							</span>
 						)}
-						{p.duration && <span class="setlist-duration">{p.duration}</span>}
 						{p.coverArtist && <span class="setlist-original-artist">({p.coverArtist})</span>}
+					</td>
+					<td data-sort-value={durationSeconds(p.duration)}>
+						{p.duration ? <span class="setlist-duration">{p.duration}</span> : '—'}
 					</td>
 					<td
 						data-sort-value={p.hasRecording ? '1' : '0'}
