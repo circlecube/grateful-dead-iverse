@@ -323,7 +323,7 @@ tracklist:
     disc: 5
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '14:51'
   -
     entry_type: song-post
@@ -477,7 +477,7 @@ tracklist:
 2. [Scarlet Begonias](../songs/scarlet-begonias.md) *(11:45)* →
 3. [Fire on the Mountain](../songs/fire-on-the-mountain.md) *(12:57)*
 4. [Samson and Delilah](../songs/samson-and-delilah.md) *(07:45)*
-5. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(14:51)*
+5. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(14:51)*
 6. [Dancing in the Streets](../songs/dancin-in-the-streets.md) *(17:56)* →
 7. [Dire Wolf](../songs/dire-wolf.md) *(03:59)*
 

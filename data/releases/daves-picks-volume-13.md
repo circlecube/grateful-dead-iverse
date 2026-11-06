@@ -47,7 +47,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:26'
   -
     entry_type: song-post
@@ -241,7 +241,7 @@ tracklist:
 
 1. [U.S. Blues](../songs/u-s-blues.md) *(06:22)*
 2. [Mexicali Blues](../songs/mexicali-blues.md) *(03:45)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:26)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:26)*
 4. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(04:04)*
 5. [Candyman](../songs/candyman.md) *(07:19)*
 6. [Jack Straw](../songs/jack-straw.md) *(05:07)*

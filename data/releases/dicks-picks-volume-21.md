@@ -84,7 +84,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:55'
   -
     entry_type: song-post
@@ -260,7 +260,7 @@ tracklist:
 4. [Stagger Lee](../songs/stagger-lee.md) *(05:56)*
 5. [Me and My Uncle](../songs/me-my-uncle.md) *(03:04)* →
 6. [Big River](../songs/big-river.md) *(06:19)*
-7. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(04:55)*
+7. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(04:55)*
 8. [Jack Straw](../songs/jack-straw.md) *(05:25)* →
 9. [Don’t Ease Me In](../songs/dont-ease-me-in.md) *(03:14)*
 

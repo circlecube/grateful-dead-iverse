@@ -75,7 +75,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '06:02'
   -
     entry_type: song-post
@@ -212,7 +212,7 @@ tracklist:
 4. [Sunrise](../songs/sunrise.md) *(04:14)*
 5. [Deal](../songs/deal.md) *(05:48)*
 6. [Passenger](../songs/passenger.md) *(03:45)*
-7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(06:02)*
+7. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(06:02)*
 8. [Looks Like Rain](../songs/looks-like-rain.md) *(08:51)*
 9. [Jack‐A‐Roe](../songs/jack-a-roe.md) *(06:23)*
 10. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(06:04)*

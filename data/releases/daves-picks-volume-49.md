@@ -62,7 +62,7 @@ tracklist:
     track: 4
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:51'
   -
     entry_type: song-post
@@ -385,7 +385,7 @@ tracklist:
 1. [Dancing in the Street](../songs/dancin-in-the-streets.md) *(06:30)* →
 2. [Bertha](../songs/bertha.md) *(06:18)*
 3. [Little Red Rooster](../songs/the-little-red-rooster.md) *(08:21)*
-4. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(04:51)*
+4. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(04:51)*
 5. [My Brother Esau](../songs/my-brother-esau.md) *(04:49)*
 6. [Ramble On Rose](../songs/ramble-on-rose.md) *(07:37)*
 7. [Just Like Tom Thumb’s Blues](../songs/just-like-tom-thumbs-blues.md) *(04:59)*

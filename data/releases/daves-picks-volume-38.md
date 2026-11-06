@@ -82,7 +82,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:48'
   -
     entry_type: song-post
@@ -270,7 +270,7 @@ tracklist:
 4. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:38)*
 5. [Tennessee Jed](../songs/tennessee-jed.md) *(08:09)*
 6. [Looks Like Rain](../songs/looks-like-rain.md) *(08:15)*
-7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:48)*
+7. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:48)*
 8. [Jack Straw](../songs/jack-straw.md) *(05:27)*
 9. [Row Jimmy](../songs/row-jimmy.md) *(09:51)*
 10. [Weather Report Suite](../songs/weather-report-suite.md) *(15:00)*

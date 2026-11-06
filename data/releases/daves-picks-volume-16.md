@@ -117,7 +117,7 @@ tracklist:
     track: 13
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:13'
   -
     entry_type: song-text
@@ -277,7 +277,7 @@ tracklist:
 10. [El Paso](../songs/el-paso.md) *(04:50)*
 11. [Row Jimmy](../songs/row-jimmy.md) *(08:41)*
 12. [Around and Around](../songs/around-around.md) *(05:24)*
-13. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:13)*
+13. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:13)*
 
 ### Disc 2
 

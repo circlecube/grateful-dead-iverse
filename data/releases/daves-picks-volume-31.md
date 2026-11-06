@@ -48,7 +48,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:48'
   -
     entry_type: song-post
@@ -245,7 +245,7 @@ tracklist:
 
 1. [Alabama Getaway](../songs/alabama-getaway.md) *(07:06)* →
 2. [Promised Land](../songs/promised-land.md) *(04:35)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:48)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:48)*
 4. [El Paso](../songs/el-paso.md) *(04:26)*
 5. [Ramble On Rose](../songs/ramble-on-rose.md) *(07:45)*
 6. [It’s All Over Now](../songs/its-all-over-now.md) *(08:59)*

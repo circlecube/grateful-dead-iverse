@@ -103,7 +103,7 @@ tracklist:
     track: 11
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:43'
   -
     entry_type: song-post
@@ -358,7 +358,7 @@ tracklist:
 8. [Box of Rain](../songs/box-of-rain.md) *(05:04)*
 9. [Row Jimmy](../songs/row-jimmy.md) *(08:28)*
 10. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:53)*
-11. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:43)*
+11. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:43)*
 12. [El Paso](../songs/el-paso.md) *(05:00)*
 13. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(07:10)*
 14. [I Know You Rider](../songs/i-know-you-rider.md) *(05:03)*

@@ -159,7 +159,7 @@ tracklist:
       -
         title: 'Brown-Eyed Woman'
         id: 14534
-        name: brown-eyed-woman
+        name: brown-eyed-women
       -
         title: 'The Merry-Go-Round Broke Down'
       -

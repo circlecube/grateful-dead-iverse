@@ -40,7 +40,7 @@ tracklist:
     track: 2
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:22'
   -
     entry_type: song-post
@@ -210,7 +210,7 @@ tracklist:
 ### Disc 1
 
 1. [Feel Like a Stranger](../songs/feel-like-a-stranger.md) *(09:20)*
-2. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(05:22)*
+2. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(05:22)*
 3. [The Same Thing](../songs/the-same-thing.md) *(08:09)*
 4. [Loose Lucy](../songs/loose-lucy.md) *(07:21)*
 5. [Stuck Inside of Mobile With the Memphis Blues Again](../songs/stuck-inside-of-mobile-with-the-memphis-blues-again.md) *(09:18)*

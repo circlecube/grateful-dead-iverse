@@ -91,7 +91,7 @@ tracklist:
     track: 8
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '06:50'
   -
     entry_type: song-post
@@ -351,7 +351,7 @@ tracklist:
 5. [Easy to Love You](../songs/easy-to-love-you.md) *(05:44)*
 6. [Peggy-O](../songs/peggy-o.md) *(06:38)*
 7. [When I Paint My Masterpiece](../songs/when-i-paint-my-masterpiece.md) *(05:37)*
-8. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(06:50)*
+8. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(06:50)*
 9. [Cassidy](../songs/cassidy.md) *(07:00)*
 10. [Deal](../songs/deal.md) *(08:21)*
 11. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(07:34)* →

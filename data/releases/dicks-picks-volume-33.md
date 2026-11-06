@@ -322,7 +322,7 @@ tracklist:
     disc: 4
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:39'
   -
     entry_type: song-post
@@ -455,7 +455,7 @@ tracklist:
 ### Disc 4
 
 1. [Samson and Delilah](../songs/samson-and-delilah.md) *(07:47)*
-2. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(05:39)*
+2. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(05:39)*
 3. [Playing in the Band](../songs/playing-in-the-band.md) *(10:58)* →
 4. [Drums](../songs/drums.md) *(02:10)* →
 5. [The Wheel](../songs/the-wheel.md) *(05:50)* →

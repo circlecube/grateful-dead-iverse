@@ -232,7 +232,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:44'
   -
     entry_type: song-post
@@ -383,7 +383,7 @@ tracklist:
 2. [Greatest Story Ever Told](../songs/greatest-story-ever-told.md) *(04:32)*
 3. [West L.A. Fadeaway](../songs/west-l-a-fadeaway.md) *(07:34)*
 4. [Little Red Rooster](../songs/the-little-red-rooster.md) *(08:21)*
-5. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:44)*
+5. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:44)*
 6. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:25)*
 7. [Tennessee Jed](../songs/tennessee-jed.md) *(09:04)*
 8. [The Music Never Stopped](../songs/the-music-never-stopped.md) *(08:27)*

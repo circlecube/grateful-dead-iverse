@@ -79,9 +79,9 @@ tracklist:
   -
     entry_type: song-post
     track: 9
-    title: 'Brown Eyed Woman'
+    title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '06:12'
   -
     entry_type: song-post
@@ -181,7 +181,7 @@ tracklist:
 6. [New, New Minglewood Blues](../songs/new-new-minglewood-blues.md) *(06:37)*
 7. [Candyman](../songs/candyman.md) *(07:04)*
 8. [Passenger](../songs/passenger.md) *(03:40)*
-9. [Brown Eyed Woman](../songs/brown-eyed-woman.md) *(06:12)*
+9. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(06:12)*
 10. [Promised Land](../songs/promised-land.md) *(04:26)*
 11. [Samson and Delilah](../songs/samson-and-delilah.md) *(08:05)*
 12. [Tennessee Jed](../songs/tennessee-jed.md) *(09:04)*

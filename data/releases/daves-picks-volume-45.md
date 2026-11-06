@@ -227,7 +227,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:46'
   -
     entry_type: song-post
@@ -394,7 +394,7 @@ tracklist:
 1. [Casey Jones](../songs/casey-jones.md) *(10:32)*
 2. [Jack Straw](../songs/jack-straw.md) *(05:04)*
 3. [Sunrise](../songs/sunrise.md) *(04:31)*
-4. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:46)*
+4. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:46)*
 5. [El Paso](../songs/el-paso.md) *(04:34)*
 6. [Dupree’s Diamond Blues](../songs/duprees-diamond-blues.md) *(05:29)*
 7. [Let It Grow](../songs/let-it-grow.md) *(12:42)*

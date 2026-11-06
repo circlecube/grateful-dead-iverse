@@ -104,7 +104,7 @@ tracklist:
     track: 9
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:34'
   -
     entry_type: song-post
@@ -264,7 +264,7 @@ tracklist:
 6. [It’s All Over Now](../songs/its-all-over-now.md) *(07:40)*
 7. [Dupree’s Diamond Blues](../songs/duprees-diamond-blues.md) *(04:37)*
 8. [Looks Like Rain](../songs/looks-like-rain.md) *(07:59)*
-9. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(05:34)*
+9. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(05:34)*
 10. [Passenger](../songs/passenger.md) *(05:41)*
 11. [Deal](../songs/deal.md) *(06:35)*
 12. [The Music Never Stopped](../songs/the-music-never-stopped.md) *(08:07)*

@@ -236,7 +236,7 @@ tracklist:
     disc: 4
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:54'
   -
     entry_type: song-post
@@ -337,7 +337,7 @@ tracklist:
 ### Disc 4
 
 1. [Bertha](../songs/bertha.md) *(06:57)*
-2. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(04:54)*
+2. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(04:54)*
 3. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(05:51)*
 4. [I Know You Rider](../songs/i-know-you-rider.md) *(05:11)*
 5. [Cumberland Blues](../songs/cumberland-blues.md) *(05:09)*

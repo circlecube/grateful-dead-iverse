@@ -104,7 +104,7 @@ tracklist:
     track: 11
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:27'
   -
     entry_type: song-post
@@ -239,7 +239,7 @@ tracklist:
 8. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(09:10)* →
 9. [I Know You Rider](../songs/i-know-you-rider.md) *(05:44)*
 10. [Big River](../songs/big-river.md) *(05:22)*
-11. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:27)*
+11. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:27)*
 12. [Around and Around](../songs/around-around.md) *(05:10)*
 
 ### Disc 2

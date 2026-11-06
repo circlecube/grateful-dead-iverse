@@ -256,7 +256,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:26'
   -
     entry_type: song-post
@@ -316,7 +316,7 @@ tracklist:
 5. [Sitting on Top of the World](../songs/sitting-on-top-of-the-world.md) *(03:21)* →
 6. [Dark Star](../songs/dark-star.md) *(02:12)* →
 7. [Me and Bobby McGee](../songs/me-bobby-mcgee.md) *(06:16)*
-8. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(04:26)*
+8. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(04:26)*
 9. [St. Stephen](../songs/st-stephen.md) *(05:54)*
 10. [Johnny B. Goode](../songs/johnny-b-goode.md) *(04:14)*
 

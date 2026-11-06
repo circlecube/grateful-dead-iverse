@@ -82,7 +82,7 @@ tracklist:
     track: 8
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:28'
   -
     entry_type: song-post
@@ -232,7 +232,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:28'
 ---
 
@@ -249,7 +249,7 @@ tracklist:
 5. [El Paso](../songs/el-paso.md) *(04:22)*
 6. [Tennessee Jed](../songs/tennessee-jed.md) *(09:10)*
 7. [It's All Over Now](../songs/its-all-over-now.md) *(06:23)*
-8. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:28)*
+8. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:28)*
 9. [Let It Grow](../songs/let-it-grow.md) *(12:48)*
 10. [Might as Well](../songs/might-as-well.md) *(06:06)*
 
@@ -274,7 +274,7 @@ tracklist:
 8. [Cassidy](../songs/cassidy.md) *(05:27)*
 9. [Deal](../songs/deal.md) *(06:56)*
 10. [Looks Like Rain](../songs/looks-like-rain.md) *(09:13)*
-11. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:28)*
+11. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:28)*
 
 ## Source shows
 

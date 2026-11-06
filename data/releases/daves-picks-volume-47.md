@@ -55,7 +55,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:55'
   -
     entry_type: song-post
@@ -293,7 +293,7 @@ tracklist:
 
 1. [Alabama Getaway](../songs/alabama-getaway.md) *(07:04)* →
 2. [Promised Land](../songs/promised-land.md) *(04:36)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:55)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:55)*
 4. [Cassidy](../songs/cassidy.md) *(05:32)*
 5. [Row Jimmy](../songs/row-jimmy.md) *(12:33)*
 6. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(06:59)*

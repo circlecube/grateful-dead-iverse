@@ -75,7 +75,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:31'
   -
     entry_type: song-post
@@ -302,7 +302,7 @@ tracklist:
 4. [Looks Like Rain](../songs/looks-like-rain.md) *(07:44)*
 5. [They Love Each Other](../songs/they-love-each-other.md) *(06:14)*
 6. [Me and Bobby McGee](../songs/me-bobby-mcgee.md) *(06:09)*
-7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:31)*
+7. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:31)*
 8. [Beat It on Down the Line](../songs/beat-it-on-down-the-line.md) *(03:51)*
 9. [Peggy-O](../songs/peggy-o.md) *(05:55)*
 10. [El Paso](../songs/el-paso.md) *(04:56)*

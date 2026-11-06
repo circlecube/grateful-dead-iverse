@@ -75,7 +75,7 @@ tracklist:
     track: 6
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:29'
   -
     entry_type: song-post
@@ -268,7 +268,7 @@ tracklist:
 3. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:55)*
 4. [Cumberland Blues](../songs/cumberland-blues.md) *(06:26)*
 5. [Little Red Rooster](../songs/the-little-red-rooster.md) *(10:04)*
-6. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:29)*
+6. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:29)*
 7. [My Brother Esau](../songs/my-brother-esau.md) *(07:00)*
 8. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(05:52)* →
 9. [Let It Grow](../songs/let-it-grow.md) *(15:25)*

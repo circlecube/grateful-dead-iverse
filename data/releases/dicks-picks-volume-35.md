@@ -270,7 +270,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:11'
   -
     entry_type: song-post
@@ -439,7 +439,7 @@ tracklist:
 2. [Cumberland Blues](../songs/cumberland-blues.md) *(05:42)*
 3. Empty Pages *(05:22)*
 4. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:45)*
-5. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(04:11)*
+5. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(04:11)*
 6. [St. Stephen](../songs/st-stephen.md) *(05:31)* →
 7. [Not Fade Away](../songs/not-fade-away.md) *(04:08)* →
 8. [Goin’ Down the Road Feeling Bad](../songs/going-down-the-road-feeling-bad.md) *(08:24)*

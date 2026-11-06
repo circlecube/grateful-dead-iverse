@@ -260,7 +260,7 @@ tracklist:
     disc: 4
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:08'
   -
     entry_type: song-post
@@ -372,7 +372,7 @@ tracklist:
 ### Disc 4
 
 1. [U.S. Blues](../songs/u-s-blues.md) *(05:47)*
-2. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:08)*
+2. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:08)*
 3. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(05:07)*
 4. [Black-Throated Wind](../songs/black-throated-wind.md) *(06:50)*
 5. [Loose Lucy](../songs/loose-lucy.md) *(07:23)*
