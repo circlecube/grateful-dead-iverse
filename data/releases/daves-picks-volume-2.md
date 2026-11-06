@@ -47,7 +47,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:49'
   -
     entry_type: song-post
@@ -270,7 +270,7 @@ tracklist:
 
 1. [Scarlet Begonias](../songs/scarlet-begonias.md) *(08:21)*
 2. [Me and My Uncle](../songs/me-my-uncle.md) *(03:14)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(04:49)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(04:49)*
 4. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:38)*
 5. [Mississippi Half-Step Uptown Toodeloo](../songs/mississippi-half-step-uptown-toodleloo.md) *(08:01)* →
 6. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(05:24)*

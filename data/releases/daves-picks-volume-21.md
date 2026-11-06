@@ -54,7 +54,7 @@ tracklist:
     track: 4
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:47'
   -
     entry_type: song-post
@@ -302,7 +302,7 @@ tracklist:
 1. [Promised Land](../songs/promised-land.md) *(03:38)*
 2. [Deal](../songs/deal.md) *(04:43)*
 3. [Mexicali Blues](../songs/mexicali-blues.md) *(03:42)*
-4. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:47)*
+4. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:47)*
 5. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:37)*
 6. [Row Jimmy](../songs/row-jimmy.md) *(08:25)*
 7. [Looks Like Rain](../songs/looks-like-rain.md) *(07:51)*

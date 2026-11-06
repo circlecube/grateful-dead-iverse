@@ -154,7 +154,7 @@ tracklist:
     disc: 2
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:01'
   -
     entry_type: song-post
@@ -351,7 +351,7 @@ tracklist:
 1. [Ramble On Rose](../songs/ramble-on-rose.md) *(06:49)*
 2. [Big Boss Man](../songs/big-boss-man.md) *(05:43)*
 3. [Mexicali Blues](../songs/mexicali-blues.md) *(03:46)*
-4. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:01)*
+4. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:01)*
 5. [Me and My Uncle](../songs/me-my-uncle.md) *(03:15)*
 6. [Smokestack Lightning](../songs/smokestack-lightning.md) *(12:43)*
 7. [Deal](../songs/deal.md) *(06:02)*

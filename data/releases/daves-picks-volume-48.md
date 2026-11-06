@@ -82,7 +82,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '06:38'
   -
     entry_type: song-post
@@ -292,7 +292,7 @@ tracklist:
 4. [Beat It on Down the Line](../songs/beat-it-on-down-the-line.md) *(03:54)*
 5. [Tennessee Jed](../songs/tennessee-jed.md) *(07:12)*
 6. [Mexicali Blues](../songs/mexicali-blues.md) *(04:34)*
-7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(06:38)*
+7. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(06:38)*
 8. [El Paso](../songs/el-paso.md) *(05:20)*
 9. [Big Railroad Blues](../songs/big-railroad-blues.md) *(04:08)*
 10. [Jack Straw](../songs/jack-straw.md) *(05:12)*

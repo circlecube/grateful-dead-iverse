@@ -70,7 +70,7 @@ tracklist:
     track: 6
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:50'
   -
     entry_type: song-post
@@ -227,7 +227,7 @@ tracklist:
 3. [They Love Each Other](../songs/they-love-each-other.md) *(07:48)*
 4. [Mama Tried](../songs/mama-tried.md) *(02:43)* →
 5. [Big River](../songs/big-river.md) *(06:25)*
-6. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:50)*
+6. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:50)*
 7. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(08:15)*
 8. [Big Railroad Blues](../songs/big-railroad-blues.md) *(07:33)*
 9. [Looks Like Rain](../songs/looks-like-rain.md) *(10:51)* →

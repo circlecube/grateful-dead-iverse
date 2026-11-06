@@ -113,7 +113,7 @@ tracklist:
     disc: 2
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:13'
   -
     entry_type: song-post
@@ -228,7 +228,7 @@ tracklist:
 ### Disc 2
 
 1. [Big River](../songs/big-river.md) *(05:21)*
-2. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:13)*
+2. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:13)*
 3. [Playing in the Band](../songs/playing-in-the-band.md) *(20:54)*
 4. [U.S. Blues](../songs/u-s-blues.md) *(05:48)*
 5. [El Paso](../songs/el-paso.md) *(04:44)*

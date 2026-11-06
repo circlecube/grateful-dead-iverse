@@ -69,7 +69,7 @@ tracklist:
     track: 6
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:20'
   -
     entry_type: song-post
@@ -240,7 +240,7 @@ tracklist:
 3. [Dire Wolf](../songs/dire-wolf.md) *(03:58)*
 4. [Me & My Uncle](../songs/me-my-uncle.md) *(02:59)* →
 5. [Big River](../songs/big-river.md) *(05:59)*
-6. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:20)*
+6. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:20)*
 7. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(07:41)*
 8. [Friend of the Devil](../songs/friend-of-the-devil.md) *(09:38)*
 9. [Looks Like Rain](../songs/looks-like-rain.md) *(08:14)*

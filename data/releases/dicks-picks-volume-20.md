@@ -68,7 +68,7 @@ tracklist:
     track: 5
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:56'
   -
     entry_type: song-post
@@ -394,7 +394,7 @@ tracklist:
 2. [New Minglewood Blues](../songs/new-minglewood-blues.md) *(04:49)*
 3. [Ramble On Rose](../songs/ramble-on-rose.md) *(07:11)*
 4. [Cassidy](../songs/cassidy.md) *(04:43)*
-5. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(04:56)*
+5. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(04:56)*
 6. [Mama Tried](../songs/mama-tried.md) *(02:49)*
 7. [Peggy-O](../songs/peggy-o.md) *(09:41)*
 8. [Loser](../songs/loser.md) *(08:18)*

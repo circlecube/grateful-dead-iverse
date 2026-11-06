@@ -97,7 +97,7 @@ tracklist:
     track: 10
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '06:10'
   -
     entry_type: song-post
@@ -218,7 +218,7 @@ tracklist:
 7. [Loser](../songs/loser.md) *(08:32)*
 8. [Lazy Lightning](../songs/lazy-lightning.md) *(03:14)* →
 9. [Supplication](../songs/supplication.md) *(05:13)*
-10. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(06:10)*
+10. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(06:10)*
 11. [Promised Land](../songs/promised-land.md) *(04:32)*
 
 ### Disc 2

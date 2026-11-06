@@ -76,7 +76,7 @@ tracklist:
     track: 7
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:57'
   -
     entry_type: song-post
@@ -200,7 +200,7 @@ tracklist:
 4. [Big River](../songs/big-river.md) *(06:21)*
 5. [Friend of the Devil](../songs/friend-of-the-devil.md) *(09:33)*
 6. [Cassidy](../songs/cassidy.md) *(05:39)*
-7. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:57)*
+7. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:57)*
 8. [Passenger](../songs/passenger.md) *(05:45)*
 9. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(08:06)*
 10. [The Music Never Stopped](../songs/the-music-never-stopped.md) *(08:51)*

@@ -208,7 +208,7 @@ tracklist:
     disc: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:50'
   -
     entry_type: song-post
@@ -287,7 +287,7 @@ tracklist:
 
 1. [Not Fade Away](../songs/not-fade-away.md) *(14:32)*
 2. [Big River](../songs/big-river.md) *(07:02)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:50)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:50)*
 4. [Looks Like Rain](../songs/looks-like-rain.md) *(07:35)*
 5. [Peggy-O](../songs/peggy-o.md) *(09:19)*
 6. [The Music Never Stopped](../songs/the-music-never-stopped.md) *(05:53)* →

@@ -68,7 +68,7 @@ tracklist:
     track: 5
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:30'
   -
     entry_type: song-post
@@ -263,7 +263,7 @@ tracklist:
 2. [Passenger](../songs/passenger.md) *(04:52)*
 3. [Friend of the Devil](../songs/friend-of-the-devil.md) *(07:04)*
 4. [El Paso](../songs/el-paso.md) *(04:53)*
-5. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:30)*
+5. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:30)*
 6. [Let It Grow](../songs/let-it-grow.md) *(14:32)*
 7. [Deal](../songs/deal.md) *(07:15)*
 8. [Bertha](../songs/bertha.md) *(06:01)* →

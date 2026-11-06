@@ -111,7 +111,7 @@ tracklist:
     disc: 2
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:11'
   -
     entry_type: song-post
@@ -219,7 +219,7 @@ tracklist:
 
 1. [Playing in the Band](../songs/playing-in-the-band.md) *(29:14)*
 2. Seastones *(15:13)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:11)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:11)*
 4. [Me and My Uncle](../songs/me-my-uncle.md) *(03:11)*
 5. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(05:54)*
 6. [Jack Straw](../songs/jack-straw.md) *(05:28)*

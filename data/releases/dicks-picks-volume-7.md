@@ -129,7 +129,7 @@ tracklist:
     disc: 2
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:07'
   -
     entry_type: song-post
@@ -233,7 +233,7 @@ tracklist:
 1. [Weather Report Suite](../songs/weather-report-suite.md) *(18:18)* →
 2. [Stella Blue](../songs/stella-blue.md) *(08:32)*
 3. [Jack Straw](../songs/jack-straw.md) *(05:19)*
-4. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:07)*
+4. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:07)*
 5. [Big River](../songs/big-river.md) *(05:14)*
 6. [Truckin’](../songs/truckin.md) *(10:32)* →
 7. Wood Green Jam *(05:57)* →

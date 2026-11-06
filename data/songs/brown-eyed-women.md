@@ -1,10 +1,10 @@
 ---
 schema_version: 1
 id: 14534
-name: brown-eyed-woman
-title: 'Brown Eyed Woman'
-permalink: 'https://deadiverse.com/song/brown-eyed-woman/'
-modified_gmt: '2026-10-09T22:08:50+00:00'
+name: brown-eyed-women
+title: 'Brown-Eyed Women'
+permalink: 'https://deadiverse.com/song/brown-eyed-women/'
+modified_gmt: '2026-11-05T16:04:20+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -17,9 +17,18 @@ stats:
 musicbrainz_recording_mbid: 3c85eef8-852d-4008-9939-3b1cd5db05e5
 also_known_as:
   - 'Brown Eyed Woman'
+  - 'Brown Eyed Women'
+  - 'Brown-Eyed Woman'
+embeds:
+  -
+    embed_type: youtube
+    youtube_video: '<iframe title="Brown Eyed Women (Live in Denmark, 1972) (2001 Remaster)" width="520" height="390" src="https://www.youtube.com/embed/M-cR8u0Jm9E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+  -
+    embed_type: youtube
+    youtube_video: '<iframe title="Brown-Eyed Women (Live at Winterland, San Francisco, CA, 3/20/1977)" width="520" height="390" src="https://www.youtube.com/embed/dU2UjCSxB7o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
 ---
 
-# Brown Eyed Woman
+# Brown-Eyed Women
 
 ## Lyrics
 

@@ -47,7 +47,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Woman'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:27'
   -
     entry_type: song-post
@@ -193,7 +193,7 @@ tracklist:
 
 1. [U.S. Blues](../songs/u-s-blues.md) *(06:16)*
 2. [Promised Land](../songs/promised-land.md) *(04:04)*
-3. [Brown-Eyed Woman](../songs/brown-eyed-woman.md) *(05:27)*
+3. [Brown-Eyed Woman](../songs/brown-eyed-women.md) *(05:27)*
 4. [Black-Throated Wind](../songs/black-throated-wind.md) *(07:05)*
 5. [Scarlet Begonias](../songs/scarlet-begonias.md) *(07:13)*
 6. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:46)*

@@ -103,7 +103,7 @@ tracklist:
     track: 11
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:11'
   -
     entry_type: song-post
@@ -277,7 +277,7 @@ tracklist:
 8. [Box of Rain](../songs/box-of-rain.md) *(04:54)*
 9. [Don’t Ease Me In](../songs/dont-ease-me-in.md) *(03:16)*
 10. [Beat It On Down the Line](../songs/beat-it-on-down-the-line.md) *(03:26)*
-11. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:11)*
+11. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:11)*
 12. [Big River](../songs/big-river.md) *(04:39)*
 13. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(07:10)* →
 14. [I Know You Rider](../songs/i-know-you-rider.md) *(04:47)*

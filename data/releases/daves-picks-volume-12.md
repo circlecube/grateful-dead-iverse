@@ -55,7 +55,7 @@ tracklist:
     track: 3
     title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '05:56'
   -
     entry_type: song-post
@@ -290,7 +290,7 @@ tracklist:
 
 1. [Bertha](../songs/bertha.md) *(07:50)* →
 2. [Good Lovin’](../songs/good-lovin.md) *(06:26)*
-3. [Brown-Eyed Women](../songs/brown-eyed-woman.md) *(05:56)*
+3. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(05:56)*
 4. [Cassidy](../songs/cassidy.md) *(05:02)*
 5. [It Must Have Been the Roses](../songs/it-must-have-been-the-roses.md) *(07:42)*
 6. [Sunrise](../songs/sunrise.md) *(04:19)*

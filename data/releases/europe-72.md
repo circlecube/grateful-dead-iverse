@@ -66,9 +66,9 @@ tracklist:
   -
     entry_type: song-post
     track: 8
-    title: 'Brown Eyed Woman'
+    title: 'Brown-Eyed Women'
     id: 14534
-    name: brown-eyed-woman
+    name: brown-eyed-women
     duration: '04:38'
   -
     entry_type: song-post
@@ -146,7 +146,7 @@ tracklist:
 5. [You Win Again](../songs/you-win-again.md) *(04:02)*
 6. [China Cat Sunflower](../songs/china-cat-sunflower.md) *(05:33)*
 7. [I Know You Rider](../songs/i-know-you-rider.md) *(05:05)*
-8. [Brown Eyed Woman](../songs/brown-eyed-woman.md) *(04:38)*
+8. [Brown-Eyed Women](../songs/brown-eyed-women.md) *(04:38)*
 9. [Hurts Me Too](../songs/hurts-me-too.md) *(07:19)*
 10. [Ramble On Rose](../songs/ramble-on-rose.md) *(06:00)*
 11. [Sugar Magnolia](../songs/sugar-magnolia.md) *(07:11)*
