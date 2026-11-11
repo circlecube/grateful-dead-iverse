@@ -10,6 +10,10 @@ band:
 release_types:
   - dicks-picks
   - live
+release_terms:
+  -
+    slug: dicks-picks
+    name: "Dick's Picks"
 release_date: '2003-01-17'
 musicbrainz_release_group_mbid: 5216fb2b-580a-377d-9f2e-ce0cb08e292a
 musicbrainz_release_mbid: c974296e-42c2-4a02-950c-1c3abc7fdc81

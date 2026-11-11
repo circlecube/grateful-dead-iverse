@@ -4,7 +4,7 @@ id: 11531
 name: iko-iko
 title: 'Iko Iko'
 permalink: 'https://deadiverse.com/song/iko-iko/'
-modified_gmt: '2026-10-09T22:06:00+00:00'
+modified_gmt: '2026-11-09T22:02:48+00:00'
 band:
   - the-grateful-dead
 stats:
@@ -15,6 +15,8 @@ stats:
     name: '1977-05-15'
     show_path: ../../shows/1977/05/1977-05-15.md
 attribution: 'Sugar Boy and His Cane Cutters'
+also_known_as:
+  - 'Aiko Aiko'
 chords_source_url: 'https://tabs.ultimate-guitar.com/tab/grateful-dead/iko-iko-chords-3808088'
 links:
   dead_net: 'https://www.dead.net/song/iko-iko'
