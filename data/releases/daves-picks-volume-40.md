@@ -10,6 +10,10 @@ band:
 release_types:
   - daves-picks
   - live
+release_terms:
+  -
+    slug: daves-picks
+    name: "Dave's Picks"
 release_date: '2021-11-01'
 musicbrainz_release_group_mbid: d086b031-a94d-4fa5-9d0b-f3e0b4d3d569
 musicbrainz_release_mbid: 9b8fed29-cbda-47be-818d-7bca4d02e314

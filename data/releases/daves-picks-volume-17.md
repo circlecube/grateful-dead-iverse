@@ -10,6 +10,10 @@ band:
 release_types:
   - daves-picks
   - live
+release_terms:
+  -
+    slug: daves-picks
+    name: "Dave's Picks"
 release_date: '2016-02-01'
 musicbrainz_release_group_mbid: 5d297125-be00-4810-96c4-a90d6c9feae0
 musicbrainz_release_mbid: adb89dd9-34b1-4239-93ee-0e47e3565f89

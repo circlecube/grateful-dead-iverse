@@ -217,20 +217,20 @@
             ],
             "shows": [
                 {
-                    "id": 1651,
-                    "date": "1967-06-08",
-                    "venue": "Cafe au Go Go",
-                    "venue_norm": "cafe au go go",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967-1/"
-                },
-                {
                     "id": 1648,
                     "date": "1967-06-08",
                     "venue": "Naumburg Bandshell / Central Park",
                     "venue_norm": "naumburg bandshell / central park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/new-york-june-8-1967/"
+                },
+                {
+                    "id": 1651,
+                    "date": "1967-06-08",
+                    "venue": "Cafe au Go Go",
+                    "venue_norm": "cafe au go go",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/new-york-june-8-1967-1/"
                 }
             ]
         },
@@ -399,20 +399,20 @@
             ],
             "shows": [
                 {
-                    "id": 2061,
-                    "date": "1968-04-14",
-                    "venue": "Greynolds Park",
-                    "venue_norm": "greynolds park",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/miami-april-14-1968-1/"
-                },
-                {
                     "id": 2057,
                     "date": "1968-04-14",
                     "venue": "Thee Image Club",
                     "venue_norm": "thee image club",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/miami-april-14-1968/"
+                },
+                {
+                    "id": 2061,
+                    "date": "1968-04-14",
+                    "venue": "Greynolds Park",
+                    "venue_norm": "greynolds park",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/miami-april-14-1968-1/"
                 }
             ]
         },
@@ -425,20 +425,20 @@
             ],
             "shows": [
                 {
-                    "id": 2115,
-                    "date": "1968-05-18",
-                    "venue": "Shrine Exposition Hall",
-                    "venue_norm": "shrine exposition hall",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/los-angeles-may-18-1968/"
-                },
-                {
                     "id": 2108,
                     "date": "1968-05-18",
                     "venue": "Santa Clara County Fairgrounds",
                     "venue_norm": "santa clara county fairgrounds",
                     "fingerprint": "#|s:160|s:161|s:14383",
                     "permalink": "https://deadiverse.com/show/san-jose-may-18-1968/"
+                },
+                {
+                    "id": 2115,
+                    "date": "1968-05-18",
+                    "venue": "Shrine Exposition Hall",
+                    "venue_norm": "shrine exposition hall",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/los-angeles-may-18-1968/"
                 }
             ]
         },
@@ -477,20 +477,20 @@
             ],
             "shows": [
                 {
-                    "id": 2294,
-                    "date": "1968-09-01",
-                    "venue": "Palace of Fine Arts Theatre",
-                    "venue_norm": "palace of fine arts theatre",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968/"
-                },
-                {
                     "id": 2298,
                     "date": "1968-09-01",
                     "venue": "Fillmore West",
                     "venue_norm": "fillmore west",
                     "fingerprint": "#|s:73|s:11521|s:11635|s:10675",
                     "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968-1/"
+                },
+                {
+                    "id": 2294,
+                    "date": "1968-09-01",
+                    "venue": "Palace of Fine Arts Theatre",
+                    "venue_norm": "palace of fine arts theatre",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968/"
                 }
             ]
         },
@@ -581,20 +581,20 @@
             ],
             "shows": [
                 {
-                    "id": 2985,
-                    "date": "1969-12-06",
-                    "venue": "Altamont Speedway",
-                    "venue_norm": "altamont speedway",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/altamont-speedway-december-6-1969/"
-                },
-                {
                     "id": 2987,
                     "date": "1969-12-06",
                     "venue": "Fillmore West",
                     "venue_norm": "fillmore west",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/fillmore-west-december-6-1969/"
+                },
+                {
+                    "id": 2985,
+                    "date": "1969-12-06",
+                    "venue": "Altamont Speedway",
+                    "venue_norm": "altamont speedway",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/altamont-speedway-december-6-1969/"
                 }
             ]
         },
@@ -659,20 +659,20 @@
             ],
             "shows": [
                 {
-                    "id": 3448,
-                    "date": "1970-10-30",
-                    "venue": "Gymnasium / SUNY",
-                    "venue_norm": "gymnasium / suny",
-                    "fingerprint": "#|t:(early) cold rain & snow|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99|#|t:(late) smokestack lightning|s:55|s:78|s:10661|s:135|s:143|s:138|s:11645|s:36|s:11602|s:73|s:10659|s:11601|s:10659|s:10675",
-                    "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970/"
-                },
-                {
                     "id": 12928,
                     "date": "1970-10-30",
                     "venue": "Stony Brook Gymnasium",
                     "venue_norm": "stony brook gymnasium",
                     "fingerprint": "s:11609|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99",
                     "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970-1/"
+                },
+                {
+                    "id": 3448,
+                    "date": "1970-10-30",
+                    "venue": "Gymnasium / SUNY",
+                    "venue_norm": "gymnasium / suny",
+                    "fingerprint": "#|t:(early) cold rain & snow|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99|#|t:(late) smokestack lightning|s:55|s:78|s:10661|s:135|s:143|s:138|s:11645|s:36|s:11602|s:73|s:10659|s:11601|s:10659|s:10675",
+                    "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970/"
                 }
             ]
         },
@@ -711,14 +711,6 @@
             ],
             "shows": [
                 {
-                    "id": 3496,
-                    "date": "1970-11-21",
-                    "venue": "Boston University",
-                    "venue_norm": "boston university",
-                    "fingerprint": "#|s:99|s:138|s:10673|s:98|s:102|s:36|s:73|s:10659|s:80|s:92",
-                    "permalink": "https://deadiverse.com/show/boston-november-21-1970/"
-                },
-                {
                     "id": 12920,
                     "date": "1970-11-21",
                     "venue": "WBCN-FM Studios",
@@ -733,6 +725,14 @@
                     "venue_norm": "boston university",
                     "fingerprint": "s:10665|s:80|s:92|s:94|s:11520|s:78|s:143|s:135|s:136|s:73",
                     "permalink": "https://deadiverse.com/show/boston-november-21-1970-2/"
+                },
+                {
+                    "id": 3496,
+                    "date": "1970-11-21",
+                    "venue": "Boston University",
+                    "venue_norm": "boston university",
+                    "fingerprint": "#|s:99|s:138|s:10673|s:98|s:102|s:36|s:73|s:10659|s:80|s:92",
+                    "permalink": "https://deadiverse.com/show/boston-november-21-1970/"
                 }
             ]
         },
@@ -875,20 +875,20 @@
             ],
             "shows": [
                 {
-                    "id": 9037,
-                    "date": "1995-10-04",
-                    "venue": "SkyDome",
-                    "venue_norm": "skydome",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/toronto-october-4-1995/"
-                },
-                {
                     "id": 9040,
                     "date": "1995-10-04",
                     "venue": "Gund Arena",
                     "venue_norm": "gund arena",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/cleveland-october-4-1995/"
+                },
+                {
+                    "id": 9037,
+                    "date": "1995-10-04",
+                    "venue": "SkyDome",
+                    "venue_norm": "skydome",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/toronto-october-4-1995/"
                 }
             ]
         }
