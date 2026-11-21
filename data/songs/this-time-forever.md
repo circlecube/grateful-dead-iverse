@@ -8,7 +8,7 @@ modified_gmt: '2026-10-09T22:07:10+00:00'
 band:
   - bob-weir
 stats:
-  play_count: 23
+  play_count: 24
   first_played:
     date: '1978-02-15'
     id: 9266

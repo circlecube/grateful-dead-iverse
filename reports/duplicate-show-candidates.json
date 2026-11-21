@@ -165,20 +165,20 @@
             ],
             "shows": [
                 {
-                    "id": 1528,
-                    "date": "1967-04-09",
-                    "venue": "Panhandle / Golden Gate Park",
-                    "venue_norm": "panhandle / golden gate park",
-                    "fingerprint": "#|s:36|s:161|t:jam|s:11688|s:60|t:gloria",
-                    "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967/"
-                },
-                {
                     "id": 1530,
                     "date": "1967-04-09",
                     "venue": "Longshoreman's Hall",
                     "venue_norm": "longshoreman's hall",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967-1/"
+                },
+                {
+                    "id": 1528,
+                    "date": "1967-04-09",
+                    "venue": "Panhandle / Golden Gate Park",
+                    "venue_norm": "panhandle / golden gate park",
+                    "fingerprint": "#|s:36|s:161|t:jam|s:11688|s:60|t:gloria",
+                    "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967/"
                 }
             ]
         },
@@ -477,20 +477,20 @@
             ],
             "shows": [
                 {
-                    "id": 2298,
-                    "date": "1968-09-01",
-                    "venue": "Fillmore West",
-                    "venue_norm": "fillmore west",
-                    "fingerprint": "#|s:73|s:11521|s:11635|s:10675",
-                    "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968-1/"
-                },
-                {
                     "id": 2294,
                     "date": "1968-09-01",
                     "venue": "Palace of Fine Arts Theatre",
                     "venue_norm": "palace of fine arts theatre",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968/"
+                },
+                {
+                    "id": 2298,
+                    "date": "1968-09-01",
+                    "venue": "Fillmore West",
+                    "venue_norm": "fillmore west",
+                    "fingerprint": "#|s:73|s:11521|s:11635|s:10675",
+                    "permalink": "https://deadiverse.com/show/san-francisco-september-1-1968-1/"
                 }
             ]
         },
@@ -581,20 +581,20 @@
             ],
             "shows": [
                 {
-                    "id": 2987,
-                    "date": "1969-12-06",
-                    "venue": "Fillmore West",
-                    "venue_norm": "fillmore west",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/fillmore-west-december-6-1969/"
-                },
-                {
                     "id": 2985,
                     "date": "1969-12-06",
                     "venue": "Altamont Speedway",
                     "venue_norm": "altamont speedway",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/altamont-speedway-december-6-1969/"
+                },
+                {
+                    "id": 2987,
+                    "date": "1969-12-06",
+                    "venue": "Fillmore West",
+                    "venue_norm": "fillmore west",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/fillmore-west-december-6-1969/"
                 }
             ]
         },
@@ -685,20 +685,20 @@
             ],
             "shows": [
                 {
-                    "id": 3450,
-                    "date": "1970-10-31",
-                    "venue": "Gymnasium / SUNY",
-                    "venue_norm": "gymnasium / suny",
-                    "fingerprint": "#|t:(early) till the morning comes|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92|#|t:(late) casey jones|s:136|s:11625|s:11520|s:10665|s:11520|s:80|s:11623|s:10673|s:11610|s:102|s:73|s:10659|s:11601|s:10659",
-                    "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970/"
-                },
-                {
                     "id": 12927,
                     "date": "1970-10-31",
                     "venue": "Stony Brook Gymnasium",
                     "venue_norm": "stony brook gymnasium",
                     "fingerprint": "s:141|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92",
                     "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970-1/"
+                },
+                {
+                    "id": 3450,
+                    "date": "1970-10-31",
+                    "venue": "Gymnasium / SUNY",
+                    "venue_norm": "gymnasium / suny",
+                    "fingerprint": "#|t:(early) till the morning comes|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92|#|t:(late) casey jones|s:136|s:11625|s:11520|s:10665|s:11520|s:80|s:11623|s:10673|s:11610|s:102|s:73|s:10659|s:11601|s:10659",
+                    "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970/"
                 }
             ]
         },
@@ -875,20 +875,20 @@
             ],
             "shows": [
                 {
-                    "id": 9040,
-                    "date": "1995-10-04",
-                    "venue": "Gund Arena",
-                    "venue_norm": "gund arena",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/cleveland-october-4-1995/"
-                },
-                {
                     "id": 9037,
                     "date": "1995-10-04",
                     "venue": "SkyDome",
                     "venue_norm": "skydome",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/toronto-october-4-1995/"
+                },
+                {
+                    "id": 9040,
+                    "date": "1995-10-04",
+                    "venue": "Gund Arena",
+                    "venue_norm": "gund arena",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/cleveland-october-4-1995/"
                 }
             ]
         }
