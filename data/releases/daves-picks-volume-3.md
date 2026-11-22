@@ -4,7 +4,7 @@ id: 16340
 name: daves-picks-volume-3
 title: 'Dave’s Picks, Volume 3: Auditorium Theatre, Chicago, IL · 10/22/71'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-3/'
-modified_gmt: '2026-10-21T20:56:05+00:00'
+modified_gmt: '2026-11-20T23:02:34+00:00'
 band:
   - the-grateful-dead
 release_types:

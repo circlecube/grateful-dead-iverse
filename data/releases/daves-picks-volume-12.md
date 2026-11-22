@@ -4,7 +4,7 @@ id: 16321
 name: daves-picks-volume-12
 title: 'Dave’s Picks, Volume 12: Colgate University, Hamilton, NY · 11/4/77'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-12/'
-modified_gmt: '2026-10-21T20:54:13+00:00'
+modified_gmt: '2026-11-20T23:01:02+00:00'
 band:
   - the-grateful-dead
 release_types:

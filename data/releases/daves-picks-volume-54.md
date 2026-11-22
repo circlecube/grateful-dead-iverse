@@ -4,7 +4,7 @@ id: 16367
 name: daves-picks-volume-54
 title: 'Dave’s Picks, Volume 54: Baltimore Civic Center, Baltimore, MD · 3/26/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-54/'
-modified_gmt: '2026-10-21T20:59:35+00:00'
+modified_gmt: '2026-11-20T23:04:46+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16347
 name: daves-picks-volume-36
 title: 'Dave’s Picks, Volume 36: Hartford Civic Center, Hartford, CT · 3/26/1987 & 3/27/1987'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-36/'
-modified_gmt: '2026-10-21T20:56:58+00:00'
+modified_gmt: '2026-11-20T23:02:54+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16402
 name: dicks-picks-volume-35
 title: 'Dick’s Picks, Volume 35: San Diego, CA 8/7/71, Chicago, IL 8/24/71'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-35/'
-modified_gmt: '2026-10-21T21:04:53+00:00'
+modified_gmt: '2026-11-20T23:07:05+00:00'
 band:
   - the-grateful-dead
 release_types:

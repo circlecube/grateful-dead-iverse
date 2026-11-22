@@ -4,7 +4,7 @@ id: 16376
 name: daves-picks-volume-9
 title: 'Dave’s Picks, Volume 9: Harry Adams Field House, U. of Montana, Missoula, MT · 5/14/74'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-9/'
-modified_gmt: '2026-10-21T21:00:41+00:00'
+modified_gmt: '2026-11-20T23:05:07+00:00'
 band:
   - the-grateful-dead
 release_types:

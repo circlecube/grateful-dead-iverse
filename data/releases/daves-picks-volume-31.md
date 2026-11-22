@@ -4,7 +4,7 @@ id: 16342
 name: daves-picks-volume-31
 title: 'Dave’s Picks, Volume 31: Uptown Theatre, Chicago, IL · 12/3/79'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-31/'
-modified_gmt: '2026-10-21T20:56:26+00:00'
+modified_gmt: '2026-11-20T23:02:41+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -9,20 +9,20 @@
             ],
             "shows": [
                 {
-                    "id": 1104,
-                    "date": "1966-09-23",
-                    "venue": "Skate Arena",
-                    "venue_norm": "skate arena",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/skate-arena-september-23-1966/"
-                },
-                {
                     "id": 1107,
                     "date": "1966-09-23",
                     "venue": "Pioneer Ballroom",
                     "venue_norm": "pioneer ballroom",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/pioneer-ballroom-september-23-1966/"
+                },
+                {
+                    "id": 1104,
+                    "date": "1966-09-23",
+                    "venue": "Skate Arena",
+                    "venue_norm": "skate arena",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/skate-arena-september-23-1966/"
                 }
             ]
         },
@@ -113,20 +113,20 @@
             ],
             "shows": [
                 {
-                    "id": 1300,
-                    "date": "1967-01-13",
-                    "venue": "Berkeley Community Theatre",
-                    "venue_norm": "berkeley community theatre",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/berkeley-community-theatre-january-13-1967/"
-                },
-                {
                     "id": 1301,
                     "date": "1967-01-13",
                     "venue": "Fillmore Auditorium",
                     "venue_norm": "fillmore auditorium",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/fillmore-auditorium-january-13-1967/"
+                },
+                {
+                    "id": 1300,
+                    "date": "1967-01-13",
+                    "venue": "Berkeley Community Theatre",
+                    "venue_norm": "berkeley community theatre",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/berkeley-community-theatre-january-13-1967/"
                 }
             ]
         },
@@ -165,20 +165,20 @@
             ],
             "shows": [
                 {
-                    "id": 1530,
-                    "date": "1967-04-09",
-                    "venue": "Longshoreman's Hall",
-                    "venue_norm": "longshoreman's hall",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967-1/"
-                },
-                {
                     "id": 1528,
                     "date": "1967-04-09",
                     "venue": "Panhandle / Golden Gate Park",
                     "venue_norm": "panhandle / golden gate park",
                     "fingerprint": "#|s:36|s:161|t:jam|s:11688|s:60|t:gloria",
                     "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967/"
+                },
+                {
+                    "id": 1530,
+                    "date": "1967-04-09",
+                    "venue": "Longshoreman's Hall",
+                    "venue_norm": "longshoreman's hall",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/san-francisco-april-9-1967-1/"
                 }
             ]
         },
@@ -295,20 +295,20 @@
             ],
             "shows": [
                 {
-                    "id": 1797,
-                    "date": "1967-08-06",
-                    "venue": "Place Ville Marie",
-                    "venue_norm": "place ville marie",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/montreal-august-6-1967/"
-                },
-                {
                     "id": 1798,
                     "date": "1967-08-06",
                     "venue": "Expo 67",
                     "venue_norm": "expo 67",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/montreal-august-6-1967-1/"
+                },
+                {
+                    "id": 1797,
+                    "date": "1967-08-06",
+                    "venue": "Place Ville Marie",
+                    "venue_norm": "place ville marie",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/montreal-august-6-1967/"
                 }
             ]
         },
@@ -347,20 +347,20 @@
             ],
             "shows": [
                 {
-                    "id": 1841,
-                    "date": "1967-09-09",
-                    "venue": "Volunteer Park",
-                    "venue_norm": "volunteer park",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/seattle-september-9-1967/"
-                },
-                {
                     "id": 1842,
                     "date": "1967-09-09",
                     "venue": "Eagles Auditorium",
                     "venue_norm": "eagles auditorium",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/seattle-september-9-1967-1/"
+                },
+                {
+                    "id": 1841,
+                    "date": "1967-09-09",
+                    "venue": "Volunteer Park",
+                    "venue_norm": "volunteer park",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/seattle-september-9-1967/"
                 }
             ]
         },
@@ -659,20 +659,20 @@
             ],
             "shows": [
                 {
-                    "id": 12928,
-                    "date": "1970-10-30",
-                    "venue": "Stony Brook Gymnasium",
-                    "venue_norm": "stony brook gymnasium",
-                    "fingerprint": "s:11609|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99",
-                    "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970-1/"
-                },
-                {
                     "id": 3448,
                     "date": "1970-10-30",
                     "venue": "Gymnasium / SUNY",
                     "venue_norm": "gymnasium / suny",
                     "fingerprint": "#|t:(early) cold rain & snow|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99|#|t:(late) smokestack lightning|s:55|s:78|s:10661|s:135|s:143|s:138|s:11645|s:36|s:11602|s:73|s:10659|s:11601|s:10659|s:10675",
                     "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970/"
+                },
+                {
+                    "id": 12928,
+                    "date": "1970-10-30",
+                    "venue": "Stony Brook Gymnasium",
+                    "venue_norm": "stony brook gymnasium",
+                    "fingerprint": "s:11609|s:143|s:136|s:11625|s:10666|s:102|s:96|s:102|s:99",
+                    "permalink": "https://deadiverse.com/show/stony-brook-october-30-1970-1/"
                 }
             ]
         },
@@ -685,20 +685,20 @@
             ],
             "shows": [
                 {
-                    "id": 12927,
-                    "date": "1970-10-31",
-                    "venue": "Stony Brook Gymnasium",
-                    "venue_norm": "stony brook gymnasium",
-                    "fingerprint": "s:141|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92",
-                    "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970-1/"
-                },
-                {
                     "id": 3450,
                     "date": "1970-10-31",
                     "venue": "Gymnasium / SUNY",
                     "venue_norm": "gymnasium / suny",
                     "fingerprint": "#|t:(early) till the morning comes|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92|#|t:(late) casey jones|s:136|s:11625|s:11520|s:10665|s:11520|s:80|s:11623|s:10673|s:11610|s:102|s:73|s:10659|s:11601|s:10659",
                     "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970/"
+                },
+                {
+                    "id": 12927,
+                    "date": "1970-10-31",
+                    "venue": "Stony Brook Gymnasium",
+                    "venue_norm": "stony brook gymnasium",
+                    "fingerprint": "s:141|s:11610|s:10673|s:78|s:10661|s:94|s:11609|s:10666|s:11660|s:140|s:60|s:96|s:92",
+                    "permalink": "https://deadiverse.com/show/stony-brook-october-31-1970-1/"
                 }
             ]
         },

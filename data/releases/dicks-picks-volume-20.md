@@ -4,7 +4,7 @@ id: 16387
 name: dicks-picks-volume-20
 title: 'Dick’s Picks, Volume 20: Capital Centre, Landover, MD 9/25/76, Onondaga County War Memorial, Syracuse, NY 9/28/76'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-20/'
-modified_gmt: '2026-10-21T21:01:55+00:00'
+modified_gmt: '2026-11-20T23:06:19+00:00'
 band:
   - the-grateful-dead
 release_types:

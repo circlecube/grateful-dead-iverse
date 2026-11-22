@@ -4,7 +4,7 @@ id: 16396
 name: dicks-picks-volume-29
 title: 'Dick’s Picks, Volume 29: Fox Theatre, Atlanta, GA 5/19/77, Lakeland Civic Center Arena, Lakeland, FL 5/21/77'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-29/'
-modified_gmt: '2026-10-21T21:03:32+00:00'
+modified_gmt: '2026-11-20T23:06:43+00:00'
 band:
   - the-grateful-dead
 release_types:

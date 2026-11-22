@@ -4,7 +4,7 @@ id: 16397
 name: dicks-picks-volume-30
 title: 'Dick’s Picks, Volume 30: Academy of Music, New York City 3/25 & 28/72'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-30/'
-modified_gmt: '2026-10-21T21:03:44+00:00'
+modified_gmt: '2026-11-20T22:50:48+00:00'
 band:
   - the-grateful-dead
 release_types:

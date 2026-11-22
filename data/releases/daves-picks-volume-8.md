@@ -4,7 +4,7 @@ id: 16375
 name: daves-picks-volume-8
 title: 'Dave’s Picks, Volume 8: Fox Theatre, Atlanta, GA · 11/30/80'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-8/'
-modified_gmt: '2026-10-21T21:00:37+00:00'
+modified_gmt: '2026-11-20T22:50:36+00:00'
 band:
   - the-grateful-dead
 release_types:

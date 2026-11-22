@@ -4,7 +4,7 @@ id: 16352
 name: daves-picks-volume-40
 title: 'Dave’s Picks, Volume 40: Deer Creek Music Center, Noblesville, IN · 7/18/90 & 7/19/90'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-40/'
-modified_gmt: '2026-10-21T20:57:23+00:00'
+modified_gmt: '2026-11-20T23:03:25+00:00'
 band:
   - the-grateful-dead
 release_types:
