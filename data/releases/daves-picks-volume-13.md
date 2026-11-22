@@ -4,7 +4,7 @@ id: 16322
 name: daves-picks-volume-13
 title: 'Dave’s Picks, Volume 13: Winterland, San Francisco, CA · 2/24/74'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-13/'
-modified_gmt: '2026-10-21T20:54:21+00:00'
+modified_gmt: '2026-11-20T23:01:14+00:00'
 band:
   - the-grateful-dead
 release_types:

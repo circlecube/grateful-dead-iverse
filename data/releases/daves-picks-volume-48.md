@@ -4,7 +4,7 @@ id: 16360
 name: daves-picks-volume-48
 title: 'Dave’s Picks, Volume 48: Pauley Pavilion, UCLA, Los Angeles, CA · 11/20/71'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-48/'
-modified_gmt: '2026-10-21T20:58:37+00:00'
+modified_gmt: '2026-11-20T23:03:58+00:00'
 band:
   - the-grateful-dead
 release_types:

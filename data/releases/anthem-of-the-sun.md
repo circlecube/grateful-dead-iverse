@@ -4,7 +4,7 @@ id: 155
 name: anthem-of-the-sun
 title: 'Anthem of the Sun'
 permalink: 'https://deadiverse.com/album/anthem-of-the-sun/'
-modified_gmt: '2026-10-20T17:28:39+00:00'
+modified_gmt: '2026-11-20T22:52:28+00:00'
 band:
   - the-grateful-dead
 release_types:

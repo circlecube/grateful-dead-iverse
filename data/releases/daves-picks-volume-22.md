@@ -4,7 +4,7 @@ id: 16332
 name: daves-picks-volume-22
 title: 'Dave’s Picks, Volume 22: Felt Forum, New York, NY · 12/7/71'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-22/'
-modified_gmt: '2026-10-21T20:55:18+00:00'
+modified_gmt: '2026-11-20T23:02:21+00:00'
 band:
   - the-grateful-dead
 release_types:

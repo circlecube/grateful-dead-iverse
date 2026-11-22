@@ -4,7 +4,7 @@ id: 16385
 name: dicks-picks-volume-18
 title: 'Dick’s Picks, Volume 18: Dane County Coliseum, Madison, WI 2/3/78, Uni-Dome, University of N. Iowa, Cedar Falls, IA 2/5/78'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-18/'
-modified_gmt: '2026-10-21T21:01:41+00:00'
+modified_gmt: '2026-11-20T23:06:08+00:00'
 band:
   - the-grateful-dead
 release_types:

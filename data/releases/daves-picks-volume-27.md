@@ -4,7 +4,7 @@ id: 16337
 name: daves-picks-volume-27
 title: 'Dave’s Picks, Volume 27: BSU Pavilion, Boise State University, Boise ID · 9/2/83'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-27/'
-modified_gmt: '2026-10-21T20:55:43+00:00'
+modified_gmt: '2026-11-20T23:02:27+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16407
 name: dicks-picks-volume-7
 title: 'Dick’s Picks, Volume 7: Alexandra Palace, London, England, September 1974'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-7/'
-modified_gmt: '2026-10-21T21:05:40+00:00'
+modified_gmt: '2026-11-20T23:07:21+00:00'
 band:
   - the-grateful-dead
 release_types:

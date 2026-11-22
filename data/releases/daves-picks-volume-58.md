@@ -4,7 +4,7 @@ id: 16371
 name: daves-picks-volume-58
 title: 'Dave’s Picks, Volume 58: Curtis Hixon Hall, Tampa, FL · 12/18/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-58/'
-modified_gmt: '2026-10-23T22:43:39+00:00'
+modified_gmt: '2026-11-20T23:04:53+00:00'
 band:
   - the-grateful-dead
 release_types:

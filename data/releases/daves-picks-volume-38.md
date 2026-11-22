@@ -4,7 +4,7 @@ id: 16349
 name: daves-picks-volume-38
 title: 'Dave’s Picks, Volume 38: Nassau Veterans Memorial Coliseum, Uniondale, NY · 9/8/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-38/'
-modified_gmt: '2026-10-21T20:57:09+00:00'
+modified_gmt: '2026-11-20T23:03:17+00:00'
 band:
   - the-grateful-dead
 release_types:

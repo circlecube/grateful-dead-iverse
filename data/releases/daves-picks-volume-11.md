@@ -4,7 +4,7 @@ id: 16320
 name: daves-picks-volume-11
 title: 'Dave’s Picks, Volume 11: Century II Convention Hall, Wichita, KS · 11/17/72'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-11/'
-modified_gmt: '2026-10-21T20:54:08+00:00'
+modified_gmt: '2026-11-20T23:00:48+00:00'
 band:
   - the-grateful-dead
 release_types:

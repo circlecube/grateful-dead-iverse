@@ -4,13 +4,17 @@ id: 16341
 name: daves-picks-volume-30
 title: 'Dave’s Picks, Volume 30: Fillmore East, New York, NY · 1/2/70'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-30/'
-modified_gmt: '2026-10-21T20:56:19+00:00'
+modified_gmt: '2026-11-20T22:49:57+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - 30-days-of-the-dead
   - daves-picks
   - live
 release_terms:
+  -
+    slug: 30-days-of-the-dead
+    name: '30 Days of the Dead'
   -
     slug: daves-picks
     name: "Dave's Picks"

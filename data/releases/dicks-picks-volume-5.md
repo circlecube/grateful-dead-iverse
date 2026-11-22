@@ -4,7 +4,7 @@ id: 16405
 name: dicks-picks-volume-5
 title: 'Dick’s Picks, Volume 5: Oakland Auditorium Arena 12/26/79'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-5/'
-modified_gmt: '2026-10-21T21:05:27+00:00'
+modified_gmt: '2026-11-20T23:07:15+00:00'
 band:
   - the-grateful-dead
 release_types:

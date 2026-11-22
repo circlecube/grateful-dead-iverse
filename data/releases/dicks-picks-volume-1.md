@@ -4,11 +4,16 @@ id: 14477
 name: dicks-picks-volume-1
 title: 'Dick’s Picks, Volume 1: Tampa Florida 12/19/73'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-1/'
-modified_gmt: '2026-10-22T18:57:18+00:00'
+modified_gmt: '2026-11-20T23:05:54+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - dicks-picks
   - live
+release_terms:
+  -
+    slug: dicks-picks
+    name: "Dick's Picks"
 release_date: '1993-12-01'
 musicbrainz_release_group_mbid: c91c93bc-f6cc-3212-8854-7bf6592034ea
 musicbrainz_release_mbid: 6f45d450-599d-478c-8f3a-2198023d86c0

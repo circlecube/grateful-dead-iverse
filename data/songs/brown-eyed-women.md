@@ -22,7 +22,7 @@ also_known_as:
 embeds:
   -
     embed_type: youtube
-    youtube_video: '<iframe title="Brown Eyed Women (Live in Denmark, 1972) (2001 Remaster)" width="520" height="390" src="https://www.youtube.com/embed/M-cR8u0Jm9E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    youtube_video: '<iframe title="Brown Eyed Women (Live in Denmark, 1972) [2001 Remaster]" width="520" height="390" src="https://www.youtube.com/embed/M-cR8u0Jm9E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   -
     embed_type: youtube
     youtube_video: '<iframe title="Brown-Eyed Women (Live at Winterland, San Francisco, CA, 3/20/1977)" width="520" height="390" src="https://www.youtube.com/embed/dU2UjCSxB7o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'

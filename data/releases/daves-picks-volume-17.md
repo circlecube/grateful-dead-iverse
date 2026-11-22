@@ -4,7 +4,7 @@ id: 16326
 name: daves-picks-volume-17
 title: 'Dave’s Picks, Volume 17: Selland Arena, Fresno, CA · 7/19/74'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-17/'
-modified_gmt: '2026-10-21T20:54:46+00:00'
+modified_gmt: '2026-11-20T23:01:37+00:00'
 band:
   - the-grateful-dead
 release_types:
