@@ -4,7 +4,7 @@ id: 16331
 name: daves-picks-volume-21
 title: 'Dave’s Picks, Volume 21: Boston Garden, Boston, MA · 4/2/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-21/'
-modified_gmt: '2026-11-20T23:02:08+00:00'
+modified_gmt: '2026-11-23T15:35:21+00:00'
 band:
   - the-grateful-dead
 release_types:

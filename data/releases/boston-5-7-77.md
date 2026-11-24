@@ -4,7 +4,7 @@ id: 21083
 name: boston-5-7-77
 title: 'Boston 5/7/77'
 permalink: 'https://deadiverse.com/album/boston-5-7-77/'
-modified_gmt: '2026-11-20T22:52:58+00:00'
+modified_gmt: '2026-11-23T15:34:12+00:00'
 band:
   - the-grateful-dead
 release_types:

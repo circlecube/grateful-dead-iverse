@@ -4,7 +4,7 @@ id: 21217
 name: dozin-at-the-knick
 title: 'Dozin’ At The Knick'
 permalink: 'https://deadiverse.com/album/dozin-at-the-knick/'
-modified_gmt: '2026-11-20T23:07:23+00:00'
+modified_gmt: '2026-11-23T15:40:59+00:00'
 band:
   - the-grateful-dead
 release_types:

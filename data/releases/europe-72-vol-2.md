@@ -4,11 +4,16 @@ id: 21316
 name: europe-72-vol-2
 title: 'Europe ’72, Vol. 2'
 permalink: 'https://deadiverse.com/album/europe-72-vol-2/'
-modified_gmt: '2026-11-20T23:28:22+00:00'
+modified_gmt: '2026-11-23T15:46:02+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - europe-72
   - live
+release_terms:
+  -
+    slug: europe-72
+    name: 'Europe 72'
 release_date: '2011-11-25'
 links:
   other:

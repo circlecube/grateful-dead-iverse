@@ -4,7 +4,7 @@ id: 21030
 name: 30-days-of-the-dead-2016
 title: '30 Days of the Dead 2016'
 permalink: 'https://deadiverse.com/album/30-days-of-the-dead-2016/'
-modified_gmt: '2026-11-20T22:49:59+00:00'
+modified_gmt: '2026-11-23T15:31:52+00:00'
 band:
   - the-grateful-dead
 release_types:

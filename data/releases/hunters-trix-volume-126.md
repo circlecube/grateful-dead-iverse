@@ -4,11 +4,20 @@ id: 21556
 name: hunters-trix-volume-126
 title: 'Hunter’s Trix, Volume 126: Hartford Civic Center, Hartford, CT · 10/15/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-126/'
-modified_gmt: '2026-11-21T00:14:06+00:00'
+modified_gmt: '2026-11-23T15:47:11+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-12-25'
 links:
   other:

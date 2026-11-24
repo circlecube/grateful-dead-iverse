@@ -4,7 +4,7 @@ id: 21396
 name: grateful-dead-download-series-volume-2-1-18-1970
 title: 'Grateful Dead Download Series Volume 2 – 1/18/1970'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-2-1-18-1970/'
-modified_gmt: '2026-11-20T23:47:45+00:00'
+modified_gmt: '2026-11-23T15:46:33+00:00'
 band:
   - the-grateful-dead
 release_types:

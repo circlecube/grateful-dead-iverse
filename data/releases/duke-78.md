@@ -4,7 +4,7 @@ id: 21221
 name: duke-78
 title: 'Duke ’78'
 permalink: 'https://deadiverse.com/album/duke-78/'
-modified_gmt: '2026-11-20T23:07:52+00:00'
+modified_gmt: '2026-11-23T15:41:00+00:00'
 band:
   - the-grateful-dead
 release_types:

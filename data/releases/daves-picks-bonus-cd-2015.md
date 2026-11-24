@@ -4,7 +4,7 @@ id: 21119
 name: daves-picks-bonus-cd-2015
 title: 'Dave’s Picks Bonus CD 2015'
 permalink: 'https://deadiverse.com/album/daves-picks-bonus-cd-2015/'
-modified_gmt: '2026-11-20T22:57:34+00:00'
+modified_gmt: '2026-11-23T15:34:35+00:00'
 band:
   - the-grateful-dead
 release_types:

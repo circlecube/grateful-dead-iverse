@@ -4,7 +4,7 @@ id: 21436
 name: here-comes-sunshine-1973
 title: 'Here Comes Sunshine 1973'
 permalink: 'https://deadiverse.com/album/here-comes-sunshine-1973/'
-modified_gmt: '2026-11-20T23:54:00+00:00'
+modified_gmt: '2026-11-23T15:46:42+00:00'
 band:
   - the-grateful-dead
 release_types:

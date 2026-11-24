@@ -4,11 +4,20 @@ id: 21540
 name: hunters-trix-volume-122
 title: 'Hunter’s Trix, Volume 122: Ventura County Fairgrounds, Ventura, CA · 7/22/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-122/'
-modified_gmt: '2026-11-21T00:11:27+00:00'
+modified_gmt: '2026-11-23T15:47:09+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-08-27'
 links:
   other:

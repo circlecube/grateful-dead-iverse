@@ -4,7 +4,7 @@ id: 16361
 name: daves-picks-volume-49
 title: 'Dave’s Picks, Volume 49: Frost Amphitheatre, Palo Alto, CA · 4/27/85 & 4/28/85'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-49/'
-modified_gmt: '2026-11-20T23:04:13+00:00'
+modified_gmt: '2026-11-23T15:36:44+00:00'
 band:
   - the-grateful-dead
 release_types:

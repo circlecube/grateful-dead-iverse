@@ -4,11 +4,20 @@ id: 21463
 name: hunters-trix-volume-104
 title: 'Hunter’s Trix, Volume 104: The Centrum, Worcester, MA · 10/21/83'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-104/'
-modified_gmt: '2026-11-20T23:59:36+00:00'
+modified_gmt: '2026-11-23T15:46:48+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2010-01-10'
 links:
   other:

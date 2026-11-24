@@ -4,7 +4,7 @@ id: 21151
 name: daves-picks-bonus-cd-2023
 title: 'Dave’s Picks Bonus CD 2023'
 permalink: 'https://deadiverse.com/album/daves-picks-bonus-cd-2023/'
-modified_gmt: '2026-11-20T22:59:22+00:00'
+modified_gmt: '2026-11-23T15:34:40+00:00'
 band:
   - the-grateful-dead
 release_types:

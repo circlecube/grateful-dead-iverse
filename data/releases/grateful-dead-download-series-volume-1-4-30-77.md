@@ -4,7 +4,7 @@ id: 21378
 name: grateful-dead-download-series-volume-1-4-30-77
 title: 'Grateful Dead Download Series Volume 1 – 4/30/77'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-1-4-30-77/'
-modified_gmt: '2026-11-20T23:43:45+00:00'
+modified_gmt: '2026-11-23T15:46:30+00:00'
 band:
   - the-grateful-dead
 release_types:

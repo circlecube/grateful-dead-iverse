@@ -4,7 +4,7 @@ id: 21420
 name: grateful-dead-download-series-volume-8-12-10-73
 title: 'Grateful Dead Download Series Volume 8 – 12/10/73'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-8-12-10-73/'
-modified_gmt: '2026-11-20T23:51:26+00:00'
+modified_gmt: '2026-11-23T15:46:39+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 21352
 name: fillmore-west-1969-the-complete-recordings
 title: 'Fillmore West 1969: The Complete Recordings'
 permalink: 'https://deadiverse.com/album/fillmore-west-1969-the-complete-recordings/'
-modified_gmt: '2026-11-20T23:33:33+00:00'
+modified_gmt: '2026-11-23T15:46:24+00:00'
 band:
   - the-grateful-dead
 release_types:

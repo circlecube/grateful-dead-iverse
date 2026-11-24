@@ -4,7 +4,7 @@ id: 16388
 name: dicks-picks-volume-21
 title: 'Dick’s Picks, Volume 21: Richmond Coliseum, Richmond, VA 11/1/85'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-21/'
-modified_gmt: '2026-11-20T23:06:26+00:00'
+modified_gmt: '2026-11-23T15:40:21+00:00'
 band:
   - the-grateful-dead
 release_types:

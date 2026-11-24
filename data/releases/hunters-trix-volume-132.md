@@ -4,11 +4,20 @@ id: 21584
 name: hunters-trix-volume-132
 title: 'Hunter’s Trix, Volume 132: Cumberland County Civic Center, Portland, ME · 9/17/82'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-132/'
-modified_gmt: '2026-11-21T00:16:53+00:00'
+modified_gmt: '2026-11-23T15:47:14+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2021-08-01'
 links:
   other:

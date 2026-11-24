@@ -4,11 +4,20 @@ id: 21516
 name: hunters-trix-volume-117
 title: 'Hunter’s Trix, Volume 117: Augusta Civic Center, Augusta, ME · 9/2/79'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-117/'
-modified_gmt: '2026-11-21T00:06:53+00:00'
+modified_gmt: '2026-11-23T15:47:06+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2019-10-05'
 links:
   other:

@@ -4,7 +4,7 @@ id: 21355
 name: formerly-the-warlocks
 title: 'Formerly The Warlocks'
 permalink: 'https://deadiverse.com/album/formerly-the-warlocks/'
-modified_gmt: '2026-11-20T23:35:26+00:00'
+modified_gmt: '2026-11-23T15:46:25+00:00'
 band:
   - the-grateful-dead
 release_types:

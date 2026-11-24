@@ -4,7 +4,7 @@ id: 21432
 name: grateful-dead-skull-and-roses
 title: 'Grateful Dead (Skull and Roses)'
 permalink: 'https://deadiverse.com/album/grateful-dead-skull-and-roses/'
-modified_gmt: '2026-11-20T23:53:46+00:00'
+modified_gmt: '2026-11-23T15:46:41+00:00'
 band:
   - the-grateful-dead
 release_types:

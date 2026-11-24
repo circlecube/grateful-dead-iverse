@@ -4,7 +4,7 @@ id: 16391
 name: dicks-picks-volume-24
 title: 'Dick’s Picks, Volume 24: Cow Palace, Daly City, CA 3/23/74'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-24/'
-modified_gmt: '2026-11-20T23:06:30+00:00'
+modified_gmt: '2026-11-23T15:40:35+00:00'
 band:
   - the-grateful-dead
 release_types:

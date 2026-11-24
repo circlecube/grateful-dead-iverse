@@ -4,11 +4,20 @@ id: 21548
 name: hunters-trix-volume-124
 title: 'Hunter’s Trix, Volume 124: Boston Garden, Boston, MA · 9/18/82'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-124/'
-modified_gmt: '2026-11-21T00:12:44+00:00'
+modified_gmt: '2026-11-23T15:47:10+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-10-31'
 links:
   other:

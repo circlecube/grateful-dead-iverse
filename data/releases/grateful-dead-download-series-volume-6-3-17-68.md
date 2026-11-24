@@ -4,7 +4,7 @@ id: 21412
 name: grateful-dead-download-series-volume-6-3-17-68
 title: 'Grateful Dead Download Series Volume 6 – 3/17/68'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-6-3-17-68/'
-modified_gmt: '2026-11-20T23:49:45+00:00'
+modified_gmt: '2026-11-23T15:46:36+00:00'
 band:
   - the-grateful-dead
 release_types:

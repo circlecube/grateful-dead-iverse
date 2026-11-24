@@ -4,11 +4,20 @@ id: 21544
 name: hunters-trix-volume-123
 title: 'Hunter’s Trix, Volume 123: Henry J. Kaiser Convention Center, Oakland, CA · 2/14/86'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-123/'
-modified_gmt: '2026-11-21T00:12:28+00:00'
+modified_gmt: '2026-11-23T15:47:09+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-09-11'
 links:
   other:

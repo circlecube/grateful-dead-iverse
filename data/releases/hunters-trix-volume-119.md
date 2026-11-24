@@ -4,11 +4,20 @@ id: 21524
 name: hunters-trix-volume-119
 title: 'Hunter’s Trix, Volume 119: Providence Civic Center, Providence, RI · 6/26/74'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-119/'
-modified_gmt: '2026-11-21T00:08:08+00:00'
+modified_gmt: '2026-11-23T15:47:07+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-05-22'
 links:
   other:

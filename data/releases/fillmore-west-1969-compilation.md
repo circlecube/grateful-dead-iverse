@@ -4,7 +4,7 @@ id: 21332
 name: fillmore-west-1969-compilation
 title: 'Fillmore West 1969: Compilation'
 permalink: 'https://deadiverse.com/album/fillmore-west-1969-compilation/'
-modified_gmt: '2026-11-20T23:31:37+00:00'
+modified_gmt: '2026-11-23T15:46:19+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 21348
 name: fillmore-west-1969-march-2nd
 title: 'Fillmore West 1969: March 2nd'
 permalink: 'https://deadiverse.com/album/fillmore-west-1969-march-2nd/'
-modified_gmt: '2026-11-20T23:33:14+00:00'
+modified_gmt: '2026-11-23T15:46:22+00:00'
 band:
   - the-grateful-dead
 release_types:

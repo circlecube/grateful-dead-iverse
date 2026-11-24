@@ -4,7 +4,7 @@ id: 21042
 name: 30-days-of-the-dead-2019
 title: '30 Days of the Dead 2019'
 permalink: 'https://deadiverse.com/album/30-days-of-the-dead-2019/'
-modified_gmt: '2026-11-20T22:49:57+00:00'
+modified_gmt: '2026-11-23T15:32:01+00:00'
 band:
   - the-grateful-dead
 release_types:

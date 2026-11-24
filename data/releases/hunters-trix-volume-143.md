@@ -4,11 +4,20 @@ id: 21632
 name: hunters-trix-volume-143
 title: 'Hunter’s Trix, Volume 143: Fox Theatre, Atlanta, GA · 10/29/85'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-143/'
-modified_gmt: '2026-11-21T00:21:05+00:00'
+modified_gmt: '2026-11-23T15:47:28+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-08-01'
 links:
   other:

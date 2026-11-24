@@ -4,11 +4,20 @@ id: 21628
 name: hunters-trix-volume-142
 title: 'Hunter’s Trix, Volume 142: Greek Theatre U. of California, Berkeley, CA · 7/14/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-142/'
-modified_gmt: '2026-11-21T00:20:53+00:00'
+modified_gmt: '2026-11-23T15:47:27+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-07-04'
 links:
   other:

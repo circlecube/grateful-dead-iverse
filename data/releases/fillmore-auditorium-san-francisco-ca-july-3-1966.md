@@ -4,7 +4,7 @@ id: 21324
 name: fillmore-auditorium-san-francisco-ca-july-3-1966
 title: 'Fillmore Auditorium, San Francisco, CA, July 3, 1966'
 permalink: 'https://deadiverse.com/album/fillmore-auditorium-san-francisco-ca-july-3-1966/'
-modified_gmt: '2026-11-20T23:30:56+00:00'
+modified_gmt: '2026-11-23T15:46:15+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16394
 name: dicks-picks-volume-27
 title: 'Dick’s Picks, Volume 27: Oakland Coliseum Arena, Oakland, CA 12/16/92'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-27/'
-modified_gmt: '2026-11-20T23:06:35+00:00'
+modified_gmt: '2026-11-23T15:40:40+00:00'
 band:
   - the-grateful-dead
 release_types:

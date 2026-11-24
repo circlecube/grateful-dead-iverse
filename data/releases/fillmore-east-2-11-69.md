@@ -4,7 +4,7 @@ id: 21328
 name: fillmore-east-2-11-69
 title: 'Fillmore East 2-11-69'
 permalink: 'https://deadiverse.com/album/fillmore-east-2-11-69/'
-modified_gmt: '2026-11-20T23:31:01+00:00'
+modified_gmt: '2026-11-23T15:46:15+00:00'
 band:
   - the-grateful-dead
 release_types:

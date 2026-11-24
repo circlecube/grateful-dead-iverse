@@ -4,11 +4,20 @@ id: 21652
 name: hunters-trix-volume-148
 title: 'Hunter’s Trix, Volume 148: Dane County Coliseum, Madison, WI · 12/3/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-148/'
-modified_gmt: '2026-11-21T00:21:59+00:00'
+modified_gmt: '2026-11-23T15:47:33+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-12-03'
 links:
   other:

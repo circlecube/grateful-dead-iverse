@@ -4,7 +4,7 @@ id: 21408
 name: grateful-dead-download-series-volume-5-3-27-88
 title: 'Grateful Dead Download Series Volume 5 – 3/27/88'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-5-3-27-88/'
-modified_gmt: '2026-11-20T23:49:04+00:00'
+modified_gmt: '2026-11-23T15:46:35+00:00'
 band:
   - the-grateful-dead
 release_types:

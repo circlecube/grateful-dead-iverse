@@ -4,7 +4,7 @@ id: 21320
 name: family-dog-at-the-great-highway-san-francisco-ca-4-18-70
 title: 'Family Dog at the Great Highway, San Francisco, CA 4/18/70'
 permalink: 'https://deadiverse.com/album/family-dog-at-the-great-highway-san-francisco-ca-4-18-70/'
-modified_gmt: '2026-11-20T23:29:38+00:00'
+modified_gmt: '2026-11-23T15:46:09+00:00'
 band:
   - the-grateful-dead
 release_types:

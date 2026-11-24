@@ -4,7 +4,7 @@ id: 21370
 name: go-to-nassau
 title: 'Go To Nassau'
 permalink: 'https://deadiverse.com/album/go-to-nassau/'
-modified_gmt: '2026-11-20T23:42:24+00:00'
+modified_gmt: '2026-11-23T15:46:30+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,11 +4,20 @@ id: 21620
 name: hunters-trix-volume-140
 title: 'Hunter’s Trix, Volume 140: Metropolitan Sports Center, Bloomington, MN · 4/17/89'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-140/'
-modified_gmt: '2026-11-21T00:20:24+00:00'
+modified_gmt: '2026-11-23T15:47:22+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-03-17'
 links:
   other:

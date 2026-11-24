@@ -4,7 +4,7 @@ id: 21400
 name: grateful-dead-download-series-volume-3-10-26-1971
 title: 'Grateful Dead Download Series Volume 3 – 10/26/1971'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-3-10-26-1971/'
-modified_gmt: '2026-11-20T23:48:02+00:00'
+modified_gmt: '2026-11-23T15:46:34+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16348
 name: daves-picks-volume-37
 title: 'Dave’s Picks, Volume 37: College of William & Mary, Williamsburg, VA · 4/15/78'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-37/'
-modified_gmt: '2026-11-20T23:03:04+00:00'
+modified_gmt: '2026-11-23T15:36:04+00:00'
 band:
   - the-grateful-dead
 release_types:
