@@ -4,11 +4,20 @@ id: 21648
 name: hunters-trix-volume-147
 title: 'Hunter’s Trix, Volume 147: Assembly Hall, University of Illinois, Champaign, IL · 12/2/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-147/'
-modified_gmt: '2026-11-21T00:21:54+00:00'
+modified_gmt: '2026-11-23T15:47:32+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-12-02'
 links:
   other:

@@ -4,11 +4,20 @@ id: 21612
 name: hunters-trix-volume-139
 title: 'Hunter’s Trix, Volume 139: Hartford Civic Center, Hartford, CT · 10/14/83'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-139/'
-modified_gmt: '2026-11-21T00:19:22+00:00'
+modified_gmt: '2026-11-23T15:47:18+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-02-14'
 links:
   other:

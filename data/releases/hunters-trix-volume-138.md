@@ -4,11 +4,20 @@ id: 21608
 name: hunters-trix-volume-138
 title: 'Hunter’s Trix, Volume 138: Oakland Auditorium Arena, Oakland, CA · 12/26/79'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-138/'
-modified_gmt: '2026-11-21T00:19:09+00:00'
+modified_gmt: '2026-11-23T15:47:18+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2021-12-26'
 links:
   other:

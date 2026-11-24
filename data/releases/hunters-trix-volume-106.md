@@ -4,11 +4,20 @@ id: 21467
 name: hunters-trix-volume-106
 title: 'Hunter’s Trix, Volume 106: Universal Amphitheatre, Universal City, CA · 7/1/73'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-106/'
-modified_gmt: '2026-11-21T00:00:22+00:00'
+modified_gmt: '2026-11-23T15:46:49+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2014-03-01'
 links:
   other:

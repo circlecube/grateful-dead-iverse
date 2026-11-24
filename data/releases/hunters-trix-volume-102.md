@@ -4,11 +4,20 @@ id: 21455
 name: hunters-trix-volume-102
 title: 'Hunter’s Trix, Volume 102: Nassau Coliseum, Uniondale, NY · 11/1/79'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-102/'
-modified_gmt: '2026-11-20T23:58:35+00:00'
+modified_gmt: '2026-11-23T15:46:48+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2014-04-24'
 links:
   other:

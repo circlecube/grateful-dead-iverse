@@ -4,7 +4,7 @@ id: 21428
 name: grateful-dead-movie-soundtrack
 title: 'Grateful Dead Movie Soundtrack'
 permalink: 'https://deadiverse.com/album/grateful-dead-movie-soundtrack/'
-modified_gmt: '2026-11-20T23:52:50+00:00'
+modified_gmt: '2026-11-23T15:46:40+00:00'
 band:
   - the-grateful-dead
 release_types:

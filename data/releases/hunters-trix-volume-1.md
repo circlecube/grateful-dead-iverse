@@ -4,11 +4,20 @@ id: 21439
 name: hunters-trix-volume-1
 title: 'Hunter’s Trix, Volume 1: University of Iowa Fieldhouse, Iowa City, IA · 8/10/82'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-1/'
-modified_gmt: '2026-11-20T23:56:00+00:00'
+modified_gmt: '2026-11-23T15:46:43+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2009-11-28'
 links:
   other:

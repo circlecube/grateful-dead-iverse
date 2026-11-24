@@ -4,7 +4,7 @@ id: 21079
 name: beacon-theatre-new-york-ny-6-14-76
 title: 'Beacon Theatre, New York, NY 6/14/76'
 permalink: 'https://deadiverse.com/album/beacon-theatre-new-york-ny-6-14-76/'
-modified_gmt: '2026-11-20T22:52:33+00:00'
+modified_gmt: '2026-11-23T15:34:07+00:00'
 band:
   - the-grateful-dead
 release_types:

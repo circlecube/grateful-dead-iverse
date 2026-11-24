@@ -4,7 +4,7 @@ id: 16318
 name: daves-picks-volume-1
 title: 'Dave’s Picks, Volume 1: The Mosque, Richmond, VA · 5/25/77'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-1/'
-modified_gmt: '2026-11-20T23:00:39+00:00'
+modified_gmt: '2026-11-23T15:34:46+00:00'
 band:
   - the-grateful-dead
 release_types:

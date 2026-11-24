@@ -4,11 +4,20 @@ id: 21520
 name: hunters-trix-volume-118
 title: 'Hunter’s Trix, Volume 118: Veterans Memorial Coliseum, Jacksonville, FL · 4/8/78'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-118/'
-modified_gmt: '2026-11-21T00:07:36+00:00'
+modified_gmt: '2026-11-23T15:47:06+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2019-12-23'
 links:
   other:

@@ -4,11 +4,20 @@ id: 21480
 name: hunters-trix-volume-109
 title: 'Hunter’s Trix, Volume 109: Hult Center Silva Hall, Eugene, OR · 5/8/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-109/'
-modified_gmt: '2026-11-21T00:02:06+00:00'
+modified_gmt: '2026-11-23T15:46:52+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2015-11-14'
 links:
   other:

@@ -4,7 +4,7 @@ id: 21360
 name: fox-theatre-st-louis-mo-12-10-71
 title: 'Fox Theatre, St. Louis, MO 12-10-71'
 permalink: 'https://deadiverse.com/album/fox-theatre-st-louis-mo-12-10-71/'
-modified_gmt: '2026-11-20T23:36:40+00:00'
+modified_gmt: '2026-11-23T15:46:26+00:00'
 band:
   - the-grateful-dead
 release_types:

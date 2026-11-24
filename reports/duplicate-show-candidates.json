@@ -9,20 +9,20 @@
             ],
             "shows": [
                 {
-                    "id": 1107,
-                    "date": "1966-09-23",
-                    "venue": "Pioneer Ballroom",
-                    "venue_norm": "pioneer ballroom",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/pioneer-ballroom-september-23-1966/"
-                },
-                {
                     "id": 1104,
                     "date": "1966-09-23",
                     "venue": "Skate Arena",
                     "venue_norm": "skate arena",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/skate-arena-september-23-1966/"
+                },
+                {
+                    "id": 1107,
+                    "date": "1966-09-23",
+                    "venue": "Pioneer Ballroom",
+                    "venue_norm": "pioneer ballroom",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/pioneer-ballroom-september-23-1966/"
                 }
             ]
         },
@@ -113,20 +113,20 @@
             ],
             "shows": [
                 {
-                    "id": 1301,
-                    "date": "1967-01-13",
-                    "venue": "Fillmore Auditorium",
-                    "venue_norm": "fillmore auditorium",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/fillmore-auditorium-january-13-1967/"
-                },
-                {
                     "id": 1300,
                     "date": "1967-01-13",
                     "venue": "Berkeley Community Theatre",
                     "venue_norm": "berkeley community theatre",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/berkeley-community-theatre-january-13-1967/"
+                },
+                {
+                    "id": 1301,
+                    "date": "1967-01-13",
+                    "venue": "Fillmore Auditorium",
+                    "venue_norm": "fillmore auditorium",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/fillmore-auditorium-january-13-1967/"
                 }
             ]
         },
@@ -295,20 +295,20 @@
             ],
             "shows": [
                 {
-                    "id": 1798,
-                    "date": "1967-08-06",
-                    "venue": "Expo 67",
-                    "venue_norm": "expo 67",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/montreal-august-6-1967-1/"
-                },
-                {
                     "id": 1797,
                     "date": "1967-08-06",
                     "venue": "Place Ville Marie",
                     "venue_norm": "place ville marie",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/montreal-august-6-1967/"
+                },
+                {
+                    "id": 1798,
+                    "date": "1967-08-06",
+                    "venue": "Expo 67",
+                    "venue_norm": "expo 67",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/montreal-august-6-1967-1/"
                 }
             ]
         },
@@ -320,14 +320,6 @@
                 "matching_setlist_fingerprint"
             ],
             "shows": [
-                {
-                    "id": 1827,
-                    "date": "1967-09-03",
-                    "venue": "Stadium / Cabrillo College",
-                    "venue_norm": "stadium / cabrillo college",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/aptos-september-3-1967/"
-                },
                 {
                     "id": 1829,
                     "date": "1967-09-03",
@@ -335,6 +327,14 @@
                     "venue_norm": "rio nido ballroom",
                     "fingerprint": "#|s:36|s:11645|s:11609|s:53|s:60|s:11623|s:160",
                     "permalink": "https://deadiverse.com/show/rio-nido-september-3-1967/"
+                },
+                {
+                    "id": 1827,
+                    "date": "1967-09-03",
+                    "venue": "Stadium / Cabrillo College",
+                    "venue_norm": "stadium / cabrillo college",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/aptos-september-3-1967/"
                 }
             ]
         },
@@ -347,20 +347,20 @@
             ],
             "shows": [
                 {
-                    "id": 1842,
-                    "date": "1967-09-09",
-                    "venue": "Eagles Auditorium",
-                    "venue_norm": "eagles auditorium",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/seattle-september-9-1967-1/"
-                },
-                {
                     "id": 1841,
                     "date": "1967-09-09",
                     "venue": "Volunteer Park",
                     "venue_norm": "volunteer park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/seattle-september-9-1967/"
+                },
+                {
+                    "id": 1842,
+                    "date": "1967-09-09",
+                    "venue": "Eagles Auditorium",
+                    "venue_norm": "eagles auditorium",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/seattle-september-9-1967-1/"
                 }
             ]
         },
@@ -711,6 +711,14 @@
             ],
             "shows": [
                 {
+                    "id": 3496,
+                    "date": "1970-11-21",
+                    "venue": "Boston University",
+                    "venue_norm": "boston university",
+                    "fingerprint": "#|s:99|s:138|s:10673|s:98|s:102|s:36|s:73|s:10659|s:80|s:92",
+                    "permalink": "https://deadiverse.com/show/boston-november-21-1970/"
+                },
+                {
                     "id": 12920,
                     "date": "1970-11-21",
                     "venue": "WBCN-FM Studios",
@@ -725,14 +733,6 @@
                     "venue_norm": "boston university",
                     "fingerprint": "s:10665|s:80|s:92|s:94|s:11520|s:78|s:143|s:135|s:136|s:73",
                     "permalink": "https://deadiverse.com/show/boston-november-21-1970-2/"
-                },
-                {
-                    "id": 3496,
-                    "date": "1970-11-21",
-                    "venue": "Boston University",
-                    "venue_norm": "boston university",
-                    "fingerprint": "#|s:99|s:138|s:10673|s:98|s:102|s:36|s:73|s:10659|s:80|s:92",
-                    "permalink": "https://deadiverse.com/show/boston-november-21-1970/"
                 }
             ]
         },
@@ -797,20 +797,20 @@
             ],
             "shows": [
                 {
-                    "id": 4403,
-                    "date": "1974-07-04",
-                    "venue": "Titan Stadium",
-                    "venue_norm": "titan stadium",
-                    "fingerprint": "",
-                    "permalink": "https://deadiverse.com/show/oshkosh-july-4-1974/"
-                },
-                {
                     "id": 4408,
                     "date": "1974-07-04",
                     "venue": "Musicpark / Beulah Park",
                     "venue_norm": "musicpark / beulah park",
                     "fingerprint": "",
                     "permalink": "https://deadiverse.com/show/grove-city-july-4-1974/"
+                },
+                {
+                    "id": 4403,
+                    "date": "1974-07-04",
+                    "venue": "Titan Stadium",
+                    "venue_norm": "titan stadium",
+                    "fingerprint": "",
+                    "permalink": "https://deadiverse.com/show/oshkosh-july-4-1974/"
                 }
             ]
         },

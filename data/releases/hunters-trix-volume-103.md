@@ -4,11 +4,20 @@ id: 21459
 name: hunters-trix-volume-103
 title: 'Hunter’s Trix, Volume 103: Greek Theatre U. of California, Berkeley, CA · 7/15/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-103/'
-modified_gmt: '2026-11-20T23:59:06+00:00'
+modified_gmt: '2026-11-23T15:46:48+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2013-09-15'
 links:
   other:

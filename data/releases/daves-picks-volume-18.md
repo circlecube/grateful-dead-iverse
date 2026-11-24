@@ -4,7 +4,7 @@ id: 16327
 name: daves-picks-volume-18
 title: 'Dave’s Picks, Volume 18: Orpheum Theater, San Francisco · CA, 7/17/76'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-18/'
-modified_gmt: '2026-11-20T23:01:47+00:00'
+modified_gmt: '2026-11-23T15:35:00+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,11 +4,20 @@ id: 21656
 name: hunters-trix-volume-149
 title: 'Hunter’s Trix, Volume 149: Market Square Arena, Indianapolis, IN · 12/5/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-149/'
-modified_gmt: '2026-11-21T00:22:22+00:00'
+modified_gmt: '2026-11-23T15:47:35+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-12-05'
 links:
   other:

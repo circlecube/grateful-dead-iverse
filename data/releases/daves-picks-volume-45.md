@@ -4,7 +4,7 @@ id: 16357
 name: daves-picks-volume-45
 title: 'Dave’s Picks, Volume 45: Paramount Theatre, Portland, OR · 10/1/77 & 10/2/77'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-45/'
-modified_gmt: '2026-11-20T23:03:46+00:00'
+modified_gmt: '2026-11-23T15:36:20+00:00'
 band:
   - the-grateful-dead
 release_types:

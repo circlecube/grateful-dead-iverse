@@ -4,7 +4,7 @@ id: 21087
 name: boston-music-hall-boston-ma-june-11-1976
 title: 'Boston Music Hall, Boston, MA, June 11, 1976'
 permalink: 'https://deadiverse.com/album/boston-music-hall-boston-ma-june-11-1976/'
-modified_gmt: '2026-11-20T22:53:31+00:00'
+modified_gmt: '2026-11-23T15:34:15+00:00'
 band:
   - the-grateful-dead
 release_types:

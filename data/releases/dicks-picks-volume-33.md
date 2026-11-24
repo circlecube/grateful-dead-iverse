@@ -4,7 +4,7 @@ id: 16400
 name: dicks-picks-volume-33
 title: 'Dick’s Picks, Volume 33: Oakland Coliseum Stadium, Oakland, CA 10/9 & 10/76'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-33/'
-modified_gmt: '2026-11-20T23:06:54+00:00'
+modified_gmt: '2026-11-23T15:40:52+00:00'
 band:
   - the-grateful-dead
 release_types:

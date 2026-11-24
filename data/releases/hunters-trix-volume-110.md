@@ -4,11 +4,20 @@ id: 21488
 name: hunters-trix-volume-110
 title: 'Hunter’s Trix, Volume 110: Winterland Arena, San Francisco, CA · 2/24/74'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-110/'
-modified_gmt: '2026-11-21T00:03:35+00:00'
+modified_gmt: '2026-11-23T15:46:55+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2016-08-01'
 links:
   other:

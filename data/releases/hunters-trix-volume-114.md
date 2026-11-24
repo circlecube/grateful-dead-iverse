@@ -4,11 +4,20 @@ id: 21504
 name: hunters-trix-volume-114
 title: 'Hunter’s Trix, Volume 114: Winterland Arena, San Francisco, CA · 3/18/77'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-114/'
-modified_gmt: '2026-11-21T00:05:21+00:00'
+modified_gmt: '2026-11-23T15:46:59+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2018-03-17'
 links:
   other:

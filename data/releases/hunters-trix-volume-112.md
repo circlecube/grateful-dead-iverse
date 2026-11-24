@@ -4,11 +4,20 @@ id: 21496
 name: hunters-trix-volume-112
 title: 'Hunter’s Trix, Volume 112: Santa Fe Downs, Santa Fe, NM · 9/10/83'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-112/'
-modified_gmt: '2026-11-21T00:04:36+00:00'
+modified_gmt: '2026-11-23T15:46:57+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2017-09-22'
 links:
   other:

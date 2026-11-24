@@ -4,11 +4,20 @@ id: 21552
 name: hunters-trix-volume-125
 title: 'Hunter’s Trix, Volume 125: DeVore Field Southwestern College, Chula Vista, CA · 9/15/85'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-125/'
-modified_gmt: '2026-11-21T00:13:27+00:00'
+modified_gmt: '2026-11-23T15:47:11+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-12-24'
 links:
   other:

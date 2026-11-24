@@ -4,7 +4,7 @@ id: 16362
 name: daves-picks-volume-5
 title: 'Dave’s Picks, Volume 5: Pauley Pavilion, UCLA, Los Angeles, CA · 11/17/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-5/'
-modified_gmt: '2026-11-20T23:04:22+00:00'
+modified_gmt: '2026-11-23T15:36:52+00:00'
 band:
   - the-grateful-dead
 release_types:

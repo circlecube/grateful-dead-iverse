@@ -4,11 +4,20 @@ id: 21536
 name: hunters-trix-volume-121
 title: 'Hunter’s Trix, Volume 121: Orlando Arena, Orlando, FL · 4/7/91'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-121/'
-modified_gmt: '2026-11-21T00:11:17+00:00'
+modified_gmt: '2026-11-23T15:47:08+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2020-08-11'
 links:
   other:

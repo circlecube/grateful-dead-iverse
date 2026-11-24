@@ -4,7 +4,7 @@ id: 21103
 name: crimson-white-and-indigo
 title: 'Crimson, White and Indigo'
 permalink: 'https://deadiverse.com/album/crimson-white-and-indigo/'
-modified_gmt: '2026-11-20T22:56:13+00:00'
+modified_gmt: '2026-11-23T15:34:30+00:00'
 band:
   - the-grateful-dead
 release_types:

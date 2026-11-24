@@ -4,7 +4,7 @@ id: 21404
 name: grateful-dead-download-series-volume-4-6-18-1976
 title: 'Grateful Dead Download Series Volume 4: 6/18/1976'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-4-6-18-1976/'
-modified_gmt: '2026-11-20T23:48:28+00:00'
+modified_gmt: '2026-11-23T15:46:35+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 50
 name: the-grateful-dead
 title: 'The Grateful Dead'
 permalink: 'https://deadiverse.com/album/the-grateful-dead/'
-modified_gmt: '2026-10-21T21:06:15+00:00'
+modified_gmt: '2026-11-23T16:20:47+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 16374
 name: daves-picks-volume-7
 title: 'Dave’s Picks, Volume 7: Horton Field House, Illinois State, Normal, IL · 4/24/78'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-7/'
-modified_gmt: '2026-11-20T23:04:58+00:00'
+modified_gmt: '2026-11-23T15:38:03+00:00'
 band:
   - the-grateful-dead
 release_types:

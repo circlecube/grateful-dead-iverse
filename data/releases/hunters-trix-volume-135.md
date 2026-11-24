@@ -4,11 +4,20 @@ id: 21596
 name: hunters-trix-volume-135
 title: 'Hunter’s Trix, Volume 135: Ventura County Fairgrounds, Ventura, CA · 7/21/84'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-135/'
-modified_gmt: '2026-11-21T00:18:15+00:00'
+modified_gmt: '2026-11-23T15:47:15+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2021-09-25'
 links:
   other:

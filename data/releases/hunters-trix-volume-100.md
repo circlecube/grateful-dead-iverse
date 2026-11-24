@@ -4,11 +4,20 @@ id: 21447
 name: hunters-trix-volume-100
 title: 'Hunter’s Trix, Volume 100: McNichols Sports Arena, Denver, CO · 8/13/79'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-100/'
-modified_gmt: '2026-11-20T23:57:30+00:00'
+modified_gmt: '2026-11-23T15:46:46+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2012-12-25'
 links:
   other:

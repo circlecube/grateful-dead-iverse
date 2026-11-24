@@ -4,11 +4,20 @@ id: 21664
 name: hunters-trix-volume-150
 title: 'Hunter’s Trix, Volume 150: Rosemont Horizon, Rosemont, IL · 12/6/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-150/'
-modified_gmt: '2026-11-21T00:22:39+00:00'
+modified_gmt: '2026-11-23T15:47:37+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-12-06'
 links:
   other:

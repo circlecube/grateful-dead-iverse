@@ -4,11 +4,20 @@ id: 21636
 name: hunters-trix-volume-144
 title: 'Hunter’s Trix, Volume 144: Hampton Coliseum, Hampton, VA · 10/9/89'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-144/'
-modified_gmt: '2026-11-21T00:21:22+00:00'
+modified_gmt: '2026-11-23T15:47:29+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-10-09'
 links:
   other:

@@ -4,7 +4,7 @@ id: 21367
 name: giants-stadium-1987-1989-1991
 title: 'Giants Stadium 1987, 1989, 1991'
 permalink: 'https://deadiverse.com/album/giants-stadium-1987-1989-1991/'
-modified_gmt: '2026-11-20T23:39:31+00:00'
+modified_gmt: '2026-11-23T15:46:28+00:00'
 band:
   - the-grateful-dead
 release_types:

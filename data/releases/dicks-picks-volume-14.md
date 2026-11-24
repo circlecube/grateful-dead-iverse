@@ -4,7 +4,7 @@ id: 16381
 name: dicks-picks-volume-14
 title: 'Dick’s Picks, Volume 14: Boston Music Hall 11/30/73 & 12/2/73'
 permalink: 'https://deadiverse.com/album/dicks-picks-volume-14/'
-modified_gmt: '2026-11-20T22:50:41+00:00'
+modified_gmt: '2026-11-23T15:39:13+00:00'
 band:
   - the-grateful-dead
 release_types:

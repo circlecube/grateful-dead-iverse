@@ -4,7 +4,7 @@ id: 21392
 name: grateful-dead-download-series-volume-12-4-17-69
 title: 'Grateful Dead Download Series Volume 12 – 4/17/69'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-12-4-17-69/'
-modified_gmt: '2026-11-20T23:47:30+00:00'
+modified_gmt: '2026-11-23T15:46:33+00:00'
 band:
   - the-grateful-dead
 release_types:

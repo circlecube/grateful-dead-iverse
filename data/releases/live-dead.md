@@ -4,7 +4,7 @@ id: 14376
 name: live-dead
 title: Live/Dead
 permalink: 'https://deadiverse.com/album/live-dead/'
-modified_gmt: '2026-10-21T21:06:10+00:00'
+modified_gmt: '2026-11-23T15:59:20+00:00'
 band:
   - the-grateful-dead
 release_types:

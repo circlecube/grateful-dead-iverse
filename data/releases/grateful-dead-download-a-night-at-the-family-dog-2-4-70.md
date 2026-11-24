@@ -4,7 +4,7 @@ id: 21374
 name: grateful-dead-download-a-night-at-the-family-dog-2-4-70
 title: 'Grateful Dead Download – A Night At The Family Dog 2/4/70'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-a-night-at-the-family-dog-2-4-70/'
-modified_gmt: '2026-11-20T23:43:31+00:00'
+modified_gmt: '2026-11-23T15:46:30+00:00'
 band:
   - the-grateful-dead
 release_types:

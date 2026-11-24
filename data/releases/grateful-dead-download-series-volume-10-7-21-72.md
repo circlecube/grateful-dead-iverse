@@ -4,7 +4,7 @@ id: 21383
 name: grateful-dead-download-series-volume-10-7-21-72
 title: 'Grateful Dead Download Series Volume 10 – 7/21/72'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-10-7-21-72/'
-modified_gmt: '2026-11-20T23:45:08+00:00'
+modified_gmt: '2026-11-23T15:46:32+00:00'
 band:
   - the-grateful-dead
 release_types:

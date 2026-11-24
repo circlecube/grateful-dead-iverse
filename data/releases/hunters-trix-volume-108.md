@@ -4,11 +4,20 @@ id: 21475
 name: hunters-trix-volume-108
 title: 'Hunter’s Trix, Volume 108: Madison Square Garden, New York, NY · 3/10/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-108/'
-modified_gmt: '2026-11-21T00:01:39+00:00'
+modified_gmt: '2026-11-23T15:46:51+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2014-11-08'
 links:
   other:

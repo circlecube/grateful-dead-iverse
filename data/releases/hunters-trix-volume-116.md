@@ -4,11 +4,20 @@ id: 21512
 name: hunters-trix-volume-116
 title: 'Hunter’s Trix, Volume 116: West Palm Beach Auditorium, West Palm Beach, FL · 9/11/82'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-116/'
-modified_gmt: '2026-11-21T00:06:20+00:00'
+modified_gmt: '2026-11-23T15:47:04+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2019-06-20'
 links:
   other:

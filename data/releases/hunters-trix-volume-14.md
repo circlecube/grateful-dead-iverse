@@ -4,11 +4,20 @@ id: 21616
 name: hunters-trix-volume-14
 title: 'Hunter’s Trix, Volume 14: West High Auditorium, Anchorage, AK · 6/20/80'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-14/'
-modified_gmt: '2026-11-21T00:19:51+00:00'
+modified_gmt: '2026-11-23T15:47:19+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2008-07-12'
 links:
   other:

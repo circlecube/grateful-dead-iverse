@@ -4,7 +4,7 @@ id: 21091
 name: buffalo-5-9-77
 title: 'Buffalo 5/9/77'
 permalink: 'https://deadiverse.com/album/buffalo-5-9-77/'
-modified_gmt: '2026-11-20T22:54:01+00:00'
+modified_gmt: '2026-11-23T15:34:19+00:00'
 band:
   - the-grateful-dead
 release_types:

@@ -4,7 +4,7 @@ id: 21388
 name: grateful-dead-download-series-volume-11-6-20-91
 title: 'Grateful Dead Download Series Volume 11 – 6/20/91'
 permalink: 'https://deadiverse.com/album/grateful-dead-download-series-volume-11-6-20-91/'
-modified_gmt: '2026-11-20T23:46:46+00:00'
+modified_gmt: '2026-11-23T15:46:33+00:00'
 band:
   - the-grateful-dead
 release_types:

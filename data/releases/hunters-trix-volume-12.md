@@ -4,11 +4,20 @@ id: 21528
 name: hunters-trix-volume-12
 title: 'Hunter’s Trix, Volume 12: P.N.E. Coliseum, Vancouver, BC · 6/22/73'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-12/'
-modified_gmt: '2026-11-21T00:08:53+00:00'
+modified_gmt: '2026-11-23T15:47:07+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2008-06-21'
 links:
   other:

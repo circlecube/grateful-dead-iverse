@@ -4,11 +4,20 @@ id: 21668
 name: hunters-trix-volume-151
 title: 'Hunter’s Trix, Volume 151: Des Moines Civic Center, Des Moines, IA · 12/7/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-151/'
-modified_gmt: '2026-11-21T00:22:46+00:00'
+modified_gmt: '2026-11-23T15:47:38+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2022-12-07'
 links:
   other:

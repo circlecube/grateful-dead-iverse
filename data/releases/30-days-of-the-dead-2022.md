@@ -4,7 +4,7 @@ id: 21054
 name: 30-days-of-the-dead-2022
 title: '30 Days of the Dead 2022'
 permalink: 'https://deadiverse.com/album/30-days-of-the-dead-2022/'
-modified_gmt: '2026-11-20T22:49:55+00:00'
+modified_gmt: '2026-11-23T15:32:05+00:00'
 band:
   - the-grateful-dead
 release_types:

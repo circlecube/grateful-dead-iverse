@@ -4,7 +4,7 @@ id: 16359
 name: daves-picks-volume-47
 title: 'Dave’s Picks, Volume 47: Kiel Auditorium, St. Louis, MO · 12/9/79'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-47/'
-modified_gmt: '2026-11-20T23:03:51+00:00'
+modified_gmt: '2026-11-23T15:36:30+00:00'
 band:
   - the-grateful-dead
 release_types:

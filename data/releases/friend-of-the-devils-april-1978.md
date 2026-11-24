@@ -4,7 +4,7 @@ id: 21364
 name: friend-of-the-devils-april-1978
 title: 'Friend of The Devils: April 1978'
 permalink: 'https://deadiverse.com/album/friend-of-the-devils-april-1978/'
-modified_gmt: '2026-11-20T23:37:20+00:00'
+modified_gmt: '2026-11-23T15:46:27+00:00'
 band:
   - the-grateful-dead
 release_types:

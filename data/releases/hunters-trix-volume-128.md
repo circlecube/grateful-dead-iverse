@@ -4,11 +4,20 @@ id: 21564
 name: hunters-trix-volume-128
 title: 'Hunter’s Trix, Volume 128: Rutgers Athletic Center, Piscataway, NJ · 5/15/81'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-128/'
-modified_gmt: '2026-11-21T00:15:04+00:00'
+modified_gmt: '2026-11-23T15:47:12+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2021-05-15'
 links:
   other:

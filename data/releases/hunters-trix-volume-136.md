@@ -4,11 +4,20 @@ id: 21600
 name: hunters-trix-volume-136
 title: 'Hunter’s Trix, Volume 136: Knickerbocker Arena, Albany, NY · 3/28/93'
 permalink: 'https://deadiverse.com/album/hunters-trix-volume-136/'
-modified_gmt: '2026-11-21T00:18:37+00:00'
+modified_gmt: '2026-11-23T15:47:16+00:00'
 band:
   - the-grateful-dead
 release_types:
+  - hunters-trix
   - live
+  - unofficial
+release_terms:
+  -
+    slug: hunters-trix
+    name: "Hunter's Trix"
+  -
+    slug: unofficial
+    name: Unofficial
 release_date: '2021-12-22'
 links:
   other:

@@ -4,7 +4,7 @@ id: 21095
 name: capitol-theatre-passaic-nj-4-25-77
 title: 'Capitol Theatre, Passaic, NJ, 4/25/77'
 permalink: 'https://deadiverse.com/album/capitol-theatre-passaic-nj-4-25-77/'
-modified_gmt: '2026-11-20T22:54:25+00:00'
+modified_gmt: '2026-11-23T15:34:22+00:00'
 band:
   - the-grateful-dead
 release_types:

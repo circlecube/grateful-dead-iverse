@@ -4,7 +4,7 @@ id: 16325
 name: daves-picks-volume-16
 title: 'Dave’s Picks, Volume 16: Springfield Civic Center, Springfield, MA · 3/28/73'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-16/'
-modified_gmt: '2026-11-20T23:01:33+00:00'
+modified_gmt: '2026-11-23T15:34:55+00:00'
 band:
   - the-grateful-dead
 release_types:

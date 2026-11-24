@@ -4,7 +4,7 @@ id: 21099
 name: cornell-5-8-77
 title: 'Cornell 5/8/77'
 permalink: 'https://deadiverse.com/album/cornell-5-8-77/'
-modified_gmt: '2026-11-20T22:54:55+00:00'
+modified_gmt: '2026-11-23T15:34:25+00:00'
 band:
   - the-grateful-dead
 release_types:

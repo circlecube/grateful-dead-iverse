@@ -4,7 +4,7 @@ id: 16346
 name: daves-picks-volume-35
 title: 'Dave’s Picks, Volume 35: Philadelphia Civic Center, Philadelphia, PA · 4/20/1984'
 permalink: 'https://deadiverse.com/album/daves-picks-volume-35/'
-modified_gmt: '2026-11-20T23:02:47+00:00'
+modified_gmt: '2026-11-23T15:35:50+00:00'
 band:
   - the-grateful-dead
 release_types:
